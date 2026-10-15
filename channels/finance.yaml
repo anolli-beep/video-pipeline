@@ -1,7 +1,7 @@
 # UK personal finance channel. Fill in the two REPLACE lines (see README, "Adding the other channels").
 label: "Finance"
-channel_name: "REPLACE_WITH_FINANCE_CHANNEL_NAME"
-elevenlabs_voice_id: "REPLACE_WITH_FINANCE_VOICE_ID"
+channel_name: "@FinanceEduUK"
+elevenlabs_voice_id: "onwK4e9ZLuTAKqWW03F9"
 colour: "#1f7a4d"            # money green
 thumbnail_text_colour: "#9be3b4"
 youtube_category: "Education"
