@@ -1,0 +1,627 @@
+{
+ "channel": "finance",
+ "title": "Compound Interest Explained: How Money Grows (and What Slows It)",
+ "alt_titles": [
+  "The Rule of 72: How Long Does Money Take to Double?",
+  "Why Time Matters More Than You Think With Money",
+  "Compound Interest: The Maths Behind Saving and Debt"
+ ],
+ "thumbnail_text": "GROWTH ON GROWTH",
+ "description_summary": "Compound interest means earning interest on your interest, and over decades it can do most of the work. This video explains simple versus compound interest, the 500-year-old rule of 72, why time matters so much, and how fees, inflation, tax and debt change the picture. Worked examples, not forecasts. General information, not financial advice.",
+ "tags": [
+  "compound interest",
+  "compound interest explained",
+  "rule of 72",
+  "how money grows",
+  "saving money uk",
+  "investing basics",
+  "personal finance uk",
+  "inflation and savings",
+  "investment fees",
+  "credit card interest",
+  "money basics"
+ ],
+ "lane": "Investing basics",
+ "publish_at": "2026-10-17T18:00:00+01:00",
+ "sources": [
+  {
+   "title": "MoneyHelper: Interest rates explained",
+   "url": "https://www.moneyhelper.org.uk/en/savings/how-to-save/interest-rates-explained"
+  },
+  {
+   "title": "Wikipedia: Rule of 72 (history and accuracy)",
+   "url": "https://en.wikipedia.org/wiki/Rule_of_72"
+  },
+  {
+   "title": "GOV.UK: Tax on savings interest",
+   "url": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free"
+  },
+  {
+   "title": "GOV.UK: Individual Savings Accounts",
+   "url": "https://www.gov.uk/individual-savings-accounts"
+  },
+  {
+   "title": "first direct: How is interest calculated?",
+   "url": "https://www.firstdirect.com/savings/how-is-interest-calculated/"
+  },
+  {
+   "title": "Halifax: What are interest rates?",
+   "url": "https://www.halifax.co.uk/savings/help-guidance/saving-explained/what-are-interest-rates.html"
+  },
+  {
+   "title": "lovemoney: Real and nominal rates of return",
+   "url": "https://lovemoney.com/guides/amp/64366/real-nominal-rate-return-effective-inflation-interest-investments-savings"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Worked examples use a steady 5% a year",
+   "reason": "Illustrations only; real savings rates and investment returns vary and can be negative. The script says so."
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "£1,000 left alone for 30 years",
+   "caption": "Simple vs compound interest, and why the difference grows over time.",
+   "hashtags": [
+    "compoundinterest",
+    "ukmoney",
+    "personalfinance",
+    "moneytips"
+   ]
+  },
+  {
+   "scenes": [
+    16,
+    18
+   ],
+   "hook": "Saver A vs Saver B",
+   "caption": "A worked example of why time matters so much with compounding.",
+   "hashtags": [
+    "compoundinterest",
+    "saving",
+    "ukmoney",
+    "personalfinance"
+   ]
+  },
+  {
+   "scenes": [
+    23,
+    24
+   ],
+   "hook": "How debt compounds against you",
+   "caption": "The same maths that grows savings can make unpaid debt grow fast.",
+   "hashtags": [
+    "debt",
+    "creditcards",
+    "ukmoney",
+    "compoundinterest"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "Imagine putting one thousand pounds aside and leaving it alone for thirty years. With simple interest at five per cent a year, it would grow to two and a half thousand pounds. With compound interest at the same rate, it would grow to more than four thousand three hundred pounds. The difference comes from one simple idea.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Money basics",
+      "text": "Compound interest: how growth earns growth"
+     }
+    },
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: £1,000 after 30 years at 5% a year",
+      "labels": [
+       "Simple interest",
+       "Compound interest"
+      ],
+      "values": [
+       2500,
+       4321.94
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Compound interest means earning interest on your interest. Each year's growth is added to the pot, and the next year's growth is worked out on the bigger total. Over a short time, the effect is small. Over decades, it can become the biggest part of the story, for savers and for borrowers alike.",
+   "shots": [
+    {
+     "query": "piggy bank coins savings",
+     "caption": "Saving a little at a time"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In this video, we look at how compounding works, the rule of seventy-two, why time matters so much, and what slows compounding down, including fees, inflation and tax. We also look at how the same maths works against borrowers. The examples use round numbers to show the idea, not real returns.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "What this video covers",
+      "items": [
+       "Simple vs compound interest",
+       "The rule of 72",
+       "Why time matters",
+       "Fees, inflation and tax",
+       "Compounding debt"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Simple or Compound?",
+   "narration": "With simple interest, you earn the same amount every year, because interest is only paid on the original sum. One thousand pounds at five per cent earns fifty pounds a year. After ten years, that is five hundred pounds of interest, making one thousand five hundred pounds in total.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£50 a year",
+      "label": "Example: simple interest on £1,000 at 5%",
+      "note": "The same £50 every year"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "With compound interest, the first year also earns fifty pounds. But the second year's interest is worked out on one thousand and fifty pounds, so it earns fifty-two pounds fifty. Each year, the amount earned creeps up. After ten years, the pot is one thousand six hundred and twenty-eight pounds and eighty-nine pence.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: £1,000 after 10 years at 5% a year",
+      "labels": [
+       "Simple interest",
+       "Compound interest"
+      ],
+      "values": [
+       1500,
+       1628.89
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "After ten years, the gap is only about one hundred and twenty-nine pounds. That is why compounding can look unimpressive at first. Most of its effect comes later, because the pot that earns interest keeps getting bigger every single year. This slow start is one reason compounding is easy to underestimate.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The slow start",
+      "text": "In the early years, compounding barely shows"
+     }
+    },
+    {
+     "query": "calculator and household bills",
+     "caption": "Working out the numbers"
+    }
+   ]
+  },
+  {
+   "chapter": "Time Does the Heavy Lifting",
+   "narration": "Here is the same one thousand pounds, growing at five per cent a year with compounding, measured every five years. After five years, it is worth about one thousand two hundred and seventy-six pounds. After fifteen, about two thousand and seventy-nine. After thirty, about four thousand three hundred and twenty-two.",
+   "shots": [
+    {
+     "chart": {
+      "type": "line",
+      "title": "Example: £1,000 compounding at 5% a year",
+      "labels": [
+       "Start",
+       "5 yrs",
+       "10 yrs",
+       "15 yrs",
+       "20 yrs",
+       "25 yrs",
+       "30 yrs"
+      ],
+      "values": [
+       1000,
+       1276,
+       1629,
+       2079,
+       2653,
+       3386,
+       4322
+      ],
+      "prefix": "£",
+      "source": "Worked example"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Notice the shape. The line curves upwards, getting steeper over time. In the first five years, the pot grows by around two hundred and seventy-six pounds. In the last five years, it grows by around nine hundred and thirty-six pounds, from the same starting sum and the same rate.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: growth in the first and last five years",
+      "labels": [
+       "Years 1 to 5",
+       "Years 26 to 30"
+      ],
+      "values": [
+       276,
+       936
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That is the core of compounding. The rate matters, but time matters more than most people expect. Leaving the same money for twice as long does not just double the growth. In this example, thirty years produces about three times the growth of fifteen. The effect is strongest over long periods, such as saving for retirement.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The key idea",
+      "text": "Time matters more than most people expect"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Rule of 72",
+   "narration": "There is a quick way to estimate how long money takes to double. Divide seventy-two by the yearly growth rate. At five per cent, seventy-two divided by five gives fourteen point four years. The exact answer is about fourteen point two years, so the shortcut is close.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "14.4 years",
+      "label": "Rule of 72 at 5% a year: 72 ÷ 5",
+      "note": "Exact answer: about 14.2 years"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The rule is old. It appears in a mathematics book printed in Venice in 1494 by the Italian friar Luca Pacioli. He gave it without any explanation, which suggests it was already known before he wrote it down. Pacioli is better remembered today for describing double-entry bookkeeping.",
+   "shots": [
+    {
+     "file": "File:Jacopo de' Barbari - Portrait of Fra Luca Pacioli and an Unknown Young Man - WGA1269.jpg",
+     "query": "Portrait of Luca Pacioli Jacopo de' Barbari",
+     "caption": "Luca Pacioli, portrait attributed to Jacopo de' Barbari, c. 1500"
+    },
+    {
+     "file": "File:Luca Pacioli in the Summa.jpg",
+     "query": "Pacioli Summa de arithmetica 1494",
+     "caption": "Pacioli's Summa de arithmetica, printed in Venice in 1494"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The same rule works at other rates. At two per cent, money takes about thirty-six years to double. At eight per cent, about nine years. It works in reverse too. Divide seventy-two by a number of years, and you get the rough growth rate needed to double in that time.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Rule of 72: rough years for money to double",
+      "labels": [
+       "2% a year",
+       "4% a year",
+       "6% a year",
+       "8% a year",
+       "10% a year"
+      ],
+      "values": [
+       36,
+       18,
+       12,
+       9,
+       7.2
+      ],
+      "suffix": " yrs",
+      "source": "Rule of 72 estimates"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Saving Regularly",
+   "narration": "Most people do not invest one lump sum and walk away. They save a little at a time. Compounding works on every payment, from the day it goes in. The longer each payment stays in, the more time it has to grow. Even small, regular amounts can add up over long periods.",
+   "shots": [
+    {
+     "query": "coins in a savings jar",
+     "caption": "Regular saving"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Here is an example. Someone pays in one thousand two hundred pounds at the end of every year, the same as one hundred pounds a month, for thirty years. That is thirty-six thousand pounds in total. At a steady five per cent a year, the pot would reach about seventy-nine thousand seven hundred pounds.",
+   "shots": [
+    {
+     "chart": {
+      "type": "line",
+      "title": "Example: £1,200 a year at a steady 5%",
+      "labels": [
+       "Start",
+       "5 yrs",
+       "10 yrs",
+       "15 yrs",
+       "20 yrs",
+       "25 yrs",
+       "30 yrs"
+      ],
+      "values": [
+       0,
+       6631,
+       15093,
+       25894,
+       39679,
+       57273,
+       79727
+      ],
+      "prefix": "£",
+      "source": "Worked example"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "More than half of that final pot would be growth, not money paid in. But real life is rarely this smooth. Savings rates change, and investments do not grow by a steady amount each year. They can fall, sometimes sharply, and returns are never guaranteed.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: what makes up the £79,727 pot",
+      "labels": [
+       "Money paid in",
+       "Growth"
+      ],
+      "values": [
+       36000,
+       43727
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 1
+     }
+    },
+    {
+     "file": "File:Paternoster Square, London.jpg",
+     "query": "London Stock Exchange Paternoster Square",
+     "caption": "Paternoster Square, home of the London Stock Exchange"
+    }
+   ]
+  },
+  {
+   "chapter": "Starting Earlier",
+   "narration": "Time is so important that when someone starts can matter as much as how much they save. Here is a classic illustration, using the same steady five per cent a year. It is not a forecast.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "An illustration",
+      "text": "Saver A and Saver B"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Saver A pays in one thousand two hundred pounds a year for just ten years, from age twenty-five to thirty-four, then stops. That is twelve thousand pounds in total. Saver B starts at thirty-five and pays the same amount every year for thirty years, a total of thirty-six thousand pounds.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Saver A",
+       "items": [
+        "Pays in from age 25 to 34",
+        "£12,000 in total"
+       ]
+      },
+      "right": {
+       "title": "Saver B",
+       "items": [
+        "Pays in from age 35 to 64",
+        "£36,000 in total"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At sixty-five, Saver A's pot would be about sixty-five thousand two hundred pounds. Saver B's would be about seventy-nine thousand seven hundred. Saver B ends up with more, but Saver A paid in only a third as much. Those extra years of compounding did most of the work.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: pots at age 65, at a steady 5% a year",
+      "labels": [
+       "Saver A (paid £12,000)",
+       "Saver B (paid £36,000)"
+      ],
+      "values": [
+       65233,
+       79727
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 0
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "What Slows It Down",
+   "narration": "Compounding has some quiet enemies. The first is charges. Investment platforms and funds take fees, often as a percentage of the pot each year. That might sound small, but fees compound too, because money taken out in fees is no longer there to grow.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Three things that slow compounding",
+      "items": [
+       "Charges and fees",
+       "Inflation",
+       "Tax"
+      ]
+     }
+    },
+    {
+     "file": "File:Bank of England Threadneedle St. (12565194585).jpg",
+     "query": "Bank of England Threadneedle Street",
+     "caption": "The Bank of England, London"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In this example, ten thousand pounds grows for thirty years. At five per cent a year, it reaches about forty-three thousand two hundred pounds. If one per cent a year goes on charges, leaving four per cent, it reaches about thirty-two thousand four hundred. That one per cent costs around ten thousand eight hundred pounds.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: £10,000 after 30 years",
+      "labels": [
+       "5% a year",
+       "4% a year (after 1% fees)"
+      ],
+      "values": [
+       43219,
+       32434
+      ],
+      "prefix": "£",
+      "source": "Worked example",
+      "highlight": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The second enemy is inflation. When prices rise, each pound buys less. If prices rise by three per cent a year for ten years, one thousand pounds would buy only what about seven hundred and forty-four pounds buys today. Growth below the inflation rate means losing spending power. That is why savers often compare interest rates with the inflation rate.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£744",
+      "label": "Example: what £1,000 buys after 10 years of 3% inflation",
+      "note": "In today's money · worked example"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The third is tax. Interest, dividends and gains can be taxed, which takes a slice of the growth each year. Allowances and tax-free wrappers such as ISAs can reduce that. Our video on ISAs explains how they work and what changes in 2027.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Tax",
+      "text": "Tax-free wrappers like ISAs let growth compound untaxed"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "When It Works Against You",
+   "narration": "Compounding works for borrowers too, but in the other direction. When interest is added to a debt and not paid off, the next interest charge is worked out on the bigger balance. This is how unpaid credit card balances and some loans can grow surprisingly quickly. The longer a balance is left unpaid, the faster it grows.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The other side",
+      "text": "Compounding makes unpaid debt grow too"
+     }
+    },
+    {
+     "query": "credit card bill",
+     "caption": "Unpaid balances can compound"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In this example, one thousand pounds of debt is charged two per cent a month, with no repayments. After a year, it is about one thousand two hundred and sixty-eight pounds. After two years, about one thousand six hundred and eight. Two per cent a month works out at almost twenty-seven per cent a year.",
+   "shots": [
+    {
+     "chart": {
+      "type": "line",
+      "title": "Example: £1,000 of debt at 2% a month, no repayments",
+      "labels": [
+       "Start",
+       "6 months",
+       "12 months",
+       "18 months",
+       "24 months"
+      ],
+      "values": [
+       1000,
+       1126,
+       1268,
+       1428,
+       1608
+      ],
+      "prefix": "£",
+      "source": "Worked example"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Takeaway",
+   "narration": "So compound interest is growth on growth. It starts slowly and speeds up over time. The rule of seventy-two gives a quick sense of doubling times. Time, charges, inflation and tax all shape the result, and the same maths can make debts grow. Small differences in rate or time can lead to large differences in the end.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "The key points",
+      "items": [
+       "Growth earns more growth",
+       "Time matters most",
+       "Rule of 72: quick doubling time",
+       "Fees, inflation, tax slow it",
+       "Debt compounds too"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Real returns are never as smooth as these examples, and investments can fall as well as rise. Rates, charges and rules also change over time. MoneyHelper has free, impartial guides to saving, investing and borrowing. Sources are in the description. This is general information, not financial advice.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Free, impartial help",
+      "text": "MoneyHelper has free guides to saving and borrowing"
+     }
+    }
+   ]
+  }
+ ]
+}

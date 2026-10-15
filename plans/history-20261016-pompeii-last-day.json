@@ -1,0 +1,582 @@
+{
+ "channel": "history",
+ "title": "Pompeii's Last Day: What Really Happened in AD 79",
+ "alt_titles": [
+  "The Pompeii Date Historians Can't Agree On",
+  "How Vesuvius Buried Pompeii",
+  "Pompeii: A Roman Town Frozen in Time"
+ ],
+ "thumbnail_text": "POMPEII'S LAST DAY",
+ "description_summary": "In AD 79, Vesuvius buried Pompeii and Herculaneum in less than two days. Using Pliny the Younger's eyewitness letters and the latest archaeology, this is what we know about the town's final hours, and why even the date of the eruption is still debated.",
+ "tags": [
+  "pompeii",
+  "vesuvius",
+  "79 ad",
+  "pompeii eruption",
+  "pliny the younger",
+  "pliny the elder",
+  "herculaneum",
+  "roman history",
+  "ancient rome",
+  "pompeii documentary",
+  "history documentary",
+  "pompeii plaster casts"
+ ],
+ "lane": "Mysteries & disasters",
+ "publish_at": "2026-10-16T16:00:00+01:00",
+ "sources": [
+  {
+   "title": "National Geographic: When was Pompeii really destroyed?",
+   "url": "https://www.nationalgeographic.com/history/article/mount-vesuvius-eruption-pompeii"
+  },
+  {
+   "title": "Archaeology Magazine: New thoughts on Pompeii's last day (2018)",
+   "url": "https://archaeology.org/news/2018/10/16/181016-pompeii-date-inscription/"
+  },
+  {
+   "title": "Pompeii's AD 79 eruption: what the evidence supports",
+   "url": "https://www.pompeiiitaly.org/en/blog/pompeii-eruption-timeline-facts/"
+  },
+  {
+   "title": "Pompeii Online: History of Pompeii",
+   "url": "https://www.pompeionline.net/en/archaeological-park-of-pompeii/history-of-pompeii"
+  },
+  {
+   "title": "History Hit: Pompeii",
+   "url": "https://www.historyhit.com/locations/pompeii/"
+  },
+  {
+   "title": "My Modern Met: Pompeii history",
+   "url": "https://mymodernmet.com/pompeii-history/"
+  },
+  {
+   "title": "Pliny the Younger, Letter 6.16 to Tacitus (translation)",
+   "url": "https://cmuntz.hosted.uark.edu/texts/pliny-the-younger/the-eruption-of-vesuvius.html"
+  },
+  {
+   "title": "TheCollector: The death of Pliny the Elder",
+   "url": "https://www.thecollector.com/pliny-the-elder-death/"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "The eruption date (24 August vs about 24 October AD 79)",
+   "reason": "Genuinely disputed; the script presents both sides."
+  },
+  {
+   "claim": "Pompeii's population in AD 79",
+   "reason": "Estimates range from about 10,000 to 20,000; no reliable figure."
+  },
+  {
+   "claim": "Total death toll",
+   "reason": "Only the number of remains found (just over 1,000) is documented."
+  },
+  {
+   "claim": "Fiorelli's casts began in 1863",
+   "reason": "Only one source gave the exact year, so the script says 'the 1860s'."
+  },
+  {
+   "claim": "Pumice layer 6-7 metres deep",
+   "reason": "Single source; the script says 'several metres'."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "In AD 79, at the Roman naval base of Misenum on the Bay of Naples, a young man called Pliny was at his studies. Early one afternoon, his mother pointed out a cloud of unusual size and shape rising across the water. It came from a mountain on the far side of the bay, called Vesuvius. Within two days, the towns at its foot had vanished, and thousands of lives had changed for ever.",
+   "shots": [
+    {
+     "file": "File:Pliny the Younger and his Mother at Misenum, 79 A.D., by Angelica Kauffmann, English, 1785, oil on canvas - Princeton University Art Museum - DSC06494.jpg",
+     "query": "Pliny the Younger and his mother at Misenum Kauffmann",
+     "caption": "Pliny the Younger and his mother at Misenum, painted 1785"
+    },
+    {
+     "file": "File:Pierre-Jacques Volaire - The Eruption of Vesuvius - 1978.426 - Art Institute of Chicago.jpg",
+     "query": "Volaire eruption of Vesuvius painting",
+     "caption": "An eruption of Vesuvius, by Pierre-Jacques Volaire, 18th century"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That cloud marked the start of one of the most famous disasters in history. It buried Pompeii and its neighbours so completely that they lay hidden for more than fifteen hundred years. When they were finally found, they revealed something almost no other place could: a Roman town caught in the middle of ordinary life.",
+   "shots": [
+    {
+     "file": "File:Karl Brullov - The Last Day of Pompeii - Google Art Project.jpg",
+     "query": "The Last Day of Pompeii Bryullov",
+     "caption": "The Last Day of Pompeii, by Karl Bryullov, painted 1827 to 1833"
+    },
+    {
+     "file": "File:Christen Købke - The Forum, Pompeii, with Vesuvius in the Distance.jpg",
+     "query": "Forum Pompeii Vesuvius painting Købke",
+     "caption": "The Forum of Pompeii with Vesuvius behind, painted by Christen Købke"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "But the story we tell about Pompeii's last day is less certain than it looks. Even the date is argued over. So this video follows the evidence. We will look at what the people of Pompeii left behind, what one eyewitness wrote down, and what archaeologists are still discovering today.",
+   "shots": [
+    {
+     "file": "File:1865 Sommer Pompeij anagoria.JPG",
+     "query": "Pompeii 19th century photograph Sommer",
+     "caption": "Pompeii, photographed by Giorgio Sommer around 1865"
+    },
+    {
+     "file": "File:-Plaster Casts of Bodies, Pompeii- MET DP262064.jpg",
+     "query": "Pompeii plaster casts 19th century photograph",
+     "caption": "Plaster casts of victims, 19th-century photograph"
+    }
+   ]
+  },
+  {
+   "chapter": "A Town on the Bay",
+   "narration": "Pompeii stood on the southern side of the Bay of Naples, a few miles from Vesuvius. Its first clearly recognisable phases date to the late seventh and sixth centuries BC, shaped by local Italic peoples, Etruscans and Greeks. Under the Samnites, between the fourth and second centuries BC, it grew into a prosperous town.",
+   "shots": [
+    {
+     "file": "File:Map around Vesuvius 1770 plate6 from William Hamilton.jpg",
+     "query": "map Bay of Naples Vesuvius 18th century",
+     "caption": "Map of the area around Vesuvius, published 1770s"
+    },
+    {
+     "query": "Pompeii Samnite house Casa del Fauno atrium",
+     "caption": "A Samnite-era house in Pompeii"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In 89 BC, during Rome's Social War, Roman forces besieged the town. Afterwards the general Sulla established a Roman colony there, in 80 BC. Its official name became Colonia Cornelia Veneria Pompeianorum, and the town became firmly part of the Roman world.",
+   "shots": [
+    {
+     "query": "Sulla bust Munich Glyptothek",
+     "caption": "Portrait bust traditionally identified as Sulla"
+    },
+    {
+     "query": "Pompeii city walls Porta Marina",
+     "caption": "Pompeii's city walls and gate"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By the first century AD, Pompeii was a busy place of shops, bakeries, bars, temples and grand houses. Exactly how many people lived there is not known. Modern estimates range from around ten thousand to twenty thousand, and historians still debate the figure.",
+   "shots": [
+    {
+     "file": "File:Sommer, Giorgio (1834-1914) - n. 1237 - Pompei - Casa di Cornelio Ruffo.jpg",
+     "query": "Pompeii house 19th century photograph",
+     "caption": "The House of Cornelius Rufus, photographed by Giorgio Sommer"
+    },
+    {
+     "query": "Pompeii bakery mill stones",
+     "caption": "A bakery with millstones in Pompeii"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "We can even see some of their faces. A wall painting from one house shows a married couple, usually identified as the baker Terentius Neo and his wife. She holds a writing tablet and a stylus, and he holds a scroll. Both look straight out at us. It is one of the most personal images to survive from the Roman world.",
+   "shots": [
+    {
+     "file": "File:Fresco from Pompeii - Terentius Neo and his wife 1.jpg",
+     "query": "Terentius Neo and his wife fresco",
+     "caption": "Portrait of a Pompeian couple, fresco, 1st century AD"
+    },
+    {
+     "file": "File:Fresco portrait of the baker Terentius Neo and his wife, from Pompeii.jpg",
+     "query": "Terentius Neo fresco Naples",
+     "caption": "The couple usually identified as Terentius Neo and his wife"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The ground here was not always kind. In AD 62, a severe earthquake struck the area. It damaged houses, temples and public buildings, and rebuilding went on for years afterwards. To the people living around the bay, Vesuvius itself was simply a mountain of vineyards and farmland.",
+   "shots": [
+    {
+     "query": "Pompeii earthquake relief lararium Caecilius Iucundus",
+     "caption": "A relief from Pompeii thought to show the earthquake of AD 62"
+    },
+    {
+     "query": "Bacchus and Vesuvius fresco House of the Centenary",
+     "caption": "Wall painting of Bacchus beside a vine-covered mountain"
+    }
+   ]
+  },
+  {
+   "chapter": "The Mountain Wakes",
+   "narration": "Then the mountain erupted. Pliny the Younger later described the cloud as looking like a pine tree. It rose on a tall trunk and spread out into branches at the top. Volcanologists still call this kind of explosive eruption Plinian, after him.",
+   "shots": [
+    {
+     "file": "File:Pierre-Henri de Valenciennes Eruption du Vesuve Musée des Augustins Toulouse 78 1 1.jpg",
+     "query": "Valenciennes eruption of Vesuvius 79 painting",
+     "caption": "The eruption of AD 79 imagined by Pierre-Henri de Valenciennes, 1813"
+    },
+    {
+     "file": "File:Pierre-Jacques Volaire - View of the Eruption of Mount Vesuvius - WGA25290.jpg",
+     "query": "Volaire view of eruption Vesuvius",
+     "caption": "An eruption column over Vesuvius, painted by Volaire"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Out of that column, pumice and ash began to rain down across the countryside, including Pompeii. The lightweight stones piled up in the streets, in courtyards and on roofs. Over the following hours, the town disappeared beneath several metres of volcanic debris.",
+   "shots": [
+    {
+     "file": "File:Karl Brullov - The Last Day of Pompeii - Google Art Project detail3.jpg",
+     "query": "Last Day of Pompeii detail",
+     "caption": "Detail from The Last Day of Pompeii, Karl Bryullov"
+    },
+    {
+     "query": "Pompeii street ruins 19th century photograph",
+     "caption": "A street in Pompeii after excavation"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Many people seem to have left in these first hours. Others stayed, sheltering indoors or trying to gather their belongings. We will probably never know how many got away, or where they went.",
+   "shots": [
+    {
+     "file": "File:Karl Brullov - The Last Day of Pompeii - Google Art Project detail1.jpg",
+     "query": "Last Day of Pompeii detail fleeing",
+     "caption": "Fleeing families, detail from Bryullov's painting"
+    },
+    {
+     "query": "Pompeii Via dell'Abbondanza street",
+     "caption": "The Via dell'Abbondanza, one of Pompeii's main streets"
+    }
+   ]
+  },
+  {
+   "chapter": "A Letter to Tacitus",
+   "narration": "Most of what we know about these hours comes from two letters. More than two decades after the disaster, Pliny the Younger wrote to his friend, the historian Tacitus. He described what he had seen himself, and what had happened to his uncle.",
+   "shots": [
+    {
+     "query": "Pliny the Younger statue Como cathedral",
+     "caption": "Statue of Pliny the Younger on Como Cathedral"
+    },
+    {
+     "query": "Tacitus statue Vienna parliament",
+     "caption": "Statue of the historian Tacitus"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "His uncle was Pliny the Elder, the author of a vast encyclopedia called the Natural History. In AD 79 he commanded the Roman fleet at Misenum. When he saw the strange cloud, he ordered a ship to be prepared so that he could take a closer look.",
+   "shots": [
+    {
+     "file": "File:Caius Plinius Secundus. Stipple engraving by F. W. Bollinger Wellcome V0004719.jpg",
+     "query": "Pliny the Elder engraving",
+     "caption": "Pliny the Elder, imagined in a later engraving"
+    },
+    {
+     "file": "File:Pliny the Elder, Natural History, Florence, Plut. 82.4.jpg",
+     "query": "Pliny Natural History manuscript",
+     "caption": "A medieval manuscript of Pliny the Elder's Natural History"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "According to his nephew, a message then arrived from a woman named Rectina. Her villa lay at the foot of the mountain, and the only way out was by sea. What had begun as scientific curiosity became a rescue mission. He launched warships and sailed straight towards the danger, while others were fleeing from it.",
+   "shots": [
+    {
+     "query": "Roman warship relief Praeneste bireme",
+     "caption": "A Roman warship, from an ancient relief"
+    },
+    {
+     "file": "File:Pierre-Jacques Antoine Volaire - Eruption of Mount Vesuvius with the ponte della Maddalena in the Distance.jpg",
+     "query": "Volaire eruption Vesuvius Ponte della Maddalena",
+     "caption": "Vesuvius erupting over the bay, painted by Volaire"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "He reached Stabiae, where his friend Pomponianus was staying, and tried to calm everyone there. The letter says he bathed, dined and even slept, while outside the ash and stones kept building up.",
+   "shots": [
+    {
+     "query": "Stabiae Villa San Marco fresco",
+     "caption": "A fresco from a Roman villa at Stabiae"
+    },
+    {
+     "file": "File:Eruption of Vesuvius - Pierre-Jacques Volaire (40288534610).jpg",
+     "query": "Vesuvius eruption night painting",
+     "caption": "The eruption at night, painted by Volaire"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Eventually they had to make for the shore, with pillows tied to their heads against the falling stones. There, Pliny the Elder collapsed. His nephew believed thick fumes had choked him. When his body was found, it was unhurt, and he looked as if he were asleep.",
+   "shots": [
+    {
+     "query": "death of Pliny the Elder engraving Stabiae",
+     "caption": "The death of Pliny the Elder, as imagined by a later artist"
+    },
+    {
+     "query": "Stabiae beach Castellammare Vesuvius",
+     "caption": "The coast at Stabiae, looking towards Vesuvius"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In a second letter, Pliny described his own escape. The next morning, as the ground shook, he and his mother left Misenum with crowds of frightened people. A dark cloud came down over the bay. He wrote that the darkness was deeper than any night, and that people called out for their families in the gloom.",
+   "shots": [
+    {
+     "query": "Pliny the Younger letter Vesuvius engraving darkness",
+     "caption": "Pliny's escape from Misenum, as imagined by a later artist"
+    },
+    {
+     "query": "Misenum Capo Miseno Bay of Naples",
+     "caption": "Cape Misenum, where the Roman fleet was based"
+    }
+   ]
+  },
+  {
+   "chapter": "The Deadliest Hours",
+   "narration": "The deadliest phase came later. As the eruption changed, its column collapsed into pyroclastic currents. These were avalanches of scorching gas, ash and rock that raced down the mountain's slopes and across the land below.",
+   "shots": [
+    {
+     "file": "File:Karl Brullov - The Last Day of Pompeii - Google Art Project detail4.jpg",
+     "query": "Last Day of Pompeii detail",
+     "caption": "Detail from The Last Day of Pompeii, Karl Bryullov"
+    },
+    {
+     "query": "Vesuvius eruption 1944 photograph",
+     "caption": "Vesuvius erupting in 1944, a much smaller eruption"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "These currents swept through Herculaneum, on the coast closer to the volcano, and then through Pompeii. Anyone still in the town was killed. After that, Pompeii was silent. The whole eruption had lasted less than two days.",
+   "shots": [
+    {
+     "file": "File:Destruction of Pompeii and Herculaneum.jpg",
+     "query": "Destruction of Pompeii and Herculaneum John Martin",
+     "caption": "The Destruction of Pompeii and Herculaneum, John Martin, 1822"
+    },
+    {
+     "file": "File:Herculaneum, past, present and future (1908) (14596160389).jpg",
+     "query": "Herculaneum ruins old photograph",
+     "caption": "Herculaneum, from a book published in 1908"
+    }
+   ]
+  },
+  {
+   "chapter": "Lost and Found",
+   "narration": "Afterwards, the towns lay buried under a thick layer of volcanic deposits. Over the centuries, even their locations were forgotten. In the late sixteenth century, workers digging a canal cut straight through buried walls and paintings without realising what they had found.",
+   "shots": [
+    {
+     "file": "File:Historical map of excavations in Pompeii.jpg",
+     "query": "historical map Pompeii excavations",
+     "caption": "A historical map of the excavations at Pompeii"
+    },
+    {
+     "query": "Pompeii fresco wall painting garden",
+     "caption": "A Pompeian wall painting"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Systematic excavations began in 1748, under the Bourbon kings of Naples. Treasure hunters and scholars came first, then visitors from across Europe. Since then, around two thirds of the ancient town has been uncovered, street by street and house by house.",
+   "shots": [
+    {
+     "file": "File:Filippo Palizzi - Scavi a Pompei (1870).jpg",
+     "query": "excavations Pompeii painting 19th century",
+     "caption": "Excavations at Pompeii, painted by Filippo Palizzi, 1870"
+    },
+    {
+     "file": "File:Sommer, Giorgio - n. 2330 - ''Pompei - Anfiteatro'' - ca. 1869.jpg",
+     "query": "Pompeii amphitheatre old photograph",
+     "caption": "Pompeii's amphitheatre, photographed around 1869"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the 1860s, the archaeologist Giuseppe Fiorelli noticed hollow spaces in the hardened ash, left where bodies had decayed. He had them filled with plaster. The casts that emerged show people and animals in their final positions. They remain some of the most moving images from the ancient world.",
+   "shots": [
+    {
+     "file": "File:Giuseppe Fiorelli.jpg",
+     "query": "Giuseppe Fiorelli portrait",
+     "caption": "Giuseppe Fiorelli, director of the Pompeii excavations"
+    },
+    {
+     "file": "File:Pompeii Plaster cast of a victim.jpg",
+     "query": "Pompeii plaster cast victim",
+     "caption": "A plaster cast of a victim of the eruption"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The remains of more than a thousand people have been found at Pompeii so far. Part of the town is still unexcavated, and many people probably fled, so the real death toll is unknown. Each cast is a reminder that these were individuals, not statistics.",
+   "shots": [
+    {
+     "query": "Pompeii Garden of the Fugitives casts",
+     "caption": "The Garden of the Fugitives, Pompeii"
+    },
+    {
+     "query": "Pompeii casts Antiquarium",
+     "caption": "Casts displayed at Pompeii"
+    }
+   ]
+  },
+  {
+   "chapter": "What Day Did Pompeii Die?",
+   "narration": "For centuries, the date seemed settled. Surviving copies of Pliny's letter give it as the twenty-fourth of August. But Pliny's original letter is lost. The copies were made by hand over many centuries, and they do not all agree.",
+   "shots": [
+    {
+     "file": "File:Pliny the Younger, Letters, Biblioteca Malatestiana.jpg",
+     "query": "Pliny the Younger letters manuscript",
+     "caption": "A manuscript of Pliny the Younger's letters"
+    },
+    {
+     "file": "File:Pliny the Younger.jpg",
+     "query": "Pliny the Younger portrait",
+     "caption": "Pliny the Younger, as imagined by a later artist"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At Pompeii, archaeologists had long noticed things that did not fit a summer date, such as autumn fruits and heating braziers in homes. Then in 2018, a faint charcoal inscription was found on a wall in a house under renovation. It records a date equivalent to the seventeenth of October.",
+   "shots": [
+    {
+     "query": "pomegranate fresco Pompeii",
+     "caption": "Pomegranates in a Roman wall painting"
+    },
+    {
+     "query": "Pompeii Regio V excavation house",
+     "caption": "A house in Pompeii's Regio V excavations"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Why does a few weeks matter? The date shapes how we read the ruins. The food in the kitchens, the clothes people wore and the building work under way all tell a different story in autumn.",
+   "shots": [
+    {
+     "query": "Pompeii fresco still life fruit",
+     "caption": "A still life of food, from a Pompeian wall painting"
+    },
+    {
+     "query": "carbonised bread Pompeii",
+     "caption": "Carbonised bread found at Pompeii"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "If that note was written in AD 79, the eruption came later, perhaps around the twenty-fourth of October, as Pompeii's archaeological park has proposed. Other scholars disagree. They argue the charcoal could have survived longer, or that the letter is still the best evidence. The debate is not settled.",
+   "shots": [
+    {
+     "query": "Pompeii inscription wall graffiti charcoal",
+     "caption": "Writing on a wall in Pompeii"
+    },
+    {
+     "file": "File:Timeline map of the excavations in Pompeii.png",
+     "query": "timeline map excavations Pompeii",
+     "caption": "Map showing when each part of Pompeii was excavated"
+    }
+   ]
+  },
+  {
+   "chapter": "Why It Still Matters",
+   "narration": "Whatever the exact day, Pompeii gives us something written history rarely does. Not only emperors and battles, but bakers, shopkeepers and families, caught in the middle of their lives. Their paintings, graffiti and kitchens show how ordinary Romans actually lived.",
+   "shots": [
+    {
+     "file": "File:Roman fresco Villa dei Misteri Pompeii 001.jpg",
+     "query": "Villa of the Mysteries fresco",
+     "caption": "Fresco from the Villa of the Mysteries, Pompeii"
+    },
+    {
+     "file": "File:Villa of the Mysteries (Pompeii) - frescos 02.jpg",
+     "query": "Villa of the Mysteries frescos",
+     "caption": "The painted walls of the Villa of the Mysteries"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "And the work is far from finished. The 2018 inscription was itself a new find, turned up during recent work on the site. Every season, archaeologists uncover more rooms, more paintings and more traces of the people who lived there.",
+   "shots": [
+    {
+     "query": "Pompeii excavation archaeologists Regio V 2018",
+     "caption": "Recent excavations at Pompeii"
+    },
+    {
+     "file": "File:Roman fresco Villa dei Misteri Pompeii 005.jpg",
+     "query": "Villa dei Misteri fresco",
+     "caption": "Detail of the frescoes in the Villa of the Mysteries"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Vesuvius is still an active volcano, and millions of people live around the Bay of Naples today. The story of AD 79 is not only about the past. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "file": "File:Karl Brullov - The Last Day of Pompeii - Google Art Project detail9.jpg",
+     "query": "Last Day of Pompeii detail",
+     "caption": "Detail from The Last Day of Pompeii, Karl Bryullov"
+    },
+    {
+     "query": "Vesuvius Bay of Naples view",
+     "caption": "Vesuvius above the Bay of Naples"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "The day Vesuvius buried Pompeii",
+   "caption": "A teenager watched a strange cloud rise over the Bay of Naples in AD 79.",
+   "hashtags": [
+    "pompeii",
+    "vesuvius",
+    "romanhistory",
+    "history"
+   ]
+  },
+  {
+   "scenes": [
+    21,
+    23
+   ],
+   "hook": "How Pompeii was found again",
+   "caption": "Buried for centuries, then rediscovered: how archaeologists brought Pompeii back.",
+   "hashtags": [
+    "pompeii",
+    "archaeology",
+    "romanhistory",
+    "history"
+   ]
+  },
+  {
+   "scenes": [
+    25,
+    27
+   ],
+   "hook": "Did Pompeii really die in August?",
+   "caption": "A charcoal note found in 2018 reopened the question of when Vesuvius erupted.",
+   "hashtags": [
+    "pompeii",
+    "vesuvius",
+    "archaeology",
+    "history"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,581 @@
+{
+ "channel": "history",
+ "title": "Crossing the Rubicon: How Caesar Ended the Roman Republic",
+ "alt_titles": [
+  "Julius Caesar: From the Rubicon to the Ides of March",
+  "Why Caesar Crossed the Rubicon",
+  "The Five Years That Ended the Roman Republic"
+ ],
+ "thumbnail_text": "THE DIE IS CAST",
+ "description_summary": "In January 49 BC, Julius Caesar led his army across the Rubicon and into civil war. Five years later he was dead. This is the story of how one river crossing brought down the Roman Republic, told from the ancient sources.",
+ "tags": [
+  "julius caesar",
+  "rubicon",
+  "crossing the rubicon",
+  "ides of march",
+  "roman republic",
+  "pompey",
+  "brutus",
+  "ancient rome",
+  "roman history",
+  "history documentary",
+  "caesar assassination",
+  "augustus"
+ ],
+ "lane": "People & dynasties",
+ "publish_at": "2026-10-17T16:00:00+01:00",
+ "sources": [
+  {
+   "title": "National Geographic: How Julius Caesar started a big war by crossing a small stream",
+   "url": "https://www.nationalgeographic.com/history/history-magazine/article/julius-caesar-crossing-rubicon-rome"
+  },
+  {
+   "title": "Origins (Ohio State University): Julius Caesar crosses the Rubicon",
+   "url": "https://origins.osu.edu/read/julius-caesar-crosses-rubicon"
+  },
+  {
+   "title": "EBSCO Research Starters: Julius Caesar crosses the Rubicon",
+   "url": "https://www.ebsco.com/research-starters/history/julius-caesar-crosses-rubicon/"
+  },
+  {
+   "title": "National Geographic: Inside the conspiracy to kill Julius Caesar",
+   "url": "https://www.nationalgeographic.com/history/history-magazine/article/inside-the-conspiracy-to-kill-julius-caesar"
+  },
+  {
+   "title": "HISTORY: The Ides of March",
+   "url": "https://www.history.com/this-day-in-history/march-15/the-ides-of-march"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "The exact day Caesar crossed (10 or 11 January 49 BC)",
+   "reason": "Sources differ; the script says 'January 49 BC'."
+  },
+  {
+   "claim": "He crossed with the 13th Legion",
+   "reason": "Only one source checked named it, so the script doesn't."
+  },
+  {
+   "claim": "When he became dictator for life (45 or early 44 BC)",
+   "reason": "Sources differ; the script says 'shortly before his death'."
+  },
+  {
+   "claim": "Number of wounds (23 vs 35)",
+   "reason": "Suetonius, Plutarch and Appian give 23, Nicolaus of Damascus 35. The script says 'ancient writers counted twenty-three'."
+  },
+  {
+   "claim": "Caesar weeping at Pompey's head",
+   "reason": "Not checked against two sources, so left out."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "In January 49 BC, on the edge of northern Italy, Gaius Julius Caesar stopped beside a small river called the Rubicon. Behind him were soldiers who had followed him through years of war in Gaul. Ahead lay Italy itself, where Roman law forbade a governor to lead his army.",
+   "shots": [
+    {
+     "file": "File:Gustave Boulanger, Jules-César arrivé au Rubicon, 1854, Musée Picardie.jpg",
+     "query": "Caesar arrives at the Rubicon Boulanger",
+     "caption": "Caesar arrives at the Rubicon, Gustave Boulanger, 1854"
+    },
+    {
+     "file": "File:Wilhelm Trübner - Caesar am Rubicon - 8522 - Österreichische Galerie Belvedere.jpg",
+     "query": "Caesar am Rubicon Trübner",
+     "caption": "Caesar at the Rubicon, Wilhelm Trübner, 19th century"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Crossing that river with his troops would be an act of war against the Roman state. Ancient writers say he hesitated, then gave the order to cross. Five years later he was dead, killed by men he knew well, and the Roman Republic was nearing its end.",
+   "shots": [
+    {
+     "file": "File:The \"Tusculum portrait\", a rare bust of Julius Caesar in his lifetime, 45 - 43 BC, Moi, Auguste, Empereur de Rome exhibition, Grand Palais, Paris - 14628246546.jpg",
+     "query": "Tusculum portrait Julius Caesar",
+     "caption": "The Tusculum portrait of Julius Caesar, made around 45 to 43 BC"
+    },
+    {
+     "file": "File:Jean Fouquet - Caesar Crossing the Rubicon - WGA08034.jpg",
+     "query": "Fouquet Caesar crossing the Rubicon",
+     "caption": "Caesar crossing the Rubicon, Jean Fouquet, 15th century"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of those five years: how one river crossing started a civil war, how Caesar won it, and how it ended in a hall full of senators on the Ides of March.",
+   "shots": [
+    {
+     "file": "File:Jean-Léon Gérôme - The Death of Caesar - Walters 37884.jpg",
+     "query": "Death of Caesar Gérôme",
+     "caption": "The Death of Caesar, Jean-Léon Gérôme, 1859 to 1867"
+    },
+    {
+     "file": "File:Brutus Eid Mar.jpg",
+     "query": "Eid Mar denarius Brutus",
+     "caption": "A coin issued by Brutus celebrating the Ides of March"
+    }
+   ]
+  },
+  {
+   "chapter": "A Republic Under Strain",
+   "narration": "For centuries, Rome had been a republic. Power was shared between elected officials and the Senate, and no one person was meant to rule. Romans had expelled their last king in 509 BC, and the very idea of a king was hated.",
+   "shots": [
+    {
+     "query": "Cicero denounces Catiline Maccari fresco Senate",
+     "caption": "The Roman Senate, imagined by Cesare Maccari, 1880s"
+    },
+    {
+     "query": "Roman Forum ruins 19th century photograph",
+     "caption": "The Roman Forum, heart of the Republic"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By Caesar's lifetime, that system was under strain. Rome's empire had grown enormously, and its armies were commanded by ambitious generals. Their soldiers were often more loyal to their commander than to the Senate. Caesar would become the most successful of them all.",
+   "shots": [
+    {
+     "file": "File:Bust of Julius Caesar-Uffizi Gallery.jpg",
+     "query": "Bust of Julius Caesar Uffizi",
+     "caption": "A bust of Julius Caesar, Uffizi Gallery"
+    },
+    {
+     "file": "File:Map of the Ancient Rome at Caesar time (with conquests)-en.svg",
+     "query": "map Rome Caesar conquests",
+     "caption": "Rome's territory in Caesar's time, with his conquests"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the 50s BC, he led Roman armies in Gaul, a region covering much of modern France and Belgium. The campaigns lasted most of a decade, and they made him rich, famous and very powerful. In 52 BC, he crushed a great uprising led by the Gallic chieftain Vercingetorix.",
+   "shots": [
+    {
+     "file": "File:Siege-alesia-vercingetorix-jules-cesar.jpg",
+     "query": "Vercingetorix surrenders to Caesar Royer",
+     "caption": "Vercingetorix surrenders to Caesar, Lionel Royer, 1899"
+    },
+    {
+     "query": "Gallic Wars map 58-50 BC",
+     "caption": "Map of Caesar's campaigns in Gaul"
+    }
+   ]
+  },
+  {
+   "chapter": "Friends Become Rivals",
+   "narration": "Caesar had not risen alone. He had worked with two powerful allies: Pompey the Great, Rome's most celebrated general, and Marcus Crassus, one of its richest men. Historians call their informal alliance the First Triumvirate.",
+   "shots": [
+    {
+     "file": "File:Pompey the Great, mid 1st cent. BCE, Ny Carlsberg Glyptotek, Copenhagen (36023583270).jpg",
+     "query": "Pompey the Great bust Copenhagen",
+     "caption": "Pompey the Great, bust in the Ny Carlsberg Glyptotek"
+    },
+    {
+     "file": "File:First Triumvirate of Caesar, Crassius and Pompey.jpg",
+     "query": "First Triumvirate Caesar Crassus Pompey",
+     "caption": "Caesar, Crassus and Pompey, the so-called First Triumvirate"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "But the partnership began to fall apart. Caesar's daughter Julia, who had married Pompey, died. Then in 53 BC Crassus was killed fighting the Parthians at Carrhae. The two personal ties that had held Caesar and Pompey together were gone.",
+   "shots": [
+    {
+     "query": "Marcus Licinius Crassus bust Louvre",
+     "caption": "Bust traditionally identified as Marcus Crassus"
+    },
+    {
+     "query": "Battle of Carrhae Parthian cavalry",
+     "caption": "The Parthians, who defeated Crassus at Carrhae"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Pompey drew closer to Caesar's enemies in the Senate. They demanded that Caesar give up his army and his command. Many historians think that, without an army to protect him, he would have faced prosecution by his enemies in Rome. For Caesar, giving in could mean ruin.",
+   "shots": [
+    {
+     "file": "File:Pompeius Kopenhagen.jpg",
+     "query": "Pompey bust Copenhagen",
+     "caption": "Another view of the Copenhagen bust of Pompey"
+    },
+    {
+     "query": "Roman Senate house Curia Julia",
+     "caption": "The Senate house in Rome"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In early January 49 BC, the Senate passed an emergency decree against him. It effectively made him an enemy of the state. Caesar was in the north with his troops. He could obey and give up everything he had won, or he could fight. He had a decision to make.",
+   "shots": [
+    {
+     "file": "File:Roman-Empire-49BC-Map.jpg",
+     "query": "Roman Republic 49 BC map",
+     "caption": "The Roman world in 49 BC"
+    },
+    {
+     "file": "File:Eugène Yvon César 1875.jpg",
+     "query": "Caesar painting Yvon",
+     "caption": "Caesar, painted by Eugène Yvon, 1875"
+    }
+   ]
+  },
+  {
+   "chapter": "The Crossing",
+   "narration": "The Rubicon was a small river near the Adriatic coast. It marked the boundary between the province of Cisalpine Gaul and Italy. A governor could command troops in his province. Leading them across that line into Italy was treason. A governor who did so could be declared a public enemy.",
+   "shots": [
+    {
+     "file": "File:Italy topographic map-ancient Roman roads.svg",
+     "query": "map ancient Italy roads",
+     "caption": "Ancient Italy and its Roman roads"
+    },
+    {
+     "query": "Rubicon river Savignano sul Rubicone",
+     "caption": "The river now identified as the Rubicon"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The ancient writers Suetonius and Appian both describe Caesar pausing at the river. Both report that he used a phrase that became famous: the die is cast. Whether he said exactly those words, we cannot know. But the meaning was clear. There was no going back.",
+   "shots": [
+    {
+     "file": "File:Crossing the Rubicon.jpg",
+     "query": "Crossing the Rubicon illustration",
+     "caption": "Caesar crosses the Rubicon, a later illustration"
+    },
+    {
+     "file": "File:Caesar-ueberschreitet-den-rubikon.jpg",
+     "query": "Caesar überschreitet den Rubikon",
+     "caption": "Caesar crossing the Rubicon, 19th-century illustration"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "He crossed. Within days his troops had seized Ariminum, modern Rimini, and other towns. News reached Rome, and the city prepared for war. His opponents had expected him to back down. Instead, he was marching south.",
+   "shots": [
+    {
+     "file": "File:\"Caesar crossing the Rubicon\".jpg",
+     "query": "Caesar crossing the Rubicon print",
+     "caption": "Caesar crossing the Rubicon, a later print"
+    },
+    {
+     "query": "Rimini Arch of Augustus Ariminum",
+     "caption": "Ariminum, modern Rimini, one of the first towns Caesar took"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Pompey and many senators decided they could not hold Italy. They withdrew across the sea to Greece to gather their forces there. Caesar now controlled Rome and the Italian peninsula, and the whole Roman world had to choose a side.",
+   "shots": [
+    {
+     "file": "File:Pompey the Great, c. A.D. 30—50, Ny Carlsberg Glyptotek, Copenhagen (13647207644).jpg",
+     "query": "Pompey bust",
+     "caption": "Pompey the Great, a portrait made after his death"
+    },
+    {
+     "query": "Brundisium ancient port Brindisi Roman column",
+     "caption": "Brundisium, the port on the route to Greece"
+    }
+   ]
+  },
+  {
+   "chapter": "Civil War",
+   "narration": "The war spread across the Roman world. In 48 BC, the two sides met at Pharsalus in Greece. Caesar's army was outnumbered, but his veterans were hardened by years of fighting in Gaul. Pompey was decisively defeated. It was the turning point of the war, and Pompey's cause never recovered.",
+   "shots": [
+    {
+     "query": "Battle of Pharsalus painting",
+     "caption": "The Battle of Pharsalus, as imagined by a later artist"
+    },
+    {
+     "query": "Pharsalus battle map 48 BC",
+     "caption": "The Battle of Pharsalus, 48 BC"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Pompey fled to Egypt, hoping to find shelter. Instead, he was killed there. The greatest general of his generation, once Caesar's ally and son-in-law, died far from Rome. With Pompey gone, the war against Caesar lost its most famous leader, but not its supporters.",
+   "shots": [
+    {
+     "query": "Pompey statue Palazzo Spada",
+     "caption": "The Spada statue, long thought to show Pompey"
+    },
+    {
+     "query": "ancient Alexandria Pharos lighthouse illustration",
+     "caption": "Alexandria, capital of Egypt at the time"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Fighting went on for several more years against Pompey's surviving supporters. By 45 BC, Caesar had beaten them all. He returned to Rome with no rival left standing, and with power no Roman had held for centuries.",
+   "shots": [
+    {
+     "file": "File:Caesar by Rubens.jpg",
+     "query": "Julius Caesar Rubens",
+     "caption": "Julius Caesar, painted by Peter Paul Rubens"
+    },
+    {
+     "query": "Julius Caesar triumph Mantegna",
+     "caption": "The Triumphs of Caesar, Andrea Mantegna, 15th century"
+    }
+   ]
+  },
+  {
+   "chapter": "Dictator for Life",
+   "narration": "Caesar was made dictator, an emergency office that normally lasted a short time. He held it again and again. Shortly before his death, he was named dictator for life, dictator perpetuo. To many senators, that title sounded alarmingly permanent.",
+   "shots": [
+    {
+     "file": "File:Roman Coin, Denarius of Caesar (FindID 607016-460975).jpg",
+     "query": "Denarius of Caesar",
+     "caption": "A silver denarius of Julius Caesar"
+    },
+    {
+     "file": "File:Retrato de Julio César (26724093101).jpg",
+     "query": "Julius Caesar portrait bust",
+     "caption": "A portrait of Julius Caesar"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "His portrait appeared on coins. He took decisions without consulting the Senate and controlled the treasury. There were rumours that he wanted to be king. To his enemies, he already looked like a king in everything but name.",
+   "shots": [
+    {
+     "query": "Julius Caesar lifetime denarius portrait 44 BC",
+     "caption": "A coin with Caesar's portrait, 44 BC"
+    },
+    {
+     "query": "Julius Caesar statue Rome Via dei Fori Imperiali",
+     "caption": "Statue of Caesar in Rome"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Some Romans welcomed peace and order after years of bloodshed and civil war. Others, especially in the Senate, felt their power and their Republic slipping away. Among them were men Caesar knew well, and who had seen him at close quarters.",
+   "shots": [
+    {
+     "query": "Roman senators toga statue",
+     "caption": "A Roman senator in a toga"
+    },
+    {
+     "query": "Marcus Junius Brutus bust Palazzo Massimo",
+     "caption": "A bust thought to show Marcus Junius Brutus"
+    }
+   ]
+  },
+  {
+   "chapter": "The Ides of March",
+   "narration": "A plot took shape in secret over the following weeks. At least sixty men were involved, and some accounts suggest more. The leaders were Gaius Cassius Longinus and Marcus Junius Brutus, a man Caesar knew well. Others included Gaius Trebonius and Decimus Brutus.",
+   "shots": [
+    {
+     "query": "Brutus coin portrait denarius 42 BC",
+     "caption": "Brutus, from a coin issued by his forces"
+    },
+    {
+     "query": "Cassius Longinus coin",
+     "caption": "A coin of Gaius Cassius Longinus"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Ancient writers tell of warnings. A soothsayer named Spurinna is said to have told Caesar that danger would come no later than the Ides of March. His wife Calpurnia is said to have dreamed of him covered in blood, and begged him to stay at home.",
+   "shots": [
+    {
+     "query": "Calpurnia Caesar dream painting",
+     "caption": "Calpurnia, Caesar's wife, as imagined by a later artist"
+    },
+    {
+     "query": "Julius Caesar soothsayer Ides of March illustration",
+     "caption": "A soothsayer warns Caesar, later illustration"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the morning itself, someone is said to have pressed a note into Caesar's hand warning him of the plot. In the crush of people around him, he did not read it. He went on towards the Senate meeting.",
+   "shots": [
+    {
+     "query": "Julius Caesar on the way to the Senate Ides of March painting",
+     "caption": "Caesar on his way to the Senate, as imagined by a later artist"
+    },
+    {
+     "query": "Theatre of Pompey Rome ruins",
+     "caption": "Remains of the Theatre of Pompey complex in Rome"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the fifteenth of March, 44 BC, Caesar went to a meeting of the Senate. It was held in a hall that was part of the Theatre of Pompey. There, the conspirators surrounded him and attacked with daggers. Ancient writers counted twenty-three wounds.",
+   "shots": [
+    {
+     "file": "File:Vincenzo Camuccini - La morte di Cesare.jpg",
+     "query": "Camuccini death of Caesar",
+     "caption": "The Death of Caesar, Vincenzo Camuccini, 1798"
+    },
+    {
+     "file": "File:Karl Theodor von Piloty Murder of Caesar 1865.jpg",
+     "query": "Piloty Murder of Caesar",
+     "caption": "The Murder of Caesar, Karl von Piloty, 1865"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "According to Suetonius, a doctor who examined the body concluded that only one of the wounds had been fatal. The attack was fast, confused and brutal, and it was over in minutes.",
+   "shots": [
+    {
+     "query": "Death of Julius Caesar painting Senate conspirators",
+     "caption": "The conspirators around Caesar, as imagined by a later artist"
+    },
+    {
+     "query": "Theatre of Pompey plan reconstruction",
+     "caption": "A reconstruction of the Theatre of Pompey complex"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "His last words are disputed. Suetonius wrote that Caesar died without a word. Plutarch recorded a different moment. What is certain is that the most powerful man in Rome lay dead. He had died in a hall that bore the name of his old rival.",
+   "shots": [
+    {
+     "file": "File:Gerome Death of Caesar.jpg",
+     "query": "Gerome Death of Caesar",
+     "caption": "Another version of Gérôme's Death of Caesar"
+    },
+    {
+     "query": "Largo di Torre Argentina Curia of Pompey",
+     "caption": "The site of the Curia of Pompey in Rome today"
+    }
+   ]
+  },
+  {
+   "chapter": "What Came Next",
+   "narration": "The conspirators believed they had saved the Republic from a tyrant. Brutus even issued coins showing two daggers and the words EID MAR, the Ides of March. But the killing did not bring back the old Republic. It led to more civil war.",
+   "shots": [
+    {
+     "file": "File:Eid mar aureus BM.JPG",
+     "query": "Eid Mar aureus British Museum",
+     "caption": "A gold EID MAR coin in the British Museum"
+    },
+    {
+     "file": "File:Ides of March coin (2).jpg",
+     "query": "Ides of March coin",
+     "caption": "The reverse of an Ides of March coin"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At Caesar's funeral, Mark Antony stirred up the crowds, and public anger turned against the assassins. Caesar's great-nephew and adopted heir, the nineteen-year-old Octavian, began to gather support. In 42 BC, Brutus and Cassius were defeated at Philippi and died there.",
+   "shots": [
+    {
+     "query": "Mark Antony oration Caesar funeral painting",
+     "caption": "Mark Antony at Caesar's funeral, later painting"
+    },
+    {
+     "query": "Octavian young portrait bust",
+     "caption": "The young Octavian, Caesar's heir"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Within two years of his murder, Caesar was officially declared a god by the Roman state. The man killed for acting like a king was now worshipped in temples. For the conspirators, it was the opposite of everything they had hoped for.",
+   "shots": [
+    {
+     "query": "Temple of Divus Julius Roman Forum",
+     "caption": "The Temple of the Divine Julius in the Roman Forum"
+    },
+    {
+     "query": "Divus Julius coin comet",
+     "caption": "A coin honouring the deified Caesar"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Over the years that followed, Octavian outlasted every rival. He took the name Augustus and became Rome's first emperor. The men who killed Caesar to stop one man ruling Rome had cleared the way for exactly that.",
+   "shots": [
+    {
+     "file": "File:Augustus of Prima Porta (inv. 2290).jpg",
+     "query": "Augustus of Prima Porta",
+     "caption": "Augustus of Prima Porta, statue of Rome's first emperor"
+    },
+    {
+     "file": "File:Statue-Augustus.jpg",
+     "query": "Augustus statue",
+     "caption": "Augustus, the name Octavian took as emperor"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Today, crossing the Rubicon still means taking a step that cannot be undone. Caesar's own step helped to end a Republic that had lasted nearly five centuries. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "file": "File:Roman republic, territory 44 BC.svg",
+     "query": "Roman Republic territory 44 BC map",
+     "caption": "The Roman world at Caesar's death, 44 BC"
+    },
+    {
+     "query": "Julius Caesar statue Rimini",
+     "caption": "Statue of Julius Caesar in Rimini"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    3
+   ],
+   "hook": "The river Caesar wasn't allowed to cross",
+   "caption": "In January 49 BC, Julius Caesar stopped at a small river and made a choice that changed Rome.",
+   "hashtags": [
+    "juliuscaesar",
+    "rubicon",
+    "romanhistory",
+    "history"
+   ]
+  },
+  {
+   "scenes": [
+    11,
+    13
+   ],
+   "hook": "Why crossing the Rubicon was treason",
+   "caption": "A small river, a Roman law, and the words 'the die is cast'.",
+   "hashtags": [
+    "juliuscaesar",
+    "rubicon",
+    "ancientrome",
+    "history"
+   ]
+  },
+  {
+   "scenes": [
+    24,
+    26
+   ],
+   "hook": "The Ides of March, 44 BC",
+   "caption": "How the most powerful man in Rome died in a hall named after his old rival.",
+   "hashtags": [
+    "juliuscaesar",
+    "idesofmarch",
+    "ancientrome",
+    "history"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "channel": "finance",
+ "title": "ISAs Explained: How the £20,000 Tax-Free Allowance Works (2026/27)",
+ "alt_titles": [
+  "What Is an ISA? The UK Tax-Free Allowance Explained",
+  "Cash ISA, Stocks and Shares or Lifetime ISA? How They Work",
+  "The Cash ISA Changes Coming in April 2027, Explained"
+ ],
+ "thumbnail_text": "£20,000 TAX-FREE",
+ "description_summary": "Every UK adult can put up to £20,000 a year into ISAs in the 2026/27 tax year and pay no tax on the interest, income or growth. This video explains how ISAs work, the four types, the Lifetime ISA bonus and its 25% charge, and the cash ISA changes coming in April 2027. General information, not financial advice.",
+ "tags": [
+  "isa",
+  "isa explained",
+  "cash isa",
+  "stocks and shares isa",
+  "lifetime isa",
+  "isa allowance 2026",
+  "isa changes 2027",
+  "tax free savings uk",
+  "uk personal finance",
+  "how isas work",
+  "personal savings allowance",
+  "fscs"
+ ],
+ "lane": "ISAs, pensions & tax-free accounts",
+ "publish_at": "2026-10-16T18:00:00+01:00",
+ "sources": [
+  {
+   "title": "GOV.UK: Individual Savings Accounts (ISAs)",
+   "url": "https://www.gov.uk/individual-savings-accounts"
+  },
+  {
+   "title": "GOV.UK: How ISAs work",
+   "url": "https://www.gov.uk/individual-savings-accounts/how-isas-work"
+  },
+  {
+   "title": "GOV.UK: Withdrawing your money from an ISA",
+   "url": "https://www.gov.uk/individual-savings-accounts/withdrawing-your-money"
+  },
+  {
+   "title": "GOV.UK: Transferring your ISA",
+   "url": "https://www.gov.uk/individual-savings-accounts/transferring-your-isa"
+  },
+  {
+   "title": "GOV.UK: Lifetime ISA",
+   "url": "https://www.gov.uk/lifetime-isa"
+  },
+  {
+   "title": "GOV.UK: Withdrawing money from your Lifetime ISA",
+   "url": "https://www.gov.uk/lifetime-isa/withdrawing-money-from-your-lifetime-isa"
+  },
+  {
+   "title": "GOV.UK: Tax on savings interest, how much is tax free",
+   "url": "https://www.gov.uk/apply-tax-free-interest-on-savings/how-much-is-tax-free"
+  },
+  {
+   "title": "HMRC: Tax-free savings newsletter 19 (November 2025)",
+   "url": "https://www.gov.uk/government/publications/tax-free-savings-newsletter-19/tax-free-savings-newsletter-19-november-2025"
+  },
+  {
+   "title": "FSCS: Deposit limit",
+   "url": "https://protected.fscs.org.uk/what-we-cover/banks-building-societies-credit-unions/deposit-limit/"
+  },
+  {
+   "title": "Atom bank: Cash ISA changes from 2027",
+   "url": "https://www.atombank.co.uk/blog/cash-isa-2027-changes/"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "When the new first-time buyer product will replace the Lifetime ISA",
+   "reason": "No date announced; the script gives none."
+  },
+  {
+   "claim": "Innovative finance ISAs generally not FSCS protected",
+   "reason": "Confirmed by provider and comparison sites, not an official page; the script says 'generally'."
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "The £20,000 tax-free allowance",
+   "caption": "What an ISA is and how much you can put in for 2026/27.",
+   "hashtags": [
+    "isa",
+    "ukmoney",
+    "personalfinance",
+    "savingmoney"
+   ]
+  },
+  {
+   "scenes": [
+    17,
+    18
+   ],
+   "hook": "The Lifetime ISA's 25% catch",
+   "caption": "The Lifetime ISA bonus is generous, but early withdrawals can cost more than the bonus.",
+   "hashtags": [
+    "lifetimeisa",
+    "ukmoney",
+    "firsthome",
+    "personalfinance"
+   ]
+  },
+  {
+   "scenes": [
+    22,
+    24
+   ],
+   "hook": "Cash ISAs change in April 2027",
+   "caption": "From April 2027, under-65s can put up to £12,000 a year into cash ISAs.",
+   "hashtags": [
+    "cashisa",
+    "isa",
+    "ukmoney",
+    "savings"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "Every April, a new tax year starts in the UK, and with it comes an allowance that many people never use. It lets you save or invest up to twenty thousand pounds a year without paying tax on the interest, income or growth. It is called an ISA, short for Individual Savings Account.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "UK money basics",
+      "text": "ISAs explained: the £20,000 tax-free allowance"
+     }
+    },
+    {
+     "file": "File:Bank of England Building, City of London (Southwest View - 02).jpg",
+     "query": "Bank of England building City of London",
+     "caption": "The Bank of England, City of London"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "For the 2026 to 2027 tax year, which runs from the sixth of April 2026 to the fifth of April 2027, the limit is twenty thousand pounds across all your ISAs combined. The government has said the overall limit will stay at that level until April 2031. But from April 2027, the rules for cash ISAs change for most savers.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£20,000",
+      "label": "Total ISA allowance, 2026/27 tax year",
+      "note": "6 April 2026 to 5 April 2027 · GOV.UK"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In this video, we look at what an ISA actually does, the four kinds adults can open, how the Lifetime ISA bonus works, and what the 2027 changes mean. This is general information to help you understand the options, not advice about what to do with your own money.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "What this video covers",
+      "items": [
+       "What an ISA does",
+       "The £20,000 allowance",
+       "Four kinds of ISA",
+       "The Lifetime ISA",
+       "The April 2027 changes"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "What an ISA Does",
+   "narration": "An ISA is not an investment in itself. It is a wrapper, a kind of protective box around your savings or investments. Whatever grows inside the box is free from UK income tax and capital gains tax. You also do not need to declare it on a tax return.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The big idea",
+      "text": "An ISA is a tax-free wrapper, not an investment"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Outside an ISA, savings interest can be taxed. Most people get a Personal Savings Allowance. Basic rate taxpayers can earn one thousand pounds of interest a year tax free. Higher rate taxpayers get five hundred pounds. Additional rate taxpayers get nothing. Interest above those amounts is taxed at your usual rate of income tax.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Personal Savings Allowance: tax-free interest each year",
+      "labels": [
+       "Basic rate",
+       "Higher rate",
+       "Additional rate"
+      ],
+      "values": [
+       1000,
+       500,
+       0
+      ],
+      "prefix": "£",
+      "source": "GOV.UK",
+      "highlight": 0
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "So for someone with modest savings, an ISA may make little difference to their tax bill today. It matters more as savings grow, for higher rate taxpayers, and for investments, where dividends and gains can also be taxed outside an ISA. Once money is inside, the tax benefits continue in later years.",
+   "shots": [
+    {
+     "file": "File:100 Parliament Street (5870489428).jpg",
+     "query": "100 Parliament Street HM Revenue and Customs",
+     "caption": "HM Revenue and Customs, 100 Parliament Street, London"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "When the wrapper matters more",
+      "items": [
+       "Larger savings balances",
+       "Higher rate taxpayers",
+       "Dividends and investment gains"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The £20,000 Allowance",
+   "narration": "You must be eighteen or over and resident in the UK to open an adult ISA. Each person has their own allowance, and ISAs cannot be held jointly. So a couple could put up to forty thousand pounds a year into ISAs between them, twenty thousand pounds each.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£40,000",
+      "label": "A couple's combined ISA allowance, 2026/27",
+      "note": "£20,000 each · ISAs can't be held jointly · GOV.UK"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The allowance can go into one account or be split across several. You can even pay into more than one ISA of the same type in a tax year, such as two different cash ISAs. The Lifetime ISA is the exception, because you can only pay into one of those each year.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: one way to split the £20,000 allowance",
+      "labels": [
+       "Cash ISA 1",
+       "Cash ISA 2",
+       "Stocks and shares ISA"
+      ],
+      "values": [
+       10000,
+       3000,
+       7000
+      ],
+      "prefix": "£",
+      "source": "Illustration based on GOV.UK examples"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The allowance does not roll over. If you only use part of it this tax year, the rest is lost when the year ends on the fifth of April. Money already in an ISA stays tax free, though. The accounts do not close at the end of the year.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Use it or lose it",
+      "text": "Unused allowance doesn't carry over to the next tax year"
+     }
+    },
+    {
+     "query": "piggy bank savings",
+     "caption": "Saving money"
+    }
+   ]
+  },
+  {
+   "chapter": "Four Kinds of ISA",
+   "narration": "Adults can choose from four types of ISA: cash ISAs, stocks and shares ISAs, innovative finance ISAs and Lifetime ISAs. Children have their own version, the Junior ISA, with a limit of nine thousand pounds a year, which is separate from a parent's allowance.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Four kinds of adult ISA",
+      "items": [
+       "Cash ISA",
+       "Stocks and shares ISA",
+       "Innovative finance ISA",
+       "Lifetime ISA"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "£9,000",
+      "label": "Junior ISA limit each year, for under-18s",
+      "note": "2026/27 · HMRC"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A cash ISA works like a savings account, but the interest is tax free. Rates vary between providers, and some accounts lock money away for a fixed term in return for a higher rate. Cash with UK banks and building societies is protected by the FSCS, up to one hundred and twenty thousand pounds per person, per banking group.",
+   "shots": [
+    {
+     "file": "File:Bank of England, London.JPG",
+     "query": "Bank of England Threadneedle Street",
+     "caption": "The Bank of England on Threadneedle Street"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "£120,000",
+      "label": "FSCS deposit protection per person, per banking group",
+      "note": "Since 1 December 2025 · FSCS"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A stocks and shares ISA holds investments such as funds, shares or bonds. Dividends and any gains are free from UK tax. But investments can fall as well as rise, and you could get back less than you put in. Over short periods especially, values can swing a long way.",
+   "shots": [
+    {
+     "file": "File:London Stock Exchange, Paternoster Square.jpg",
+     "query": "London Stock Exchange Paternoster Square",
+     "caption": "The London Stock Exchange, Paternoster Square"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Cash ISA",
+       "items": [
+        "Interest is tax free",
+        "Balance doesn't fall",
+        "Inflation can erode it"
+       ]
+      },
+      "right": {
+       "title": "Stocks and shares ISA",
+       "items": [
+        "Gains and dividends tax free",
+        "Value can rise or fall",
+        "Bigger short-term swings"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Inflation matters here too. If prices rise faster than the interest a cash ISA pays, the money buys less over time, even though the balance has grown. That trade-off between steadiness and growth is the main difference between cash and investments. Many people hold a mix of both, for different goals and timescales.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The trade-off",
+      "text": "Steadiness or growth: cash and investments carry different risks"
+     }
+    },
+    {
+     "query": "City of London skyline",
+     "caption": "The City of London"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The innovative finance ISA is the least common. It holds peer-to-peer loans and similar investments, where your money is lent to people or businesses. Returns can be higher, but so is the risk. If borrowers do not repay, you can lose money, and these investments are generally not covered by FSCS protection.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Innovative finance ISA",
+      "text": "Peer-to-peer lending: higher risk, generally no FSCS cover"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Lifetime ISA",
+   "narration": "The Lifetime ISA is designed for two goals: buying a first home, or saving for later life. You must make your first payment before you turn forty. You can then pay in up to four thousand pounds a year until you are fifty, and that counts towards the twenty thousand pound total.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£4,000",
+      "label": "Most you can pay into a Lifetime ISA each year",
+      "note": "Counts towards the £20,000 · 2026/27 · GOV.UK"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The government adds a bonus of twenty-five per cent on what you pay in, up to one thousand pounds a year. Put in four thousand pounds, and the bonus takes it to five thousand. The money can be held as cash, investments or both.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: a full year in a Lifetime ISA",
+      "labels": [
+       "You pay in",
+       "Government bonus",
+       "Total"
+      ],
+      "values": [
+       4000,
+       1000,
+       5000
+      ],
+      "prefix": "£",
+      "source": "GOV.UK",
+      "highlight": 2
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The catch with a Lifetime ISA is in the withdrawal rules. Without a charge, the money can go towards a first home costing four hundred and fifty thousand pounds or less, bought at least twelve months after your first payment. It can also be taken out from age sixty, or if you are terminally ill.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Withdrawing without a charge",
+      "items": [
+       "First home, £450,000 or less",
+       "12 months after first payment",
+       "From age 60",
+       "Terminal illness"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "For any other withdrawal, there is a twenty-five per cent charge. On a five thousand pound pot made from four thousand pounds of your money plus the bonus, that charge is one thousand two hundred and fifty pounds. You would get back three thousand seven hundred and fifty, which is less than you paid in.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: taking £5,000 out of a Lifetime ISA early",
+      "labels": [
+       "You paid in",
+       "Bonus added",
+       "25% charge",
+       "You get back"
+      ],
+      "values": [
+       4000,
+       1000,
+       1250,
+       3750
+      ],
+      "prefix": "£",
+      "source": "GOV.UK withdrawal rules",
+      "highlight": 3
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Moving and Taking Money Out",
+   "narration": "Money can usually be taken out of a cash or stocks and shares ISA at any time without losing the tax benefits, although an account's own terms may set rules or charges. Once it is out, though, the part of the allowance it used is normally gone.",
+   "shots": [
+    {
+     "query": "building society branch high street",
+     "caption": "A building society branch"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Some ISAs are flexible. With a flexible ISA, you can take cash out and put it back in the same tax year without using up more allowance. For example, pay in ten thousand pounds and withdraw three thousand. With a flexible ISA, you could still add thirteen thousand that year. Without that flexibility, it would be ten thousand.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Example: allowance left after £10,000 in and £3,000 out",
+      "labels": [
+       "Flexible ISA",
+       "Not flexible"
+      ],
+      "values": [
+       13000,
+       10000
+      ],
+      "prefix": "£",
+      "source": "GOV.UK",
+      "highlight": 0
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "To move an ISA to a different provider, the money has to go through a transfer, not a withdrawal. The new provider arranges it. Cash ISA transfers should take no more than fifteen working days. If the money is withdrawn instead, that part of the allowance cannot be used again.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Switching provider",
+      "text": "A transfer keeps the tax-free status. A withdrawal doesn't."
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "What Changes in April 2027",
+   "narration": "In November 2025, the government announced changes to cash ISAs. From the sixth of April 2027, people under sixty-five will be able to put up to twelve thousand pounds a year into cash ISAs. The overall limit stays at twenty thousand pounds.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "£12,000",
+      "label": "Cash ISA limit for under-65s from 6 April 2027",
+      "note": "Overall ISA limit stays £20,000 · HMRC"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That means the other eight thousand pounds could only go into other types, such as stocks and shares ISAs. People aged sixty-five and over keep the full twenty thousand pound cash ISA limit. Money already saved in cash ISAs stays tax free.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Under 65, from April 2027",
+       "items": [
+        "Up to £12,000 in cash ISAs",
+        "£8,000 for other ISA types"
+       ]
+      },
+      "right": {
+       "title": "65 and over",
+       "items": [
+        "Up to £20,000 in cash ISAs",
+        "Same £20,000 overall limit"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "There are new limits on moving money too. For under sixty-fives, transfers from stocks and shares or innovative finance ISAs into cash ISAs will not be allowed. The government also plans to consult on a new product for first-time buyers. Until then, Lifetime ISAs can still be opened.",
+   "shots": [
+    {
+     "query": "HM Treasury building London",
+     "caption": "HM Treasury, London"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Also changing from April 2027",
+      "items": [
+       "No transfers into cash ISAs from investment ISAs",
+       "Applies to under-65s",
+       "New first-time buyer product planned"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Takeaway",
+   "narration": "So an ISA is a tax-free wrapper, with a twenty thousand pound yearly limit in the 2026 to 2027 tax year. Cash ISAs offer steadiness and FSCS protection. Stocks and shares ISAs offer the chance of growth, with the risk of losses. The Lifetime ISA adds a bonus, with strict rules attached.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "The key points",
+      "items": [
+       "£20,000 a year, tax free",
+       "Cash: steady, FSCS protected",
+       "Investments: can rise or fall",
+       "Lifetime ISA: bonus, strict rules"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Which mix suits someone depends on their goals, timescale and attitude to risk, and the rules can change. GOV.UK and MoneyHelper have free, impartial guides, and a regulated adviser can give personal advice. Sources are in the description. This is general information, not financial advice.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Free, impartial help",
+      "text": "GOV.UK and MoneyHelper explain the rules in full"
+     }
+    },
+    {
+     "file": "File:Bank of England (24432232916).jpg",
+     "query": "Bank of England exterior",
+     "caption": "The Bank of England"
+    }
+   ]
+  }
+ ]
+}
