@@ -1,0 +1,14 @@
+# US politics channel (nonpartisan explainers for US viewers). Fill in the two REPLACE lines.
+label: "Politics"
+channel_name: "REPLACE_WITH_POLITICS_CHANNEL_NAME"
+elevenlabs_voice_id: "REPLACE_WITH_POLITICS_VOICE_ID"
+colour: "#2a6f86"            # neutral teal: deliberately not party red or blue
+thumbnail_text_colour: "#ffd166"
+youtube_category: "News & Politics"
+music_file: "music-politics.mp3"
+timezone: "America/New_York"
+publish_times: ["08:00", "17:00"]   # US Eastern; UPLOAD.txt shows them in UK time too
+clip_note: "Nonpartisan explainer · Full video on YouTube"   # small line at the bottom of short clips
+end_card_line: "Sources in the description. Nonpartisan."
+description_note: |
+  This channel explains how US politics works and what each side argues. It doesn't endorse candidates or parties. Where something is disputed, the video says who disputes it and why. Spotted an error? Leave a comment with a source.

@@ -1,0 +1,11 @@
+# History channel. Its name and voice stay in config.yaml (set up earlier),
+# so this file only holds the look and the wording that differs per channel.
+label: "History"
+colour: "#c0392b"            # accent for cards, charts and thumbnails (Caesar red)
+thumbnail_text_colour: "#fad678"
+youtube_category: "Education"
+music_file: "music.mp3"       # in the assets folder (optional)
+clip_note: "Full video on YouTube"   # small line at the bottom of short clips
+end_card_line: "Sources and image credits in the description"
+description_note: |
+  Some details of this history are debated by historians; where accounts differ, the video says so. Spotted an error? Leave a comment with a source.

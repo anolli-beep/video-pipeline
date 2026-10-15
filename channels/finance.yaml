@@ -1,0 +1,15 @@
+# UK personal finance channel. Fill in the two REPLACE lines (see README, "Adding the other channels").
+label: "Finance"
+channel_name: "REPLACE_WITH_FINANCE_CHANNEL_NAME"
+elevenlabs_voice_id: "REPLACE_WITH_FINANCE_VOICE_ID"
+colour: "#1f7a4d"            # money green
+thumbnail_text_colour: "#9be3b4"
+youtube_category: "Education"
+music_file: "music-finance.mp3"
+timezone: "Europe/London"
+publish_times: ["07:30", "18:00"]
+clip_caption_extra: "General information, not financial advice."
+clip_note: "Not financial advice · Full video on YouTube"   # small line at the bottom of short clips
+end_card_line: "Sources in the description. Not financial advice."
+description_note: |
+  This video is general information for people in the UK, not financial advice. It doesn't consider your circumstances. Rules, rates and allowances change: figures are correct as of the date in the video, so check GOV.UK, MoneyHelper or a regulated adviser before acting. With investing, your capital is at risk.
