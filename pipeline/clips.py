@@ -67,7 +67,15 @@ def _pick(script: dict, cfg: dict) -> list[dict]:
 
 
 def _chunks(scene: dict, offset: float, words_per: int = 4) -> list[tuple[float, float, str]]:
-    """Short caption chunks timed across the scene's narration (same method as the .srt)."""
+    """Short caption chunks: exact ElevenLabs word timings when available, otherwise estimated."""
+    if scene.get("words"):
+        w = scene["words"]
+        out = []
+        for i in range(0, len(w), words_per):
+            part = w[i:i + words_per]
+            end = w[i + words_per][1] if i + words_per < len(w) else part[-1][2] + 0.3
+            out.append((offset + part[0][1], offset + end, " ".join(x[0] for x in part)))
+        return out
     speech = scene["duration"] - 0.45
     words = scene["narration"].split()
     parts = [" ".join(words[i:i + words_per]) for i in range(0, len(words), words_per)]

@@ -53,7 +53,7 @@ def _textfile(path: Path, text: str) -> str:
 
 
 def _segment(img: Path, seconds: float, move: int, out: Path, tmp: Path,
-             caption: str = "", chapter: str = "") -> None:
+             caption: str = "", chapter: str = "", caption_top: bool = False) -> None:
     frames = max(1, round(seconds * FPS))
     z, x, y = (m.format(F=frames) for m in MOVES[move % len(MOVES)])
     vf = [f"zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={W}x{H}:fps={FPS}", "format=yuv420p"]
@@ -61,7 +61,7 @@ def _segment(img: Path, seconds: float, move: int, out: Path, tmp: Path,
     if caption:
         tf = _textfile(tmp / (out.stem + "_cap.txt"), caption)
         vf.append(f"drawtext=fontfile='{regular}':textfile='{tf}':fontsize=30:fontcolor=white@0.92:"
-                  f"box=1:boxcolor=black@0.5:boxborderw=14:x=48:y=h-th-54")
+                  f"box=1:boxcolor=black@0.5:boxborderw=14:x=48:y={'54' if caption_top else 'h-th-54'}")
     if chapter:
         tf = _textfile(tmp / (out.stem + "_chap.txt"), chapter.upper())
         vf.append(f"drawtext=fontfile='{bold}':textfile='{tf}':fontsize=62:fontcolor=white:"
@@ -89,9 +89,54 @@ def _srt_time(t: float) -> str:
     return f"{int(h):02d}:{int(m):02d}:{int(s):02d},{int(round((s % 1) * 1000)) % 1000:03d}"
 
 
+def burn_captions(cfg: dict) -> bool:
+    return bool(cfg.get("burn_captions", True))
+
+
+def _two_lines(text: str, width: int = 42) -> str:
+    """Split a caption over two lines at the space nearest the middle if it's too long for one."""
+    if len(text) <= width:
+        return text
+    mid = len(text) // 2
+    spaces = [i for i, ch in enumerate(text) if ch == " "]
+    cut = min(spaces, key=lambda i: abs(i - mid)) if spaces else mid
+    return text[:cut] + "\n" + text[cut + 1:]
+
+
+def _word_cues(scene: dict, offset: float, max_chars: int = 78) -> list[tuple[float, float, str]]:
+    """Caption cues from ElevenLabs word timings: break at full stops, pauses or ~2 lines of text."""
+    cues, cur, t0, last_end = [], [], None, 0.0
+    for word, a, b in scene["words"]:
+        text = " ".join(cur + [word])
+        if cur and (len(text) > max_chars or a - last_end > 0.6):
+            cues.append((offset + t0, offset + last_end, " ".join(cur)))
+            cur, t0 = [], None
+        if t0 is None:
+            t0 = a
+        cur.append(word)
+        last_end = b
+        if word[-1] in ".?!" and len(" ".join(cur)) > 25:
+            cues.append((offset + t0, offset + last_end, " ".join(cur)))
+            cur, t0 = [], None
+    if cur:
+        cues.append((offset + t0, offset + last_end, " ".join(cur)))
+    # hold each cue until the next starts (no flicker in short pauses)
+    out = []
+    for i, (a, b, text) in enumerate(cues):
+        nxt = cues[i + 1][0] if i + 1 < len(cues) else b + 0.3
+        out.append((a, max(b, min(nxt, b + 0.7)), text))
+    return out
+
+
 def build_srt(script: dict, path: Path) -> None:
     lines, t, n = [], 0.0, 1
     for scene in script["scenes"]:
+        if scene.get("words"):                    # exact timings from ElevenLabs
+            for a, b, text in _word_cues(scene, t):
+                lines += [str(n), f"{_srt_time(a)} --> {_srt_time(b)}", _two_lines(text), ""]
+                n += 1
+            t += scene["duration"]
+            continue
         speech = scene["duration"] - 0.45
         words = scene["narration"].split()
         chunks = [" ".join(words[i:i + 11]) for i in range(0, len(words), 11)]
@@ -130,7 +175,8 @@ def render(cfg: dict, script: dict, work: Path) -> Path:
             prepped = prep_dir / (Path(shot["path"]).stem + ".jpg")
             if not prepped.exists():
                 _prep_image(Path(shot["path"]), prepped)
-            _segment(prepped, per, move, seg, segs_dir, shot.get("caption", ""), chap)
+            _segment(prepped, per, move, seg, segs_dir, shot.get("caption", ""), chap,
+                     caption_top=burn_captions(cfg))
             segments.append(seg)
             move += 1
         t += scene["duration"]
@@ -176,8 +222,26 @@ def render(cfg: dict, script: dict, work: Path) -> Path:
 
     build_srt(script, work / "captions.srt")
     script["chapter_times"] = chapters
+    script["clean_video"] = str(final)          # short clips are cut from the caption-free version
+    if burn_captions(cfg):
+        final = _burn(work / "captions.srt", final, work / "final_captioned.mp4")
     log(f"Video rendered: {media_duration(final)/60:.1f} minutes")
     return final
+
+
+def _burn(srt: Path, video: Path, out: Path) -> Path:
+    """Burn the captions into the picture: white text on a soft dark box, bottom centre."""
+    fonts = str(ROOT / "assets" / "fonts").replace("\\", "/").replace(":", r"\:")
+    sub = str(srt).replace("\\", "/").replace(":", r"\:")
+    style = ("FontName=Instrument Sans,Bold=1,FontSize=13,PrimaryColour=&H00FFFFFF,"
+             "BackColour=&H5A000000,OutlineColour=&H5A000000,BorderStyle=3,Outline=0.7,Shadow=0,"
+             "Alignment=2,MarginV=14,MarginL=40,MarginR=40")
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video),
+         "-vf", f"subtitles='{sub}':fontsdir='{fonts}':force_style='{style}'",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+         "-c:a", "copy", "-movflags", "+faststart", str(out)])
+    log("Captions burned into the video")
+    return out
 
 
 def fmt_ts(seconds: float) -> str:

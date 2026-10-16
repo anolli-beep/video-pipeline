@@ -265,7 +265,8 @@ def render_plan(plan_path: str) -> None:
     (OUT / "channel.txt").write_text(cfg["channel"], encoding="utf-8")
 
     # Vertical short clips for Shorts, Reels, TikTok, Facebook and Snapchat
-    made = clips.make_all(cfg, script, OUT / "video.mp4", OUT / "clips", work / "clips")
+    clean = Path(script.get("clean_video") or OUT / "video.mp4")   # clips use the caption-free version
+    made = clips.make_all(cfg, script, clean, OUT / "clips", work / "clips")
     if made:
         (OUT / "CLIPS.txt").write_text(clips.clips_sheet(cfg, script, made), encoding="utf-8")
         with open(OUT / "issue.md", "a", encoding="utf-8") as f:

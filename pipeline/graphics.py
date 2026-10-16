@@ -31,6 +31,7 @@ INK = (0.17, 0.16, 0.15)
 MUTED = (0.42, 0.40, 0.36)
 RULE = (0.84, 0.80, 0.70)
 SANS, SERIF = "Instrument Sans", "Young Serif"
+RESERVE = 0          # px kept clear at the bottom for burned-in captions (set per video)
 
 
 # ------------------------------------------------------------------ fonts ----
@@ -148,7 +149,7 @@ def _stat(cr, spec, t, accent):
         _text(cr, line, W / 2, H / 2 + 130 + i * 58, INK, _ease((t - 0.3) / 0.6), "center")
     if spec.get("note"):
         _font(cr, 28)
-        _text(cr, spec["note"], W / 2, H - 110, MUTED, _ease((t - 0.6) / 0.6), "center")
+        _text(cr, spec["note"], W / 2, H - 110 - RESERVE, MUTED, _ease((t - 0.6) / 0.6), "center")
     return 1.4
 
 
@@ -202,7 +203,7 @@ def _compare(cr, spec, t, accent):
         col = spec.get(side, {})
         k = _ease((t - (0 if side == "left" else 0.25)) / 0.5)
         cr.set_source_rgba(*tint, k)
-        cr.rectangle(x, 140, W / 2 - 150, H - 280)
+        cr.rectangle(x, 140, W / 2 - 150, H - 280 - RESERVE)
         cr.fill()
         _font(cr, 60, serif=True)
         _text(cr, col.get("title", ""), x + 50, 255, accent if side == "left" else INK, k)
@@ -229,11 +230,11 @@ def _chart(cr, spec, t, accent):
         _text(cr, line, 160, 150 + i * 66, INK, _ease(t / 0.5))
     if spec.get("source"):
         _font(cr, 26)
-        _text(cr, "Source: " + spec["source"], 160, H - 60, MUTED, _ease((t - 0.5) / 0.5))
+        _text(cr, "Source: " + spec["source"], 160, H - 60 - RESERVE, MUTED, _ease((t - 0.5) / 0.5))
     if not n:
         return 0.6
     x0, x1 = 230, W - 160
-    y0, y1 = 210 + 66 * len(title_lines), H - 170          # plot area top / baseline
+    y0, y1 = 210 + 66 * len(title_lines), H - 170 - RESERVE          # plot area top / baseline
     lo, top = min(0.0, min(values)), max(0.0, max(values))
     if top == lo:
         top = lo + 1
@@ -337,8 +338,15 @@ def draw(cr, shot: dict, t: float, accent) -> float:
 
 
 # ---------------------------------------------------------------- output ----
+def _reserve(cfg: dict) -> None:
+    global RESERVE
+    RESERVE = 130 if cfg.get("burn_captions", True) else 0
+
+
 def still(shot: dict, cfg: dict, path: Path) -> Path:
     """The finished graphic as a picture (used for thumbnails when a video has no photos)."""
+    global RESERVE
+    RESERVE = 0                                    # thumbnails never have captions
     surf = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H)
     draw(cairo.Context(surf), shot, 30.0, hex_rgb(cfg.get("colour", "#c0392b")))
     surf.write_to_png(str(path))
@@ -347,6 +355,7 @@ def still(shot: dict, cfg: dict, path: Path) -> Path:
 
 def segment(shot: dict, cfg: dict, seconds: float, fps: int, out: Path, chapter: str = "") -> None:
     accent = hex_rgb(cfg.get("colour", "#c0392b"))
+    _reserve(cfg)
     frames = max(1, round(seconds * fps))
     ff = subprocess.Popen(
         ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{W}x{H}",
