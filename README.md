@@ -125,6 +125,19 @@ On the repo's main page, click **Watch** (or **Unwatch**; top right, next to For
 
 Finished plans move to `plans/done/`. If a video fails, its plan stays in `plans/` and you can retry it with **Actions → Render videos from plans → Run workflow**.
 
+## Fixing pronunciations
+
+If the narrator says a word wrongly, add it to **`pronunciations.yaml`** in the repo (click it, then the pencil ✏️):
+
+```yaml
+ISA: "eye-sa"
+Pepys: "Peeps"
+```
+
+The left side is the word as written in the script; the right side is how to say it, spelt out with hyphens between syllables. Upper and lower case must match, and plurals need their own line (`ISAs: "eye-sas"`). Commit, and every video rendered after that uses it. Captions and the script still show the normal spelling.
+
+Words for one channel only can go in that channel's file in `channels` under `pronunciations:`, and Claude can add unusual names for a single video to the plan itself. Videos already made aren't changed; to fix one, move its plan from `plans/done/` back into `plans/` to render it again.
+
 ## Short clips for Shorts, Reels, TikTok, Facebook and Snapchat
 
 Every video also comes with **3 vertical clips** (1080×1920, under 60 seconds) in the download's `clips` folder. Each clip is a run of whole scenes, so it starts and ends on a complete thought. It has a hook title at the top, the video in the middle, big captions underneath (most people watch shorts with the sound off) and your channel name at the bottom.
@@ -180,6 +193,7 @@ YouTube judges the whole channel, and it penalises channels that look mass-produ
 
 ## What's in the folder
 - `config.yaml`: shared settings, plus the history channel's name and voice
+- `pronunciations.yaml`: how the narrator should say tricky words
 - `channels/`: one file per channel (name, voice, colour, disclaimer, publish times)
 - `pipeline/graphics.py`: the animated cards and charts
 - `pipeline/clips.py`: the vertical short clips

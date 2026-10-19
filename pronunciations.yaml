@@ -1,0 +1,21 @@
+# How the narrator should say tricky words. Left: the word as written in the script.
+# Right: how to say it, spelt out. Captions and the script still show the left-hand spelling.
+# Rules: whole words only, upper/lower case must match, put plurals in separately.
+# Use hyphens between syllables, e.g. "eye-sa". Add a line, commit, and the next render uses it.
+
+# Finance
+ISA: "eye-sa"
+ISAs: "eye-sas"
+ISA's: "eye-sas"
+LISA: "lee-sa"
+"NS&I": "N-S-and-I"
+IFISA: "eye-eff-eye-sa"
+
+# History
+Pepys: "Peeps"
+Giustiniani: "Joo-stee-nee-ah-nee"
+Palaiologos: "Pal-eye-ol-oh-goss"
+Rumelihisarı: "Roo-meh-lee-hee-sar-uh"
+Kerkoporta: "Ker-ko-por-ta"
+Ariminum: "Ah-rim-in-um"
+Suetonius: "Swee-toh-nee-us"
