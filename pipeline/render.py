@@ -2,6 +2,7 @@
 chapter titles, narration and music."""
 from __future__ import annotations
 
+import math
 import re
 from pathlib import Path
 
@@ -21,6 +22,14 @@ MOVES = [
     ("1.10", "(iw-iw/zoom)*on/{F}", "ih/2-ih/zoom/2"),                 # pan left to right
     ("1.10", "(iw-iw/zoom)*(1-on/{F})", "ih/2-ih/zoom/2"),             # pan right to left
     ("1+0.08*on/{F}", "iw/2-iw/zoom/2", "(ih-ih/zoom)*0.35"),          # zoom in, upper third
+]
+# Close-ups used when one picture stays up longer than max_shot_seconds: each piece frames a
+# different part of the picture, so it reads as a new shot.
+DETAIL_MOVES = [
+    ("1.45+0.06*on/{F}", "(iw-iw/zoom)*0.18", "(ih-ih/zoom)*0.30"),     # close on the left
+    ("1.45+0.06*on/{F}", "(iw-iw/zoom)*0.82", "(ih-ih/zoom)*0.40"),     # close on the right
+    ("1.6", "(iw-iw/zoom)*(0.30+0.40*on/{F})", "(ih-ih/zoom)*0.55"),     # slow pan across, close
+    ("1.35+0.08*on/{F}", "(iw-iw/zoom)*0.5", "(ih-ih/zoom)*0.20"),      # close on the top centre
 ]
 
 
@@ -53,9 +62,10 @@ def _textfile(path: Path, text: str) -> str:
 
 
 def _segment(img: Path, seconds: float, move: int, out: Path, tmp: Path,
-             caption: str = "", chapter: str = "", caption_top: bool = False) -> None:
+             caption: str = "", chapter: str = "", caption_top: bool = False, detail: int = -1) -> None:
     frames = max(1, round(seconds * FPS))
-    z, x, y = (m.format(F=frames) for m in MOVES[move % len(MOVES)])
+    chosen = DETAIL_MOVES[detail % len(DETAIL_MOVES)] if detail >= 0 else MOVES[move % len(MOVES)]
+    z, x, y = (m.format(F=frames) for m in chosen)
     vf = [f"zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={W}x{H}:fps={FPS}", "format=yuv420p"]
     bold, regular = font_path(True), font_path(False)
     if caption:
@@ -175,9 +185,15 @@ def render(cfg: dict, script: dict, work: Path) -> Path:
             prepped = prep_dir / (Path(shot["path"]).stem + ".jpg")
             if not prepped.exists():
                 _prep_image(Path(shot["path"]), prepped)
-            _segment(prepped, per, move, seg, segs_dir, shot.get("caption", ""), chap,
-                     caption_top=burn_captions(cfg))
-            segments.append(seg)
+            # long shots are split into several framings so the picture changes every few seconds
+            limit = float(cfg.get("max_shot_seconds", 6) or 0)
+            pieces = max(1, math.ceil(per / limit - 0.15)) if limit else 1
+            for j in range(pieces):
+                piece = seg if pieces == 1 else segs_dir / f"seg_{si:03d}_{k}_{j}.mp4"
+                _segment(prepped, per / pieces, move, piece, segs_dir, shot.get("caption", ""),
+                         chap if j == 0 else "", caption_top=burn_captions(cfg),
+                         detail=-1 if j == 0 else (move + j))
+                segments.append(piece)
             move += 1
         t += scene["duration"]
         log(f"Rendered scene {si + 1}/{len(script['scenes'])}")

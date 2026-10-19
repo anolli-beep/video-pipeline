@@ -242,7 +242,7 @@ def resolve_plan_images(cfg: dict, script: dict, out_dir: Path) -> dict:
     for si, scene in enumerate(script["scenes"]):
         shots = []
         for qi, want in enumerate(scene.get("shots", [])):
-            if "card" in want or "chart" in want:          # drawn by pipeline/graphics.py
+            if "card" in want or "chart" in want or "stick" in want:   # drawn by pipeline/graphics.py
                 shots.append({"graphic": want})
                 continue
             requested += 1

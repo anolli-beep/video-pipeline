@@ -32,6 +32,7 @@ MUTED = (0.42, 0.40, 0.36)
 RULE = (0.84, 0.80, 0.70)
 SANS, SERIF = "Instrument Sans", "Young Serif"
 RESERVE = 0          # px kept clear at the bottom for burned-in captions (set per video)
+OUTFIT = "scarf"     # stick-figure outfit for this channel: cape, tie or scarf
 
 
 # ------------------------------------------------------------------ fonts ----
@@ -330,6 +331,10 @@ def _chapter_box(cr, chapter, t, accent):
 
 def draw(cr, shot: dict, t: float, accent) -> float:
     """Draw one frame at time t; returns when the build-in animation is finished."""
+    if "stick" in shot:                        # animated stick-figure scene (moves the whole time)
+        from . import sticks
+        sticks.scene(cr, shot["stick"], t, accent, OUTFIT)
+        return 99.0
     _frame_base(cr, accent)
     if "chart" in shot:
         return _chart(cr, shot["chart"], t, accent)
@@ -339,8 +344,9 @@ def draw(cr, shot: dict, t: float, accent) -> float:
 
 # ---------------------------------------------------------------- output ----
 def _reserve(cfg: dict) -> None:
-    global RESERVE
+    global RESERVE, OUTFIT
     RESERVE = 130 if cfg.get("burn_captions", True) else 0
+    OUTFIT = cfg.get("figure_outfit") or {"history": "cape", "finance": "tie"}.get(cfg.get("channel"), "scarf")
 
 
 def still(shot: dict, cfg: dict, path: Path) -> Path:
@@ -384,8 +390,27 @@ def segment(shot: dict, cfg: dict, seconds: float, fps: int, out: Path, chapter:
         raise RuntimeError(f"ffmpeg failed on a graphic: {ff.stderr.read().decode()[-800:]}")
 
 
+STICK_SCENES = ("walk", "march", "think", "worried", "celebrate", "point", "shrug", "cross_river",
+                "deposit", "coins_jar", "crowd_shocked", "dig", "read", "talk", "ship", "lifeboat", "radio")
+
+
 def check(shot: dict) -> str | None:
     """Return a problem with a graphic shot, or None if it looks fine (used to validate plans)."""
+    if "stick" in shot:
+        from .sticks import PRESETS
+        st = shot["stick"]
+        sc = st.get("scene")
+        if sc not in STICK_SCENES:
+            return f"unknown stick scene '{sc}' (use one of: {', '.join(STICK_SCENES)})"
+        names = []
+        for key in ("who", "other", "others"):
+            v = st.get(key)
+            for item in (v if isinstance(v, list) else [v]):
+                name = item.get("preset") if isinstance(item, dict) else item
+                if name:
+                    names.append(name)
+        bad = [n for n in names if n not in PRESETS]
+        return f"unknown character '{bad[0]}' (use one of: {', '.join(PRESETS)})" if bad else None
     if "chart" in shot:
         c = shot["chart"]
         if c.get("type", "bar") not in ("bar", "line"):

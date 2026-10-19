@@ -62,6 +62,36 @@ A shot can also be an animated card or chart, drawn in the channel's colour:
   photo is used, or the first card if the video has no photos.
 - Every plan is checked before anything is spent (`python main.py check plans/x.json`).
 
+## Stick-figure scenes (all channels)
+
+A shot can also be a short animated stick-figure scene in the channel's flat style:
+
+```json
+{"stick": {"scene": "point", "label": "11.40pm, 14 April 1912", "who": {"preset": "lookout", "name": "Frederick Fleet"}, "bubble": "!"}}
+{"stick": {"scene": "talk", "who": "captain", "other": {"preset": "gentleman", "hat": "none", "name": "Thomas Andrews"}, "bubbles": ["?", "!"]}}
+{"stick": {"scene": "ship", "label": "11.40pm", "night": true, "iceberg": true}}
+{"stick": {"scene": "deposit", "box": "ISA", "pop": "+ tax-free"}}
+```
+
+- Scenes: walk, march, think, worried, celebrate, point, shrug, cross_river, deposit, coins_jar,
+  crowd_shocked, dig, read, talk, ship, lifeboat, radio.
+- `label`: short heading at the top. `bubble` / `bubbles`: text in speech bubbles. `others`: a list of
+  characters for crowds, marches and lifeboats. `ship` also takes `night`, `iceberg` and `funnels`;
+  `lifeboat` takes `night`, `count` and `face`; `radio` shows its `bubble` as the message sent.
+- `who` (and `other`): a ready-made character, or one with changes, e.g.
+  `{"preset": "king", "colour": "#24457a", "facial": "beard", "name": "Henry VIII"}`. Leave `who` out to
+  show the channel's own guide character. Crowd members get small random differences so none are identical.
+- Characters: roman_general, roman_soldier, senator, emperor, king, queen, sultan, knight, monk, baker,
+  diarist, merchant, sailor, worker, saver, student, parent, retiree, banker, official, captain, officer,
+  lookout, wireless_op, gentleman, lady, steward, child, soldier, pilot, scientist.
+- Look options: `hat` (none, laurel, crown, helmet, helmet_closed, turban, cap, tophat, tricorn, baker,
+  peaked, widehat, headphones, tin_helmet, flying_cap), `hair` (short, long, long_curly, curly, bun,
+  tonsure, bald, none), `hair_colour`, `facial` (beard, moustache), `glasses`, `outfit` (cape, robe,
+  toga, tabard, tie, apron, scarf, jacket, coat, dress), `build` (slim, normal, stout), `height`,
+  `colour`, `shield`, `name`.
+- Pictures that stay up longer than `max_shot_seconds` (6 by default) are split into close-ups, so
+  the screen changes about every 5 seconds even when a scene has few shots.
+
 ## Short clips (optional)
 
 ```json
@@ -72,3 +102,11 @@ A shot can also be an animated card or chart, drawn in the channel's colour:
 - `scenes`: first and last scene numbers (counting from 1). Keep each clip around 45-55 seconds
   of narration (about 110-135 words). If it runs over 59 seconds, scenes are dropped from the end.
 - Without `clips`, up to 3 are picked from the chapter openings.
+
+## Pronunciations (optional)
+
+```json
+"pronunciations": {"Rumelihisarı": "Roo-meh-lee-hee-sar-uh"}
+```
+
+Respellings for this video only, on top of `pronunciations.yaml`. Captions keep the normal spelling.

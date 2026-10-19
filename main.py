@@ -195,7 +195,7 @@ def check_plan(plan_path: str) -> dict:
         if not scene.get("shots"):
             problems.append(f"scene {i} has no shots")
         for shot in scene.get("shots", []):
-            if "card" in shot or "chart" in shot:
+            if "card" in shot or "chart" in shot or "stick" in shot:
                 p = graphics.check(shot)
                 if p:
                     problems.append(f"scene {i}: {p}")

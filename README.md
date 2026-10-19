@@ -138,6 +138,12 @@ The left side is the word as written in the script; the right side is how to say
 
 Words for one channel only can go in that channel's file in `channels` under `pronunciations:`, and Claude can add unusual names for a single video to the plan itself. Videos already made aren't changed; to fix one, move its plan from `plans/done/` back into `plans/` to render it again.
 
+## Stick figures and picture changes
+
+Plans can include short stick-figure scenes (a lookout pointing, a ship hitting an iceberg, someone dropping a coin into an ISA box). Each character has its own look, so Caesar, a captain or a saver are recognisable from scene to scene. See `plans/README.md` for the list.
+
+Pictures change about every 5 seconds: a long shot is split into close-ups of the same picture. To change the timing, add a line to `config.yaml`, for example `max_shot_seconds: 5` (use `0` to switch it off).
+
 ## Short clips for Shorts, Reels, TikTok, Facebook and Snapchat
 
 Every video also comes with **3 vertical clips** (1080×1920, under 60 seconds) in the download's `clips` folder. Each clip is a run of whole scenes, so it starts and ends on a complete thought. It has a hook title at the top, the video in the middle, big captions underneath (most people watch shorts with the sound off) and your channel name at the bottom.
@@ -196,6 +202,7 @@ YouTube judges the whole channel, and it penalises channels that look mass-produ
 - `pronunciations.yaml`: how the narrator should say tricky words
 - `channels/`: one file per channel (name, voice, colour, disclaimer, publish times)
 - `pipeline/graphics.py`: the animated cards and charts
+- `pipeline/sticks.py`: the stick-figure characters and scenes
 - `pipeline/clips.py`: the vertical short clips
 - `assets/fonts/`: the fonts used on cards, charts and thumbnails (free, OFL licence)
 - `pipeline/images.py`: image search and checks
