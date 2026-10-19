@@ -1,0 +1,933 @@
+{
+ "channel": "history",
+ "title": "Titanic: The Final 2 Hours and 40 Minutes",
+ "alt_titles": [
+  "How the Titanic Really Sank, Minute by Minute",
+  "Titanic: The Night the Unsinkable Ship Went Down",
+  "The Titanic Disaster: Warnings, Lifeboats and the Ship That Didn't Come"
+ ],
+ "thumbnail_text": "2 HOURS 40 MINUTES",
+ "thumbnail_file": "Stöwer Titanic.jpg",
+ "description_summary": "Just before midnight on 14 April 1912, the largest ship afloat struck an iceberg in the North Atlantic. This is the story of the two hours and forty minutes that followed: the ignored warnings, the half-empty lifeboats, the ship that saw the rockets, the rescue, and how the disaster changed safety at sea.",
+ "tags": [
+  "titanic",
+  "titanic sinking",
+  "rms titanic",
+  "titanic documentary",
+  "titanic 1912",
+  "titanic history",
+  "titanic lifeboats",
+  "carpathia",
+  "ss californian",
+  "titanic wreck",
+  "history documentary",
+  "maritime disasters",
+  "white star line",
+  "modern history"
+ ],
+ "lane": "Mysteries & disasters",
+ "publish_at": "2026-10-20T16:00:00+01:00",
+ "pronunciations": {
+  "Cherbourg": "Shair-boorg",
+  "Carpathia": "Car-pay-thee-uh",
+  "Carpathia's": "Car-pay-thee-uhs",
+  "Ismay": "Iz-may"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Sinking of the Titanic",
+   "url": "https://en.wikipedia.org/wiki/Sinking_of_the_Titanic"
+  },
+  {
+   "title": "Wikipedia: Titanic",
+   "url": "https://en.wikipedia.org/wiki/Titanic"
+  },
+  {
+   "title": "Britannica: Titanic",
+   "url": "https://www.britannica.com/topic/Titanic"
+  },
+  {
+   "title": "History.com: How long did it take the Titanic to sink?",
+   "url": "https://www.history.com/articles/how-long-titanic-took-to-sink-hours"
+  },
+  {
+   "title": "British Wreck Commissioner's Inquiry: numbers saved",
+   "url": "https://www.titanicinquiry.org/BOTInq/BOTReport/botRepSaved.php"
+  },
+  {
+   "title": "Wikipedia: RMS Carpathia",
+   "url": "https://en.wikipedia.org/wiki/RMS_Carpathia"
+  },
+  {
+   "title": "Wikipedia: Titanic Lifeboat No. 14",
+   "url": "https://en.wikipedia.org/wiki/Titanic_Lifeboat_No._14"
+  },
+  {
+   "title": "Wikipedia: Wreck of the Titanic",
+   "url": "https://en.wikipedia.org/wiki/Wreck_of_the_Titanic"
+  },
+  {
+   "title": "Wikipedia: Changes in safety practices after the sinking of the Titanic",
+   "url": "https://en.wikipedia.org/wiki/Changes_in_safety_practices_after_the_sinking_of_the_Titanic"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Exact numbers aboard, lost and saved",
+   "reason": "Sources range from about 2,200 to 2,240 aboard and 1,490 to 1,635 dead. The script uses rounded figures."
+  },
+  {
+   "claim": "The Californian's distance and Captain Lord's understanding",
+   "reason": "Disputed since 1912. The script calls it debated."
+  },
+  {
+   "claim": "The band's last tune",
+   "reason": "Survivor accounts conflict. The script says so."
+  },
+  {
+   "claim": "Andrews' time estimate",
+   "reason": "Reported second-hand; the script hedges with 'perhaps an hour or two'."
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "Titanic's last 2 hours 40 minutes",
+   "caption": "11.40pm, 14 April 1912: the lookout rings the bridge.",
+   "hashtags": [
+    "titanic",
+    "history",
+    "1912",
+    "shipwreck"
+   ]
+  },
+  {
+   "scenes": [
+    24,
+    25
+   ],
+   "hook": "Who survived the Titanic, by class",
+   "caption": "Survival on the Titanic depended heavily on which ticket you held.",
+   "hashtags": [
+    "titanic",
+    "history",
+    "1912",
+    "carpathia"
+   ]
+  },
+  {
+   "scenes": [
+    29,
+    30
+   ],
+   "hook": "What the Titanic wreck proved in 1985",
+   "caption": "The 1912 inquiries doubted the survivors. The wreck proved them right.",
+   "hashtags": [
+    "titanic",
+    "titanicwreck",
+    "history",
+    "ocean"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "At twenty to midnight on Sunday the fourteenth of April, 1912, lookout Frederick Fleet saw a dark shape ahead in the North Atlantic. He rang three warning bells and telephoned the bridge of the Titanic, the largest ship afloat. His message was simple. Iceberg, right ahead. Less than a minute later, the ship struck it.",
+   "shots": [
+    {
+     "file": "File:Frederick Fleet Titanic.jpg",
+     "query": "Frederick Fleet lookout Titanic",
+     "caption": "Frederick Fleet, the lookout who saw the iceberg"
+    },
+    {
+     "file": "File:Titanic iceberg.jpg",
+     "query": "iceberg Titanic 1912 photograph",
+     "caption": "An iceberg photographed near the site in April 1912"
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "11.40pm, 14 April 1912",
+      "who": {
+       "preset": "lookout",
+       "name": "Frederick Fleet"
+      },
+      "bubble": "!"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Two hours and forty minutes later, Titanic was gone. More than fifteen hundred people died, most of them in water just below freezing. About seven hundred survived, the majority of them women and children. They escaped in lifeboats that had been lowered with hundreds of seats left empty. Help was on its way, but it was hours too far away.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "2h 40m",
+      "label": "From collision to sinking",
+      "note": "14 to 15 April 1912"
+     }
+    },
+    {
+     "stick": {
+      "scene": "lifeboat",
+      "label": "About 700 survived",
+      "night": true,
+      "count": 5
+     }
+    },
+    {
+     "file": "File:Photograph of a Lifeboat Carrying Titanic Survivors - NARA - 278337.jpg",
+     "query": "lifeboat Titanic survivors 1912",
+     "caption": "A lifeboat carrying Titanic survivors, 15 April 1912"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of those two hours and forty minutes. It begins with the warnings that went unheeded. It includes a ship close enough to see Titanic's rockets, and a rescue that came too late for most. And it ends with how the disaster changed safety at sea for good.",
+   "shots": [
+    {
+     "file": "File:TitanicRoute.svg",
+     "query": "Titanic route map 1912",
+     "caption": "Titanic's planned route, and where she sank"
+    },
+    {
+     "file": "File:Californian.jpg",
+     "query": "SS Californian ship 1912",
+     "caption": "The SS Californian"
+    },
+    {
+     "file": "File:Color postcard of R. M. S Carpathia, ca. 1912.jpg",
+     "query": "RMS Carpathia postcard",
+     "caption": "The Carpathia, on a postcard from around 1912"
+    }
+   ]
+  },
+  {
+   "chapter": "The largest ship afloat",
+   "narration": "Titanic was built at the Harland and Wolff shipyard in Belfast for the White Star Line. She was launched in May 1911, beside her near identical sister ship, Olympic. At almost eight hundred and eighty three feet long, she was the largest ship in the world when she entered service.",
+   "shots": [
+    {
+     "file": "File:Arrol Gantry with Liners Olympic & Titanic in Construction.jpg",
+     "query": "Olympic and Titanic under construction Belfast",
+     "caption": "Olympic and Titanic under construction in Belfast"
+    },
+    {
+     "file": "File:RMS Titanic ready for launch, 1911.jpg",
+     "query": "Titanic ready for launch 1911",
+     "caption": "Titanic ready for launch, Belfast, May 1911"
+    },
+    {
+     "file": "File:Olympic and Titanic.jpg",
+     "query": "Olympic and Titanic Belfast 1911",
+     "caption": "Titanic and her sister ship Olympic in Belfast"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "She was built for comfort as much as speed. First class passengers had a grand staircase, a gymnasium, a swimming pool and Turkish baths. The best suites cost a fortune. In 1911, the trade journal The Shipbuilder described the new White Star liners as practically unsinkable.",
+   "shots": [
+    {
+     "file": "File:Drawing of the Grand Staircase onboard the RMS Titanic from the 1912 promotional booklet.jpg",
+     "query": "Titanic grand staircase 1912 drawing",
+     "caption": "The Grand Staircase, from a 1912 promotional booklet"
+    },
+    {
+     "file": "File:RMS Titanic Ad April 10, 1912.jpg",
+     "query": "White Star Line Titanic advertisement 1912",
+     "caption": "A White Star Line advertisement, April 1912"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The Shipbuilder, 1911",
+      "text": "\"Practically unsinkable\""
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Her hull was divided into sixteen compartments, separated by watertight bulkheads. She could stay afloat with up to four of the forward ones flooded. But she carried just twenty lifeboats, with room for 1,178 people. That was more than British rules demanded. Those rules had simply not kept pace with the size of new ships.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "1,178",
+      "label": "Lifeboat seats for about 2,200 people",
+      "note": "20 lifeboats aboard"
+     }
+    },
+    {
+     "file": "File:Thomas Andrews.jpg",
+     "query": "Thomas Andrews Harland and Wolff",
+     "caption": "Thomas Andrews of the Harland and Wolff shipyard"
+    },
+    {
+     "file": "File:Titanic starboard bow by Father Browne.jpg",
+     "query": "Titanic bow Father Browne photograph",
+     "caption": "Titanic's bow, photographed by Father Browne, April 1912"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On Wednesday the tenth of April 1912, Titanic left Southampton on her maiden voyage to New York. She called at Cherbourg in France that evening, and at Queenstown in Ireland the next day. Then she turned west into the open Atlantic, with about 2,200 passengers and crew on board.",
+   "shots": [
+    {
+     "file": "File:1912 Titanic Departure.jpg",
+     "query": "Titanic leaving Southampton 1912",
+     "caption": "Titanic leaves Southampton, 10 April 1912"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "Southampton, 10 April 1912"
+     }
+    },
+    {
+     "file": "File:Titanic last Photo (cropped).jpg",
+     "query": "last photograph of Titanic Queenstown",
+     "caption": "One of the last photos of Titanic, off Ireland, 11 April 1912"
+    },
+    {
+     "file": "File:RMS Titanic 3.jpg",
+     "query": "RMS Titanic April 1912 photograph",
+     "caption": "Titanic at the start of her maiden voyage, April 1912"
+    }
+   ]
+  },
+  {
+   "chapter": "The warnings",
+   "narration": "Sunday the fourteenth of April began quietly. But through the day, Titanic's wireless operators received a series of messages from other ships. Six of them warned of ice ahead. Some were passed to Captain Edward Smith, a veteran with decades at sea. Others never reached the bridge at all.",
+   "shots": [
+    {
+     "file": "File:Edward J. Smith.jpg",
+     "query": "Captain Edward Smith Titanic",
+     "caption": "Captain Edward Smith"
+    },
+    {
+     "file": "File:Marconi radio room aboard the 'Olympic'.jpg",
+     "query": "Olympic Marconi wireless room",
+     "caption": "The wireless room of Titanic's sister ship, Olympic"
+    },
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "Six ice warnings",
+      "who": {
+       "preset": "wireless_op",
+       "name": "Jack Phillips"
+      },
+      "bubble": "ICE AHEAD"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Ice warnings, 14 April",
+      "items": [
+       "Caronia, morning",
+       "Noordam, via Caronia",
+       "Amerika and Athenia",
+       "Californian, evening",
+       "Mesaba, before 10pm"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The two wireless operators, Jack Phillips and Harold Bride, worked for the Marconi company, not the White Star Line. Their main job was sending passengers' private messages. That evening they were busy with a backlog of them, relayed through a station at Cape Race in Newfoundland.",
+   "shots": [
+    {
+     "file": "File:PhillipsTitanic.jph.jpg",
+     "query": "Jack Phillips Titanic wireless operator",
+     "caption": "Jack Phillips, Titanic's senior wireless operator"
+    },
+    {
+     "query": "Cape Race wireless station Newfoundland 1912",
+     "caption": "The wireless station at Cape Race, Newfoundland"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The night was clear, calm and moonless. With no swell, there were no waves breaking white around the base of an iceberg to give it away. Titanic kept up a speed of about twenty two knots. High in the crow's nest, Fleet and fellow lookout Reginald Lee had no binoculars.",
+   "shots": [
+    {
+     "file": "File:Possible Titanic iceberg from SS Birma.jpg",
+     "query": "iceberg photographed from SS Birma 1912",
+     "caption": "An iceberg seen from the ship Birma near the site, 1912"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "A calm, moonless night",
+      "night": true
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "22 knots",
+      "label": "Titanic's speed at the time of the collision",
+      "note": "About 25 mph"
+     }
+    },
+    {
+     "file": "File:Captain Smith and the officers of the RMS Titanic in 1912.jpg",
+     "query": "Titanic officers 1912 photograph",
+     "caption": "Captain Smith with ship's officers, 1912"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Not far away, a smaller ship called the Californian had stopped for the night, surrounded by ice. Its wireless operator, Cyril Evans, had tried to warn Titanic about the ice earlier that evening. At half past eleven, with no orders to stay on duty, he switched off his set and went to bed.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "11.30pm: the Californian's radio goes off",
+      "who": {
+       "preset": "wireless_op",
+       "name": "Cyril Evans"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "11.30pm",
+      "text": "The Californian's wireless goes silent"
+     }
+    },
+    {
+     "file": "File:1912 Titanic vicinity EN.svg",
+     "query": "map of ships near Titanic 1912",
+     "caption": "Ships in the area on the night of the sinking"
+    }
+   ]
+  },
+  {
+   "chapter": "Twenty to midnight",
+   "narration": "Ten minutes later, Fleet saw the iceberg. On the bridge, First Officer William Murdoch ordered the ship turned hard and the engines reversed. Titanic began to swing, but too slowly. The iceberg scraped along her starboard side below the waterline, buckling plates and popping rivets.",
+   "shots": [
+    {
+     "query": "William Murdoch Titanic first officer portrait",
+     "caption": "First Officer William Murdoch"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "11.40pm",
+      "night": true,
+      "iceberg": true
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "11.40pm",
+      "label": "Titanic strikes the iceberg",
+      "note": "Ship's time, 14 April 1912"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Many passengers felt only a slight shudder and a grinding noise. Some went back to bed. On the forward deck, a few people even played with chunks of ice that had fallen onto the ship. Below, sea water was already pouring into the forward compartments.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Just a slight shudder?",
+      "who": "gentleman"
+     }
+    },
+    {
+     "query": "Titanic promenade deck 1912 photograph",
+     "caption": "Titanic's promenade deck"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Captain Smith inspected the damage with Thomas Andrews, the shipyard's chief naval architect, who was on board for the maiden voyage. Six compartments were open to the sea. That was more than the ship could survive. Andrews told the captain that Titanic would sink, perhaps within an hour or two.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Six compartments flooded",
+      "who": {
+       "preset": "captain",
+       "name": "Captain Smith"
+      },
+      "other": {
+       "preset": "gentleman",
+       "hat": "none",
+       "name": "Thomas Andrews"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Designed to survive",
+       "items": [
+        "Up to four forward",
+        "compartments flooded"
+       ]
+      },
+      "right": {
+       "title": "What happened",
+       "items": [
+        "Six compartments",
+        "open to the sea"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Into the lifeboats",
+   "narration": "Just after midnight, Smith ordered the lifeboats uncovered and distress calls sent. Phillips and Bride tapped out the old distress code, CQD, and later the newer signal, SOS. Several ships heard them. The nearest to respond was the Cunard liner Carpathia, fifty eight miles away.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "Just after midnight",
+      "who": {
+       "preset": "wireless_op",
+       "name": "Jack Phillips"
+      },
+      "bubble": "CQD  SOS"
+     }
+    },
+    {
+     "query": "Harold Bride Titanic wireless operator portrait",
+     "caption": "Harold Bride, Titanic's junior wireless operator"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "58 miles",
+      "label": "Carpathia's distance from Titanic",
+      "note": "Around four hours away"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The Carpathia's captain, Arthur Rostron, turned his ship around at once. He cut the heating and hot water so that every ounce of steam went to the engines. He posted extra lookouts for ice, and had doctors, blankets and ladders made ready for survivors.",
+   "shots": [
+    {
+     "file": "File:Captain arthur henry rostron of carpathia.jpg",
+     "query": "Captain Arthur Rostron Carpathia",
+     "caption": "Captain Arthur Rostron of the Carpathia"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "The Carpathia turns back",
+      "funnels": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On Titanic, the first lifeboat, number seven, was lowered at about quarter to one. It could hold sixty five people. It left with about twenty eight. At first, many passengers did not believe the great ship was in danger. A cold lifeboat on a dark ocean seemed the greater risk.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "28 of 65",
+      "label": "People in the first lifeboat lowered",
+      "note": "Lifeboat 7, about 12.45am"
+     }
+    },
+    {
+     "stick": {
+      "scene": "lifeboat",
+      "label": "Lifeboat 7",
+      "night": true,
+      "count": 3,
+      "face": "calm"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The officers followed the rule of women and children first. On one side of the ship, men were sometimes allowed in when no women were waiting. On the other side, they were mostly kept out. From around twenty past one, the crew fired white distress rockets into the night sky.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Women and children first",
+      "others": [
+       "lady",
+       "child",
+       "gentleman",
+       "lady",
+       "worker"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "From about 1.20am",
+      "text": "Eight distress rockets are fired"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the Californian, officers on watch saw a large ship to the south, and then white rockets above her. They reported them to Captain Stanley Lord. No one woke the wireless operator, and the Californian stayed where she was. How far away she really was, and what Lord understood, is still argued over today.",
+   "shots": [
+    {
+     "query": "Captain Stanley Lord Californian",
+     "caption": "Captain Stanley Lord of the Californian"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "What did Captain Lord understand?",
+      "who": {
+       "preset": "captain",
+       "facial": "moustache",
+       "hair_colour": "#3d2c20",
+       "name": "Stanley Lord"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Still debated",
+      "text": "How close was the Californian?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The final minutes",
+   "narration": "As the bow sank deeper, the loading grew more desperate. White Star chairman Bruce Ismay stepped into a collapsible boat at about twenty to two. He survived, and was condemned for it for the rest of his life. The last boat to be lowered left at five past two.",
+   "shots": [
+    {
+     "file": "File:J. Bruce Ismay, White Star Line Manager.jpg",
+     "query": "J. Bruce Ismay portrait",
+     "caption": "J. Bruce Ismay, chairman of the White Star Line"
+    },
+    {
+     "file": "File:Titanic lifeboat.jpg",
+     "query": "Titanic collapsible lifeboat D photograph",
+     "caption": "Titanic's last lifeboat, photographed from the Carpathia"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2.05am",
+      "label": "The last lifeboat is lowered",
+      "note": "Collapsible D, about 25 aboard"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The ship's band played on deck to keep the passengers calm. It is often said that their last tune was the hymn Nearer, My God, to Thee. Survivors disagreed, and some remembered ragtime instead. No one knows for certain what was played at the end. None of the musicians survived.",
+   "shots": [
+    {
+     "query": "Titanic band Wallace Hartley musicians",
+     "caption": "Bandleader Wallace Hartley and the ship's musicians"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "The band's last tune",
+      "text": "A hymn, or ragtime? Survivors disagreed"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At around quarter past two, the bow plunged under and the stern rose high into the air. The lights flickered and went out. Then the hull tore apart between the funnels. At twenty past two in the morning, Titanic disappeared beneath the Atlantic.",
+   "shots": [
+    {
+     "file": "File:Stöwer Titanic.jpg",
+     "query": "Willy Stöwer Untergang der Titanic",
+     "caption": "The sinking as imagined by Willy Stöwer, 1912"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2.20am",
+      "label": "Titanic sinks",
+      "note": "15 April 1912, ship's time"
+     }
+    },
+    {
+     "query": "Titanic breaking apart illustration",
+     "caption": "The final moments, as later illustrated"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "More than a thousand people were left in the water. It was about minus two degrees Celsius, and most died of the cold within minutes. Only a few boats went back. Fifth Officer Harold Lowe returned in lifeboat fourteen and pulled four people from the sea. One of them later died.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "-2°C",
+      "label": "The temperature of the sea",
+      "note": "28°F"
+     }
+    },
+    {
+     "query": "Harold Lowe Titanic fifth officer portrait",
+     "caption": "Fifth Officer Harold Lowe"
+    }
+   ]
+  },
+  {
+   "chapter": "Rescue",
+   "narration": "The Carpathia arrived at about four in the morning, an hour and a half after Titanic sank. As dawn broke, her crew could see icebergs all around them, and lifeboats scattered across miles of sea. Over the next four and a half hours, they took the survivors aboard. In total, about seven hundred and ten people were saved.",
+   "shots": [
+    {
+     "file": "File:Carpathia - Titanic lifeboats.jpg",
+     "query": "Titanic lifeboats Carpathia New York",
+     "caption": "Titanic's lifeboats, brought to New York by the Carpathia"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "About 4am: the Carpathia arrives",
+      "funnels": 1
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Who survived depended heavily on class. According to the British inquiry, around sixty two per cent of first class passengers were saved. In third class it was only about one in four, and among the crew slightly fewer. Nearly three quarters of the women on board survived, but only about one man in five.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Share of people saved, by class",
+      "labels": [
+       "First class",
+       "Second class",
+       "Third class",
+       "Crew"
+      ],
+      "values": [
+       62,
+       41,
+       25,
+       24
+      ],
+      "suffix": "%",
+      "source": "British Wreck Commissioner's Inquiry, 1912",
+      "highlight": 2
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Women",
+       "items": [
+        "About 74% saved"
+       ]
+      },
+      "right": {
+       "title": "Men",
+       "items": [
+        "About 20% saved"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The Carpathia reached New York on the evening of Thursday the eighteenth of April, in heavy rain. Huge crowds were waiting at the pier. By then, newspapers around the world had carried the news. Harold Bride, his feet badly injured, had to be carried ashore.",
+   "shots": [
+    {
+     "file": "File:19120415 New Liner Titanic Hits an Iceberg - The New York Times.png",
+     "query": "New York Times 15 April 1912 Titanic",
+     "caption": "The New York Times, 15 April 1912"
+    },
+    {
+     "file": "File:Titanic newspaper boy.jpg",
+     "query": "Ned Parfett newsboy Titanic London",
+     "caption": "A London newspaper seller with news of the disaster"
+    },
+    {
+     "file": "File:Harold Bride, surviving wireless operator of the TITANIC, with feet bandaged, being carried up ramp of ship LCCN2002714434.jpg",
+     "query": "Harold Bride carried ashore New York",
+     "caption": "Harold Bride, injured, is carried ashore in New York"
+    }
+   ]
+  },
+  {
+   "chapter": "What changed",
+   "narration": "Inquiries were held in both the United States and Britain. They found that Titanic had been going too fast for the ice conditions. They also found that the lifeboat rules were badly out of date. The Californian's captain was heavily criticised for failing to respond to the rockets.",
+   "shots": [
+    {
+     "file": "File:US Senate Titanic inquiry.jpg",
+     "query": "US Senate Titanic inquiry 1912",
+     "caption": "The United States Senate inquiry, 1912"
+    },
+    {
+     "file": "File:J. Bruce Ismay being questioned by Senate Investigating Committee.jpg",
+     "query": "Ismay Senate inquiry",
+     "caption": "Bruce Ismay questioned by the Senate inquiry"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The inquiries",
+      "who": {
+       "preset": "official",
+       "name": "Inquiry"
+      }
+     }
+    },
+    {
+     "query": "Lord Mersey British Wreck Commissioner Titanic inquiry",
+     "caption": "The British inquiry, led by Lord Mersey"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The changes that followed still shape safety at sea. In 1914, a new international convention required lifeboat places for everyone on board, and regular drills. Passenger ships had to keep a radio watch twenty four hours a day. An International Ice Patrol was set up to track icebergs in the North Atlantic.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "After Titanic",
+      "items": [
+       "Lifeboats for everyone aboard",
+       "Regular lifeboat drills",
+       "24-hour radio watch",
+       "International Ice Patrol"
+      ]
+     }
+    },
+    {
+     "query": "International Ice Patrol Coast Guard iceberg aircraft",
+     "caption": "The International Ice Patrol, set up in 1914"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1914",
+      "text": "The first Safety of Life at Sea convention"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The wreck",
+   "narration": "For seventy three years, the wreck lay undiscovered. Many expeditions searched for it and failed. Then, on the first of September 1985, a French and American team led by Jean-Louis Michel and Robert Ballard found it. It lay about three thousand eight hundred metres down, south of Newfoundland.",
+   "shots": [
+    {
+     "query": "Robert Ballard oceanographer portrait",
+     "caption": "Oceanographer Robert Ballard"
+    },
+    {
+     "file": "File:RMS Titanic wreck depth to scale.jpg",
+     "query": "Titanic wreck depth diagram",
+     "caption": "How deep the wreck lies, shown to scale"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "3,800 m",
+      "label": "Depth of the wreck",
+      "note": "Found 1 September 1985"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The wreck settled one of the oldest arguments about the sinking. Several survivors had said the ship broke in two, but the official inquiries had doubted them. On the seabed, the bow and stern lie about six hundred metres apart. The survivors had been right all along. Today, bacteria are slowly eating away at the steel, and the wreck is gradually collapsing.",
+   "shots": [
+    {
+     "file": "File:Titanic wreck bow.jpg",
+     "query": "Titanic wreck bow photograph",
+     "caption": "The bow of the wreck on the seabed"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "1912 inquiries",
+       "items": [
+        "Sank in one piece"
+       ]
+      },
+      "right": {
+       "title": "1985 discovery",
+       "items": [
+        "Broke in two",
+        "Pieces 600m apart"
+       ]
+      }
+     }
+    },
+    {
+     "query": "Titanic wreck stern section seabed",
+     "caption": "The stern section of the wreck"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Titanic was not sunk by a single mistake. Ice warnings, speed, missing binoculars, too few lifeboats and a silent radio all played a part. Every passenger ship since has sailed under rules written because of that night. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "file": "File:Titanic-New York Herald front page.jpeg",
+     "query": "New York Herald Titanic front page",
+     "caption": "The New York Herald reports the disaster"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Iceberg right ahead.",
+      "by": "Lookout Frederick Fleet, 14 April 1912"
+     }
+    }
+   ]
+  }
+ ]
+}
