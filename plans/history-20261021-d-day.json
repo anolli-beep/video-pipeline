@@ -1,0 +1,908 @@
+{
+ "channel": "history",
+ "title": "D-Day: From Midnight Gliders to the Beaches of Normandy",
+ "alt_titles": [
+  "D-Day Hour by Hour: How the Normandy Landings Unfolded",
+  "The D-Day Gamble: Weather, Deception and Five Beaches",
+  "D-Day: The 24 Hours That Opened the Western Front"
+ ],
+ "thumbnail_text": "D-DAY HOUR BY HOUR",
+ "thumbnail_file": "Into the Jaws of Death 23-0455M edit.jpg",
+ "description_summary": "Just after midnight on 6 June 1944, British gliders landed beside a canal bridge in Normandy. By nightfall, about 156,000 Allied troops were ashore. This is the story of D-Day: the plan, the deception, the weather gamble, and what happened on Utah, Omaha, Gold, Juno and Sword.",
+ "tags": [
+  "d-day",
+  "d day",
+  "normandy landings",
+  "operation overlord",
+  "omaha beach",
+  "pegasus bridge",
+  "eisenhower",
+  "ww2",
+  "world war 2",
+  "6 june 1944",
+  "juno beach",
+  "utah beach",
+  "history documentary",
+  "modern history"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-21T16:00:00+01:00",
+ "pronunciations": {
+  "Cotentin": "Koh-ton-tan",
+  "Orne": "Orn",
+  "Merville": "Mair-veel",
+  "Arromanches": "Arro-monsh",
+  "Carpiquet": "Kar-pee-kay",
+  "Pointe": "Pwant",
+  "Caen": "Kon"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Normandy landings",
+   "url": "https://en.wikipedia.org/wiki/Normandy_landings"
+  },
+  {
+   "title": "Britannica: Normandy Invasion",
+   "url": "https://www.britannica.com/event/Normandy-Invasion"
+  },
+  {
+   "title": "History.com: How many died on D-Day?",
+   "url": "https://www.history.com/articles/d-day-casualties-deaths-allies"
+  },
+  {
+   "title": "History.com: The weather forecast that saved D-Day",
+   "url": "https://www.history.com/articles/the-weather-forecast-that-saved-d-day"
+  },
+  {
+   "title": "PBS NewsHour: Key facts about D-Day",
+   "url": "https://www.pbs.org/newshour/world/here-are-some-key-facts-about-d-day-ahead-of-the-79th-anniversary-of-the-world-war-ii-invasion"
+  },
+  {
+   "title": "US National Archives (DocsTeach): 'In Case of Failure' message",
+   "url": "https://docsteach.org/documents/document/in-case-of-failure"
+  },
+  {
+   "title": "Wikipedia: Pegasus Bridge",
+   "url": "https://en.wikipedia.org/wiki/Pegasus_Bridge"
+  },
+  {
+   "title": "HistoryNet: Pegasus and Horsa Bridges",
+   "url": "https://historynet.com/hallowed-ground-pegasus-horsa-bridges-normandy-france/"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Juno advanced further inland than any other beach",
+   "reason": "Widely stated by Canadian and British sources; Wikipedia confirms troops reached sight of Carpiquet."
+  },
+  {
+   "claim": "Exact troop and casualty totals",
+   "reason": "Figures vary by source; the script uses rounded numbers and names the 4,414 source."
+  },
+  {
+   "claim": "Pointe du Hoc details",
+   "reason": "Single detailed source (Wikipedia); widely repeated by the US National Park and ABMC."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "At sixteen minutes past midnight on Tuesday the sixth of June 1944, a wooden glider crash-landed beside a canal bridge in Normandy. Inside were British soldiers led by Major John Howard. Howard's glider landed with a heavy jolt, yards from its target. More gliders landed close behind. Within about ten minutes, the bridge and a second one nearby were in British hands.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "glider",
+      "label": "00.16, 6 June 1944",
+      "phase": "land"
+     }
+    },
+    {
+     "stick": {
+      "scene": "glider",
+      "label": "The canal bridge, Normandy",
+      "phase": "assault",
+      "who": {
+       "preset": "british_soldier",
+       "facial": "moustache",
+       "name": "Major John Howard"
+      },
+      "others": [
+       "british_soldier"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "It was the first action of D-Day. Over the next few hours, thousands of paratroopers dropped behind the coast. Nearly seven thousand ships and landing craft crossed the English Channel. Thousands of Allied aircraft flew overhead. From dawn, about one hundred and fifty six thousand Allied troops would come ashore on five beaches.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "paradrop",
+      "label": "After midnight"
+     }
+    },
+    {
+     "stick": {
+      "scene": "fleet",
+      "label": "Dawn, the English Channel"
+     }
+    },
+    {
+     "file": "File:Map of the D-Day landings.svg",
+     "query": "D-Day landings map Normandy beaches",
+     "caption": "The five D-Day beaches and the airborne landing zones"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of D-Day: the plan, the gamble on the weather, and the long hours on the beaches. It was the largest seaborne invasion in history. And it came close to being postponed for weeks. Its outcome would decide whether the Allies could return to western Europe.",
+   "shots": [
+    {
+     "file": "File:Into the Jaws of Death 23-0455M edit.jpg",
+     "query": "Into the Jaws of Death Omaha Beach",
+     "caption": "Into the Jaws of Death: troops wade towards Omaha Beach"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "156,000",
+      "label": "Allied troops landed on 6 June 1944",
+      "note": "By sea and air"
+     }
+    },
+    {
+     "file": "File:To the beaches of normandy.jpg",
+     "query": "troops landing craft Normandy 1944",
+     "caption": "Troops crossing to the beaches of Normandy, June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": "The plan",
+   "narration": "By 1944, Nazi Germany had occupied France for four years. Britain, the United States and Canada planned to open a new front in western Europe. The operation was code-named Overlord. Its supreme commander was the American general Dwight D. Eisenhower. More than two million Allied personnel took part in the wider operation.",
+   "shots": [
+    {
+     "file": "File:EIS-1944.jpg",
+     "query": "Dwight Eisenhower 1944 portrait",
+     "caption": "General Dwight D. Eisenhower, 1944"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Operation Overlord",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "name": "Eisenhower"
+      }
+     }
+    },
+    {
+     "file": "File:D-day allied assault routes map.jpg",
+     "query": "D-Day Allied assault routes map",
+     "caption": "Allied assault routes across the Channel, US Army map"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Germany expected an invasion. Hitler had ordered a chain of coastal defences called the Atlantic Wall. The strongest fortifications guarded the major ports. Field Marshal Erwin Rommel strengthened the defences in Normandy. He added mines and beach obstacles, and stakes in open fields to wreck any gliders that tried to land.",
+   "shots": [
+    {
+     "file": "File:Beach Defenses, Normandy, May 6 1944.jpg",
+     "query": "German beach defences Normandy May 1944",
+     "caption": "German beach obstacles in Normandy, May 1944"
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "The Atlantic Wall",
+      "who": {
+       "preset": "german_officer",
+       "name": "Rommel"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "file": "File:Normandy beach obstacles 1944-06-09 2.jpg",
+     "query": "Normandy beach obstacles June 1944",
+     "caption": "Beach obstacles in Normandy, June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The shortest crossing was to the Pas-de-Calais, and the Germans expected the attack there. The Allies chose Normandy instead. To keep the Germans guessing, a deception plan called Fortitude invented a whole army in south-east England, supposedly led by General George Patton. Fake radio traffic even suggested a separate attack on Norway.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Where will they land?",
+      "who": {
+       "preset": "german_officer",
+       "name": "German commanders"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "query": "Operation Fortitude dummy inflatable tank",
+     "caption": "A dummy tank of the kind used to fool German reconnaissance"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Germans expected",
+       "items": [
+        "Pas-de-Calais",
+        "Shortest crossing"
+       ]
+      },
+      "right": {
+       "title": "Allies chose",
+       "items": [
+        "Normandy",
+        "Five beaches"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Normandy had no big port the Allies could capture quickly, so they planned to bring their own. Huge concrete sections would be towed across the Channel and sunk off the coast. They would form artificial harbours, known as Mulberries. One was planned for the American beaches, and one for the British at Arromanches.",
+   "shots": [
+    {
+     "file": "File:The Mulberry artificial harbour at Arromanches in Normandy, June 1944. A24675.jpg",
+     "query": "Mulberry harbour June 1944",
+     "caption": "The Mulberry harbour under construction, June 1944"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Mulberry harbours",
+      "text": "Ports built in Britain and towed to France"
+     }
+    },
+    {
+     "file": "File:The Mulberry artificial harbour off Arromanches in Normandy, September 1944. BU1024.jpg",
+     "query": "Mulberry harbour Arromanches 1944",
+     "caption": "The Mulberry harbour off Arromanches, September 1944"
+    }
+   ]
+  },
+  {
+   "chapter": "The weather",
+   "narration": "The invasion needed the right tides and enough light. Eisenhower picked the fifth of June. But on the fourth, high winds, rough seas and low cloud made landings impossible. With ships already loaded, Eisenhower postponed the invasion by a day. His commanders gathered at Southwick House, near Portsmouth, to decide what to do next.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "4 June: a storm in the Channel",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "name": "Eisenhower"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "24 hours",
+      "label": "The first postponement",
+      "note": "From 5 to 6 June"
+     }
+    },
+    {
+     "query": "English Channel storm June 1944 ships",
+     "caption": "Storm conditions in the Channel"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Eisenhower's chief weather forecaster was an RAF officer, Group Captain James Stagg. The forecasting teams had not always agreed. Stagg predicted a short break in the storm on the sixth. Weather stations in the west of Ireland helped spot it coming. If they waited, the next suitable tides were around two weeks away. Eisenhower decided to go.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Go or wait?",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "name": "Eisenhower"
+      },
+      "other": {
+       "preset": "weatherman",
+       "name": "James Stagg"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "query": "James Stagg meteorologist RAF",
+     "caption": "Group Captain James Stagg"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Go on 6 June",
+       "items": [
+        "A short break",
+        "in the weather"
+       ]
+      },
+      "right": {
+       "title": "Wait",
+       "items": [
+        "Next tides about",
+        "two weeks away"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "German forecasters saw the same storm. The Luftwaffe's chief meteorologist expected rough seas to last until mid-June. Many senior German officers left their posts for exercises. Rommel drove home to Germany, partly for his wife's birthday. He took her a pair of shoes from Paris. He was not in Normandy when the invasion began.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Rommel heads home",
+      "who": {
+       "preset": "german_officer",
+       "name": "Rommel"
+      }
+     }
+    },
+    {
+     "query": "Erwin Rommel 1944 portrait",
+     "caption": "Field Marshal Erwin Rommel"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "6 June 1944",
+      "text": "Rommel's wife's birthday"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the fifth of June, Eisenhower wrote a short note in case the landings failed. It said the troops had done all that bravery could do. It ended with one line. If any blame or fault attaches to the attempt, it is mine alone.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "5 June: a note, just in case",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "name": "Eisenhower"
+      }
+     }
+    },
+    {
+     "file": "File:\"In Case of Failure\" Message Drafted by General Dwight Eisenhower in Case the D-Day Invasion Failed - NARA - 186470.jpg",
+     "query": "Eisenhower in case of failure note",
+     "caption": "Eisenhower's 'in case of failure' note, US National Archives"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "If any blame or fault attaches to the attempt it is mine alone.",
+      "by": "Dwight D. Eisenhower, note of 5 June 1944"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The night drop",
+   "narration": "That evening, Eisenhower visited American paratroopers of the 101st Airborne Division as they prepared to leave England. A photograph of him talking with them became one of the best-known images of the war. Hours later, they were in the air.",
+   "shots": [
+    {
+     "file": "File:Eisenhower d-day.jpg",
+     "query": "Eisenhower paratroopers 5 June 1944",
+     "caption": "Eisenhower talks with paratroopers, 5 June 1944"
+    },
+    {
+     "file": "File:Eisenhower talks with 502 PIR in England.jpg",
+     "query": "Eisenhower 502nd Parachute Infantry 1944",
+     "caption": "Eisenhower with men of the 502nd Parachute Infantry, England"
+    },
+    {
+     "file": "File:US Paratrooper of 101st Airborne Division climbing aboard a C-47.jpg",
+     "query": "101st Airborne paratrooper C-47 1944",
+     "caption": "A 101st Airborne paratrooper boards a C-47"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "After midnight, more than thirteen thousand American paratroopers jumped over the Cotentin peninsula, behind Utah Beach. Cloud and anti-aircraft fire scattered many of them miles from their targets. Small groups gathered in the dark and fought for whatever objectives they could reach.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "paradrop",
+      "label": "Over the Cotentin peninsula"
+     }
+    },
+    {
+     "file": "File:C-47s fly low over Utah Beach c6 June 1944.jpg",
+     "query": "C-47 over Utah Beach June 1944",
+     "caption": "C-47 transport planes over Utah Beach, June 1944"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "13,000+",
+      "label": "American paratroopers dropped overnight",
+      "note": "82nd and 101st Airborne"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the eastern flank, the British 6th Airborne Division landed around the river Orne. Howard's men held the two bridges until paratroopers reinforced them. Others attacked the gun battery at Merville, which had to be silenced before the invasion ships came close.",
+   "shots": [
+    {
+     "file": "File:Operation Deadstick canal bridge gliders.jpg",
+     "query": "Horsa gliders Pegasus Bridge 1944",
+     "caption": "Gliders beside the canal bridge, June 1944"
+    },
+    {
+     "file": "File:Pegasus Bridge, June 1944 B5288.jpg",
+     "query": "Pegasus Bridge June 1944",
+     "caption": "The canal bridge, soon renamed Pegasus Bridge, June 1944"
+    },
+    {
+     "query": "Merville Gun Battery casemate",
+     "caption": "The Merville battery"
+    }
+   ]
+  },
+  {
+   "chapter": "H-Hour",
+   "narration": "At first light, Allied warships and bombers pounded the coast, aiming to knock out the German guns before the troops arrived. Then, at half past six, American troops began landing on the two western beaches, Utah and Omaha. The British and Canadian beaches, Gold, Juno and Sword, followed about an hour later.",
+   "shots": [
+    {
+     "file": "File:D-day Normandy Nara 26-G-2343.jpg",
+     "query": "Normandy invasion June 1944 beach",
+     "caption": "Supplies and troops on a Normandy beach, June 1944"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Landing times, 6 June",
+      "items": [
+       "Utah: 6.30am",
+       "Omaha: 6.30am",
+       "Gold: 7.25am",
+       "Sword: 7.30am",
+       "Juno: after 7.30am"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "fleet",
+      "label": "First light"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At Utah, the landing craft came ashore too far south of their planned spot. It turned out to be lucky. The defences there were weaker. The 4th Infantry Division's casualties that day were around two hundred, the lightest of any beach.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "landing",
+      "label": "6.30am, Utah Beach"
+     }
+    },
+    {
+     "file": "File:Utah Beach Landing.jpg",
+     "query": "Utah Beach landing 1944",
+     "caption": "American troops land on Utah Beach"
+    },
+    {
+     "file": "File:Landings on Utah beach.jpg",
+     "query": "Utah Beach 6 June 1944",
+     "caption": "Landings on Utah Beach, 6 June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": "Omaha",
+   "narration": "Omaha was different. The beach lay beneath steep bluffs, with German positions overlooking the sand. In the low cloud, much of the air bombing had fallen too far inland. Many defences were untouched when the first troops arrived.",
+   "shots": [
+    {
+     "file": "File:Omaha Beach Landing Craft Approaches.jpg",
+     "query": "landing craft approaching Omaha Beach 1944",
+     "caption": "A landing craft heads for Omaha Beach, 6 June 1944"
+    },
+    {
+     "query": "Omaha Beach bluffs aerial view",
+     "caption": "The bluffs above Omaha Beach"
+    },
+    {
+     "file": "File:Smoking LCVP off Omaha Beach 6 June 1944.jpg",
+     "query": "LCVP off Omaha Beach 1944",
+     "caption": "A landing craft off Omaha Beach, 6 June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At Omaha, things went wrong from the start. Thirty two amphibious tanks were launched about four and a half kilometres out. Twenty seven sank in the rough sea, and thirty three crewmen were lost. Landing craft were swept off course. Many men had to wade ashore under heavy fire, weighed down by their equipment.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "landing",
+      "label": "6.30am, Omaha Beach"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "27 of 32",
+      "label": "Amphibious tanks that sank off Omaha",
+      "note": "741st Tank Battalion"
+     }
+    },
+    {
+     "query": "Omaha Beach 6 June 1944 troops wading",
+     "caption": "Troops wading ashore at Omaha"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Nineteen men from the small town of Bedford, Virginia, were among the first to land. For hours, the attack seemed stuck at the water's edge. Then small groups of soldiers began working their way up the bluffs. By nightfall, the Americans held a narrow foothold. About two thousand of them had been killed or wounded on Omaha that day.",
+   "shots": [
+    {
+     "query": "Omaha Beach afternoon 6 June 1944",
+     "caption": "Omaha Beach later on D-Day"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "About 2,000",
+      "label": "American casualties on Omaha Beach",
+      "note": "Killed, wounded or missing"
+     }
+    },
+    {
+     "file": "File:1944 NormandyLST.jpg",
+     "query": "LST Normandy 1944 beach",
+     "caption": "Landing ships unloading on a Normandy beach, June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "West of Omaha, about two hundred US Rangers under Lieutenant Colonel James Rudder climbed thirty metre cliffs at Pointe du Hoc. The big guns they had come to destroy had been moved. They found them in an orchard inland and put them out of action.",
+   "shots": [
+    {
+     "file": "File:Rangers-pointe-du-hoc.jpg",
+     "query": "Rangers Pointe du Hoc 1944",
+     "caption": "US Rangers at Pointe du Hoc, June 1944"
+    },
+    {
+     "query": "James Earl Rudder portrait",
+     "caption": "Lieutenant Colonel James Rudder"
+    },
+    {
+     "query": "Pointe du Hoc cliffs",
+     "caption": "The cliffs at Pointe du Hoc"
+    }
+   ]
+  },
+  {
+   "chapter": "Gold, Juno and Sword",
+   "narration": "On Gold Beach, the British 50th Division landed at about twenty five past seven. Within days, one of the Mulberry harbours would rise just off this stretch of coast, at Arromanches. The division suffered about a thousand casualties on D-Day.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "landing",
+      "label": "7.25am, Gold Beach",
+      "others": [
+       "british_soldier"
+      ]
+     }
+    },
+    {
+     "file": "File:50th division.jpg",
+     "query": "British 50th Division Gold Beach 1944",
+     "caption": "Men of the British 50th Division, Normandy 1944"
+    },
+    {
+     "file": "File:The Invasion of Normandy 1944 B5252.jpg",
+     "query": "British forces invasion of Normandy 6 June 1944",
+     "caption": "British troops during the invasion, 6 June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At Juno, the 3rd Canadian Division faced rough seas and strong defences. It suffered nearly a thousand casualties. But by nightfall, Canadian troops had pushed further inland than any other Allied force. Some came within sight of Carpiquet airfield, near Caen.",
+   "shots": [
+    {
+     "file": "File:Canadian landings at Juno Beach.jpg",
+     "query": "Canadian landings Juno Beach 1944",
+     "caption": "Canadian troops land on Juno Beach"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Juno: pushing inland",
+      "others": "british_soldier"
+     }
+    },
+    {
+     "file": "File:Follow-up waves of the 9th Canadian Infantry Brigade disembarking with bicycles from landing craft onto 'Nan White' sector of Juno Beach at Bernieres-sur-Mer, 6 June 1944. A23938.jpg",
+     "query": "9th Canadian Infantry Brigade Juno Beach bicycles",
+     "caption": "Canadian troops with bicycles come ashore at Juno, 6 June 1944"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On Sword, the easternmost beach, British troops landed from half past seven. Commandos marched inland to relieve Howard's men at the bridges. Germany's nearest tank division only received its orders at about nine in the morning. Hitler had kept tight control of his armoured reserves.",
+   "shots": [
+    {
+     "file": "File:Landing on Queen Red Beach, Sword Area.jpg",
+     "query": "Sword Beach Queen Red landing 1944",
+     "caption": "British troops on Sword Beach, 6 June 1944"
+    },
+    {
+     "file": "File:Royal Marine Commandos attached to 3rd Division for the assault on Sword Beach move through Colleville-sur-Orne on their way to relieve forces at Pegasus Bridge, Normandy, 6 June 1944. B5067.jpg",
+     "query": "Royal Marine Commandos Colleville-sur-Orne 1944",
+     "caption": "Commandos head inland to relieve the men at Pegasus Bridge"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "About 9am",
+      "text": "German tanks finally get their orders"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Nightfall",
+   "narration": "By the end of the day, about one hundred and fifty six thousand Allied troops had landed in Normandy by sea and air. The Atlantic Wall had been broken in a single day. But the price had been high, and the battle was far from over.",
+   "shots": [
+    {
+     "file": "File:Troops come ashore on one of the Normandy invasion beaches, past the White Ensign of a naval beach party, 7 June 1944. A24012.jpg",
+     "query": "troops come ashore Normandy 7 June 1944",
+     "caption": "Reinforcements come ashore, 7 June 1944"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "156,000",
+      "label": "Troops ashore by the end of 6 June",
+      "note": "US, British, Canadian and other Allied forces"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Ashore",
+      "others": "us_soldier"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Around ten thousand Allied soldiers were killed, wounded or missing on D-Day. Research by the National D-Day Memorial Foundation has identified 4,414 who died, including 2,501 Americans. German losses are estimated at between four and nine thousand.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "4,414",
+      "label": "Allied soldiers killed on D-Day",
+      "note": "National D-Day Memorial Foundation"
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Allied casualties",
+       "items": [
+        "About 10,000",
+        "4,414 killed"
+       ]
+      },
+      "right": {
+       "title": "German casualties",
+       "items": [
+        "Estimated",
+        "4,000 to 9,000"
+       ]
+      }
+     }
+    },
+    {
+     "file": "File:Unknown soldier grave in Normandy American Cemetery and Memorial.jpg",
+     "query": "unknown soldier grave Normandy",
+     "caption": "A grave of an unknown soldier, Normandy"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Not every goal was met. The city of Caen, meant to fall on the first day, held out for weeks. Only Gold and Juno had joined up by nightfall. All five beachheads were not linked until the twelfth of June.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Still to do after D-Day",
+      "items": [
+       "Capture Caen",
+       "Link all five beaches",
+       "Bring in supplies"
+      ]
+     }
+    },
+    {
+     "file": "File:Newsmap Monday June 12, 1944 - map showing the Normandy landings.jpg",
+     "query": "Newsmap June 1944 Normandy",
+     "caption": "A US Army 'Newsmap' of the landings, 12 June 1944"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "12 June 1944",
+      "text": "All five beachheads joined"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "After D-Day",
+   "narration": "Over the following weeks, the Allies poured men, vehicles and supplies through the Mulberry harbour and across the beaches. The Battle of Normandy lasted into August. Paris was liberated on the twenty fifth of August 1944. The battle cost tens of thousands of lives on all sides, including about twenty thousand French civilians.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "fleet",
+      "label": "The weeks that followed"
+     }
+    },
+    {
+     "query": "liberation of Paris August 1944 crowds",
+     "caption": "Crowds celebrate the liberation of Paris, August 1944"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "25 August 1944",
+      "label": "Paris is liberated",
+      "note": "Eleven weeks after D-Day"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Eisenhower's note was never needed. It was saved, and it survives today in the US National Archives. The misdated line at the top, July instead of June, is a small sign of the pressure he was under.",
+   "shots": [
+    {
+     "query": "Eisenhower June 1944 Normandy visit",
+     "caption": "Eisenhower in Normandy, June 1944"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The note was never used",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "name": "Eisenhower"
+      },
+      "bubble": "!"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Today, war cemeteries line the Normandy coast, for soldiers of every army that fought there. The American cemetery stands on the bluffs above Omaha Beach, the stretch of sand that came closest to failing. Every year on the sixth of June, families and visitors gather along the coast to remember them.",
+   "shots": [
+    {
+     "file": "File:Normandy American Cemetery (7937937).jpg",
+     "query": "Normandy American Cemetery",
+     "caption": "The Normandy American Cemetery above Omaha Beach"
+    },
+    {
+     "query": "Bayeux War Cemetery Commonwealth graves",
+     "caption": "The Commonwealth war cemetery at Bayeux"
+    },
+    {
+     "query": "Omaha Beach today Normandy",
+     "caption": "Omaha Beach today"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "D-Day did not end the war. Fighting in Europe went on for almost another eleven months. But it opened a western front at last, and began the liberation of western Europe. It all started with a few gliders, landing in the dark. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "glider",
+      "label": "Where it began",
+      "phase": "land"
+     }
+    },
+    {
+     "query": "Pegasus Bridge memorial Ranville",
+     "caption": "The Pegasus Bridge memorial today"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "D-Day began with gliders at midnight",
+   "caption": "00.16, 6 June 1944: the first action of D-Day.",
+   "hashtags": [
+    "dday",
+    "ww2",
+    "history",
+    "pegasusbridge"
+   ]
+  },
+  {
+   "scenes": [
+    9,
+    10
+   ],
+   "hook": "The weather forecast that decided D-Day",
+   "caption": "One forecaster, one storm, and a decision that couldn't wait.",
+   "hashtags": [
+    "dday",
+    "ww2",
+    "history",
+    "eisenhower"
+   ]
+  },
+  {
+   "scenes": [
+    18,
+    19
+   ],
+   "hook": "What went wrong at Omaha Beach",
+   "caption": "Omaha was the hardest of the five D-Day beaches.",
+   "hashtags": [
+    "dday",
+    "omahabeach",
+    "ww2",
+    "history"
+   ]
+  }
+ ]
+}
