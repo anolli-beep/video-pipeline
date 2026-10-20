@@ -5,7 +5,7 @@ clip. Each scene is a small, reusable template; the figure wears the channel's c
 history, a tie for finance, a scarf for politics).
 
 Scenes: walk, march, think, worried, celebrate, point, shrug, cross_river, deposit, coins_jar,
-bill, crowd_shocked, dig, read, talk, ship, lifeboat, radio.
+bill, crowd_shocked, dig, read, talk, ship, lifeboat, radio, lookout, glider, fleet, landing, paradrop.
 """
 from __future__ import annotations
 
@@ -117,6 +117,13 @@ PRESETS = {
     "soldier":       dict(hat="tin_helmet", hair="none", outfit="jacket", colour="#5b6b3a"),
     "pilot":         dict(hat="flying_cap", hair="none", outfit="scarf", colour="#5a6e8c"),
     "scientist":     dict(hat="none", hair="curly", outfit="coat", colour="#f2f2ee", glasses=True),
+    # Second World War
+    "us_soldier":    dict(hat="m1_helmet", hair="none", outfit="jacket", colour="#5f6b3c"),
+    "british_soldier": dict(hat="tin_helmet", hair="none", outfit="jacket", colour="#7a6a45"),
+    "paratrooper":   dict(hat="m1_helmet", hair="none", outfit="scarf", colour="#5f6b3c"),
+    "general":       dict(hat="peaked", cap_colour="#6b6a4a", hair="short", outfit="jacket", colour="#5f6b3c"),
+    "german_officer": dict(hat="peaked", cap_colour="#7d8078", hair="short", outfit="jacket", colour="#6f726b"),
+    "weatherman":    dict(hat="peaked", cap_colour="#5a6e8c", hair="short", outfit="jacket", colour="#5a6e8c", facial="moustache"),
 }
 NARRATOR = {
     "cape": dict(hat="none", hair="short", outfit="scarf", glasses=True),     # history guide
@@ -372,7 +379,7 @@ def figure(cr, x, ground, pose, *, scale=1.0, facing=1, accent=None, outfit="sca
         cr.move_to(hx - R * 1.15, top + 10 * fk); cr.line_to(hx, top - 26 * fk); cr.line_to(hx + R * 1.15, top + 10 * fk)
         cr.close_path(); cr.set_source_rgb(0.15, 0.15, 0.18); cr.fill()
     elif hat == "peaked":    # officer's cap: white top, dark band, peak and a gold badge
-        cr.rectangle(hx - R * 1.0, top - 16 * fk, R * 2.0, 14 * fk); cr.set_source_rgb(0.97, 0.97, 0.95); cr.fill_preserve()
+        cr.rectangle(hx - R * 1.0, top - 16 * fk, R * 2.0, 14 * fk); cr.set_source_rgb(*_rgb(look.get("cap_colour"), (0.97, 0.97, 0.95))); cr.fill_preserve()
         cr.set_source_rgb(*colour); cr.set_line_width(3 * fk); cr.stroke()
         cr.rectangle(hx - R * 0.92, top - 3 * fk, R * 1.84, 14 * fk); cr.set_source_rgb(0.1, 0.12, 0.2); cr.fill()
         cr.move_to(hx + R * 0.2 * facing, top + 11 * fk); cr.line_to(hx + R * 1.25 * facing, top + 15 * fk)
@@ -392,6 +399,11 @@ def figure(cr, x, ground, pose, *, scale=1.0, facing=1, accent=None, outfit="sca
         cr.save(); cr.translate(hx, top + 10 * fk); cr.scale(1, 0.2); cr.arc(0, 0, R * 1.45, 0, 2 * math.pi); cr.restore()
         cr.set_source_rgb(0.36, 0.4, 0.27); cr.fill()
         cr.arc(hx, top + 10 * fk, R * 0.9, math.radians(180), math.radians(360)); cr.close_path(); cr.fill()
+    elif hat == "m1_helmet":     # rounded American-style helmet
+        cr.arc(hx, hy - 2 * fk, R * 1.12, math.radians(175), math.radians(365)); cr.close_path()
+        cr.set_source_rgb(0.33, 0.37, 0.24); cr.fill_preserve(); cr.set_source_rgb(*colour); cr.set_line_width(3 * fk); cr.stroke()
+        cr.move_to(hx - R * 1.2, hy - 2 * fk); cr.line_to(hx + R * 1.2, hy - 2 * fk); cr.set_line_width(5 * fk)
+        cr.set_source_rgb(0.25, 0.28, 0.18); cr.stroke()
     elif hat == "flying_cap":
         cr.arc(hx, hy - 2 * fk, R * 1.03, math.radians(160), math.radians(380)); cr.close_path()
         cr.set_source_rgb(0.45, 0.32, 0.2); cr.fill()
@@ -623,6 +635,90 @@ def rowboat(cr, x, y, w=620):
     cr.rectangle(x - w / 2 + 10, y - 60, w - 20, 12); cr.set_source_rgb(0.55, 0.38, 0.22); cr.fill()
 
 
+NIGHT = (0.06, 0.08, 0.15)
+
+
+def night_sky(cr, t, seed=3, y0=150, y1=560, moon=None):
+    cr.set_source_rgb(*NIGHT); cr.rectangle(0, y0, W, H); cr.fill()
+    rnd = random.Random(seed)
+    for i in range(80):
+        cr.set_source_rgba(1, 1, 1, 0.35 + 0.4 * abs(math.sin(t * 2 + i)))
+        cr.arc(rnd.uniform(0, W), rnd.uniform(y0 + 20, y1), 2.2, 0, 2 * math.pi); cr.fill()
+    if moon:
+        cr.arc(moon[0], moon[1], 46, 0, 2 * math.pi); cr.set_source_rgb(0.95, 0.93, 0.82); cr.fill()
+
+
+def dawn_sky(cr, y0=150, y1=700):
+    g = cairo.LinearGradient(0, y0, 0, y1)
+    g.add_color_stop_rgb(0, 0.42, 0.46, 0.55); g.add_color_stop_rgb(1, 0.86, 0.72, 0.58)
+    cr.set_source(g); cr.rectangle(0, y0, W, y1 - y0); cr.fill()
+
+
+def glider_shape(cr, x, y, s=1.0, ang=0.0, colour=(0.12, 0.12, 0.13)):
+    """A Horsa-style glider seen from the side: long body, high wing, tall tail."""
+    cr.save(); cr.translate(x, y); cr.rotate(ang); cr.scale(s, s)
+    cr.move_to(-260, -10); cr.curve_to(-200, -46, 200, -46, 250, -18); cr.line_to(250, 18)
+    cr.curve_to(150, 30, -150, 30, -260, 14); cr.close_path(); cr.set_source_rgb(*colour); cr.fill()
+    cr.move_to(-250, -14); cr.line_to(-300, -100); cr.line_to(-250, -100); cr.line_to(-200, -20); cr.close_path(); cr.fill()
+    cr.rectangle(-60, -52, 200, 16); cr.fill()
+    cr.set_source_rgb(0.75, 0.78, 0.8)
+    for i in range(5):
+        cr.rectangle(-150 + i * 60, -18, 20, 14); cr.fill()
+    cr.restore()
+
+
+def bascule_bridge(cr, x, ground, colour=(0.62, 0.64, 0.66)):
+    """A canal lifting bridge: a flat deck with a big curved counterweight frame over one end."""
+    cr.set_source_rgb(*colour)
+    cr.rectangle(x - 260, ground - 30, 520, 20); cr.fill()
+    cr.set_line_width(14)
+    cr.move_to(x - 160, ground - 30); cr.curve_to(x - 140, ground - 210, x + 40, ground - 230, x + 120, ground - 120); cr.stroke()
+    cr.move_to(x - 160, ground - 30); cr.line_to(x + 120, ground - 120); cr.stroke()
+    for i in range(5):
+        xx = x - 130 + i * 55
+        cr.move_to(xx, ground - 30 - i * 18); cr.line_to(xx, ground - 30); cr.set_line_width(6); cr.stroke()
+
+
+def landing_craft(cr, x, y, ramp=0.0, s=1.0):
+    """A boxy landing craft, ramp at the front (right). ramp 0 = up, 1 = down."""
+    cr.save(); cr.translate(x, y); cr.scale(s, s)
+    cr.move_to(-260, -90); cr.line_to(150, -90); cr.line_to(170, 20); cr.line_to(-240, 20); cr.close_path()
+    cr.set_source_rgb(0.36, 0.41, 0.37); cr.fill()
+    cr.rectangle(-250, -110, 60, 30); cr.set_source_rgb(0.3, 0.34, 0.3); cr.fill()
+    cr.save(); cr.translate(160, 20); cr.rotate(ramp * 1.35)
+    cr.rectangle(-14, -120, 22, 125); cr.set_source_rgb(0.42, 0.47, 0.42); cr.fill(); cr.restore()
+    cr.restore()
+
+
+def hedgehog(cr, x, ground, s=1.0):
+    cr.set_source_rgb(0.2, 0.2, 0.22); cr.set_line_width(9 * s)
+    cr.move_to(x - 34 * s, ground); cr.line_to(x + 34 * s, ground - 64 * s); cr.stroke()
+    cr.move_to(x + 34 * s, ground); cr.line_to(x - 34 * s, ground - 64 * s); cr.stroke()
+    cr.move_to(x, ground + 4); cr.line_to(x, ground - 70 * s); cr.stroke()
+
+
+def plane_c47(cr, x, y, s=1.0, colour=(0.12, 0.12, 0.13)):
+    cr.save(); cr.translate(x, y); cr.scale(s, s); cr.set_source_rgb(*colour)
+    cr.move_to(-220, 0); cr.curve_to(-120, -36, 160, -36, 230, -6); cr.curve_to(160, 22, -120, 22, -220, 10); cr.close_path(); cr.fill()
+    cr.move_to(-200, -6); cr.line_to(-240, -80); cr.line_to(-195, -80); cr.line_to(-150, -10); cr.close_path(); cr.fill()
+    cr.save(); cr.scale(1, 0.25); cr.arc(30, 20, 150, 0, 2 * math.pi); cr.restore(); cr.fill()
+    cr.restore()
+
+
+def parachute(cr, x, y, s=1.0, sway=0.0, light=(0.92, 0.9, 0.84)):
+    cr.save(); cr.translate(x, y); cr.rotate(sway); cr.scale(s, s)
+    cr.arc(0, 0, 60, math.pi, 2 * math.pi); cr.close_path(); cr.set_source_rgb(*light); cr.fill()
+    cr.set_line_width(2.5); cr.set_source_rgba(*light, 0.8)
+    for dx in (-58, -20, 20, 58):
+        cr.move_to(dx, 0); cr.line_to(0, 90); cr.stroke()
+    cr.set_line_width(7)
+    cr.arc(0, 104, 13, 0, 2 * math.pi); cr.stroke()
+    cr.move_to(0, 117); cr.line_to(0, 160); cr.stroke()
+    cr.move_to(0, 160); cr.line_to(-14, 196); cr.move_to(0, 160); cr.line_to(14, 196); cr.stroke()
+    cr.move_to(0, 128); cr.line_to(-24, 112); cr.move_to(0, 128); cr.line_to(24, 112); cr.stroke()
+    cr.restore()
+
+
 # ------------------------------------------------------------------ scenes ----
 def scene(cr, spec, t, accent, outfit):
     """Draw one frame of a stick scene at time t (seconds)."""
@@ -765,11 +861,11 @@ def scene(cr, spec, t, accent, outfit):
             if t > stop_t - 0.3:
                 sparkles(cr, 1380, sea_y - 60, t, (0.85, 0.85, 0.9))
         else:
-            liner(cr, _mix(-500, 2400, t / 9), sea_y + 20, 0.9, spec.get("funnels", 4))
+            liner(cr, _mix(560, 1360, min(1, t / 8)), sea_y + 20, 0.9, spec.get("funnels", 4))
             if spec.get("smoke", True):
                 for i in range(6):
                     ph = (t * 0.6 + i / 6) % 1
-                    cr.arc(_mix(-500, 2400, t / 9) - 200 - ph * 260, sea_y - 360 - ph * 120, 20 + ph * 40, 0, 2 * math.pi)
+                    cr.arc(_mix(560, 1360, min(1, t / 8)) - 200 - ph * 260, sea_y - 360 - ph * 120, 20 + ph * 40, 0, 2 * math.pi)
                     cr.set_source_rgba(0.5, 0.5, 0.5, 0.35 * (1 - ph)); cr.fill()
         waves(cr, sea_y, t, (0.16, 0.24, 0.36) if night else WATER)
     elif kind == "lifeboat":
@@ -817,5 +913,166 @@ def scene(cr, spec, t, accent, outfit):
             dots = "\u2022 \u2022 \u2022  \u2013 \u2013 \u2013  \u2022 \u2022 \u2022"
             cr.set_font_size(40); cr.set_source_rgba(*INK, min(1, (t - 0.8) / 0.4) * 0.8)
             cr.move_to(1600 - cr.text_extents(dots).x_advance / 2, G - 460); cr.show_text(dots)
+    elif kind == "lookout":
+        # night: a lookout high in the crow's nest spots an iceberg looming out of the dark and rings the bell
+        cr.set_source_rgb(0.06, 0.08, 0.15); cr.rectangle(0, 150, W, H); cr.fill()
+        rnd = random.Random(3)
+        for _ in range(80):
+            cr.set_source_rgba(1, 1, 1, 0.35 + 0.4 * abs(math.sin(t * 2 + _)))
+            cr.arc(rnd.uniform(0, W), rnd.uniform(170, 560), 2.2, 0, 2 * math.pi); cr.fill()
+        sea_y = 900
+        grow = _ease(t / 5.5)
+        ix = _mix(1900, 1450, grow)
+        iceberg(cr, ix, sea_y, _mix(0.25, 1.6, grow))
+        cr.set_source_rgba(0.06, 0.08, 0.15, 0.6 * (1 - grow)); cr.rectangle(1100, 150, 820, sea_y - 150); cr.fill()
+        waves(cr, sea_y, t, (0.13, 0.2, 0.32))
+        # mast, rigging and crow's nest
+        mx, nest_y = 480, 610
+        cr.set_source_rgb(0.33, 0.27, 0.22); cr.set_line_width(26)
+        cr.move_to(mx, H); cr.line_to(mx, 200); cr.stroke()
+        cr.set_line_width(4); cr.set_source_rgba(0.6, 0.55, 0.5, 0.7)
+        for dx in (-260, -130, 130, 260):
+            cr.move_to(mx, 260); cr.line_to(mx + dx, H); cr.stroke()
+        look_ = main if spec.get("who") else resolve("lookout", accent, outfit)
+        sway = math.sin(t * 1.2) * 3
+        p = pose_mix(POSES["stand"], POSES["point"], _ease((t - 1.2) / 0.5))
+        pts = figure(cr, mx + 30, nest_y + 175, p, scale=0.8, face="surprised" if t > 1.4 else "calm",
+                     t=t, look=dict(look_, name=None))
+        cr.rectangle(mx - 110, nest_y, 220, 185); cr.set_source_rgb(0.42, 0.3, 0.2); cr.fill()
+        cr.set_source_rgb(0.3, 0.21, 0.14); cr.set_line_width(5)
+        for i in range(1, 7):
+            cr.move_to(mx - 110, nest_y + i * 26); cr.line_to(mx + 110, nest_y + i * 26); cr.stroke()
+        # the warning bell, swinging, with three rings
+        ring = t > 2.0 and (t - 2.0) < 2.4
+        swing = math.sin((t - 2.0) * 9) * 0.5 if ring else 0
+        cr.save(); cr.translate(mx - 150, nest_y - 50); cr.rotate(swing)
+        cr.move_to(-28, 52); cr.curve_to(-28, -6, 28, -6, 28, 52); cr.close_path()
+        cr.set_source_rgb(*GOLD); cr.fill(); cr.restore()
+        cr.set_source_rgb(0.33, 0.27, 0.22); cr.set_line_width(8); cr.move_to(mx - 150, nest_y - 52); cr.line_to(mx, nest_y - 52); cr.stroke()
+        cr.select_font_face("Instrument Sans", 0, 1); cr.set_font_size(46)
+        for i in range(3):
+            st = 2.0 + i * 0.7
+            if t > st:
+                a = max(0, 1 - (t - st) / 1.6)
+                cr.set_source_rgba(*GOLD, a)
+                cr.move_to(mx - 330 - i * 40, nest_y - 110 - i * 60 - (t - st) * 25); cr.show_text("DING")
+        if t > 4.0 and spec.get("bubble"):
+            cr.set_font_size(64); msg = spec["bubble"]
+            w_ = cr.text_extents(msg).x_advance
+            a = min(1, (t - 4.0) / 0.3)
+            cr.set_source_rgba(0.97, 0.95, 0.9, a); cr.rectangle(780 - 30, 330 - 70, w_ + 60, 100); cr.fill()
+            cr.set_source_rgba(*accent, a); cr.move_to(780, 330); cr.show_text(msg)
+        if spec.get("who") and isinstance(spec["who"], dict) and spec["who"].get("name"):
+            cr.set_font_size(30); cr.set_source_rgb(0.95, 0.93, 0.88)
+            nm = spec["who"]["name"]; cr.move_to(mx + 130, nest_y + 70); cr.show_text(nm)
+    elif kind == "glider":
+        # night: a glider swoops in and skids to a stop beside a canal bridge ("phase": "land"),
+        # then its troops run for the bridge ("phase": "assault")
+        night_sky(cr, t, 11, moon=(1600, 260))
+        field = 860
+        cr.set_source_rgb(0.1, 0.14, 0.12); cr.rectangle(0, field, W, H); cr.fill()
+        cr.set_source_rgb(0.16, 0.24, 0.34); cr.rectangle(1180, field, 560, 70); cr.fill()
+        bascule_bridge(cr, 1460, field + 6)
+        pale = (0.9, 0.89, 0.84)
+        if spec.get("phase", "land") == "land":
+            k = min(1, t / 4.2)
+            gx = _mix(-300, 640, 1 - (1 - k) ** 2)
+            gy = _mix(320, field - 30, min(1, k * 1.25))
+            ang = _mix(0.18, 0.0, min(1, k * 1.4))
+            glider_shape(cr, gx, gy, 1.0, ang)
+            if k >= 0.8:
+                for i in range(8):
+                    ph = ((t - 3.3) * 1.5 + i / 8) % 1
+                    cr.arc(gx - 240 - ph * 160 + i * 12, field - 10 - ph * 70, 16 + ph * 26, 0, 2 * math.pi)
+                    cr.set_source_rgba(0.6, 0.55, 0.45, 0.45 * (1 - ph)); cr.fill()
+        else:
+            glider_shape(cr, 640, field - 30, 1.0, 0.03)
+            pool = spec.get("others") or ["british_soldier"]
+            lead = spec.get("who")
+            for i in range(5):
+                st = i * 0.6
+                if t < st:
+                    continue
+                x = _mix(900, 1500, min(1, (t - st) / 3.6)) - i * 20
+                look = main if (i == 0 and lead) else variant(resolve(pool[i % len(pool)], accent, outfit), i * 19 + 2)
+                gnd = field + 6 if x < 1180 else field - 24
+                figure(cr, x, gnd, walk_pose((t - st) * 10, 30), scale=0.45, t=t, look=dict(look, name=None), colour=pale)
+            if lead and isinstance(lead, dict) and lead.get("name"):
+                cr.select_font_face("Instrument Sans", 0, 1); cr.set_font_size(30); cr.set_source_rgb(*pale)
+                cr.move_to(560, field + 70); cr.show_text(lead["name"])
+    elif kind == "fleet":
+        # dawn: the invasion fleet fills the horizon, barrage balloons above, landing craft heading in
+        dawn_sky(cr, 150, 640)
+        rnd = random.Random(21)
+        horizon = 640
+        cr.set_source_rgb(0.3, 0.38, 0.45); cr.rectangle(0, horizon, W, H); cr.fill()
+        for i in range(34):
+            x = rnd.uniform(-50, W + 50); s = rnd.uniform(0.18, 0.4)
+            cr.set_source_rgb(0.32, 0.33, 0.36)
+            cr.rectangle(x - 200 * s, horizon - 40 * s, 400 * s, 40 * s); cr.fill()
+            cr.rectangle(x - 60 * s, horizon - 90 * s, 120 * s, 50 * s); cr.fill()
+            if rnd.random() < 0.5:
+                bx, by = x + rnd.uniform(-30, 30), horizon - rnd.uniform(160, 330) + math.sin(t + i) * 6
+                cr.set_line_width(1.5); cr.set_source_rgba(0.3, 0.3, 0.3, 0.6)
+                cr.move_to(x, horizon - 90 * s); cr.line_to(bx, by + 14); cr.stroke()
+                cr.save(); cr.translate(bx, by); cr.scale(1, 0.45); cr.arc(0, 0, 30 * (s + 0.4), 0, 2 * math.pi); cr.restore()
+                cr.set_source_rgb(0.62, 0.64, 0.66); cr.fill()
+        waves(cr, horizon + 40, t, (0.3, 0.42, 0.52), 6)
+        for i in range(4):
+            x = (i * 520 + t * 120) % (W + 400) - 200
+            landing_craft(cr, x, 905 + (i % 2) * 80, 0, 0.8)
+        waves(cr, 985, t * 1.2, (0.26, 0.38, 0.48), 8)
+    elif kind == "landing":
+        # a landing craft runs in, drops its ramp and soldiers wade towards a beach with obstacles
+        dawn_sky(cr, 150, 820)
+        beach_y = 760
+        cr.move_to(1150, beach_y); cr.line_to(W, beach_y - 40); cr.line_to(W, H); cr.line_to(900, H); cr.close_path()
+        cr.set_source_rgb(0.82, 0.74, 0.56); cr.fill()
+        cr.move_to(1500, beach_y - 30); cr.line_to(1700, 430); cr.line_to(W, 400); cr.line_to(W, beach_y - 40); cr.close_path()
+        cr.set_source_rgb(0.45, 0.5, 0.36); cr.fill()
+        for hx_ in (1240, 1390, 1560, 1730):
+            hedgehog(cr, hx_, beach_y + 10, 0.9)
+        sea_top = 790
+        stop = 2.4
+        cx = _mix(-200, 760, min(1, t / stop) * (2 - min(1, t / stop)))
+        ramp = _ease((t - stop) / 0.7)
+        bob = math.sin(t * 2) * 6
+        landing_craft(cr, cx, sea_top + 8 + bob, ramp, 1.0)
+        pool = spec.get("others") or ["us_soldier"]
+        if t > stop + 0.6:
+            for i in range(4):
+                st = stop + 0.6 + i * 0.5
+                if t < st:
+                    continue
+                x = _mix(cx + 190, 1400, min(1, (t - st) / 6.0)) - i * 70
+                depth = max(0, min(1, (1150 - x) / 300))
+                gnd = sea_top + 150 * depth + (beach_y - sea_top + 20) * (1 - depth)
+                look = main if (i == 0 and spec.get("who")) else variant(resolve(pool[i % len(pool)], accent, outfit), i * 23 + 4)
+                figure(cr, x, gnd, walk_pose((t - st) * 6, 18), scale=0.5, t=t, look=dict(look, name=None))
+        cr.move_to(0, sea_top)
+        for x in range(0, 1121, 40):
+            cr.line_to(x, sea_top + math.sin(x / 80 + t * 2.4) * 9)
+        cr.line_to(1150, beach_y + 25); cr.line_to(900, H); cr.line_to(0, H); cr.close_path()
+        cr.set_source_rgba(0.3, 0.42, 0.5, 0.92); cr.fill()
+    elif kind == "paradrop":
+        # night: transport planes pass over and parachutes open over the fields
+        night_sky(cr, t, 17, moon=(300, 260))
+        cr.set_source_rgb(0.08, 0.12, 0.1); cr.rectangle(0, 900, W, H); cr.fill()
+        cr.set_source_rgb(0.05, 0.08, 0.06)
+        for i in range(9):
+            cr.save(); cr.translate(i * 230 + 60, 905); cr.scale(1, 0.4); cr.arc(0, 0, 110, math.pi, 2 * math.pi); cr.restore(); cr.fill()
+        for j, (py, ps, sp) in enumerate([(300, 0.8, 260), (420, 0.6, 210)]):
+            px = -300 + t * sp + j * 300
+            plane_c47(cr, px, py, ps, (0.4, 0.43, 0.48))
+            for i in range(6):
+                drop_t = i * 0.55 + j * 0.3
+                if t < drop_t + 0.2:
+                    continue
+                age = t - drop_t
+                x0 = -300 + drop_t * sp + j * 300 - 120 * ps
+                x = x0 + age * 25
+                y = py + 40 + min(age, 0.4) * 300 + max(0, age - 0.4) * 70
+                if y < 870:
+                    parachute(cr, x, y, ps * 0.8 * min(1, age / 0.4 + 0.2), math.sin(t * 2 + i) * 0.08)
     else:
         figure(cr, 960, G, POSES["stand"], **kw)
