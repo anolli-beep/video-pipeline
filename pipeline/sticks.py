@@ -5,7 +5,7 @@ clip. Each scene is a small, reusable template; the figure wears the channel's c
 history, a tie for finance, a scarf for politics).
 
 Scenes: walk, march, think, worried, celebrate, point, shrug, cross_river, deposit, coins_jar,
-bill, crowd_shocked, dig, read, talk, ship, lifeboat, radio, lookout, glider, fleet, landing, paradrop.
+bill, crowd_shocked, dig, read, talk, ship, lifeboat, radio, lookout, glider, fleet, landing, paradrop, control_room, power_plant, evacuation, helicopter.
 """
 from __future__ import annotations
 
@@ -123,6 +123,8 @@ PRESETS = {
     "paratrooper":   dict(hat="m1_helmet", hair="none", outfit="scarf", colour="#5f6b3c"),
     "general":       dict(hat="peaked", cap_colour="#6b6a4a", hair="short", outfit="jacket", colour="#5f6b3c"),
     "german_officer": dict(hat="peaked", cap_colour="#7d8078", hair="short", outfit="jacket", colour="#6f726b"),
+    "operator":      dict(hat="none", hair="short", outfit="coat", colour="#eeeeea"),
+    "firefighter":   dict(hat="fire_helmet", hair="none", outfit="jacket", colour="#3b3f4a"),
     "weatherman":    dict(hat="peaked", cap_colour="#5a6e8c", hair="short", outfit="jacket", colour="#5a6e8c", facial="moustache"),
 }
 NARRATOR = {
@@ -404,6 +406,11 @@ def figure(cr, x, ground, pose, *, scale=1.0, facing=1, accent=None, outfit="sca
         cr.set_source_rgb(0.33, 0.37, 0.24); cr.fill_preserve(); cr.set_source_rgb(*colour); cr.set_line_width(3 * fk); cr.stroke()
         cr.move_to(hx - R * 1.2, hy - 2 * fk); cr.line_to(hx + R * 1.2, hy - 2 * fk); cr.set_line_width(5 * fk)
         cr.set_source_rgb(0.25, 0.28, 0.18); cr.stroke()
+    elif hat == "fire_helmet":
+        cr.save(); cr.translate(hx, top + 12 * fk); cr.scale(1, 0.24); cr.arc(0, 0, R * 1.4, 0, 2 * math.pi); cr.restore()
+        cr.set_source_rgb(0.55, 0.5, 0.42); cr.fill()
+        cr.arc(hx, top + 12 * fk, R * 0.95, math.radians(180), math.radians(360)); cr.close_path(); cr.fill()
+        cr.rectangle(hx - 4 * fk, top - 30 * fk, 8 * fk, 30 * fk); cr.fill()
     elif hat == "flying_cap":
         cr.arc(hx, hy - 2 * fk, R * 1.03, math.radians(160), math.radians(380)); cr.close_path()
         cr.set_source_rgb(0.45, 0.32, 0.2); cr.fill()
@@ -717,6 +724,70 @@ def parachute(cr, x, y, s=1.0, sway=0.0, light=(0.92, 0.9, 0.84)):
     cr.move_to(0, 160); cr.line_to(-14, 196); cr.move_to(0, 160); cr.line_to(14, 196); cr.stroke()
     cr.move_to(0, 128); cr.line_to(-24, 112); cr.move_to(0, 128); cr.line_to(24, 112); cr.stroke()
     cr.restore()
+
+
+def plant_building(cr, x, ground, s=1.0, lit=True, broken=0.0):
+    """A blocky reactor building with a striped ventilation stack. broken 0-1 tears the roof off one block."""
+    cr.save(); cr.translate(x, ground); cr.scale(s, s)
+    cr.set_source_rgb(0.62, 0.64, 0.66); cr.rectangle(-520, -220, 640, 220); cr.fill()
+    cr.set_source_rgb(0.55, 0.57, 0.6); cr.rectangle(120, -330, 300, 330); cr.fill()
+    if broken > 0:
+        cr.set_source_rgb(0.08, 0.08, 0.1)
+        cr.move_to(140, -330); cr.line_to(180, -330 + 120 * broken); cr.line_to(260, -330 + 60 * broken)
+        cr.line_to(330, -330 + 150 * broken); cr.line_to(400, -330); cr.close_path(); cr.fill()
+    cr.set_source_rgb(0.5, 0.52, 0.55); cr.rectangle(-640, -150, 120, 150); cr.fill()
+    # ventilation stack, red and white bands
+    for i in range(8):
+        cr.set_source_rgb(*((0.78, 0.2, 0.17) if i % 2 == 0 else (0.94, 0.93, 0.9)))
+        w0, w1 = 52 - i * 2.5, 52 - (i + 1) * 2.5
+        y0, y1 = -330 - i * 38, -330 - (i + 1) * 38
+        cr.move_to(70 - w0 / 2, y0); cr.line_to(70 + w0 / 2, y0); cr.line_to(70 + w1 / 2, y1); cr.line_to(70 - w1 / 2, y1)
+        cr.close_path(); cr.fill()
+    if lit:
+        cr.set_source_rgb(0.98, 0.86, 0.45)
+        for i in range(10):
+            cr.rectangle(-490 + i * 58, -150, 22, 14); cr.fill()
+    cr.restore()
+
+
+def bus(cr, x, ground, colour=(0.85, 0.66, 0.2), s=1.0):
+    cr.save(); cr.translate(x, ground); cr.scale(s, s)
+    cr.rectangle(-180, -130, 360, 110); cr.set_source_rgb(*colour); cr.fill()
+    cr.set_source_rgb(0.75, 0.86, 0.92)
+    for i in range(6):
+        cr.rectangle(-165 + i * 56, -118, 44, 40); cr.fill()
+    cr.set_source_rgb(0.15, 0.15, 0.16)
+    for wx in (-110, 110):
+        cr.arc(wx, -18, 24, 0, 2 * math.pi); cr.fill()
+    cr.restore()
+
+
+def flat_block(cr, x, ground, w, h, colour=(0.82, 0.8, 0.76)):
+    cr.rectangle(x, ground - h, w, h); cr.set_source_rgb(*colour); cr.fill()
+    cr.set_source_rgb(0.55, 0.62, 0.68)
+    for r in range(int(h // 50)):
+        for c in range(int(w // 45)):
+            cr.rectangle(x + 12 + c * 45, ground - h + 14 + r * 50, 22, 26); cr.fill()
+
+
+def helicopter(cr, x, y, t, s=1.0, colour=(0.33, 0.38, 0.3)):
+    cr.save(); cr.translate(x, y); cr.scale(s, s); cr.set_source_rgb(*colour)
+    cr.save(); cr.scale(1.6, 1); cr.arc(0, 0, 60, 0, 2 * math.pi); cr.restore(); cr.fill()
+    cr.rectangle(60, -16, 200, 22); cr.fill()
+    cr.rectangle(240, -60, 20, 60); cr.fill()
+    cr.set_source_rgb(0.75, 0.86, 0.92); cr.save(); cr.scale(1.6, 1); cr.arc(-28, -12, 26, math.pi, 2 * math.pi); cr.restore(); cr.fill()
+    blade = 280 * abs(math.cos(t * 30))
+    cr.set_source_rgb(0.15, 0.15, 0.16); cr.set_line_width(8)
+    cr.move_to(-blade, -72); cr.line_to(blade, -72); cr.stroke()
+    cr.rectangle(-6, -72, 12, 14); cr.fill()
+    cr.restore()
+
+
+def smoke_plume(cr, x, y, t, colour=(0.55, 0.55, 0.58), n=10, rise=300):
+    for i in range(n):
+        ph = (t * 0.35 + i / n) % 1
+        cr.arc(x + math.sin(i * 1.7 + t) * 30 + ph * 120, y - ph * rise, 30 + ph * 70, 0, 2 * math.pi)
+        cr.set_source_rgba(*colour, 0.55 * (1 - ph)); cr.fill()
 
 
 # ------------------------------------------------------------------ scenes ----
@@ -1074,5 +1145,99 @@ def scene(cr, spec, t, accent, outfit):
                 y = py + 40 + min(age, 0.4) * 300 + max(0, age - 0.4) * 70
                 if y < 870:
                     parachute(cr, x, y, ps * 0.8 * min(1, age / 0.4 + 0.2), math.sin(t * 2 + i) * 0.08)
+    elif kind == "control_room":
+        # operators at a big control panel; with "alarm", the lights turn red, an alarm flashes and a
+        # power gauge races up after the button is pressed
+        cr.set_source_rgb(0.78, 0.8, 0.76); cr.rectangle(0, 150, W, G - 150); cr.fill()
+        cr.set_source_rgb(0.55, 0.6, 0.56); cr.rectangle(980, 230, 860, 470); cr.fill()
+        press_t = spec.get("press_at", 2.0)
+        alarm = spec.get("alarm", False) and t > press_t + 0.4
+        rnd = random.Random(8)
+        for r in range(6):
+            for c in range(14):
+                on = rnd.random() < 0.6
+                col = (0.9, 0.2, 0.15) if alarm and (r * 14 + c + int(t * 6)) % 3 == 0 else ((0.95, 0.85, 0.4) if on else (0.35, 0.4, 0.36))
+                cr.arc(1020 + c * 57, 270 + r * 40, 9, 0, 2 * math.pi); cr.set_source_rgb(*col); cr.fill()
+        # gauge
+        gx, gy = 1180, 590
+        cr.arc(gx, gy, 80, math.pi, 2 * math.pi); cr.set_source_rgb(0.97, 0.96, 0.92); cr.fill()
+        level = 0.15 if not alarm else min(1.0, 0.15 + (t - press_t - 0.4) * 1.2)
+        ang = math.pi + level * math.pi
+        cr.set_source_rgb(*INK); cr.set_line_width(6); cr.move_to(gx, gy); cr.line_to(gx + math.cos(ang) * 70, gy + math.sin(ang) * 70); cr.stroke()
+        cr.select_font_face("Instrument Sans", 0, 1); cr.set_font_size(26); cr.set_source_rgb(*INK)
+        cr.move_to(gx - 40, gy + 34); cr.show_text("POWER")
+        # the button
+        bx_, by_ = 1500, 600
+        cr.rectangle(bx_ - 70, by_ - 40, 140, 80); cr.set_source_rgb(0.3, 0.32, 0.3); cr.fill()
+        pushed = t > press_t
+        cr.arc(bx_, by_ - (2 if pushed else 10), 30, 0, 2 * math.pi); cr.set_source_rgb(0.85, 0.18, 0.14); cr.fill()
+        if spec.get("button"):
+            cr.set_font_size(30); cr.set_source_rgb(0.97, 0.96, 0.92)
+            w_ = cr.text_extents(spec["button"]).x_advance; cr.move_to(bx_ - w_ / 2, by_ + 72); cr.show_text(spec["button"])
+        cr.set_source_rgb(0.4, 0.42, 0.4); cr.rectangle(980, 700, 860, G - 700); cr.fill()
+        others = spec.get("others") or ["operator", "operator"]
+        p_main = pose_mix(POSES["stand"], POSES["point"], _ease((t - press_t + 0.6) / 0.6)) if t < press_t + 0.5 else POSES["point"]
+        if alarm:
+            p_main = POSES["worried"]
+        figure(cr, 1680, G, p_main, face="surprised" if alarm else "calm", t=t, look=main, facing=-1)
+        for i, o in enumerate(others[:2]):
+            p = POSES["worried"] if alarm else POSES["hold"]
+            figure(cr, 520 + i * 300, G, p, face="worried" if alarm else "calm", t=t, look=resolve(o, accent, outfit) if isinstance(o, (str, dict)) else o)
+        if alarm and int(t * 4) % 2 == 0:
+            cr.set_source_rgba(0.9, 0.1, 0.08, 0.18); cr.rectangle(0, 150, W, H); cr.fill()
+            cr.arc(980, 200, 28, 0, 2 * math.pi); cr.set_source_rgb(0.95, 0.15, 0.1); cr.fill()
+    elif kind == "power_plant":
+        # night: the plant; with "explode", a flash, the roof torn open, fire and a rising plume
+        night_sky(cr, t, 29)
+        cr.set_source_rgb(0.1, 0.12, 0.12); cr.rectangle(0, 880, W, H); cr.fill()
+        boom = spec.get("explode_at", 2.4) if spec.get("explode") else 99
+        broken = 0 if t < boom else min(1, (t - boom) / 0.3)
+        if spec.get("aftermath"):
+            broken, boom = 1, -10
+        plant_building(cr, 1000, 880, 1.0, lit=t < boom, broken=broken)
+        if t > boom:
+            k = t - boom
+            if k < 0.5:
+                cr.set_source_rgba(1, 0.97, 0.85, 0.85 * (1 - k / 0.5)); cr.rectangle(0, 150, W, H); cr.fill()
+            for i in range(14):
+                a = i * 0.45 + 0.3
+                d = min(k, 1.6) * (260 + i * 25)
+                cr.rectangle(1270 + math.cos(-a) * d, 560 - math.sin(a) * d * 0.9 + max(0, k - 0.8) * 160, 14, 10)
+                cr.set_source_rgba(0.75, 0.42, 0.18, max(0, 1 - k / 3)); cr.fill()
+            for i in range(6):
+                ph = (t * 1.3 + i / 6) % 1
+                cr.arc(1270 + math.sin(i + t * 3) * 40, 560 - ph * 90, 34 * (1 - ph) + 8, 0, 2 * math.pi)
+                cr.set_source_rgba(1.0, 0.55 - 0.3 * ph, 0.12, 0.8 * (1 - ph)); cr.fill()
+            smoke_plume(cr, 1270, 470, t, (0.5, 0.5, 0.55), 12, 330)
+    elif kind == "evacuation":
+        # a column of buses takes residents away from a town of apartment blocks
+        cr.set_source_rgb(0.78, 0.85, 0.9); cr.rectangle(0, 150, W, G - 150); cr.fill()
+        for bx0, w0, h0 in ((60, 300, 420), (420, 260, 340), (1180, 320, 460), (1560, 300, 380)):
+            flat_block(cr, bx0, G - 60, w0, h0)
+        cr.set_source_rgb(0.42, 0.42, 0.44); cr.rectangle(0, G - 60, W, 80); cr.fill()
+        for i in range(4):
+            x = 2200 - t * 260 + i * 470
+            bus(cr, x, G + 10, s=0.9)
+        pool = spec.get("others") or ["parent", "child", "worker", "retiree", "lady"]
+        for i in range(4):
+            x = 700 + i * 110 + (t * 40) % 60
+            look = variant(resolve(pool[i % len(pool)], accent, outfit), i * 11 + 9)
+            figure(cr, x, G - 60, walk_pose(t * 6 + i, 18), scale=0.5, t=t, look=look, face="worried")
+    elif kind == "helicopter":
+        night = spec.get("night", False)
+        if night:
+            night_sky(cr, t, 41)
+        else:
+            dawn_sky(cr, 150, 880)
+        cr.set_source_rgb(0.18, 0.2, 0.18); cr.rectangle(0, 880, W, H); cr.fill()
+        plant_building(cr, 1000, 880, 0.9, lit=False, broken=1)
+        smoke_plume(cr, 1250, 560, t, (0.45, 0.45, 0.5), 12, 360)
+        hx_ = _mix(-300, 1250, min(1, t / 3.2))
+        hy_ = 300 + math.sin(t * 2) * 10
+        helicopter(cr, hx_, hy_, t, 0.8)
+        if t > 3.2:
+            for i in range(4):
+                ph = ((t - 3.2) * 1.2 + i / 4) % 1
+                cr.rectangle(hx_ - 14, hy_ + 50 + ph * 260, 28, 22); cr.set_source_rgba(0.7, 0.58, 0.38, 1 - ph * 0.6); cr.fill()
     else:
         figure(cr, 960, G, POSES["stand"], **kw)

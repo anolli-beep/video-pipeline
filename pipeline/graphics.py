@@ -391,7 +391,7 @@ def segment(shot: dict, cfg: dict, seconds: float, fps: int, out: Path, chapter:
 
 
 STICK_SCENES = ("walk", "march", "think", "worried", "celebrate", "point", "shrug", "cross_river",
-                "deposit", "coins_jar", "crowd_shocked", "dig", "read", "talk", "ship", "lifeboat", "radio", "lookout", "glider", "fleet", "landing", "paradrop")
+                "deposit", "coins_jar", "crowd_shocked", "dig", "read", "talk", "ship", "lifeboat", "radio", "lookout", "glider", "fleet", "landing", "paradrop", "control_room", "power_plant", "evacuation", "helicopter")
 
 
 def check(shot: dict) -> str | None:
