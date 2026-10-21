@@ -1,0 +1,920 @@
+{
+ "channel": "history",
+ "title": "Chernobyl: The Night Reactor Four Exploded",
+ "alt_titles": [
+  "How Chernobyl Really Happened, Minute by Minute",
+  "Chernobyl: The Test That Went Wrong",
+  "Chernobyl: The Disaster the Soviet Union Tried to Hide"
+ ],
+ "thumbnail_text": "1.23AM",
+ "thumbnail_file": "Chernobyl Unit 4 Reactor (02710158).jpg",
+ "description_summary": "At 1.23am on 26 April 1986, Reactor Number Four at the Chernobyl nuclear power plant exploded during a safety test. This is the story of how the test went wrong, how the Soviet state stayed silent until Sweden detected the radiation, and why the official explanation changed years later.",
+ "tags": [
+  "chernobyl",
+  "chernobyl disaster",
+  "chernobyl 1986",
+  "reactor 4",
+  "pripyat",
+  "nuclear disaster",
+  "rbmk",
+  "soviet union",
+  "history documentary",
+  "modern history",
+  "nuclear power",
+  "exclusion zone",
+  "new safe confinement",
+  "cold war"
+ ],
+ "lane": "Mysteries & disasters",
+ "publish_at": "2026-10-22T16:00:00+01:00",
+ "pronunciations": {
+  "Pripyat": "Prip-yat",
+  "Pripyat's": "Prip-yats",
+  "Akimov": "Ah-kee-mov",
+  "Toptunov": "Top-too-nov",
+  "Dyatlov": "Dyat-lov",
+  "Volodymyr": "Vol-oh-dih-meer",
+  "Pravyk": "Prah-vik",
+  "Forsmark": "Fors-mark",
+  "RBMK": "R-B-M-K",
+  "AZ": "A-Z",
+  "Gorbachev": "Gor-ba-chov"
+ },
+ "sources": [
+  {
+   "title": "World Nuclear Association: Chernobyl accident 1986",
+   "url": "https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident"
+  },
+  {
+   "title": "Wikipedia: Chernobyl disaster",
+   "url": "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+  },
+  {
+   "title": "Wikipedia: Anatoly Dyatlov",
+   "url": "https://en.wikipedia.org/wiki/Anatoly_Dyatlov"
+  },
+  {
+   "title": "History Hit: Who was Viktor Bryukhanov?",
+   "url": "https://www.historyhit.com/who-was-viktor-bryukhanov/"
+  },
+  {
+   "title": "Kyiv Post: How Sweden discovered the Chernobyl accident",
+   "url": "https://www.kyivpost.com/post/74726"
+  },
+  {
+   "title": "Gorbachev Foundation: Turning point at Chernobyl (2006)",
+   "url": "https://www.gorby.ru/en/gorbachev/in_press/post_7760"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Pripyat population",
+   "reason": "Sources give 45,000 to 49,000; the script uses 'around forty five thousand'."
+  },
+  {
+   "claim": "Death toll",
+   "reason": "Long-term estimates vary widely; the script presents the Chernobyl Forum projection and says others are higher."
+  },
+  {
+   "claim": "Effect of the helicopter drops",
+   "reason": "Some sources say little reached the core; the script says it is debated."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "It was the early hours of Saturday the twenty sixth of April 1986. At the Chernobyl nuclear power plant in Soviet Ukraine, engineers were running a safety test on Reactor Number Four. They had been waiting hours to start it. At twenty three minutes past one, they pressed the emergency shutdown button. Seconds later, the reactor exploded.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "1.23am, 26 April 1986"
+     }
+    },
+    {
+     "stick": {
+      "scene": "control_room",
+      "label": "Unit 4 control room",
+      "who": {
+       "preset": "operator"
+      },
+      "button": "AZ-5",
+      "alarm": true,
+      "press_at": 1.5
+     }
+    },
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "Reactor Number Four",
+      "explode": true,
+      "explode_at": 1.2
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The blast tore open the reactor building and threw burning debris across the site. Some of the reactor's fuel and graphite was hurled out of the building. Two workers died that night. Over the following days, radioactive material drifted across Ukraine, Belarus, Russia and much of Europe. The release would go on for days. It was the worst accident in the history of nuclear power.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "The morning after",
+      "aftermath": true
+     }
+    },
+    {
+     "file": "File:Chernobyl Unit 4 Reactor (02710158).jpg",
+     "query": "Chernobyl damaged reactor 4",
+     "caption": "The damaged Unit 4 reactor"
+    },
+    {
+     "file": "File:Chernobyl radiation map 1996.svg",
+     "query": "Chernobyl radiation map",
+     "caption": "Caesium-137 contamination around Chernobyl, mapped in 1996"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of Chernobyl. It covers how a routine test went wrong. It shows how the Soviet state tried to keep it quiet, and how the official explanation changed years later. It begins with the reactor itself.",
+   "shots": [
+    {
+     "file": "File:View of Chernobyl taken from Pripyat.JPG",
+     "query": "Chernobyl plant from Pripyat",
+     "caption": "The power plant, seen from Pripyat"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "26 April 1986",
+      "text": "Chernobyl, Soviet Ukraine"
+     }
+    },
+    {
+     "file": "File:Transmission towers for the transfer of electricity frame the damaged unit 4 reactor at Chernobyl (02710143).jpg",
+     "query": "Chernobyl power lines reactor",
+     "caption": "Power lines frame the damaged Unit 4 reactor"
+    }
+   ]
+  },
+  {
+   "chapter": "The plant",
+   "narration": "The Chernobyl plant stood near the new town of Pripyat, built for its workers and their families. Around forty five thousand people lived there in 1986. The town had schools, shops, a hospital and a fairground. The plant had four working reactors. Each one could produce a thousand megawatts of electricity.",
+   "shots": [
+    {
+     "file": "File:Chernobyl npp.jpg",
+     "query": "Chernobyl nuclear power plant",
+     "caption": "The Chernobyl nuclear power plant"
+    },
+    {
+     "query": "Pripyat 1980s town",
+     "caption": "Pripyat, the town built for the plant's workers"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "4",
+      "label": "Working reactors at Chernobyl in 1986",
+      "note": "Each 1,000 megawatts"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "They were a Soviet design called the RBMK. Uranium fuel sat in channels inside a huge block of graphite, cooled by water. The design had a dangerous quirk, which made it hard to control at low power. In some conditions, steam bubbles in the cooling water made the reaction speed up instead of slowing down.",
+   "shots": [
+    {
+     "file": "File:Chernobyl Reactor 4 model inside.jpg",
+     "query": "Chernobyl reactor 4 model",
+     "caption": "A model of the inside of Unit 4"
+    },
+    {
+     "query": "RBMK reactor schematic diagram",
+     "caption": "How an RBMK reactor works"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Most reactors",
+       "items": [
+        "More steam:",
+        "reaction slows"
+       ]
+      },
+      "right": {
+       "title": "RBMK, in some conditions",
+       "items": [
+        "More steam:",
+        "reaction speeds up"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The test on Unit Four was meant to fix a safety gap. If the plant lost power, the cooling pumps would stop until backup diesel generators started. Engineers wanted to know if the spinning turbines could keep the pumps running in between. An earlier test, in 1985, had failed.",
+   "shots": [
+    {
+     "file": "File:Turbine Hall of Chernobyl Nuclear Power Plant Unit 4 (9032364808).jpg",
+     "query": "Chernobyl turbine hall",
+     "caption": "The turbine hall of Unit 4"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The safety test",
+      "who": {
+       "preset": "operator",
+       "hair": "bald",
+       "build": "stout",
+       "facial": "moustache",
+       "name": "Anatoly Dyatlov"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The test",
+      "items": [
+       "Cut the power",
+       "Turbines spin down",
+       "Can they run the pumps?",
+       "Until diesels start"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The test",
+   "narration": "The test was due on the afternoon of the twenty fifth. But at two o'clock, the grid controller in Kyiv asked for a delay. Electricity was needed for the evening rush. The power reduction did not resume until eleven at night, and a new shift took over at midnight.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "25 April, 2pm",
+      "who": {
+       "preset": "operator"
+      },
+      "other": {
+       "preset": "official",
+       "name": "Kyiv grid"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "About 11 hours",
+      "label": "The delay before the test went ahead",
+      "note": "From the afternoon to the night shift"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The night shift was led by shift supervisor Aleksandr Akimov. At the controls was senior reactor engineer Leonid Toptunov, aged twenty five. Directing the test was the deputy chief engineer, Anatoly Dyatlov. He was there to see the test through to the end.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "The night shift",
+      "who": {
+       "preset": "operator",
+       "name": "Aleksandr Akimov"
+      },
+      "other": {
+       "preset": "operator",
+       "hair": "curly",
+       "height": 0.95,
+       "name": "Leonid Toptunov"
+      },
+      "bubbles": [
+       "!",
+       "?"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Directing the test",
+      "who": {
+       "preset": "operator",
+       "hair": "bald",
+       "build": "stout",
+       "facial": "moustache",
+       "name": "Anatoly Dyatlov"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "As they lowered the power, it suddenly fell much further than planned, to almost nothing. To bring it back up, operators pulled out most of the control rods that slow the reaction. Automatic safety systems had been switched off for the test. The reactor was now in a very unstable state.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "control_room",
+      "label": "Power falls",
+      "who": {
+       "preset": "operator",
+       "name": "Aleksandr Akimov"
+      },
+      "others": [
+       {
+        "preset": "operator",
+        "hair": "curly",
+        "height": 0.95,
+        "name": "Leonid Toptunov"
+       },
+       {
+        "preset": "operator",
+        "hair": "bald",
+        "build": "stout",
+        "facial": "moustache",
+        "name": "Anatoly Dyatlov"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "About 30 MW",
+      "label": "Power after the sudden drop",
+      "note": "Normal full power: 3,200 MW thermal"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At four seconds past one twenty three, the test began. The turbine was cut off and the pumps slowed. More steam formed in the core, and power began to climb. At one twenty three and forty seconds, the operators pressed the emergency shutdown button, known as AZ five.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "control_room",
+      "label": "1.23 and 40 seconds",
+      "who": {
+       "preset": "operator",
+       "name": "Aleksandr Akimov"
+      },
+      "others": [
+       {
+        "preset": "operator",
+        "hair": "curly",
+        "height": 0.95,
+        "name": "Leonid Toptunov"
+       },
+       {
+        "preset": "operator",
+        "hair": "bald",
+        "build": "stout",
+        "facial": "moustache",
+        "name": "Anatoly Dyatlov"
+       }
+      ],
+      "button": "AZ-5",
+      "alarm": true,
+      "press_at": 2.5
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "01:23:40",
+      "text": "AZ-5: the emergency shutdown"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The explosion",
+   "narration": "The control rods should have stopped the reaction. Instead, because of a flaw in their design, they briefly made it worse as they went in. Power surged far beyond the reactor's limits. A steam explosion followed, then a second, more powerful blast two or three seconds later.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "Two explosions",
+      "explode": true,
+      "explode_at": 2.0
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2",
+      "label": "Explosions, seconds apart",
+      "note": "Shortly after 01:23:40"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The blasts lifted the reactor's thousand tonne lid and threw hot graphite and fuel across the site. Fires broke out on the roof of the turbine hall. Firefighters led by Lieutenant Volodymyr Pravyk were among the first to arrive. They put out the roof fires within a few hours.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "The first firefighters",
+      "who": {
+       "preset": "firefighter",
+       "name": "Volodymyr Pravyk"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "file": "File:Chernobyl Nuclear Power Plant Unit 4 (02710161).jpg",
+     "query": "Chernobyl Unit 4 reactor building",
+     "caption": "The Unit 4 reactor building at Chernobyl"
+    },
+    {
+     "file": "File:The ventilation stack of the damaged unit 4 reactor at Chernobyl (02710157).jpg",
+     "query": "Chernobyl ventilation stack",
+     "caption": "The ventilation stack beside the damaged Unit 4"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Many of the first responders had received huge doses of radiation. Pravyk died about two weeks later. In all, acute radiation sickness was confirmed in one hundred and thirty four people. Twenty eight of them died within a few months, including six firemen.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "134",
+      "label": "People confirmed with acute radiation sickness",
+      "note": "28 died within months"
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "That night",
+       "items": [
+        "2 workers killed",
+        "by the explosions"
+       ]
+      },
+      "right": {
+       "title": "Within months",
+       "items": [
+        "28 died of",
+        "radiation sickness"
+       ]
+      }
+     }
+    },
+    {
+     "query": "Chernobyl firefighters memorial",
+     "caption": "A memorial to the Chernobyl firefighters"
+    }
+   ]
+  },
+  {
+   "chapter": "Silence",
+   "narration": "Pripyat was not evacuated that night. The order came early on Sunday the twenty seventh. Buses arrived from two o'clock that afternoon, about thirty six hours after the explosion. Residents were told to pack for about three days.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "evacuation",
+      "label": "Pripyat, 27 April 1986"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "27 April, 2pm",
+      "text": "Buses arrive for every apartment block"
+     }
+    },
+    {
+     "file": "File:Pripyat panorama 2009-001.jpg",
+     "query": "Pripyat panorama",
+     "caption": "Pripyat's empty apartment blocks, 2009"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "They never came back. About forty five thousand people left Pripyat that day. Ten days after the accident, the evacuation zone was widened to thirty kilometres around the plant. By the middle of May, around one hundred and sixteen thousand people had been moved.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "116,000",
+      "label": "People evacuated by mid-May 1986",
+      "note": "From within 30 km of the plant"
+     }
+    },
+    {
+     "file": "File:Pripyat, Ukraine, abandoned city.jpg",
+     "query": "Pripyat abandoned city",
+     "caption": "Pripyat today, abandoned since 1986"
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Leaving home",
+      "who": "parent"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Moscow said nothing in public. Then, on the morning of Monday the twenty eighth, radiation alarms went off at the Forsmark nuclear plant in Sweden. They had been set off by contamination on a worker's shoes. Raised readings were soon found elsewhere in Sweden, and in Finland. The radiation had not come from Forsmark. It had blown in on winds from the east. Experts traced it by studying the weather.",
+   "shots": [
+    {
+     "file": "File:Forsmark aerial.jpg",
+     "query": "Forsmark nuclear power plant",
+     "caption": "The Forsmark nuclear plant in Sweden"
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Forsmark, Sweden, 28 April",
+      "who": {
+       "preset": "worker",
+       "name": "Forsmark worker"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "28 April 1986",
+      "text": "Radiation alarms in Sweden"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That evening, Soviet television's main news programme finally mentioned the accident. The item lasted about twenty seconds. It said only that the effects of the accident were being dealt with. It gave no details of the danger. It came more than two and a half days after the explosion.",
+   "shots": [
+    {
+     "query": "Soviet television Vremya 1986",
+     "caption": "Soviet television's evening news"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "20 seconds",
+      "label": "The first Soviet TV report, 28 April",
+      "note": "Two and a half days after the explosion"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Containment",
+   "narration": "Inside the wrecked reactor, the graphite kept burning, releasing radiation as it did. Helicopters dropped more than five thousand tonnes of sand, clay, lead and boron onto it. How much reached the core is still debated. The fire was finally out by the tenth of May.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "helicopter",
+      "label": "Smothering the fire"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "5,000+ tonnes",
+      "label": "Of sand, clay, lead and boron dropped",
+      "note": "Late April to May 1986"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The clean-up workers became known as liquidators. Around two hundred thousand took part in 1986 and 1987, and over six hundred thousand in later years. About twenty thousand of them received high doses. Some of them cleared radioactive debris from the roofs next to the ruined reactor.",
+   "shots": [
+    {
+     "file": "File:Médailles liquidateurs.jpg",
+     "query": "Chernobyl liquidator medals",
+     "caption": "Medals awarded to Chernobyl 'liquidators'"
+    },
+    {
+     "file": "File:Slawutytsch Denkmal Liquidatoren.JPG",
+     "query": "Slavutych liquidators memorial",
+     "caption": "A memorial to the liquidators in Slavutych"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "600,000+",
+      "label": "'Liquidators' who took part in the clean-up",
+      "note": "Over the following years"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Within seven months, workers had built a huge concrete and steel shelter over the ruined reactor. It became known as the sarcophagus. It was finished by the end of 1986, and the plant's other reactors kept running for years afterwards.",
+   "shots": [
+    {
+     "file": "File:Chernobyl Sarcophagus model.jpg",
+     "query": "Chernobyl sarcophagus model",
+     "caption": "A model of the 1986 'sarcophagus'"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1986",
+      "text": "The sarcophagus is built in about seven months"
+     }
+    },
+    {
+     "query": "Chernobyl sarcophagus shelter",
+     "caption": "The sarcophagus over Unit 4"
+    }
+   ]
+  },
+  {
+   "chapter": "Who was to blame",
+   "narration": "In August 1986, Soviet experts presented their findings to the International Atomic Energy Agency. The blame fell on the operators, who were said to have broken the rules. The official verdict was human error. In July 1987, six men went on trial in the town of Chernobyl itself. The plant's director and Anatoly Dyatlov were each sentenced to ten years.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The 1986 report",
+      "who": {
+       "preset": "official",
+       "name": "Investigators"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "10 years",
+      "label": "Sentence for the plant director and for Dyatlov",
+      "note": "Trial began 6 July 1987"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "But the story changed. A Soviet commission in 1991 found that operators had not broken rules that had never been written down. In 1992, a new international report shifted the main cause to the reactor's design: its steam problem and the faulty control rods. Operators had never been warned about these dangers.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "1986 report",
+       "items": [
+        "Operators broke",
+        "the rules"
+       ]
+      },
+      "right": {
+       "title": "1992 report",
+       "items": [
+        "Reactor design",
+        "flaws to blame"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "1992: a new verdict",
+      "who": {
+       "preset": "operator",
+       "hair": "bald",
+       "build": "stout",
+       "facial": "moustache",
+       "name": "Anatoly Dyatlov"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1992",
+      "text": "The design was the main cause"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The 1992 report still called some of the operators' actions ill judged. Both the reactor and the way it was run had played a part. Dyatlov was released early in 1990 because of ill health. He died in 1995.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "What went wrong",
+      "items": [
+       "A flawed reactor design",
+       "Control rods that made it worse",
+       "Safety systems switched off",
+       "A rushed, delayed test"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Both played a part",
+      "who": {
+       "preset": "operator"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Legacy",
+   "narration": "The long-term toll is still argued over. Among people exposed as children, thousands developed thyroid cancer, which is usually treatable. A 2005 study led by United Nations agencies projected up to four thousand eventual deaths among the most exposed. Other estimates are far higher.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "Up to 4,000",
+      "label": "Projected eventual deaths among the most exposed",
+      "note": "Chernobyl Forum, 2005"
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Chernobyl Forum, 2005",
+       "items": [
+        "Up to 4,000 deaths",
+        "most exposed groups"
+       ]
+      },
+      "right": {
+       "title": "Other studies",
+       "items": [
+        "Much higher",
+        "estimates"
+       ]
+      }
+     }
+    },
+    {
+     "query": "Chernobyl exclusion zone sign",
+     "caption": "A warning sign in the exclusion zone"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "About three hundred and fifty thousand people were eventually resettled. An exclusion zone of around two thousand six hundred square kilometres still surrounds the plant. Inside it, Pripyat stands empty, its fairground Ferris wheel now one of the best-known symbols of the disaster.",
+   "shots": [
+    {
+     "file": "File:Pripyat FerrisWheel.jpg",
+     "query": "Pripyat Ferris wheel",
+     "caption": "The Ferris wheel in Pripyat's fairground"
+    },
+    {
+     "file": "File:Pripyat - amusement park 01.jpg",
+     "query": "Pripyat amusement park",
+     "caption": "Pripyat's abandoned fairground"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "350,000",
+      "label": "People resettled in total",
+      "note": "1986 and later years"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The sarcophagus was only ever meant to be temporary. In November 2016, a giant steel arch called the New Safe Confinement was slid over it on rails. It had been built beside the reactor, then moved into position. It is one hundred and ten metres high and weighs thirty six thousand tonnes.",
+   "shots": [
+    {
+     "file": "File:Chernobyl New Safe Confinement August 2016.jpg",
+     "query": "New Safe Confinement 2016",
+     "caption": "The arch before it was slid into place, August 2016"
+    },
+    {
+     "file": "File:New Safe Confinement.jpg",
+     "query": "Chernobyl New Safe Confinement",
+     "caption": "The New Safe Confinement over Unit 4"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "36,000 tonnes",
+      "label": "Weight of the New Safe Confinement",
+      "note": "Slid into place in November 2016"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Twenty years after the accident, Mikhail Gorbachev, the Soviet leader in 1986, looked back on it. He wrote that Chernobyl, even more than his own reforms, was perhaps the real cause of the collapse of the Soviet Union.",
+   "shots": [
+    {
+     "query": "Mikhail Gorbachev 1986 portrait",
+     "caption": "Mikhail Gorbachev, Soviet leader at the time"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Gorbachev, 2006",
+      "text": "Perhaps the real cause of the Soviet collapse"
+     }
+    },
+    {
+     "file": "File:NSC-Oct-2017.jpg",
+     "query": "New Safe Confinement 2017",
+     "caption": "The finished arch, October 2017"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Chernobyl was not caused by one mistake. A flawed reactor, a delayed and badly run test, and a system that hid problems all played their part. Its lessons changed how reactors are designed and run around the world. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "26 April 1986",
+      "aftermath": true
+     }
+    },
+    {
+     "query": "Chernobyl exclusion zone forest abandoned",
+     "caption": "The exclusion zone today"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "1.23am: the night Chernobyl exploded",
+   "caption": "26 April 1986: a safety test at Reactor Number Four goes catastrophically wrong.",
+   "hashtags": [
+    "chernobyl",
+    "history",
+    "1986",
+    "nuclear"
+   ]
+  },
+  {
+   "scenes": [
+    16,
+    17
+   ],
+   "hook": "How Sweden found out about Chernobyl",
+   "caption": "The Soviet Union stayed silent until alarms went off in Sweden.",
+   "hashtags": [
+    "chernobyl",
+    "history",
+    "sweden",
+    "coldwar"
+   ]
+  },
+  {
+   "scenes": [
+    21,
+    22
+   ],
+   "hook": "Who was really to blame for Chernobyl?",
+   "caption": "The official story changed completely between 1986 and 1992.",
+   "hashtags": [
+    "chernobyl",
+    "history",
+    "nuclear",
+    "ussr"
+   ]
+  }
+ ]
+}
