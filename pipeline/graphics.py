@@ -390,27 +390,26 @@ def segment(shot: dict, cfg: dict, seconds: float, fps: int, out: Path, chapter:
         raise RuntimeError(f"ffmpeg failed on a graphic: {ff.stderr.read().decode()[-800:]}")
 
 
-STICK_SCENES = ("walk", "march", "think", "worried", "celebrate", "point", "shrug", "cross_river",
-                "deposit", "coins_jar", "crowd_shocked", "dig", "read", "talk", "ship", "lifeboat", "radio", "lookout", "glider", "fleet", "landing", "paradrop", "control_room", "power_plant", "evacuation", "helicopter")
+from .sticks import SCENES as STICK_SCENES  # every scene sticks.py can draw
 
 
 def check(shot: dict) -> str | None:
     """Return a problem with a graphic shot, or None if it looks fine (used to validate plans)."""
     if "stick" in shot:
+        # Unknown scenes or characters never stop a render: the scene falls back to a plain figure with
+        # its label, and a warning is printed so the plan can be fixed next time.
         from .sticks import PRESETS
         st = shot["stick"]
         sc = st.get("scene")
         if sc not in STICK_SCENES:
-            return f"unknown stick scene '{sc}' (use one of: {', '.join(STICK_SCENES)})"
-        names = []
+            print(f"  warning: unknown stick scene '{sc}', a simple standing figure will be drawn instead")
         for key in ("who", "other", "others"):
             v = st.get(key)
             for item in (v if isinstance(v, list) else [v]):
                 name = item.get("preset") if isinstance(item, dict) else item
-                if name:
-                    names.append(name)
-        bad = [n for n in names if n not in PRESETS]
-        return f"unknown character '{bad[0]}' (use one of: {', '.join(PRESETS)})" if bad else None
+                if name and name not in PRESETS:
+                    print(f"  warning: unknown character '{name}', a plain figure will be drawn instead")
+        return None
     if "chart" in shot:
         c = shot["chart"]
         if c.get("type", "bar") not in ("bar", "line"):
