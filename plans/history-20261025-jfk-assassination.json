@@ -1,0 +1,923 @@
+{
+ "channel": "history",
+ "title": "JFK: What Really Happened in Dallas on 22 November 1963",
+ "alt_titles": [
+  "The JFK Assassination, Minute by Minute",
+  "Who Killed JFK? What the Evidence Says",
+  "JFK Assassination: The Day, the Suspect and the Doubts"
+ ],
+ "thumbnail_text": "DALLAS, 12.30PM",
+ "thumbnail_file": "Kennedyb.jpg",
+ "description_summary": "At about 12.30pm on 22 November 1963, President John F. Kennedy was shot in Dealey Plaza, Dallas. This is the story of that weekend: the motorcade, the arrest of Lee Harvey Oswald, Jack Ruby, what the Warren Commission and later investigations concluded, and why so many people still doubt it.",
+ "tags": [
+  "jfk",
+  "jfk assassination",
+  "john f kennedy",
+  "dallas 1963",
+  "dealey plaza",
+  "lee harvey oswald",
+  "warren commission",
+  "jack ruby",
+  "zapruder film",
+  "history documentary",
+  "modern history",
+  "american history",
+  "cold war",
+  "1963"
+ ],
+ "lane": "Mysteries & disasters",
+ "publish_at": "2026-10-25T16:00:00+00:00",
+ "pronunciations": {
+  "Zapruder": "Zah-proo-der",
+  "Tippit": "Tip-it",
+  "Connally": "Kon-uh-lee"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Assassination of John F. Kennedy",
+   "url": "https://en.wikipedia.org/wiki/Assassination_of_John_F._Kennedy"
+  },
+  {
+   "title": "JFK Library: November 22, 1963, Death of the President",
+   "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/november-22-1963-death-of-the-president"
+  },
+  {
+   "title": "Gallup: Decades later, most Americans doubt lone gunman killed JFK (2023)",
+   "url": "https://news.gallup.com/poll/514310/decades-later-americans-doubt-lone-gunman-killed-jfk.aspx"
+  },
+  {
+   "title": "Britannica: Assassination of John F. Kennedy",
+   "url": "https://www.britannica.com/event/assassination-of-John-F-Kennedy"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Reasons for the Texas trip",
+   "reason": "Commonly described as healing Democratic Party splits; the script says 'partly'."
+  },
+  {
+   "claim": "Oswald's 'patsy' remark",
+   "reason": "Widely documented on film; included as a quote card."
+  },
+  {
+   "claim": "Ruby's conviction overturned and death in 1967",
+   "reason": "Standard account; check a second source if you want to be strict."
+  },
+  {
+   "claim": "What the released files show",
+   "reason": "An interpretation; the script attributes it to historians who have studied them."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "At about half past twelve on Friday the twenty second of November 1963, President John F. Kennedy's open-topped car turned into Dealey Plaza in Dallas, Texas. Beside him sat his wife, Jacqueline. The president had been in Texas for just over a day. Crowds lined the street, waving and cheering. Then shots rang out.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "Dallas, 22 November 1963",
+      "riders": [
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       },
+       {
+        "preset": "lady",
+        "colour": "#e48aa8",
+        "name": "Jacqueline Kennedy"
+       }
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "12.29pm, Dealey Plaza",
+      "riders": [
+       {
+        "preset": "official",
+        "hat": "trilby",
+        "glasses": false,
+        "colour": "#3d3d3d",
+        "name": "Governor Connally"
+       },
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       },
+       {
+        "preset": "lady",
+        "colour": "#e48aa8",
+        "name": "Jacqueline Kennedy"
+       }
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "12.30pm"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Within half an hour, the president was dead. Two days later, the man accused of killing him was shot dead too, in front of live television cameras. Within hours, a new president had been sworn in. More than sixty years on, most Americans still doubt the official account of what happened. It became one of the most investigated events in American history.",
+   "shots": [
+    {
+     "file": "File:Kennedyb.jpg",
+     "query": "Kennedy motorcade Dallas 1963",
+     "caption": "President Kennedy's car in the Dallas motorcade"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "65%",
+      "label": "Americans who think Oswald did not act alone",
+      "note": "Gallup, 2023"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of that weekend in Dallas. It covers what happened in Dealey Plaza, what the investigations concluded, and why the questions have never gone away. It was the first assassination of an American president since 1901. It begins with a political trip to Texas.",
+   "shots": [
+    {
+     "file": "File:DealeyPlazaAerial.jpg",
+     "query": "Dealey Plaza aerial",
+     "caption": "Dealey Plaza from the air"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "22 to 25 November 1963",
+      "text": "Four days in Dallas and Washington"
+     }
+    },
+    {
+     "file": "File:John F. Kennedy, White House color photo portrait.jpg",
+     "query": "John F Kennedy portrait",
+     "caption": "President John F. Kennedy"
+    }
+   ]
+  },
+  {
+   "chapter": "The trip to Texas",
+   "narration": "Kennedy was forty six, the youngest man ever elected president. He had won the 1960 election by a narrow margin. He was popular, but Texas politics was divided. With another election due in 1964, he travelled to Texas, partly to heal splits within his Democratic Party there.",
+   "shots": [
+    {
+     "file": "File:Portrait of President Kennedy at his desk. White House, Oval Office - NARA - 194203.jpg",
+     "query": "Kennedy Oval Office desk",
+     "caption": "Kennedy at his desk in the Oval Office"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Looking ahead to 1964",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "46",
+      "label": "Kennedy's age in November 1963",
+      "note": "Elected in 1960"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the morning of the twenty second, the Kennedys flew the short hop from Fort Worth to Love Field in Dallas. Jacqueline Kennedy was given a bouquet of red roses. From there, a motorcade would carry them about ten miles through downtown, to a lunch where the president was due to speak.",
+   "shots": [
+    {
+     "file": "File:Kennedys arrive at Dallas 11-22-63.JPG",
+     "query": "Kennedys arrive Love Field 1963",
+     "caption": "The Kennedys arrive at Love Field, Dallas"
+    },
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "Love Field to the Trade Mart",
+      "riders": [
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       },
+       {
+        "preset": "lady",
+        "colour": "#e48aa8",
+        "name": "Jacqueline Kennedy"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "10 miles",
+      "label": "The planned motorcade route",
+      "note": "Love Field to the Trade Mart"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The president rode in an open-topped 1961 Lincoln Continental. Jacqueline Kennedy sat beside him. Texas Governor John Connally and his wife Nellie sat just in front. Two Secret Service agents rode up front. Their car was the second in the motorcade. Big, friendly crowds filled the streets.",
+   "shots": [
+    {
+     "file": "File:Motorcade on Main.jpg",
+     "query": "motorcade Main Street Dallas 1963",
+     "caption": "The motorcade on Main Street, Dallas"
+    },
+    {
+     "file": "File:John F. Kennedy motorcade, Dallas.jpg",
+     "query": "Kennedy motorcade Dallas",
+     "caption": "The motorcade passes through Dallas, 22 November 1963"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "In the president's car",
+      "items": [
+       "Two Secret Service agents",
+       "Governor and Mrs Connally",
+       "The president and Mrs Kennedy"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Dealey Plaza",
+   "narration": "Just before half past twelve, the car turned from Main Street onto Houston Street, then made a sharp left turn onto Elm Street. It slowed as it passed a seven-storey warehouse, the Texas School Book Depository. The route had been printed in the local newspapers in advance.",
+   "shots": [
+    {
+     "file": "File:Dealey-plaza-annotated.png",
+     "query": "Dealey Plaza annotated map",
+     "caption": "Dealey Plaza and the motorcade route"
+    },
+    {
+     "file": "File:View, in 2014, of Dealey Plaza and the Texas School Book Depository in Dallas, Texas.jpg",
+     "query": "Dealey Plaza Book Depository",
+     "caption": "Dealey Plaza and the Book Depository, 2014"
+    },
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "Elm Street",
+      "riders": [
+       {
+        "preset": "official",
+        "hat": "trilby",
+        "glasses": false,
+        "colour": "#3d3d3d",
+        "name": "Governor Connally"
+       },
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       },
+       {
+        "preset": "lady",
+        "colour": "#e48aa8",
+        "name": "Jacqueline Kennedy"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "According to the official investigation, three shots were fired from a sixth-floor window of the Depository. Kennedy was hit twice. Governor Connally was badly wounded, but survived. The car sped off towards Parkland Memorial Hospital. Witnesses disagreed about how many shots they heard, and where they came from.",
+   "shots": [
+    {
+     "file": "File:The sixth-floor corner window of the Texas School Book Depository in Dallas, Texas.jpg",
+     "query": "Texas School Book Depository sixth floor window",
+     "caption": "The sixth-floor corner window of the Book Depository"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "12.30pm",
+      "text": "Shots in Dealey Plaza"
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Dealey Plaza",
+      "others": [
+       "parent",
+       "gentleman",
+       "lady",
+       "worker",
+       "child"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Among the crowd was Abraham Zapruder, a local clothing manufacturer with a home film camera. He captured twenty six seconds of silent colour film of the motorcade. It became one of the most closely studied pieces of film ever made. Its frames were later used to time the shots.",
+   "shots": [
+    {
+     "query": "Bell and Howell Zoomatic camera Zapruder",
+     "caption": "A camera like the one Zapruder used"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "26 seconds",
+      "label": "Length of the Zapruder film",
+      "note": "Silent, 8mm colour"
+     }
+    },
+    {
+     "file": "File:View, in 2014, of Dealey Plaza from a seventh-floor window of the Texas School Book Depository in Dallas, Texas.jpg",
+     "query": "view from Texas School Book Depository Elm Street",
+     "caption": "Elm Street seen from the Book Depository, 2014"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The car reached Parkland Hospital at twelve thirty eight. Doctors worked on the president, but his wounds were fatal. At one o'clock, John F. Kennedy was pronounced dead. The death was announced to reporters at the hospital at about half past one. Across America, television and radio broke into their programmes with the news.",
+   "shots": [
+    {
+     "query": "Parkland Memorial Hospital Dallas 1963",
+     "caption": "Parkland Memorial Hospital, Dallas"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1.00pm",
+      "label": "President Kennedy is pronounced dead",
+      "note": "Parkland Memorial Hospital"
+     }
+    },
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "The news spreads",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "glasses": true,
+       "name": "Newsreader"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The suspect",
+   "narration": "On the Depository's sixth floor, police found a rifle hidden among boxes. One of the building's workers, a twenty four year old named Lee Harvey Oswald, had left soon after the shooting. He had started working there only weeks earlier. Police began looking for him.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The sixth floor",
+      "who": {
+       "preset": "police_officer",
+       "name": "Dallas police"
+      }
+     }
+    },
+    {
+     "file": "File:Lee Harvey Oswald 1963.jpg",
+     "query": "Lee Harvey Oswald 1963",
+     "caption": "Lee Harvey Oswald, 1963"
+    },
+    {
+     "query": "Carcano rifle Warren Commission exhibit",
+     "caption": "The rifle found on the sixth floor"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At twelve minutes past one, a Dallas police officer, J. D. Tippit, was shot dead in the Oak Cliff district, a few miles away. Witnesses later identified Oswald as the gunman. Soon afterwards, a man was seen slipping into a cinema without paying.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1.12pm",
+      "text": "Officer J. D. Tippit is killed"
+     }
+    },
+    {
+     "query": "J. D. Tippit police officer",
+     "caption": "Officer J. D. Tippit"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Police surrounded the Texas Theatre and arrested Oswald inside, after a brief struggle. He was charged with killing Officer Tippit, and later with killing the president. He denied both, and told reporters he was just a patsy. He was questioned for hours over the weekend, but no recording of the interviews was made.",
+   "shots": [
+    {
+     "query": "Texas Theatre Dallas Oak Cliff",
+     "caption": "The Texas Theatre, where Oswald was arrested"
+    },
+    {
+     "file": "File:LHO Dallas Mugshot.jpg",
+     "query": "Oswald Dallas police photo",
+     "caption": "Oswald after his arrest, Dallas police photo"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "I'm just a patsy!",
+      "by": "Lee Harvey Oswald, to reporters, 22 November 1963"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Oswald was a former US Marine. In 1959 he had moved to the Soviet Union, saying he wanted to live there. He returned to the United States in 1962 with a Russian wife. That background would feed decades of speculation.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Who was Oswald?",
+      "who": {
+       "preset": "worker",
+       "hat": "none",
+       "colour": "#6b6255",
+       "name": "Lee Harvey Oswald"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Lee Harvey Oswald",
+      "items": [
+       "Former US Marine",
+       "Moved to the USSR, 1959",
+       "Returned to the US, 1962",
+       "Aged 24 in 1963"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "A new president",
+   "narration": "At two thirty eight that afternoon, Vice President Lyndon Johnson was sworn in as president. The ceremony took place aboard Air Force One, still on the ground at Love Field. Federal judge Sarah Hughes gave the oath. Jacqueline Kennedy stood beside him.",
+   "shots": [
+    {
+     "file": "File:Lyndon B. Johnson taking the oath of office, November 1963.jpg",
+     "query": "Johnson oath Air Force One 1963",
+     "caption": "Johnson takes the oath aboard Air Force One"
+    },
+    {
+     "file": "File:JFK Presidential Library - Swearing-in ceremony aboard Air Force One LBJ as President (09).jpg",
+     "query": "swearing in Air Force One 1963",
+     "caption": "The swearing-in, with Jacqueline Kennedy beside Johnson"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2.38pm",
+      "label": "Johnson sworn in as president",
+      "note": "Aboard Air Force One, Love Field"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The country went into mourning. Around two hundred and fifty thousand people filed past the president's coffin in the Capitol. On Monday the twenty fifth, he was buried at Arlington National Cemetery. Jacqueline Kennedy lit an eternal flame at the grave.",
+   "shots": [
+    {
+     "file": "File:The funeral procession for President John F. Kennedy, November 25, 1963. (43023973774).jpg",
+     "query": "Kennedy funeral procession 1963",
+     "caption": "Kennedy's funeral procession, 25 November 1963"
+    },
+    {
+     "file": "File:John F Kennedy grave at Arlington with Eternal Flame, May 1964.jpg",
+     "query": "Kennedy grave eternal flame 1964",
+     "caption": "Kennedy's grave and eternal flame, May 1964"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "250,000",
+      "label": "People who viewed the coffin in the Capitol",
+      "note": "24 to 25 November 1963"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Jack Ruby",
+   "narration": "On Sunday morning, police moved Oswald from their headquarters towards the county jail. Reporters and cameras crowded the basement. At twenty one minutes past eleven, a local nightclub owner, Jack Ruby, stepped forward and shot him. Millions saw it on live television.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Sunday 24 November, 11.21am",
+      "others": [
+       "police_officer",
+       "gentleman",
+       "police_officer",
+       "trader",
+       "agent"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "24 November 1963",
+      "text": "Oswald is shot on live television"
+     }
+    },
+    {
+     "query": "Jack Ruby 1963 portrait",
+     "caption": "Jack Ruby"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Oswald died at Parkland Hospital, the same hospital where Kennedy had died two days earlier. He never stood trial. Ruby was convicted of murder in 1964, but the verdict was overturned on appeal. He died of illness in 1967, before a new trial.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "No trial",
+      "label": "Oswald was never tried for the assassination",
+      "note": "Killed two days after his arrest"
+     }
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Unanswered questions",
+      "who": {
+       "preset": "gentleman",
+       "hat": "trilby",
+       "name": "Reporters"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The investigations",
+   "narration": "A week after the assassination, President Johnson set up a commission to investigate, led by Chief Justice Earl Warren. It heard from more than five hundred witnesses. In September 1964, it delivered its report. It concluded that Oswald acted alone, and that Ruby acted alone too.",
+   "shots": [
+    {
+     "file": "File:Warren Commission presenting report on assassination of John F. Kennedy to Lyndon Johnson.jpg",
+     "query": "Warren Commission report Johnson 1964",
+     "caption": "The Warren Commission presents its report, September 1964"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The Warren Report, 1964",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "build": "stout",
+       "colour": "#2a2a2a",
+       "name": "Earl Warren"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Warren Commission, 1964",
+       "items": [
+        "Oswald acted alone",
+        "Ruby acted alone"
+       ]
+      },
+      "right": {
+       "title": "Its critics",
+       "items": [
+        "Too rushed",
+        "Key questions left open"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The report relied on what became known as the single-bullet theory. It said one bullet passed through Kennedy's neck and went on to cause all of Connally's wounds. Critics mocked it as the magic bullet. Supporters say the bullet's path fits where the two men were sitting.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Supporters say",
+       "items": [
+        "The path fits",
+        "the seating positions"
+       ]
+      },
+      "right": {
+       "title": "Critics say",
+       "items": [
+        "One bullet could not",
+        "do all that damage"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The single-bullet theory",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "name": "Investigator"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Single-bullet theory",
+      "text": "One bullet, two men"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In 1979, a committee of the US House of Representatives reached a different verdict. It agreed that Oswald fired the shots that killed Kennedy. But it said he probably did not act alone. Its main evidence was a police radio recording, which it believed captured a fourth shot from a grassy slope known as the grassy knoll.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1979",
+      "text": "A House committee says: probably a conspiracy"
+     }
+    },
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "The police recording",
+      "who": {
+       "preset": "police_officer",
+       "name": "Dallas police radio"
+      },
+      "bubble": "4 SHOTS?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That recording did not hold up. In 1982, a panel from the National Academy of Sciences said the sound evidence did not support a second gunman. It said the sounds were most likely recorded about a minute after the shooting. The Justice Department later concluded there was no persuasive evidence of a conspiracy. The debate, though, did not end.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "House committee, 1979",
+       "items": [
+        "Probably a conspiracy",
+        "Fourth shot on tape"
+       ]
+      },
+      "right": {
+       "title": "Science panel, 1982",
+       "items": [
+        "Sounds not shots",
+        "No second gunman shown"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "The debate goes on",
+      "who": {
+       "preset": "scientist",
+       "name": "Sound experts"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Why the doubts remain",
+   "narration": "Part of the reason is that Oswald never faced a trial, where the evidence could have been tested in court. Part is that government files stayed secret for decades. In 2023, Gallup found sixty five per cent of Americans believed others were involved. Only twenty nine per cent thought Oswald acted alone.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Did Oswald act alone? Gallup, 2023",
+      "labels": [
+       "Others involved",
+       "Oswald alone"
+      ],
+      "values": [
+       65,
+       29
+      ],
+      "suffix": "%",
+      "source": "Gallup, November 2023",
+      "highlight": 0
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "What do Americans think?",
+      "others": [
+       "parent",
+       "student",
+       "retiree",
+       "worker",
+       "lady"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A 1992 law ordered the release of the assassination records. Millions of pages followed, with further batches in recent years. More than sixty thousand documents were released in March 2025 alone. Historians who have studied them say they shed light on what intelligence agencies knew about Oswald beforehand. So far, they have not produced proof of a conspiracy.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1992",
+      "text": "The JFK Records Act"
+     }
+    },
+    {
+     "query": "National Archives JFK assassination records",
+     "caption": "The JFK assassination records at the National Archives"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The files",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "name": "Researcher"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Over the years, theories have blamed the Mafia, Cuban exiles, Fidel Castro's government, the Soviet Union and parts of the American government itself. Each has its supporters, and investigators have examined many of them over the decades. None has been proven.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Theories over the years",
+      "items": [
+       "The Mafia",
+       "Cuban exiles",
+       "Castro's government",
+       "The Soviet Union",
+       "US agencies"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Who else?",
+      "who": {
+       "preset": "trader",
+       "name": "Theorists"
+      },
+      "bubble": "?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Legacy",
+   "narration": "Today, the sixth floor of the old Book Depository is a museum about Kennedy's life and death. Visitors stand near the corner window and look down on Elm Street, which still looks much as it did in 1963. A white X painted on the road marks where the shots struck the president.",
+   "shots": [
+    {
+     "query": "Sixth Floor Museum Dallas",
+     "caption": "The Sixth Floor Museum at Dealey Plaza"
+    },
+    {
+     "query": "Elm Street Dallas Dealey Plaza today",
+     "caption": "Elm Street today"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Kennedy had been president for just over a thousand days. His death shocked the world, and the unanswered questions around it changed how many Americans saw their own government. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "22 November 1963",
+      "riders": [
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       },
+       {
+        "preset": "lady",
+        "colour": "#e48aa8",
+        "name": "Jacqueline Kennedy"
+       }
+      ]
+     }
+    },
+    {
+     "file": "File:Eternal flame at the grave of John F. Kennedy in Arlington National Cemetery.jpg",
+     "query": "JFK eternal flame Arlington",
+     "caption": "The eternal flame at Arlington today"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1,036 days",
+      "label": "Kennedy's time as president",
+      "note": "20 January 1961 to 22 November 1963"
+     }
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "Dallas, 22 November 1963",
+   "caption": "12.30pm: the president's car turns into Dealey Plaza.",
+   "hashtags": [
+    "jfk",
+    "history",
+    "1963",
+    "dallas"
+   ]
+  },
+  {
+   "scenes": [
+    21,
+    22
+   ],
+   "hook": "The JFK 'fourth shot' that fell apart",
+   "caption": "In 1979 a committee said probably a conspiracy. Then the evidence was re-examined.",
+   "hashtags": [
+    "jfk",
+    "history",
+    "coldwar",
+    "mystery"
+   ]
+  },
+  {
+   "scenes": [
+    23,
+    24
+   ],
+   "hook": "Why most Americans doubt the JFK story",
+   "caption": "Sixty years on, 65% of Americans think Oswald didn't act alone.",
+   "hashtags": [
+    "jfk",
+    "history",
+    "conspiracy",
+    "1963"
+   ]
+  }
+ ]
+}
