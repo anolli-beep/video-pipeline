@@ -1,0 +1,895 @@
+{
+ "channel": "history",
+ "title": "Hitler's Last 10 Days: Inside the Berlin Bunker",
+ "alt_titles": [
+  "The Bunker: The Final Days of the Third Reich",
+  "What Really Happened in Hitler's Bunker",
+  "How the Hitler Escape Myth Was Finally Disproved"
+ ],
+ "thumbnail_text": "THE LAST 10 DAYS",
+ "thumbnail_file": "Ruins of the Reichstag in Berlin, 3 June 1945. BU8573.jpg",
+ "description_summary": "In April 1945, as Soviet armies closed in on Berlin, Hitler spent his last days in a bunker beneath the Reich Chancellery. This is the story of those ten days, the collapse of the Nazi leadership, and how science finally disproved the escape myths.",
+ "tags": [
+  "hitler bunker",
+  "fuhrerbunker",
+  "fall of berlin",
+  "battle of berlin",
+  "end of ww2",
+  "1945",
+  "world war 2",
+  "ww2",
+  "ve day",
+  "history documentary",
+  "modern history",
+  "third reich",
+  "hitler escape myth",
+  "berlin 1945"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-26T16:00:00+00:00",
+ "pronunciations": {
+  "Führerbunker": "Fyoo-rer-bunker",
+  "Göring": "Ger-ring",
+  "Dönitz": "Der-nitz",
+  "Fegelein": "Fay-geh-line",
+  "Seelow": "Zay-lo",
+  "Krebs": "Krayps",
+  "Reims": "Ranss",
+  "Junge": "Yoong-uh",
+  "Traudl": "Trow-del",
+  "Hentschel": "Hent-shel",
+  "Potsdamer": "Pots-dah-mer"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Death of Adolf Hitler",
+   "url": "https://en.wikipedia.org/wiki/Death_of_Adolf_Hitler"
+  },
+  {
+   "title": "Wikipedia: Führerbunker",
+   "url": "https://en.wikipedia.org/wiki/F%C3%BChrerbunker"
+  },
+  {
+   "title": "The History Place: Death of Hitler timeline",
+   "url": "https://www.historyplace.com/worldwar2/timeline/death.htm"
+  },
+  {
+   "title": "WW2 Today: 20 April 1945",
+   "url": "https://www.ww2today.com/p/45-04-20-hitlers-birthday-as-soviet-shells"
+  },
+  {
+   "title": "NPR/WLRN: French researchers say Hitler really did die in the bunker (2018)",
+   "url": "https://www.wlrn.org/2018-05-21/french-researchers-hitler-really-did-die-in-the-bunker-in-1945"
+  },
+  {
+   "title": "Chemins de mémoire: Reims, 7 May 1945, the German surrender",
+   "url": "https://www.cheminsdememoire.gouv.fr/en/revue/reims-may-7-1945-german-surrender"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Exact time of the wedding",
+   "reason": "Sources say just before or just after midnight on 28 to 29 April; the script says 'around midnight'."
+  },
+  {
+   "claim": "'A small wedding breakfast followed'",
+   "reason": "Standard in witness accounts; check if you want to be strict."
+  },
+  {
+   "claim": "Effect of Mussolini's death on Hitler",
+   "reason": "An interpretation; the script attributes it to historians."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "On the twentieth of April 1945, Adolf Hitler turned fifty six. He spent the day in a concrete bunker, deep beneath the centre of Berlin. That same day, Soviet artillery shelled the heart of the city for the first time. Above him, the capital was being destroyed street by street. Around him, his regime was falling apart. Ten days later, he was dead.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "blitz",
+      "label": "Berlin, 20 April 1945",
+      "dome": false
+     }
+    },
+    {
+     "stick": {
+      "scene": "bunker",
+      "label": "Beneath the Reich Chancellery",
+      "who": "german_officer",
+      "others": [
+       {
+        "preset": "german_officer",
+        "facial": "moustache",
+        "build": "stout"
+       }
+      ],
+      "tense": true
+     }
+    },
+    {
+     "stick": {
+      "scene": "bunker",
+      "label": "Ten days left",
+      "who": {
+       "preset": "german_officer",
+       "facial": "moustache",
+       "build": "stout"
+      },
+      "others": [
+       {
+        "preset": "wren",
+        "colour": "#3d3d3d",
+        "name": "Bunker staff"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Nazi Germany had started a war that killed tens of millions of people. Its regime had murdered six million Jews in the Holocaust. Now that regime was collapsing. In Berlin, civilians sheltered in cellars as the fighting drew near. Soviet armies were closing in from the east, and American and British forces from the west.",
+   "shots": [
+    {
+     "file": "File:Berlin- the Capture and Aftermath of War 1945-1947 BU8922.jpg",
+     "query": "Berlin ruins 1945",
+     "caption": "Berlin in ruins after the battle, 1945"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "6 million",
+      "label": "Jews murdered in the Holocaust",
+      "note": "Under the Nazi regime"
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "From the east",
+       "items": [
+        "Soviet armies",
+        "reach Berlin"
+       ]
+      },
+      "right": {
+       "title": "From the west",
+       "items": [
+        "American and British",
+        "forces advance"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of those last ten days inside the bunker. It covers who was there and what happened. It also explains why myths about Hitler's fate refused to die for decades afterwards. It draws on witness accounts and later investigations.",
+   "shots": [
+    {
+     "file": "File:FuehrerBunkerBerlinLocation.jpg",
+     "query": "Fuhrerbunker location map Berlin",
+     "caption": "Where the bunker lay, behind the Reich Chancellery"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "April 1945",
+      "text": "The last days of the Third Reich"
+     }
+    },
+    {
+     "file": "File:Ruins of the Reichstag in Berlin, 3 June 1945. BU8573.jpg",
+     "query": "Reichstag ruins 1945",
+     "caption": "The ruined Reichstag, Berlin, June 1945"
+    }
+   ]
+  },
+  {
+   "chapter": "The bunker",
+   "narration": "The bunker lay under the garden of the old Reich Chancellery, Hitler's offices in Berlin. It had two levels. The lower one, the Führerbunker itself, was finished in 1944. It sat about eight and a half metres underground, under a roof of concrete nearly three metres thick.",
+   "shots": [
+    {
+     "file": "File:Ralph Reichhold - Map of the Führerbunker.jpg",
+     "query": "Fuhrerbunker floor plan",
+     "caption": "A plan of the bunker's two levels"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "8.5 metres",
+      "label": "Depth of the lower bunker",
+      "note": "Under nearly 3 m of concrete"
+     }
+    },
+    {
+     "file": "File:Reichskanzlei-Vorbunker.jpg",
+     "query": "Vorbunker Reich Chancellery",
+     "caption": "The upper bunker, the Vorbunker"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Hitler moved in on the sixteenth of January 1945 and rarely left. The bunker sat below the water table, so pumps ran day and night. A diesel generator supplied the power. The air was damp, the rooms were cramped, and military conferences often ran until five in the morning.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "bunker",
+      "label": "Life underground",
+      "who": "german_officer",
+      "others": [
+       {
+        "preset": "wren",
+        "colour": "#3d3d3d",
+        "name": "Bunker staff"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Bunker life",
+      "items": [
+       "Constant pumps",
+       "Diesel generator",
+       "Damp, cramped rooms",
+       "Meetings until 5am"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By April, the bunker was crowded. Hitler's companion Eva Braun had joined him. So had his private secretary Martin Bormann, and propaganda minister Joseph Goebbels with his wife Magda and their six children. Two or three dozen staff worked there too, including secretaries, guards and a telephone operator.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Who was in the bunker",
+      "items": [
+       "Eva Braun",
+       "Martin Bormann",
+       "Joseph and Magda Goebbels",
+       "Secretaries and guards"
+      ]
+     }
+    },
+    {
+     "query": "Traudl Junge secretary",
+     "caption": "Traudl Junge, one of Hitler's secretaries"
+    }
+   ]
+  },
+  {
+   "chapter": "The Red Army arrives",
+   "narration": "On the sixteenth of April, Soviet forces launched their final offensive. They crossed the River Oder and attacked the Seelow Heights, east of Berlin. German defenders held them for several days, at enormous cost to both sides. Then the line broke.",
+   "shots": [
+    {
+     "query": "Seelow Heights 1945 Soviet",
+     "caption": "Soviet forces at the Seelow Heights, April 1945"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "16 April: the final offensive",
+      "who": "soviet_soldier",
+      "others": "soviet_soldier"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "16 April 1945",
+      "text": "The battle for Berlin begins"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A month earlier, Hitler had made his last appearance in front of a newsreel camera. He met teenage members of the Hitler Youth in the Chancellery garden. Boys like these were now being sent to defend Berlin's streets.",
+   "shots": [
+    {
+     "query": "Hitler Youth Berlin 1945 Volkssturm",
+     "caption": "Teenage Hitler Youth members in Berlin, 1945"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "March 1945",
+      "text": "His last filmed appearance"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Defending Berlin",
+      "others": "child"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the twenty first of April, Soviet tanks reached the edge of Berlin. Hitler ordered an SS general, Felix Steiner, to launch a counter-attack from the north. Steiner did not have the troops to do it. The attack never came.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "blitz",
+      "label": "21 April: tanks at the city's edge",
+      "dome": false
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Hitler ordered",
+       "items": [
+        "A counter-attack",
+        "from the north"
+       ]
+      },
+      "right": {
+       "title": "In reality",
+       "items": [
+        "Too few troops",
+        "It never came"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The breakdown",
+   "narration": "When Hitler learned the attack had not happened, he exploded with rage at his afternoon conference on the twenty second of April. For the first time, he said openly that the war was lost. He announced he would stay in Berlin, and die there.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "bunker",
+      "label": "22 April: 'The war is lost'",
+      "who": {
+       "preset": "german_officer",
+       "facial": "moustache",
+       "build": "stout"
+      },
+      "others": [
+       "german_officer"
+      ],
+      "tense": true
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "22 April 1945",
+      "text": "Hitler admits the war is lost"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The next day, his armaments minister Albert Speer visited for the last time. A telegram also arrived from Hermann Göring, Hitler's designated successor, asking to take over the leadership of Germany. Bormann persuaded Hitler it was an attempted coup. Göring was stripped of his posts and arrested.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "23 April: a telegram",
+      "who": {
+       "preset": "wireless_op",
+       "colour": "#5f5f55",
+       "name": "Bunker radio room"
+      },
+      "bubble": "GORING?"
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Göring asked",
+       "items": [
+        "To take over",
+        "the leadership"
+       ]
+      },
+      "right": {
+       "title": "Hitler's response",
+       "items": [
+        "Treason",
+        "Stripped and arrested"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the twenty eighth, a BBC report revealed that Heinrich Himmler, head of the SS, had secretly offered to surrender to the Western Allies. Hitler called it treason and ordered his arrest. Himmler's liaison in the bunker, Hermann Fegelein, who was married to Eva Braun's sister, was shot.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "28 April: a BBC report",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "name": "BBC"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "28 April 1945",
+      "text": "Himmler's secret surrender offer"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The final days",
+   "narration": "Around midnight on the night of the twenty eighth, Hitler married Eva Braun in a short civil ceremony in the bunker's map room. A local official was brought in to conduct it. A small wedding breakfast followed, as Soviet shells fell above.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "bunker",
+      "label": "Around midnight, 28 to 29 April",
+      "who": "german_officer",
+      "others": [
+       {
+        "preset": "lady",
+        "hat": "none",
+        "name": "Eva Braun"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "29 April 1945",
+      "text": "A wedding in the bunker"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Afterwards, he dictated his political testament to his secretary, Traudl Junge. He named Admiral Karl Dönitz as head of state and Goebbels as chancellor. Even now, he blamed the Jews for the war he had started. He signed it at four in the morning.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "4am: the political testament",
+      "who": {
+       "preset": "wren",
+       "colour": "#3d3d3d",
+       "name": "Bunker staff"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The testament named",
+      "items": [
+       "Dönitz: head of state",
+       "Goebbels: chancellor"
+      ]
+     }
+    },
+    {
+     "query": "Karl Dönitz portrait",
+     "caption": "Admiral Karl Dönitz"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That afternoon, news reached the bunker that Benito Mussolini, the Italian dictator and Hitler's ally, had been executed by Italian partisans. His body had been put on public display in Milan. Historians believe it strengthened his resolve not to be captured and put on display.",
+   "shots": [
+    {
+     "query": "Benito Mussolini portrait",
+     "caption": "Benito Mussolini"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "29 April 1945",
+      "text": "News of Mussolini's death"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the early hours of the thirtieth of April, Hitler said goodbye to his staff. That afternoon, at around half past three, he and Eva Braun took their own lives in his study. They had been married for less than two days.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "30 April 1945",
+      "dark_at": 2.5
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "About 3.30pm",
+      "label": "Hitler and Eva Braun die in the bunker",
+      "note": "30 April 1945"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "After Hitler",
+   "narration": "Following his orders, their bodies were carried up to the Chancellery garden, doused with petrol and burned. That evening, the remains were buried in a shallow shell crater. Inside the bunker, the remaining staff began planning their escape.",
+   "shots": [
+    {
+     "file": "File:Sergeant R S Baker of the Army Film & Photographic Unit (AFPU) looks at one of the giant chandeliers in the ruins of Hitler's Reich Chancellery in Berlin, 3 July 1945. BU8567.jpg",
+     "query": "Reich Chancellery ruins 1945",
+     "caption": "Inside the ruined Reich Chancellery, July 1945"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "30 April, evening",
+      "text": "The bodies are burned in the garden"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The next day, the German general Hans Krebs crossed the lines to tell the Soviets that Hitler was dead, and asked for a ceasefire. He was refused. That evening, Joseph and Magda Goebbels took their own lives. Before they died, their six children were poisoned in the bunker.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "1 May: crossing the lines",
+      "who": "german_officer",
+      "other": "soviet_soldier",
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1 May 1945",
+      "label": "The Soviets learn of Hitler's death",
+      "note": "A ceasefire is refused"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the second of May, Berlin's garrison surrendered. Soviet troops captured the Reich Chancellery and the bunker. The last man to leave, an electrician named Johannes Hentschel, surrendered to the Red Army. He had stayed behind to keep the generators running.",
+   "shots": [
+    {
+     "file": "File:Brandenburg Gate may 1945.jpg",
+     "query": "Brandenburg Gate May 1945",
+     "caption": "The Brandenburg Gate, May 1945"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "2 May: Berlin surrenders",
+      "who": "soviet_soldier",
+      "others": "soviet_soldier"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2 May 1945",
+      "label": "Berlin surrenders",
+      "note": "Twelve days after the birthday shelling"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Germany's armed forces surrendered unconditionally a few days later. The surrender was signed at Reims in France on the seventh of May, and came into force the next day. The eighth of May was celebrated as Victory in Europe Day.",
+   "shots": [
+    {
+     "file": "File:Allies at the Brandenburg Gate, 1945.jpg",
+     "query": "Allies Brandenburg Gate 1945",
+     "caption": "Allied soldiers at the Brandenburg Gate, 1945"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "8 May: VE Day",
+      "others": [
+       "parent",
+       "worker",
+       "lady",
+       "british_soldier",
+       "child"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "8 May 1945",
+      "text": "Victory in Europe Day"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The myths",
+   "narration": "That might have been the end of the story. But the Soviets kept what they had found secret. In early June, they said Hitler had died by poison. Days later, they said his body had not been identified and he had probably escaped. In July, Stalin claimed Hitler was living in Spain or Argentina. Later that year, a British intelligence officer, Hugh Trevor-Roper, investigated and concluded that Hitler had died in the bunker.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "5 June 1945",
+       "items": [
+        "Soviets: he died",
+        "by poison"
+       ]
+      },
+      "right": {
+       "title": "July 1945",
+       "items": [
+        "Stalin: he is alive",
+        "in Spain or Argentina"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Did he escape?",
+      "who": "soviet_soldier",
+      "bubble": "?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Those mixed messages fed a myth that has lasted for decades. Stories claimed Hitler slipped away by submarine to South America. Books and television documentaries repeated them. Historians who examined the claims found no credible evidence for any of them.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "uboat",
+      "label": "The submarine story",
+      "funnels": 1
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "The myth",
+       "items": [
+        "Escaped by submarine",
+        "to Argentina"
+       ]
+      },
+      "right": {
+       "title": "The evidence",
+       "items": [
+        "No credible proof",
+        "of any escape"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In fact, Soviet agents had recovered remains from the crater in 1945 and kept them in secret. In April 1970, the KGB dug them up, burned them again and scattered the ashes in a river. The aim was to make sure no grave could ever become a shrine.",
+   "shots": [
+    {
+     "card": {
+      "style": "title",
+      "kicker": "4 April 1970",
+      "text": "The remains are destroyed"
+     }
+    },
+    {
+     "stick": {
+      "scene": "dig",
+      "label": "1970: the KGB operation",
+      "who": "soviet_soldier"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "25 years",
+      "label": "How long the Soviets kept the remains secret",
+      "note": "1945 to 1970"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Two pieces survived in Moscow archives: part of a skull and some teeth. In 2009, DNA tests suggested the skull fragment came from a woman, which revived the myths. Its origin had never been certain. But in 2017, a French team was allowed to examine the teeth, which had been held in Moscow since 1945. They matched Hitler's dental X-rays from 1944 perfectly.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "2017: the teeth are examined",
+      "who": {
+       "preset": "scientist",
+       "name": "French scientists"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "2009",
+       "items": [
+        "Skull fragment:",
+        "female DNA"
+       ]
+      },
+      "right": {
+       "title": "2017 to 2018",
+       "items": [
+        "Teeth match",
+        "his X-rays"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Their study, published in 2018 in the European Journal of Internal Medicine, concluded that the remains could not be fake. Hitler had died in Berlin in 1945. Many researchers hoped it would finally end the escape theories. The science had confirmed what witnesses in the bunker had said all along.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "2018",
+      "label": "Scientists confirm the teeth are Hitler's",
+      "note": "Published after examination in Moscow"
+     }
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Myth versus evidence",
+      "who": {
+       "preset": "scientist",
+       "name": "Researchers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "What is left",
+   "narration": "As for the bunker, the Soviets tried to blow it up in 1947, but only damaged the inner walls. East Germany demolished more of it from 1959. The site ended up close to the Berlin Wall, neglected, and most remaining sections were destroyed or filled in during the late 1980s.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "wall_falls",
+      "label": "Near the Berlin Wall"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "1947 to 1989",
+      "text": "The bunker is blown up and buried"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Today, the spot is an ordinary car park beside a block of flats, about three minutes' walk from Potsdamer Platz. A single information board was put up in 2006 to explain what once lay beneath. There is no memorial and nothing left to see.",
+   "shots": [
+    {
+     "file": "File:Site of Hitler's Bunker (Fuhrerbunker). Berlin (39471658134).jpg",
+     "query": "Fuhrerbunker site Berlin",
+     "caption": "The site of the bunker today"
+    },
+    {
+     "file": "File:Place Of Hitler Bunker 2007.jpg",
+     "query": "Fuhrerbunker site 2007",
+     "caption": "The site in 2007: a car park and housing"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2006",
+      "label": "An information board marks the site",
+      "note": "Near Potsdamer Platz"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Hitler died underground, his armies broken and his capital in ruins. The war in Europe ended eight days later. The war he started had cost tens of millions of lives. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "file": "File:Winston Churchill in Berlin, July 1945 BU8962.jpg",
+     "query": "Churchill Berlin July 1945",
+     "caption": "Winston Churchill in Berlin, July 1945"
+    },
+    {
+     "stick": {
+      "scene": "blitz",
+      "label": "Berlin, April 1945",
+      "dome": false
+     }
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "Hitler's last birthday, April 1945",
+   "caption": "20 April 1945: a bunker beneath Berlin, and ten days left.",
+   "hashtags": [
+    "ww2",
+    "history",
+    "berlin",
+    "1945"
+   ]
+  },
+  {
+   "scenes": [
+    21,
+    22
+   ],
+   "hook": "Did Hitler escape to Argentina?",
+   "caption": "Where the escape myth came from, and why it lasted.",
+   "hashtags": [
+    "ww2",
+    "history",
+    "mythbusting",
+    "1945"
+   ]
+  },
+  {
+   "scenes": [
+    24,
+    25
+   ],
+   "hook": "How science settled Hitler's fate",
+   "caption": "The teeth in a Moscow archive that ended the debate.",
+   "hashtags": [
+    "ww2",
+    "history",
+    "science",
+    "mystery"
+   ]
+  }
+ ]
+}
