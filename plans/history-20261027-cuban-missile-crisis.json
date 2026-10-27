@@ -1,0 +1,926 @@
+{
+ "channel": "history",
+ "title": "Cuban Missile Crisis: 13 Days on the Brink of Nuclear War",
+ "alt_titles": [
+  "The Cuban Missile Crisis, Day by Day",
+  "How the World Almost Ended in October 1962",
+  "The Secret Deal That Ended the Cuban Missile Crisis"
+ ],
+ "thumbnail_text": "13 DAYS",
+ "thumbnail_file": "U-2 photo during Cuban Missile Crisis.jpg",
+ "description_summary": "In October 1962, an American spy plane found Soviet nuclear missiles in Cuba, 90 miles from Florida. This is the story of the thirteen days that followed: the quarantine, Black Saturday, the secret Turkey deal, and why the famous 'eyeball to eyeball' moment never really happened.",
+ "tags": [
+  "cuban missile crisis",
+  "1962",
+  "cold war",
+  "kennedy",
+  "khrushchev",
+  "nuclear war",
+  "castro",
+  "u-2",
+  "arkhipov",
+  "history documentary",
+  "modern history",
+  "13 days",
+  "excomm",
+  "soviet union"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-27T16:00:00+00:00",
+ "pronunciations": {
+  "Khrushchev": "Kroosh-chof",
+  "Khrushchev's": "Kroosh-chofs",
+  "Anadyr": "Ah-nah-deer",
+  "Cristóbal": "Kris-toh-bal",
+  "Gromyko": "Gro-mee-ko",
+  "Arkhipov": "Ar-khee-pov",
+  "Vasily": "Vah-see-lee",
+  "Dobrynin": "Do-bree-nin",
+  "ExComm": "Ex-Comm",
+  "DEFCON": "Def-con"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Cuban Missile Crisis",
+   "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+  },
+  {
+   "title": "JFK Library: The Cuban Missile Crisis",
+   "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis"
+  },
+  {
+   "title": "Atomic Archive: Timeline of the Cuban Missile Crisis",
+   "url": "https://www.atomicarchive.com/history/cuban-missile-crisis/timeline.html"
+  },
+  {
+   "title": "Foreign Policy (Michael Dobbs): The 'eyeball to eyeball' moment that never was",
+   "url": "https://foreignpolicy.com/2012/10/24/the-eyeball-to-eyeball-moment-that-never-was/"
+  },
+  {
+   "title": "Council on Foreign Relations: Day thirteen",
+   "url": "https://www.cfr.org/articles/twe-remembers-jfk-and-khrushchev-agree-deal-cuban-missile-crisis-day-thirteen"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Date DEFCON 2 began",
+   "reason": "Sources give 24 or 25 October; the script avoids a date."
+  },
+  {
+   "claim": "'Quarantine' chosen because a blockade is an act of war",
+   "reason": "Standard explanation; the script says 'partly because'."
+  },
+  {
+   "claim": "B-59 events",
+   "reason": "Based on later testimony; details of the crew discussion are debated."
+  },
+  {
+   "claim": "Jupiter missiles removed 'within months'",
+   "reason": "Commonly given as April 1963; the script keeps it general."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "On the morning of Tuesday the sixteenth of October 1962, President John F. Kennedy was shown a set of photographs. They had been taken by a spy plane flying high over Cuba, just ninety miles from Florida. They showed Soviet nuclear missile sites being built. The photos had been taken two days earlier. Cuba was an ally of the Soviet Union.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "16 October 1962",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "The White House",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      },
+      "other": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#3a3a40",
+       "name": "Photo analysts"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "blockade",
+      "label": "The Caribbean",
+      "turn_back": false
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "For the next thirteen days, the world came closer to nuclear war than at any other time. American and Soviet forces were placed on high alert. Warships faced each other at sea. And the two leaders tried to find a way out before someone made a fatal mistake. Millions of people followed the news with growing fear.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Thirteen days",
+      "others": [
+       "parent",
+       "student",
+       "worker",
+       "retiree",
+       "child"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "13 days",
+      "label": "16 to 28 October 1962",
+      "note": "The Cuban Missile Crisis"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of those thirteen days. It covers how the missiles got there, how the crisis was resolved, and a secret deal that stayed hidden for decades. It also explains why one of its most famous moments never really happened.",
+   "shots": [
+    {
+     "file": "File:U-2 photo during Cuban Missile Crisis.jpg",
+     "query": "U-2 photo Cuban missile site",
+     "caption": "A U-2 photo of a missile site in Cuba, October 1962"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "October 1962",
+      "text": "The Cuban Missile Crisis"
+     }
+    },
+    {
+     "file": "File:Cuban crisis map missile range.jpg",
+     "query": "Cuban missile crisis range map",
+     "caption": "How far the missiles in Cuba could reach"
+    }
+   ]
+  },
+  {
+   "chapter": "Why Cuba",
+   "narration": "In 1959, Fidel Castro's revolutionaries took power in Cuba. His government grew close to the Soviet Union. In April 1961, a CIA-backed force of Cuban exiles landed at the Bay of Pigs, hoping to overthrow him. The invasion failed within days. Castro feared another attempt would follow.",
+   "shots": [
+    {
+     "query": "Fidel Castro 1959 portrait",
+     "caption": "Fidel Castro"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "April 1961",
+      "text": "The Bay of Pigs invasion fails"
+     }
+    },
+    {
+     "stick": {
+      "scene": "landing",
+      "label": "The Bay of Pigs, 1961",
+      "others": [
+       "worker"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The Soviet leader, Nikita Khrushchev, had his own concerns. In 1961, the United States had placed Jupiter nuclear missiles in Italy and Turkey, within range of the Soviet Union. Khrushchev wanted to protect his new ally and even the balance.",
+   "shots": [
+    {
+     "query": "Nikita Khrushchev portrait 1962",
+     "caption": "Soviet leader Nikita Khrushchev"
+    },
+    {
+     "query": "PGM-19 Jupiter missile",
+     "caption": "An American Jupiter missile, the type based in Turkey"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Khrushchev's plan",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "build": "stout",
+       "colour": "#4a4a4a",
+       "glasses": false,
+       "name": "Khrushchev"
+      },
+      "bubble": "?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the summer of 1962, he approved a secret plan, code-named Anadyr. Soviet ships would carry nuclear missiles and tens of thousands of troops to Cuba. Much of it was hidden below deck, out of sight of American spy planes.",
+   "shots": [
+    {
+     "file": "File:Soviet freighter Krasnograd steams for Cuba in September 1962.jpg",
+     "query": "Soviet freighter Cuba 1962",
+     "caption": "A Soviet freighter heading for Cuba, September 1962"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "Operation Anadyr, summer 1962",
+      "funnels": 1
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "43,000",
+      "label": "Soviet troops eventually sent to Cuba",
+      "note": "Operation Anadyr"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The discovery",
+   "narration": "On the fourteenth of October, an American U-2 spy plane flown by Major Richard Heyser passed over western Cuba. Its cameras took more than nine hundred photographs. The next day, analysts spotted something alarming near the town of San Cristóbal. They compared it with photos of known Soviet missile bases.",
+   "shots": [
+    {
+     "query": "Lockheed U-2 spy plane 1960s",
+     "caption": "A Lockheed U-2 spy plane"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "928",
+      "label": "Photos taken on the U-2 flight",
+      "note": "14 October 1962"
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "15 October: the analysts",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#3a3a40",
+       "name": "Photo analysts"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The pictures showed medium-range ballistic missiles. They could reach about two thousand kilometres, far enough to hit much of the eastern United States, including Washington. Later flights found sites for longer-range missiles too. The first missiles had arrived only weeks earlier.",
+   "shots": [
+    {
+     "file": "File:The relative ranges of the IL-28, SS-4, and SS-5, stationed on Cuba.png",
+     "query": "missile ranges Cuba SS-4 SS-5",
+     "caption": "Ranges of the Soviet weapons in Cuba"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2,000 km",
+      "label": "Range of the medium-range missiles",
+      "note": "SS-4, also known as the R-12"
+     }
+    },
+    {
+     "file": "File:Cuba Missiles Crisis U-2 photo.jpg",
+     "query": "Cuba missile crisis reconnaissance photo",
+     "caption": "Reconnaissance photo of Soviet missile equipment in Cuba"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the morning of the sixteenth, Kennedy was told. He gathered a small group of senior advisers, later known as ExComm. They met in secret that evening. Meanwhile, the president kept to his normal schedule. He did not want the Soviets to realise the missiles had been found.",
+   "shots": [
+    {
+     "file": "File:Meeting of the Executive Committee of the National Security Council- Cuba Crisis. President Kennedy, Secretary of... - NARA - 194246.jpg",
+     "query": "EXCOMM meeting October 1962",
+     "caption": "Kennedy's advisers, known as ExComm, in session"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "16 October: ExComm meets",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      },
+      "other": {
+       "preset": "official",
+       "colour": "#2f3e5c",
+       "hair": "curly",
+       "height": 0.96,
+       "name": "Robert Kennedy"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The options",
+   "narration": "The advisers argued for days. Some, including military chiefs, wanted air strikes on the missile sites, followed by an invasion of Cuba. Others warned that attacking could kill Soviet troops and trigger war in Europe or worse.",
+   "shots": [
+    {
+     "file": "File:LeMay Cuban Missile Crisis.jpg",
+     "query": "Curtis LeMay Kennedy 1962",
+     "caption": "Kennedy with Air Force chief Curtis LeMay"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Air strikes and invasion",
+       "items": [
+        "Destroy the sites",
+        "Risk of all-out war"
+       ]
+      },
+      "right": {
+       "title": "Naval blockade",
+       "items": [
+        "Stop more arriving",
+        "Buys time to talk"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Strike or wait?",
+      "who": {
+       "preset": "general",
+       "name": "Military chiefs"
+      },
+      "bubble": "?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the eighteenth, Kennedy met the Soviet foreign minister, Andrei Gromyko. Gromyko insisted there were no offensive weapons in Cuba. Kennedy did not reveal what he knew. It was a test of nerve on both sides.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "18 October: the White House",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      },
+      "other": {
+       "preset": "official",
+       "colour": "#3d3d3d",
+       "glasses": true,
+       "name": "Gromyko"
+      },
+      "bubbles": [
+       "?",
+       "!"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "18 October 1962",
+      "text": "Gromyko denies everything"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By the twenty first, Kennedy had decided on a naval blockade to stop more weapons reaching Cuba. He called it a quarantine, partly because a blockade was legally an act of war. It would give Khrushchev time to back down.",
+   "shots": [
+    {
+     "file": "File:President Kennedy - signing Cuba Quarantine Proclamation.jpg",
+     "query": "Kennedy signs quarantine proclamation",
+     "caption": "Kennedy signs the quarantine order, 23 October 1962"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "21 October 1962",
+      "text": "Kennedy chooses a quarantine"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The speech",
+   "narration": "At seven in the evening on Monday the twenty second, Kennedy went on television. He told the nation about the missiles, announced the quarantine and demanded their removal. He warned that any missile launched from Cuba would be met with a full response against the Soviet Union.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "22 October, 7pm",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "7pm",
+      "label": "Kennedy's address to the nation",
+      "note": "Monday 22 October 1962"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "American forces worldwide moved to a higher state of alert. Bombers carrying nuclear weapons took to the air. In Cuba, Castro mobilised his armed forces. The next day, the Organization of American States backed the quarantine. Khrushchev called it an act of piracy.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "dogfight",
+      "label": "Forces on alert"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "23 October 1962",
+      "text": "Latin American states back the quarantine"
+     }
+    },
+    {
+     "file": "File:Blockade over Cuba, 1962.jpg",
+     "query": "blockade Cuba 1962",
+     "caption": "US forces enforcing the quarantine, 1962"
+    }
+   ]
+  },
+  {
+   "chapter": "Eyeball to eyeball",
+   "narration": "The quarantine began on Wednesday the twenty fourth. Soviet ships were heading for the line, and Soviet submarines were in the area. Any ship that reached the line could be stopped and searched. In Washington, advisers waited for news of the first confrontation.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "blockade",
+      "label": "24 October: the quarantine line"
+     }
+    },
+    {
+     "file": "File:Location of Navy and Soviet ships during the Cuban Missile Crisis.jpg",
+     "query": "ships Cuban missile crisis map",
+     "caption": "US Navy and Soviet ships during the crisis"
+    },
+    {
+     "file": "File:P-2H Neptune over Soviet ship Oct 1962.jpg",
+     "query": "US Navy plane over Soviet ship 1962",
+     "caption": "A US Navy patrol plane over a Soviet ship"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That morning, word came that Soviet ships had stopped or turned around. At the White House, the tension broke for a moment. Secretary of State Dean Rusk is said to have remarked, we're eyeball to eyeball, and the other fellow just blinked. It became the most famous line of the crisis. Kennedy's advisers later retold it in books and memoirs, and it even appears in films.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "We're eyeball to eyeball, and the other fellow just blinked.",
+      "by": "Attributed to Dean Rusk, 24 October 1962"
+     }
+    },
+    {
+     "stick": {
+      "scene": "blockade",
+      "label": "The ships turn back",
+      "bubble": "!"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "But the historian Michael Dobbs found that the drama never happened as told. The Soviet missile ships had turned back on Khrushchev's orders about thirty hours earlier. When Rusk spoke, they were about five hundred miles from the line, heading home. American intelligence learned this within hours.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "The famous story",
+       "items": [
+        "A tense stand-off",
+        "at the line"
+       ]
+      },
+      "right": {
+       "title": "What happened",
+       "items": [
+        "Ships turned back",
+        "30 hours earlier"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "The moment that never was",
+      "who": {
+       "preset": "scientist",
+       "name": "Historians"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "500 miles",
+      "label": "How far the missile ships were from the line",
+      "note": "When the 'blink' was reported"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The missiles already in Cuba were still there, and work on the sites continued. On the twenty fifth, the US ambassador Adlai Stevenson confronted his Soviet counterpart at the United Nations, showing the spy-plane photos to the world. American forces were raised to DEFCON 2, one step short of nuclear war.",
+   "shots": [
+    {
+     "file": "File:Adlai Stevenson shows missiles to UN Security Council with David Parker standing.jpg",
+     "query": "Stevenson UN Security Council 1962",
+     "caption": "Adlai Stevenson shows the photos to the UN, 25 October 1962"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "DEFCON 2",
+      "label": "The highest US alert level ever reached",
+      "note": "October 1962"
+     }
+    },
+    {
+     "file": "File:MRBM Launch Site 1, 25 October 1962.jpg",
+     "query": "MRBM launch site Cuba 1962",
+     "caption": "A medium-range missile site, 25 October 1962"
+    }
+   ]
+  },
+  {
+   "chapter": "Black Saturday",
+   "narration": "On Friday the twenty sixth, a long letter arrived from Khrushchev. He offered to remove the missiles if the United States promised never to invade Cuba. It looked like a way out. Then, the next morning, a second message arrived.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "26 October: a letter from Moscow",
+      "who": {
+       "preset": "wireless_op",
+       "name": "Telegraph room"
+      },
+      "bubble": "NO INVASION?"
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "26 October 1962",
+      "text": "Khrushchev's first letter"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Broadcast on Radio Moscow, the second message added a new demand: the United States must also remove its missiles from Turkey. That same Saturday, an American U-2 was shot down over Cuba by a Soviet missile. Its pilot, Major Rudolf Anderson, was killed. He was the only person killed by enemy fire during the crisis.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "27 October: Radio Moscow",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "build": "stout",
+       "colour": "#4a4a4a",
+       "glasses": false,
+       "name": "Khrushchev"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "27 October 1962",
+      "text": "A U-2 is shot down over Cuba"
+     }
+    },
+    {
+     "query": "Rudolf Anderson U-2 pilot",
+     "caption": "Major Rudolf Anderson"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Under the sea, US warships dropped practice depth charges to force a Soviet submarine, B-59, to surface. Its crew did not know that the charges were only signals. Survivors later described stifling heat as the batteries ran low. The submarine carried a nuclear torpedo. One senior officer, Vasily Arkhipov, refused to agree to launch it.",
+   "shots": [
+    {
+     "file": "File:Soviet b-59 submarine.jpg",
+     "query": "Soviet submarine B-59",
+     "caption": "The Soviet submarine B-59, forced to surface"
+    },
+    {
+     "stick": {
+      "scene": "uboat",
+      "label": "27 October: submarine B-59",
+      "funnels": 1
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1",
+      "label": "Officer who refused to approve a nuclear launch",
+      "note": "Vasily Arkhipov, aboard B-59"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "That evening, Robert Kennedy met the Soviet ambassador, Anatoly Dobrynin, in secret. He warned that time was running out. He also said that the missiles in Turkey would be removed after the crisis. But this part of the deal must never be made public.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "27 October, evening",
+      "who": {
+       "preset": "official",
+       "colour": "#2f3e5c",
+       "hair": "curly",
+       "height": 0.96,
+       "name": "Robert Kennedy"
+      },
+      "other": {
+       "preset": "official",
+       "colour": "#3d3d3d",
+       "name": "Ambassador Dobrynin"
+      },
+      "bubbles": [
+       "!",
+       "?"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "The public deal",
+       "items": [
+        "Missiles leave Cuba",
+        "US will not invade"
+       ]
+      },
+      "right": {
+       "title": "The secret deal",
+       "items": [
+        "US missiles leave",
+        "Turkey later"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The deal",
+   "narration": "At nine o'clock on the morning of Sunday the twenty eighth, Washington time, Radio Moscow broadcast Khrushchev's reply. The Soviet Union would dismantle the missiles and take them home. Kennedy welcomed it as a statesmanlike decision. Both leaders had stepped back from the edge.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "28 October, 9am",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "build": "stout",
+       "colour": "#4a4a4a",
+       "glasses": false,
+       "name": "Khrushchev"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "28 October",
+      "label": "Khrushchev agrees to remove the missiles",
+      "note": "Announced on Radio Moscow"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In public, the deal was simple. The missiles would leave Cuba under UN observation, and the United States would not invade. The American Jupiter missiles in Turkey were quietly removed within months. That part stayed secret for more than twenty five years.",
+   "shots": [
+    {
+     "file": "File:Cubacrisis 01 Nov 1962.jpg",
+     "query": "Cuban missile site dismantled November 1962",
+     "caption": "A site being dismantled, 1 November 1962"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Secret for 25 years",
+      "text": "The Turkey part of the deal"
+     }
+    },
+    {
+     "file": "File:EXCOMM meeting, Cuban Missile Crisis, 29 October 1962.jpg",
+     "query": "EXCOMM 29 October 1962",
+     "caption": "An ExComm meeting, 29 October 1962"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The crisis did not end at once. Arguments continued over Soviet bombers that had also been sent to Cuba. When Khrushchev agreed to withdraw them, Kennedy lifted the quarantine in November. American planes photographed the missiles being loaded back onto ships.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "blockade",
+      "label": "November 1962: the quarantine ends",
+      "bubble": "!"
+     }
+    },
+    {
+     "file": "File:Cubacrisis 17 Oct 1962.jpg",
+     "query": "Cuban missile site 17 October 1962",
+     "caption": "Missile site photographed on 17 October 1962"
+    }
+   ]
+  },
+  {
+   "chapter": "After the crisis",
+   "narration": "Both sides had been shaken by how close they had come. In 1963, they set up a direct teletype link between Washington and Moscow, known as the hotline, so the leaders could communicate quickly. That summer, they agreed a treaty banning nuclear tests in the atmosphere.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "1963: the hotline",
+      "who": {
+       "preset": "wireless_op",
+       "name": "Hotline operator"
+      },
+      "bubble": "MOSCOW"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "What changed in 1963",
+      "items": [
+       "A direct hotline",
+       "A ban on atmospheric tests",
+       "Steps away from the brink"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Within two years, both leaders were gone. Kennedy was assassinated in Dallas in November 1963. Khrushchev was removed from power by his own colleagues in October 1964. Many in Moscow felt he had backed down over Cuba. Castro, too, was angry that he had not been consulted about the deal.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "motorcade",
+      "label": "November 1963",
+      "riders": [
+       {
+        "preset": "official",
+        "colour": "#24345a",
+        "name": "President Kennedy"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "October 1964",
+      "text": "Khrushchev is removed from power"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The Cuban Missile Crisis was not won by one side staring the other down. It ended because both leaders looked for a way out, and offered each other a compromise. The world came very close to nuclear war, and learned from it. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "A compromise",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      },
+      "other": {
+       "preset": "official",
+       "hair": "bald",
+       "build": "stout",
+       "colour": "#4a4a4a",
+       "glasses": false,
+       "name": "Khrushchev"
+      },
+      "bubbles": [
+       "!",
+       "!"
+      ]
+     }
+    },
+    {
+     "query": "Kennedy Khrushchev Vienna 1961",
+     "caption": "Kennedy and Khrushchev at their only summit, Vienna, 1961"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "The photos that started 13 days of terror",
+   "caption": "16 October 1962: Kennedy sees Soviet missile sites in Cuba.",
+   "hashtags": [
+    "coldwar",
+    "history",
+    "1962",
+    "nuclear"
+   ]
+  },
+  {
+   "scenes": [
+    16,
+    17
+   ],
+   "hook": "The 'eyeball to eyeball' myth",
+   "caption": "The Cold War's most famous line describes a moment that never happened.",
+   "hashtags": [
+    "coldwar",
+    "history",
+    "mythbusting",
+    "1962"
+   ]
+  },
+  {
+   "scenes": [
+    20,
+    21
+   ],
+   "hook": "The officer who refused to fire",
+   "caption": "Black Saturday, 27 October 1962: a nuclear torpedo, and one man who said no.",
+   "hashtags": [
+    "coldwar",
+    "history",
+    "nuclear",
+    "arkhipov"
+   ]
+  }
+ ]
+}
