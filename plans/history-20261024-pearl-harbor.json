@@ -1,0 +1,915 @@
+{
+ "channel": "history",
+ "title": "Pearl Harbor: The Warnings Nobody Heeded",
+ "alt_titles": [
+  "Pearl Harbor, Minute by Minute: 7 December 1941",
+  "How Pearl Harbor Happened, and What Japan Missed",
+  "Pearl Harbor: The Attack That Brought America Into WWII"
+ ],
+ "thumbnail_text": "THEY WERE WARNED",
+ "thumbnail_file": "USS Arizona (BB-39) burning at Pearl Harbor 1941.jpg",
+ "description_summary": "At 7.02am on 7 December 1941, a radar station in Hawaii picked up a huge formation of aircraft. Less than an hour later, Japan attacked Pearl Harbor. This is the story of the warnings, the attack, what Japan missed, and how it brought the United States into the Second World War.",
+ "tags": [
+  "pearl harbor",
+  "pearl harbor attack",
+  "7 december 1941",
+  "uss arizona",
+  "ww2",
+  "world war 2",
+  "yamamoto",
+  "doris miller",
+  "day of infamy",
+  "roosevelt",
+  "history documentary",
+  "modern history",
+  "pacific war",
+  "battleship row"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-24T16:00:00+01:00",
+ "pronunciations": {
+  "Oahu": "Oh-ah-hoo",
+  "Opana": "Oh-pah-nah",
+  "Isoroku": "Ee-so-ro-koo",
+  "Chuichi": "Choo-ee-chee",
+  "Nagumo": "Nah-goo-mo",
+  "Akagi": "Ah-kah-gee",
+  "Kaga": "Kah-gah",
+  "Soryu": "Sor-yoo",
+  "Hiryu": "Heer-yoo",
+  "Shokaku": "Sho-kah-koo",
+  "Zuikaku": "Zoo-ee-kah-koo",
+  "Mitsuo": "Meet-soo-oh",
+  "Fuchida": "Foo-chee-dah",
+  "tora": "toh-rah",
+  "Ogata": "Oh-gah-tah",
+  "Taketora": "Tah-keh-toh-rah",
+  "Kazuo": "Kah-zoo-oh",
+  "Sakamaki": "Sah-kah-mah-kee"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Attack on Pearl Harbor",
+   "url": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  },
+  {
+   "title": "National WWII Museum: Pearl Harbor fact sheet",
+   "url": "https://www.nationalww2museum.org/sites/default/files/2017-07/pearl-harbor.pdf"
+  },
+  {
+   "title": "National Park Service: Opana Mobile Radar Site",
+   "url": "https://www.nps.gov/perl/learn/historyculture/opana-mobile-radar-site.htm"
+  },
+  {
+   "title": "Britannica: Doris Miller",
+   "url": "https://www.britannica.com/biography/Doris-Miller"
+  },
+  {
+   "title": "US National Archives (DocsTeach): House vote on war with Japan",
+   "url": "https://www.docsteach.org/documents/document/house-vote-japan"
+  },
+  {
+   "title": "Wikipedia: Isoroku Yamamoto's sleeping giant quote",
+   "url": "https://en.wikipedia.org/wiki/Isoroku_Yamamoto%27s_sleeping_giant_quote"
+  },
+  {
+   "title": "History News Network: Oil seeping from the USS Arizona",
+   "url": "https://www.historynewsnetwork.org/article/35299"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Exact start time",
+   "reason": "Sources give 7.48am, 7.50am (Wheeler Field) and 7.55am; the script says 'just before eight'."
+  },
+  {
+   "claim": "Japanese personnel losses",
+   "reason": "Figures vary (64 to 129); the script gives aircraft and submarine losses only."
+  },
+  {
+   "claim": "Japan's oil imports from the US",
+   "reason": "Widely stated in histories; the script keeps it general."
+  },
+  {
+   "claim": "'Tora, tora, tora' signal",
+   "reason": "Standard account; check if you want a second source before publishing."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "It was just after seven on the morning of Sunday the seventh of December 1941. At a radar station in Hawaii, two young American soldiers saw something strange. A huge echo was heading for the island of Oahu from the north, more than a hundred and thirty miles out. They phoned it in. They were told not to worry.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "carrier",
+      "label": "North of Oahu, dawn"
+     }
+    },
+    {
+     "stick": {
+      "scene": "radar",
+      "label": "7.02am, Opana radar station",
+      "who": {
+       "preset": "us_soldier",
+       "hat": "cap",
+       "name": "Joseph Lockard"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Fort Shafter",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#6b6a4a",
+       "colour": "#5f6b3c",
+       "name": "Lt Kermit Tyler"
+      },
+      "other": {
+       "preset": "us_soldier",
+       "hat": "cap",
+       "name": "Radar operator"
+      },
+      "bubbles": [
+       "!",
+       "?"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The officer on duty, Lieutenant Kermit Tyler, was on his second day of training. A flight of American bombers was due in from California that morning, and he assumed this was them. The radar operators had not told him how big the echo was. It was not. It was the first wave of more than one hundred and eighty Japanese aircraft.",
+   "shots": [
+    {
+     "file": "File:Opana SCR-270 radar display Dec 7, 1941.jpeg",
+     "query": "Opana radar plot 7 December 1941",
+     "caption": "The Opana radar plot of the incoming planes"
+    },
+    {
+     "stick": {
+      "scene": "air_raid",
+      "label": "7.55am, Pearl Harbor"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "183",
+      "label": "Japanese planes in the first wave",
+      "note": "353 in two waves"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Less than an hour later, they struck the United States Pacific Fleet at Pearl Harbor. By the end of the morning, more than two thousand four hundred Americans were dead. This is the story of that attack, and how it pulled the United States into the Second World War.",
+   "shots": [
+    {
+     "file": "File:USS Arizona (BB-39) burning at Pearl Harbor 1941.jpg",
+     "query": "USS Arizona burning Pearl Harbor",
+     "caption": "USS Arizona burning, 7 December 1941"
+    },
+    {
+     "file": "File:Pearl Harbor wide view attack.jpg",
+     "query": "Pearl Harbor attack wide view",
+     "caption": "Smoke over Pearl Harbor during the attack"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "7 December 1941",
+      "text": "Pearl Harbor, Hawaii"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The road to war",
+   "narration": "By 1941, Japan had been at war in China for four years. In 1940 and 1941, its troops also moved into French Indochina. The United States responded with economic pressure. In the summer of 1941, it stopped exporting oil to Japan.",
+   "shots": [
+    {
+     "query": "Japanese troops French Indochina 1941",
+     "caption": "Japanese troops in French Indochina, 1941"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Summer 1941",
+      "text": "The United States stops oil exports to Japan"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Running out of oil",
+      "who": {
+       "preset": "official",
+       "name": "Japan's leaders"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Japan imported most of its oil, and much of it had come from America. Without new supplies, its navy would eventually run dry. Japan's leaders decided to seize the oil-rich lands of South-East Asia, including the Dutch East Indies. That meant war with Britain, the Netherlands and almost certainly the United States.",
+   "shots": [
+    {
+     "query": "Dutch East Indies oil refinery 1940",
+     "caption": "An oil refinery in the Dutch East Indies"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Japan's plan",
+      "items": [
+       "Seize South-East Asia's oil",
+       "Strike the US fleet first",
+       "Win before America rearms"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "To stop the American fleet in Hawaii from interfering, Admiral Isoroku Yamamoto planned a surprise attack on Pearl Harbor. Yamamoto had studied in the United States and knew how powerful its industry was. He hoped a crushing first blow would buy Japan time.",
+   "shots": [
+    {
+     "file": "File:Admiral Isoroku Yamamoto.jpg",
+     "query": "Isoroku Yamamoto",
+     "caption": "Admiral Isoroku Yamamoto"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The plan",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#f2f2ee",
+       "colour": "#1d2b4a",
+       "name": "Admiral Yamamoto"
+      },
+      "bubble": "?"
+     }
+    },
+    {
+     "file": "File:Pearl Harbor 1941 en.svg",
+     "query": "Pearl Harbor 1941 map",
+     "caption": "Pearl Harbor and Battleship Row, December 1941"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The strike force left northern Japan in late November, keeping strict radio silence. It crossed the empty northern Pacific, far from normal shipping lanes. At its heart were six aircraft carriers under Vice Admiral Chuichi Nagumo: Akagi, Kaga, Soryu, Hiryu, Shokaku and Zuikaku. Between them they carried hundreds of aircraft.",
+   "shots": [
+    {
+     "file": "File:Akagi Hitokappu Bay.jpg",
+     "query": "Akagi Hitokappu Bay 1941",
+     "caption": "The carrier Akagi in northern Japan before sailing"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Six carriers",
+      "items": [
+       "Akagi and Kaga",
+       "Soryu and Hiryu",
+       "Shokaku and Zuikaku"
+      ]
+     }
+    },
+    {
+     "file": "File:Zero Akagi Dec1941.jpg",
+     "query": "Zero fighter Akagi December 1941",
+     "caption": "A Japanese Zero fighter on Akagi, December 1941"
+    }
+   ]
+  },
+  {
+   "chapter": "The warnings",
+   "narration": "There were warnings that morning. At about a quarter to four, a minesweeper spotted a periscope near the harbour entrance. At six thirty seven, the destroyer USS Ward fired on and sank a Japanese midget submarine. These were the first American shots of the Pacific war.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "6.37am, USS Ward",
+      "who": {
+       "preset": "sailor",
+       "hat": "cap",
+       "name": "USS Ward"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "6.37am",
+      "label": "USS Ward sinks a midget submarine",
+      "note": "The first American shots of the Pacific war"
+     }
+    },
+    {
+     "query": "USS Ward DD-139 destroyer",
+     "caption": "The destroyer USS Ward"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The Ward's report moved slowly up the chain of command. Then came the radar sighting at Opana. Privates Joseph Lockard and George Elliott kept tracking the planes as they came closer. They lost them near the coast, just before eight.",
+   "shots": [
+    {
+     "file": "File:SCR-270 Radar Antenna.jpg",
+     "query": "SCR-270 radar antenna",
+     "caption": "An SCR-270 radar antenna, the type used at Opana"
+    },
+    {
+     "stick": {
+      "scene": "radar",
+      "label": "7.15am: 92 miles out",
+      "who": {
+       "preset": "us_soldier",
+       "hat": "cap",
+       "name": "George Elliott"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "137 miles",
+      "label": "Distance of the first radar sighting",
+      "note": "7.02am, Opana radar station"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In Washington, Japanese diplomats had been told to deliver a long message at one o'clock in the afternoon, shortly before the attack. Delays in typing it up meant it arrived more than an hour after the bombs began to fall. American codebreakers had already read most of it.",
+   "shots": [
+    {
+     "query": "Japanese envoys Nomura Kurusu December 1941",
+     "caption": "Japanese envoys in Washington, December 1941"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Planned",
+       "items": [
+        "Message delivered",
+        "1pm in Washington"
+       ]
+      },
+      "right": {
+       "title": "What happened",
+       "items": [
+        "Delivered after",
+        "the attack began"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The attack",
+   "narration": "The first wave hit airfields across Oahu just before eight. American planes, parked close together on the ground, were destroyed in rows. At Pearl Harbor itself, torpedo bombers swept in low over the water towards Battleship Row.",
+   "shots": [
+    {
+     "file": "File:Pearl Harbor- Nakajima B5N2 over Hickam- 80G178985.jpg",
+     "query": "Japanese bomber over Hickam Field",
+     "caption": "A Japanese bomber over Hickam Field"
+    },
+    {
+     "stick": {
+      "scene": "air_raid",
+      "label": "Battleship Row",
+      "start_at": 0.3
+     }
+    },
+    {
+     "file": "File:Battleship-row-torpedos.jpg",
+     "query": "Battleship Row torpedo attack",
+     "caption": "Torpedo tracks streak towards Battleship Row"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Leading the first wave was Commander Mitsuo Fuchida. As the attack began, he radioed back that surprise had been achieved. The code word was tora, the Japanese word for tiger, repeated three times. On the carriers, commanders now knew the Americans had been caught unprepared.",
+   "shots": [
+    {
+     "file": "File:Attack on Pearl Harbor Japanese planes view.jpg",
+     "query": "Pearl Harbor from Japanese plane",
+     "caption": "Pearl Harbor seen from a Japanese aircraft"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Tora! Tora! Tora!",
+      "text": "The signal that surprise had been achieved"
+     }
+    },
+    {
+     "file": "File:Pearl Harbor Japanese recon photo of battleship row 80G30551.jpg",
+     "query": "Japanese photo Battleship Row attack",
+     "caption": "Battleship Row, photographed from a Japanese plane"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Early in the attack, a bomb struck USS Arizona and set off her forward ammunition magazine. The battleship blew apart and sank within minutes. One thousand one hundred and seventy seven of her crew were killed, nearly half of all the Americans who died that day.",
+   "shots": [
+    {
+     "file": "File:The USS Arizona (BB-39) burning after the Japanese attack on Pearl Harbor - NARA 195617 - Edit.jpg",
+     "query": "USS Arizona burning NARA",
+     "caption": "The wreck of USS Arizona after the attack"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1,177",
+      "label": "Men killed aboard USS Arizona",
+      "note": "Nearly half of all US deaths that day"
+     }
+    },
+    {
+     "file": "File:USS SHAW exploding Pearl Harbor Nara 80-G-16871 2.jpg",
+     "query": "USS Shaw exploding Pearl Harbor",
+     "caption": "The destroyer USS Shaw explodes, 7 December 1941"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Torpedoes tore into USS Oklahoma, which rolled over and capsized, trapping many of her crew. West Virginia and California also sank at their moorings. Black smoke from burning oil rose over the harbour, and sailors fought fires as the attack went on. Many fought back with whatever guns they could reach.",
+   "shots": [
+    {
+     "query": "USS Oklahoma capsized Pearl Harbor",
+     "caption": "USS Oklahoma, capsized at her mooring"
+    },
+    {
+     "query": "USS West Virginia burning Pearl Harbor 1941",
+     "caption": "USS West Virginia burning after the attack"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Battleships sunk",
+      "items": [
+       "Arizona",
+       "Oklahoma",
+       "West Virginia",
+       "California"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On West Virginia, ship's cook Doris Miller helped carry wounded men, including the dying captain, to safety. Then, with no training, he manned an anti-aircraft machine gun until it ran out of ammunition. He became the first African American to receive the Navy Cross.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "USS West Virginia",
+      "who": {
+       "preset": "sailor",
+       "hat": "cap",
+       "colour": "#e9e4d8",
+       "name": "Doris Miller"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "file": "File:Dorie Miller.jpg",
+     "query": "Doris Miller sailor",
+     "caption": "Doris Miller, ship's cook on USS West Virginia"
+    },
+    {
+     "file": "File:Nimitz and miller.jpg",
+     "query": "Nimitz Doris Miller Navy Cross",
+     "caption": "Admiral Nimitz presents Miller with the Navy Cross, 1942"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A second wave of about one hundred and seventy planes followed within the hour. It struck the airfields and the harbour again. By mid-morning, the attackers had turned back to their carriers, leaving Pearl Harbor burning behind them.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "carrier",
+      "label": "The second wave"
+     }
+    },
+    {
+     "file": "File:Akagi Pearl Harbor Second Wave Launch.jpg",
+     "query": "Akagi second wave launch Pearl Harbor",
+     "caption": "Planes take off from the carrier Akagi, 7 December 1941"
+    },
+    {
+     "file": "File:NARA 80-G-32915 Burned B-17 Flying Fortress on Hickam Field after Pearl Harbor attack.jpg",
+     "query": "burned B-17 Hickam Field",
+     "caption": "A burned-out B-17 bomber at Hickam Field"
+    }
+   ]
+  },
+  {
+   "chapter": "The cost",
+   "narration": "In all, two thousand four hundred and three Americans were killed, sixty eight of them civilians. Another one thousand one hundred and seventy eight were wounded. Most of the dead were sailors, many of them trapped inside ships that sank.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Americans killed at Pearl Harbor",
+      "labels": [
+       "Navy",
+       "Army",
+       "Marines",
+       "Civilians"
+      ],
+      "values": [
+       2008,
+       218,
+       109,
+       68
+      ],
+      "source": "National WWII Museum; Wikipedia",
+      "highlight": 0
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2,403",
+      "label": "Americans killed on 7 December 1941",
+      "note": "Plus 1,178 wounded"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Nineteen American ships were sunk or damaged, including eight battleships. One hundred and eighty eight aircraft were destroyed. Japan lost twenty nine planes and five midget submarines. One submarine crewman, Kazuo Sakamaki, was washed ashore and captured.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "United States",
+       "items": [
+        "19 ships sunk or damaged",
+        "188 aircraft destroyed"
+       ]
+      },
+      "right": {
+       "title": "Japan",
+       "items": [
+        "29 aircraft lost",
+        "5 midget submarines"
+       ]
+      }
+     }
+    },
+    {
+     "file": "File:Map showing ships present at Pearl Harbor on 7 December 1941.png",
+     "query": "ships at Pearl Harbor 7 December 1941 map",
+     "caption": "Ships present at Pearl Harbor on 7 December"
+    }
+   ]
+  },
+  {
+   "chapter": "What Japan missed",
+   "narration": "Yet the attack missed what mattered most. The Pacific Fleet's three aircraft carriers were not in Pearl Harbor that morning. Within months, aircraft carriers, not battleships, would decide the war at sea. The Japanese had expected to find them there. Their absence was a stroke of luck for the Americans. Japan had struck the wrong ships.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Japan hit",
+       "items": [
+        "Battleships",
+        "Airfields"
+       ]
+      },
+      "right": {
+       "title": "Japan missed",
+       "items": [
+        "3 aircraft carriers",
+        "Fuel and repair yards"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "carrier",
+      "label": "The carriers were at sea"
+     }
+    },
+    {
+     "query": "USS Enterprise CV-6 1941",
+     "caption": "USS Enterprise, one of the missing carriers"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The attackers also left the huge oil storage tanks, the repair yards and the submarine base almost untouched. Nagumo decided against launching a third strike. He judged that staying longer was too risky for his carriers. Yamamoto later called that decision a great mistake. Those fuel tanks and repair yards would help the fleet recover.",
+   "shots": [
+    {
+     "query": "Pearl Harbor oil storage tanks 1941",
+     "caption": "Fuel tanks at Pearl Harbor, left untouched"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "No third strike",
+      "text": "The fuel and the shipyards survived"
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A third strike?",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#f2f2ee",
+       "colour": "#1d2b4a",
+       "facial": "moustache",
+       "name": "Admiral Nagumo"
+      },
+      "bubble": "?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Most of the damaged battleships were raised and repaired. Six of the eight eventually returned to service, and some fought later in the war. Only Arizona and the old target ship Utah were never salvaged. They still lie in the harbour today.",
+   "shots": [
+    {
+     "query": "salvage USS California Pearl Harbor 1942",
+     "caption": "Salvage work at Pearl Harbor, 1942"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "6 of 8",
+      "label": "Damaged battleships returned to service",
+      "note": "Arizona was never raised"
+     }
+    },
+    {
+     "file": "File:USS Arizona (BB-39) wreck in the 1950s.jpg",
+     "query": "USS Arizona wreck 1950s",
+     "caption": "The wreck of Arizona in the 1950s"
+    }
+   ]
+  },
+  {
+   "chapter": "Infamy",
+   "narration": "The next day, President Franklin D. Roosevelt spoke to a joint session of Congress. He called the seventh of December a date which will live in infamy. Less than an hour later, Congress declared war on Japan.",
+   "shots": [
+    {
+     "file": "File:CongressRoosevelt1941.jpg",
+     "query": "Roosevelt Congress 8 December 1941",
+     "caption": "Roosevelt addresses Congress, 8 December 1941"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "A date which will live in infamy",
+      "by": "Franklin D. Roosevelt, 8 December 1941"
+     }
+    },
+    {
+     "file": "File:Day-of-infamy-draft1-page1.jpg",
+     "query": "infamy speech draft",
+     "caption": "Roosevelt's draft, with 'infamy' written in by hand"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the House of Representatives, the vote was three hundred and eighty eight to one. The only vote against came from Jeannette Rankin of Montana, a pacifist who had also voted against entering the First World War.",
+   "shots": [
+    {
+     "file": "File:Jeannette Rankin cph.3b13863.jpg",
+     "query": "Jeannette Rankin",
+     "caption": "Representative Jeannette Rankin of Montana"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "388 to 1",
+      "label": "House vote to declare war on Japan",
+      "note": "8 December 1941"
+     }
+    },
+    {
+     "file": "File:Franklin Roosevelt signing declaration of war against Japan.jpg",
+     "query": "Roosevelt signs declaration of war Japan",
+     "caption": "Roosevelt signs the declaration of war against Japan"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Three days later, on the eleventh of December, Germany and Italy declared war on the United States. The wars in Europe and the Pacific had become one global conflict. America's factories now turned to building ships, planes and tanks on an enormous scale. Japan, meanwhile, attacked British, American and Dutch territories across Asia.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "America at war",
+      "others": [
+       "worker",
+       "parent",
+       "official",
+       "student",
+       "retiree"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "11 December 1941",
+      "text": "Germany and Italy declare war on the US"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Legacy",
+   "narration": "Many people believe that Yamamoto said Japan had only awakened a sleeping giant. That famous line comes from the 1970 film Tora! Tora! Tora!. There is no evidence that Yamamoto ever said or wrote it. The film's producers claimed it came from his diary, or from a letter. Neither has ever been found. The line was even reused in a 2001 Hollywood film.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "The famous quote",
+       "items": [
+        "'A sleeping giant'",
+        "From a 1970 film"
+       ]
+      },
+      "right": {
+       "title": "The evidence",
+       "items": [
+        "No record he",
+        "ever said it"
+       ]
+      }
+     }
+    },
+    {
+     "file": "File:Isoroku Yamamoto 1940 Nagato.jpg",
+     "query": "Yamamoto Nagato 1940",
+     "caption": "Yamamoto aboard the battleship Nagato, 1940"
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Did he say it?",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#f2f2ee",
+       "colour": "#1d2b4a",
+       "name": "Admiral Yamamoto"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "He did write something similar. In January 1942, in a letter to the Japanese politician Ogata Taketora, he warned that there was no glory in striking a sleeping enemy. He wrote that an angry enemy would soon strike back. Six months later, at the Battle of Midway, it did.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "January 1942",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#f2f2ee",
+       "colour": "#1d2b4a",
+       "name": "Admiral Yamamoto"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "June 1942",
+      "text": "The Battle of Midway"
+     }
+    },
+    {
+     "query": "Battle of Midway 1942 Japanese carrier burning",
+     "caption": "The Battle of Midway, June 1942"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Today, a white memorial stands over the sunken Arizona. It was dedicated in 1962. The bodies of most of her crew still lie inside the wreck. Small drops of oil still rise from her tanks to the surface, more than eighty years later.",
+   "shots": [
+    {
+     "file": "File:USS Arizona Memorial (aerial view).jpg",
+     "query": "USS Arizona Memorial aerial",
+     "caption": "The USS Arizona Memorial, built over the wreck"
+    },
+    {
+     "file": "File:USS Arizona Memorial.jpg",
+     "query": "USS Arizona Memorial",
+     "caption": "The USS Arizona Memorial today"
+    },
+    {
+     "card": {
+      "style": "title",
+      "kicker": "Since 1941",
+      "text": "Oil still rises from the Arizona"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Pearl Harbor was a stunning tactical success for Japan, but it failed in its main aim. It did not knock America out of the Pacific. It brought a united and determined United States into the war. Less than four years later, Japan surrendered. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "air_raid",
+      "label": "7 December 1941",
+      "start_at": 0.0
+     }
+    },
+    {
+     "query": "USS Arizona Memorial flag",
+     "caption": "The flag above the Arizona Memorial"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "Pearl Harbor: the radar warning ignored",
+   "caption": "7.02am, 7 December 1941: a huge echo on a radar screen in Hawaii.",
+   "hashtags": [
+    "pearlharbor",
+    "ww2",
+    "history",
+    "1941"
+   ]
+  },
+  {
+   "scenes": [
+    19,
+    20
+   ],
+   "hook": "What Japan missed at Pearl Harbor",
+   "caption": "Japan sank battleships, but missed the targets that mattered most.",
+   "hashtags": [
+    "pearlharbor",
+    "ww2",
+    "history",
+    "navy"
+   ]
+  },
+  {
+   "scenes": [
+    25,
+    26
+   ],
+   "hook": "Yamamoto never said 'sleeping giant'",
+   "caption": "The most famous Pearl Harbor quote comes from a 1970 film.",
+   "hashtags": [
+    "pearlharbor",
+    "history",
+    "ww2",
+    "mythbusting"
+   ]
+  }
+ ]
+}
