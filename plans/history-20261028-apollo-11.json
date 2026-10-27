@@ -1,0 +1,963 @@
+{
+ "channel": "history",
+ "title": "Apollo 11: The Landing That Almost Didn't Happen",
+ "alt_titles": [
+  "The 12 Minutes That Nearly Ended Apollo 11",
+  "Apollo 11: Alarms, Boulders and Seconds of Fuel",
+  "How a Felt-Tip Pen Saved Apollo 11"
+ ],
+ "thumbnail_text": "*25* SECONDS",
+ "thumbnail_tag": "THE MOON, 20 JULY 1969",
+ "thumbnail_file": "Aldrin Apollo 11 original.jpg",
+ "description_summary": "On 20 July 1969, Apollo 11's lunar module dropped towards the Moon with computer alarms flashing and fuel running out. This is the story of the space race, the eight-day mission, and the people whose split-second decisions made the first Moon landing possible.",
+ "tags": [
+  "apollo 11",
+  "moon landing",
+  "neil armstrong",
+  "buzz aldrin",
+  "michael collins",
+  "space race",
+  "1969",
+  "nasa",
+  "eagle has landed",
+  "one small step",
+  "1202 alarm",
+  "history documentary",
+  "cold war",
+  "saturn v"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-28T16:00:00+00:00",
+ "pronunciations": {
+  "Gagarin": "Ga-gah-rin",
+  "Safire": "Saff-ire"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Apollo 11",
+   "url": "https://en.wikipedia.org/wiki/Apollo_11"
+  },
+  {
+   "title": "Britannica: Apollo 11",
+   "url": "https://www.britannica.com/topic/Apollo-11"
+  },
+  {
+   "title": "NASA: Apollo 11 mission",
+   "url": "https://www.nasa.gov/mission/apollo-11/"
+  },
+  {
+   "title": "JFK Library: Address to Joint Session of Congress, 25 May 1961",
+   "url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-to-joint-session-of-congress-may-25-1961"
+  },
+  {
+   "title": "CBS News: Apollo 11 landing still riveting (Bales, Kranz, fuel)",
+   "url": "https://www.cbsnews.com/network/news/space/home/spacenews/files/071814_apollo11_45th.html"
+  },
+  {
+   "title": "Wikipedia: Jack Garman",
+   "url": "https://en.wikipedia.org/wiki/Jack_Garman"
+  },
+  {
+   "title": "National Archives DocsTeach: Safire memo to Nixon, 18 July 1969",
+   "url": "https://docsteach.org/documents/document/memorandum-from-speechwriter-william-safire-to-president-nixon"
+  },
+  {
+   "title": "KQED: Splashdown, the inside story of the Apollo 11 recovery",
+   "url": "https://www.kqed.org/science/1945408/splashdown-the-inside-story-of-the-apollo-11-recovery"
+  },
+  {
+   "title": "Smithsonian Magazine: the felt-tip pen that saved Apollo 11",
+   "url": "https://www.smithsonianmag.com/smart-news/buzz-aldrin-used-this-humble-felt-tip-pen-to-save-the-apollo-ii-astronauts-it-just-sold-for-more-than-850000-180989142/"
+  },
+  {
+   "title": "Planetary Society: How much did Apollo cost?",
+   "url": "https://www.planetary.org/space-policy/cost-of-apollo"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Fuel remaining at touchdown",
+   "reason": "Controllers' figure was about 25 seconds; Kranz later said 7 to 12; later analysis about 50. The script gives 25 at the time and ~50 later, and calls it contested."
+  },
+  {
+   "claim": "Propellant slosh made the fuel readings look worse",
+   "reason": "Commonly given explanation for the margin difference; worth a glance."
+  },
+  {
+   "claim": "Aldrin stepped out about twenty minutes after Armstrong",
+   "reason": "Widely reported (about 19 minutes); single-source check."
+  },
+  {
+   "claim": "600 million viewers",
+   "reason": "An estimate; the script says 'an estimated'."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "On 20 July 1969, a small spacecraft called Eagle was dropping towards the Moon. Inside were Neil Armstrong and Buzz Aldrin. A few minutes from the surface, an alarm sounded. The computer flashed a code, 1202, and Armstrong asked Houston what it meant. A quarter of a million miles away, a room of engineers had seconds to decide whether to call the landing off.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "moon_landing",
+      "phase": "land",
+      "label": "20 July 1969, above the Moon"
+     }
+    },
+    {
+     "stick": {
+      "scene": "control_room",
+      "alarm": true,
+      "press_at": 0.5,
+      "label": "Mission Control, Houston",
+      "who": {
+       "preset": "operator",
+       "colour": "#3a4a66",
+       "name": "Steve Bales"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Abort, or keep going?",
+      "who": {
+       "preset": "operator",
+       "glasses": true,
+       "hair": "short",
+       "name": "Jack Garman"
+      },
+      "other": {
+       "preset": "operator",
+       "colour": "#3a4a66",
+       "name": "Steve Bales"
+      },
+      "bubbles": [
+       "1202?",
+       "Go!"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "This is the story of Apollo 11. It is a race between two superpowers and eight days in space. And it is a landing that came down to a young engineer's memory, a pilot's nerve and a few seconds of fuel. It is also the story of how close the whole mission came to ending very differently.",
+   "shots": [
+    {
+     "file": "File:Apollo 11 Lunar Module Eagle in landing configuration in lunar orbit from the Command and Service Module Columbia.jpg",
+     "query": "Apollo 11 lunar module Eagle in lunar orbit",
+     "caption": "Eagle in lunar orbit, photographed from Columbia, July 1969"
+    },
+    {
+     "file": "File:Apollo 11 first step.jpg",
+     "query": "Apollo 11 first step television",
+     "caption": "The first step, as seen on live television"
+    },
+    {
+     "stick": {
+      "scene": "spacecraft",
+      "label": "Apollo 11, July 1969"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Space Race",
+   "narration": "The race began in October 1957, when the Soviet Union launched Sputnik, the first artificial satellite. Americans could see it crossing their night sky. Then, on 12 April 1961, Soviet pilot Yuri Gagarin became the first human in space. The United States was behind, and its new president knew it.",
+   "shots": [
+    {
+     "file": "File:Yuri Gagarin (1961) - Restoration.jpg",
+     "query": "Yuri Gagarin 1961",
+     "caption": "Yuri Gagarin, the first human in space, 1961"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "October 1957: Sputnik"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Washington, April 1961",
+      "who": {
+       "preset": "official",
+       "colour": "#24345a",
+       "name": "President Kennedy"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 25 May 1961, John F. Kennedy stood before Congress and set a goal that sounded almost impossible. He asked the nation to commit itself to a Moon landing before the decade was out. The astronaut would also have to return safely. At that point, America had sent one astronaut on a fifteen minute flight.",
+   "shots": [
+    {
+     "file": "File:Kennedy Giving Historic Speech to Congress - GPN-2000-001658.jpg",
+     "query": "Kennedy speech Congress May 1961",
+     "caption": "Kennedy addresses Congress, 25 May 1961"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Before this decade is out, of landing a man on the moon and returning him safely to the earth.",
+      "by": "John F. Kennedy, 25 May 1961"
+     }
+    },
+    {
+     "file": "File:President Kennedy - We Choose to Go to the Moon (29533458786).jpg",
+     "query": "Kennedy Rice University moon speech 1962",
+     "caption": "Kennedy's 'We choose to go to the Moon' speech, Houston, 1962"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The effort that followed was enormous. Around 400,000 people worked on Apollo, in factories, laboratories and offices across America. The programme cost 25.8 billion dollars between 1960 and 1973. Adjusted for inflation, that is roughly 309 billion dollars today. It remains one of the largest projects ever undertaken in peacetime.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "400,000",
+      "label": "people worked on Apollo",
+      "note": "Smithsonian Air & Space"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$25.8bn",
+      "label": "Apollo's cost, 1960 to 1973",
+      "note": "About $309bn in 2025 dollars · Planetary Society"
+     }
+    },
+    {
+     "file": "File:Apollo 11 Saturn V and Mobile Service Structure at pad 39-A (48286445877).jpg",
+     "query": "Apollo 11 Saturn V pad 39A",
+     "caption": "The Saturn V for Apollo 11 on its launch pad"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "It nearly stopped before it started. On 27 January 1967, a fire broke out during a launch rehearsal on the pad. Astronauts Gus Grissom, Ed White and Roger Chaffee were killed. NASA redesigned the spacecraft, including its hatch and the materials inside, before anyone flew again.",
+   "shots": [
+    {
+     "file": "File:Apollo 1 Prime Crew - GPN-2000-001159.jpg",
+     "query": "Apollo 1 crew Grissom White Chaffee",
+     "caption": "Grissom, White and Chaffee, the Apollo 1 crew"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "1967: a long redesign",
+      "who": {
+       "preset": "scientist",
+       "name": "NASA engineers"
+      }
+     }
+    },
+    {
+     "file": "File:Apollo 1 suited.jpg",
+     "query": "Apollo 1 crew suited",
+     "caption": "The Apollo 1 crew in their spacesuits, 1966"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Then progress came fast. In December 1968, Apollo 8 became the first crewed spacecraft to orbit the Moon. Its crew photographed the Earth rising over the lunar horizon. In May 1969, Apollo 10 flew a full rehearsal, stopping short of a landing. Only one step remained.",
+   "shots": [
+    {
+     "file": "File:NASA-Apollo8-Dec24-Earthrise.jpg",
+     "query": "Apollo 8 Earthrise",
+     "caption": "Earthrise, photographed by Apollo 8, 24 December 1968"
+    },
+    {
+     "stick": {
+      "scene": "spacecraft",
+      "label": "December 1968: Apollo 8"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1 step",
+      "label": "left after Apollo 10's rehearsal",
+      "note": "May 1969"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Crew",
+   "narration": "The crew chosen for the attempt were all experienced pilots. Neil Armstrong, the commander, was a former naval aviator and test pilot who had flown the rocket plane X-15. Buzz Aldrin, the lunar module pilot, had a doctorate from MIT on how spacecraft meet in orbit.",
+   "shots": [
+    {
+     "file": "File:Apollo 11 Crew.jpg",
+     "query": "Apollo 11 crew portrait",
+     "caption": "Armstrong, Collins and Aldrin, the Apollo 11 crew"
+    },
+    {
+     "file": "File:Neil Armstrong pose.jpg",
+     "query": "Neil Armstrong portrait 1969",
+     "caption": "Neil Armstrong, mission commander"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Buzz Aldrin, MIT doctorate",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#7a8597",
+       "name": "Buzz Aldrin"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Michael Collins, an Air Force test pilot, would fly the command module. He would stay in lunar orbit while the others landed. Their spacecraft came in two parts. The command module, Columbia, would carry them there and back. The lunar module, Eagle, would take two of them down to the surface.",
+   "shots": [
+    {
+     "file": "File:Michael Collins (S69-31742).jpg",
+     "query": "Michael Collins astronaut 1969",
+     "caption": "Michael Collins, command module pilot"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Two spacecraft",
+      "items": [
+       "Columbia: there and back",
+       "Eagle: down to the surface",
+       "Collins stays in orbit"
+      ]
+     }
+    },
+    {
+     "file": "File:Apollo 11 Command Module Columbia (NASM2016-04274).jpg",
+     "query": "Apollo 11 command module Columbia museum",
+     "caption": "Columbia today, at the National Air and Space Museum"
+    }
+   ]
+  },
+  {
+   "chapter": "Launch",
+   "narration": "On 16 July 1969, at 9.32 in the morning local time, the Saturn V rocket lifted off from Launch Complex 39A in Florida. It was early afternoon in Britain. Huge crowds had gathered along nearby roads and beaches to watch. Within minutes, the crew were in orbit around the Earth.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "rocket_launch",
+      "lift_at": 1.0,
+      "label": "16 July 1969, 9.32am, Florida"
+     }
+    },
+    {
+     "file": "File:Apollo 11 launch (S69-39962).jpg",
+     "query": "Apollo 11 launch",
+     "caption": "Apollo 11 lifts off, 16 July 1969"
+    },
+    {
+     "file": "File:Apollo 11 liftoff from launch tower camera.jpg",
+     "query": "Apollo 11 liftoff tower camera",
+     "caption": "Liftoff, seen from a camera on the launch tower"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "After one and a half orbits, the third stage fired again and sent them towards the Moon. The journey took about three days. On 19 July, Columbia and Eagle slipped into orbit around the Moon. The next day, Armstrong and Aldrin climbed into Eagle and separated from Columbia.",
+   "shots": [
+    {
+     "file": "File:Apollo 11 Saturn V lifting off on July 16, 1969.jpg",
+     "query": "Saturn V lifting off July 1969",
+     "caption": "The Saturn V climbs away from Florida"
+    },
+    {
+     "stick": {
+      "scene": "spacecraft",
+      "label": "19 July 1969: lunar orbit"
+     }
+    },
+    {
+     "file": "File:Apollo 11 lunar module.jpg",
+     "query": "Apollo 11 lunar module Eagle orbit",
+     "caption": "Eagle after separating from Columbia"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Collins was now alone in Columbia. Each time he passed behind the Moon, he lost all radio contact with Earth. For those stretches, nobody on Earth could hear him. His job was simple to describe and hard to do. If anything went wrong below, he had to be ready to come home alone.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "spacecraft",
+      "label": "Collins, alone in Columbia",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#5d6b52",
+       "name": "Michael Collins"
+      }
+     }
+    },
+    {
+     "file": "File:Michael collins training apollo 11.jpg",
+     "query": "Michael Collins training Apollo 11",
+     "caption": "Collins training for the mission, 1969"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Behind the Moon: no radio",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#5d6b52",
+       "name": "Michael Collins"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Twelve Minutes",
+   "narration": "Eagle's descent to the surface took about twelve minutes. Partway down, the computer began flashing alarms, 1202 and then 1201. In Houston, guidance officer Steve Bales had to decide quickly whether to abort. He turned to Jack Garman, a 24 year old computer engineer.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "control_room",
+      "alarm": true,
+      "press_at": 0.3,
+      "label": "1202 program alarm",
+      "who": {
+       "preset": "operator",
+       "glasses": true,
+       "hair": "short",
+       "name": "Jack Garman"
+      }
+     }
+    },
+    {
+     "file": "File:Apollo 11 Mission Control Center - landing trajectory.jpg",
+     "query": "Apollo 11 Mission Control landing",
+     "caption": "Mission Control in Houston during the landing"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Steve Bales and Jack Garman",
+      "who": {
+       "preset": "operator",
+       "colour": "#3a4a66",
+       "name": "Steve Bales"
+      },
+      "other": {
+       "preset": "operator",
+       "glasses": true,
+       "hair": "short",
+       "name": "Jack Garman"
+      },
+      "bubble": "Abort?"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Garman had studied the alarm codes before the mission. He knew the computer was overloaded but still doing its most important work. As long as the alarms did not become continuous, it was safe to go on. Bales called go, and the message was passed to the crew. The landing continued.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Safe to continue",
+      "who": {
+       "preset": "operator",
+       "glasses": true,
+       "hair": "short",
+       "name": "Jack Garman"
+      },
+      "other": {
+       "preset": "operator",
+       "colour": "#3a4a66",
+       "name": "Steve Bales"
+      },
+      "bubble": "Go!"
+     }
+    },
+    {
+     "file": "File:Duke, Lovell and Haise at the Apollo 11 Capcom, Johnson Space Center, Houston, Texas - 19690720.jpg",
+     "query": "Charlie Duke Capcom Apollo 11",
+     "caption": "Charlie Duke at the Capcom desk, with Jim Lovell and Fred Haise"
+    },
+    {
+     "stick": {
+      "scene": "radio",
+      "label": "Houston to Eagle",
+      "bubble": "We're go on that alarm"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Near the surface, Armstrong saw a new problem. The computer was steering Eagle towards a crater surrounded by large boulders. He took partial manual control and flew on, low over the surface, looking for a clear patch of ground. Aldrin read out their height and speed as Armstrong searched. In Houston, controllers began calling out how much fuel was left.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "moon_landing",
+      "phase": "land",
+      "label": "Boulders below",
+      "who": {
+       "preset": "astronaut",
+       "name": "Neil Armstrong"
+      }
+     }
+    },
+    {
+     "file": "File:Apollo 11 Tranquility Base panoramic (JSC2007-E-045375).jpg",
+     "query": "Apollo 11 Tranquility Base panorama",
+     "caption": "The ground around the landing site"
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Fuel calls",
+      "who": {
+       "preset": "operator",
+       "colour": "#3a4a66",
+       "name": "Steve Bales"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Charlie Duke, the astronaut speaking to the crew from Houston, called sixty seconds, then thirty. At the time, controllers believed only about 25 seconds of usable fuel remained before an abort would be forced. At 20:17 UTC, Eagle touched down in the Sea of Tranquility. It was just after quarter past nine in the evening in Britain. Armstrong radioed: Houston, Tranquility Base here. The Eagle has landed.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "~25 sec",
+      "label": "of fuel controllers thought was left",
+      "note": "Later analysis suggests closer to 50"
+     }
+    },
+    {
+     "stick": {
+      "scene": "moon_landing",
+      "phase": "land",
+      "label": "20:17 UTC, Sea of Tranquility"
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Houston, Tranquility Base here. The Eagle has landed.",
+      "by": "Neil Armstrong, 20 July 1969"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In Mission Control, Charlie Duke stumbled over the new name before replying. He said a room full of people had been about to turn blue. Later analysis suggested the real fuel margin was nearer 50 seconds, because propellant sloshing in the tanks had made the readings look worse. At the time, nobody knew that.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "Mission Control breathes again",
+      "who": {
+       "preset": "operator",
+       "name": "Flight controllers"
+      }
+     }
+    },
+    {
+     "file": "File:Apollo 11 David Scott in Mission Control.jpg",
+     "query": "Apollo 11 Mission Control",
+     "caption": "Mission Control during Apollo 11"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "~50 sec",
+      "label": "the real margin, by later estimates",
+      "note": "Contested: estimates vary"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "One Small Step",
+   "narration": "The flight plan allowed for a rest period after landing. Instead, the crew asked to go outside early. Getting into their suits and backpacks took hours. At 02.56 UTC on 21 July, Armstrong stepped off Eagle's footpad. In Britain, it was just before four in the morning.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "moon_landing",
+      "phase": "walk",
+      "label": "02.56 UTC, 21 July 1969",
+      "who": {
+       "preset": "astronaut",
+       "name": "Neil Armstrong"
+      }
+     }
+    },
+    {
+     "file": "File:Apollo 11, Onto a New World - Flickr - NASA on The Commons.jpg",
+     "query": "Apollo 11 onto a new world",
+     "caption": "Eagle's ladder and footpad on the surface"
+    },
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "Britain, nearly 4am",
+      "who": {
+       "preset": "gentleman",
+       "name": "BBC viewers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "His words were: That's one small step for man, one giant leap for mankind. Armstrong said he meant to say a man, and the small word may have been lost in the transmission. Experts still disagree about whether it can be heard.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "That's one small step for man, one giant leap for mankind.",
+      "by": "Neil Armstrong, 21 July 1969 (UTC)"
+     }
+    },
+    {
+     "file": "File:Neil Armstrong On The Moon - GPN-2000-001209.jpg",
+     "query": "Neil Armstrong on the Moon",
+     "caption": "Armstrong on the Moon, one of the few photos of him there"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "'One small step for [a] man'",
+      "who": {
+       "preset": "astronaut",
+       "name": "Neil Armstrong"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The pictures were black and white and grainy, but they were live. An estimated 600 million people watched the moonwalk, around a fifth of the world's population at the time. About twenty minutes after Armstrong, Aldrin climbed down to join him. Armstrong took most of the photographs, so most famous images show Aldrin.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "600m",
+      "label": "estimated viewers of the moonwalk",
+      "note": "About 1 in 5 people alive in 1969"
+     }
+    },
+    {
+     "file": "File:Aldrin Apollo 11 original.jpg",
+     "query": "Aldrin Apollo 11 visor",
+     "caption": "Aldrin, photographed by Armstrong"
+    },
+    {
+     "file": "File:Buzz Aldrin's bootprint on the Moon, AS11-40-5877.jpg",
+     "query": "Aldrin bootprint Moon",
+     "caption": "Aldrin's bootprint in the lunar soil"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Their time outside lasted two hours and 31 minutes. They planted a United States flag and set up experiments, including a seismometer and a mirror for bouncing lasers off the Moon. They collected 21.5 kilograms of rock and soil. On Eagle's leg they left a plaque, which said they came in peace for all mankind.",
+   "shots": [
+    {
+     "file": "File:AS11-40-5875 - Apollo 11 - Apollo 11 Mission image - Astronaut Edwin Aldrin salutes the U.S. flag that has been placed on the moon - NARA - 16685052.jpg",
+     "query": "Aldrin salutes flag Apollo 11",
+     "caption": "Aldrin beside the flag at Tranquility Base"
+    },
+    {
+     "file": "File:AS11-40-5929 - Apollo 11 - Apollo 11 Mission image - Astronaut Edwin Aldrin unpacks experiments from the Lunar Module - NARA - 16685219.jpg",
+     "query": "Aldrin unpacks experiments Apollo 11",
+     "caption": "Aldrin unpacks the experiments from Eagle"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "21.5 kg",
+      "label": "of Moon rock and soil brought home",
+      "note": "Apollo 11, July 1969"
+     }
+    },
+    {
+     "file": "File:Apollo 11 plaque closeup on Moon.jpg",
+     "query": "Apollo 11 plaque",
+     "caption": "The plaque left on Eagle's descent stage"
+    }
+   ]
+  },
+  {
+   "chapter": "The Way Home",
+   "narration": "Back inside, Aldrin noticed something on the floor. A circuit breaker switch had snapped off. It was the one needed to arm the engine that would lift them off the Moon. Without it, they could be stranded. Houston began working on a fix while the crew tried to rest. The fix was a felt-tip pen.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "A broken circuit breaker",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#7a8597",
+       "name": "Buzz Aldrin"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "The switch to arm the engine",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#7a8597",
+       "name": "Buzz Aldrin"
+      },
+      "bubble": "!"
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Fix: a felt-tip pen",
+      "who": {
+       "preset": "astronaut",
+       "colour": "#7a8597",
+       "name": "Buzz Aldrin"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Aldrin pushed the pen's tip into the hole where the switch had been, and the circuit closed. The ascent engine had no backup, so it simply had to work. On 21 July, it fired and Eagle's upper stage lifted off the surface. Aldrin later said he saw the flag blown over by the exhaust. A few hours later, Eagle docked with Columbia, and Collins had his crewmates back.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "rocket_launch",
+      "lift_at": 1.2,
+      "label": "21 July 1969: liftoff from the Moon"
+     }
+    },
+    {
+     "file": "File:Apollo 11 Lunar Module returning to CSM (AS11-44-6626).jpg",
+     "query": "Apollo 11 lunar module returning to CSM",
+     "caption": "Eagle rises to meet Columbia, with Earth beyond"
+    },
+    {
+     "stick": {
+      "scene": "spacecraft",
+      "label": "Docked: three men again"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The White House had prepared for the worst. On 18 July, speechwriter William Safire wrote a statement called In Event of Moon Disaster. It was for President Nixon to read if the astronauts were stranded on the Moon. It was never needed, and it stayed private for years.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "18 July 1969: a speech in reserve",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "name": "William Safire"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "In Event of Moon Disaster",
+      "items": [
+       "Written 18 July 1969",
+       "For President Nixon",
+       "Never read out"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The speech nobody heard",
+      "who": {
+       "preset": "official",
+       "colour": "#2e2e36",
+       "hair": "short",
+       "name": "President Nixon"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 24 July, Columbia splashed down in the Pacific Ocean, about 900 miles southwest of Hawaii. The crew were scrubbed down, given protective suits and flown to the recovery ship, USS Hornet. Nixon greeted them through the window of a sealed trailer.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "24 July 1969: the Pacific"
+     }
+    },
+    {
+     "file": "File:President Nixon welcomes the Apollo 11 astronauts aboard the U.S.S. Hornet.jpg",
+     "query": "Nixon welcomes Apollo 11 astronauts Hornet",
+     "caption": "Nixon greets the crew through the quarantine window"
+    },
+    {
+     "file": "File:Mobile Quarantine Facility.jpg",
+     "query": "Apollo 11 mobile quarantine facility",
+     "caption": "The quarantine trailer the crew lived in"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Scientists could not rule out that the Moon carried germs, so the astronauts spent 21 days in quarantine. They were released on 10 August. Days later, huge crowds cheered them through the streets of New York. Then came a world tour.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "21 days",
+      "label": "in quarantine after the mission",
+      "note": "Released 10 August 1969"
+     }
+    },
+    {
+     "file": "File:Apollo 11 crew in quarantine.jpg",
+     "query": "Apollo 11 crew in quarantine",
+     "caption": "The crew in quarantine, 1969"
+    },
+    {
+     "file": "File:Apollo 11 ticker tape parade 1.jpg",
+     "query": "Apollo 11 ticker tape parade New York",
+     "caption": "The crew's parade through New York, August 1969"
+    }
+   ]
+  },
+  {
+   "chapter": "Why It Matters",
+   "narration": "Apollo 11 met Kennedy's goal with five months to spare. Five more crews landed on the Moon after it. In all, twelve men walked on the Moon, the last in December 1972. Nobody has been back since. The rock samples are still being studied today.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "After Apollo 11",
+      "items": [
+       "Five more landings",
+       "12 men on the Moon",
+       "Last visit: December 1972"
+      ]
+     }
+    },
+    {
+     "file": "File:Buzz Aldrin by Neil Armstrong.jpg",
+     "query": "Buzz Aldrin by Neil Armstrong",
+     "caption": "Aldrin on the surface, July 1969"
+    },
+    {
+     "stick": {
+      "scene": "moon_landing",
+      "phase": "flag",
+      "label": "Tranquility Base"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The landing is remembered as a triumph of technology. But at the decisive moments, it rested on people. A 24 year old knew what an alarm meant. A pilot flew past the boulders with seconds of fuel left. A pen fixed a broken switch. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "People, not just machines",
+      "who": {
+       "preset": "astronaut",
+       "name": "Neil Armstrong"
+      },
+      "other": {
+       "preset": "astronaut",
+       "colour": "#7a8597",
+       "name": "Buzz Aldrin"
+      }
+     }
+    },
+    {
+     "file": "File:Mission Operations Control Room at the conclusion of Apollo 11.jpg",
+     "query": "Mission Control celebrates Apollo 11",
+     "caption": "Mission Control at the end of Apollo 11"
+    },
+    {
+     "file": "File:Apollo 11 Mission image - Lunar Module at Tranquility Base (6962456597).jpg",
+     "query": "Lunar module Tranquility Base",
+     "caption": "Eagle at Tranquility Base, July 1969"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "The alarm that nearly stopped Apollo 11",
+   "caption": "20 July 1969: a computer alarm, minutes before the first Moon landing.",
+   "hashtags": [
+    "apollo11",
+    "history",
+    "moonlanding",
+    "space"
+   ]
+  },
+  {
+   "scenes": [
+    15,
+    16
+   ],
+   "hook": "Apollo 11 landed on fumes",
+   "caption": "How much fuel did Eagle really have left when it touched down?",
+   "hashtags": [
+    "apollo11",
+    "history",
+    "nasa",
+    "space"
+   ]
+  },
+  {
+   "scenes": [
+    22,
+    23
+   ],
+   "hook": "The pen that saved Apollo 11",
+   "caption": "A broken switch nearly stranded two men on the Moon.",
+   "hashtags": [
+    "apollo11",
+    "history",
+    "buzzaldrin",
+    "space"
+   ]
+  }
+ ]
+}
