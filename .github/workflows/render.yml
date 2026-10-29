@@ -115,7 +115,7 @@ jobs:
           for f in done/*/done.txt; do
             [ -f "$f" ] || continue
             p=$(cat "$f")
-            [ -f "$p" ] && git mv "$p" plans/done/
+            [ -f "$p" ] && git mv -f "$p" plans/done/
           done
           git config user.name "video-pipeline"
           git config user.email "actions@users.noreply.github.com"
