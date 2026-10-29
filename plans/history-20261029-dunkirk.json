@@ -1,0 +1,932 @@
+{
+ "channel": "history",
+ "title": "Dunkirk: How 338,000 Men Escaped a Trap",
+ "alt_titles": [
+  "Dunkirk: The Rescue That Saved Britain's Army",
+  "Operation Dynamo: Nine Days at Dunkirk",
+  "Why Did Hitler's Tanks Stop at Dunkirk?"
+ ],
+ "thumbnail_text": "*338,000* TRAPPED",
+ "thumbnail_tag": "DUNKIRK, MAY 1940",
+ "thumbnail_file": "Dunkirk 26-29 May 1940 NYP68075.jpg",
+ "description_summary": "In May 1940, the British army and its allies were trapped against the sea at Dunkirk. Planners hoped to save 45,000 men; in nine days, more than 338,000 got away. This is the story of the halt order, the East Mole, the little ships and the rearguard that made it possible.",
+ "tags": [
+  "dunkirk",
+  "operation dynamo",
+  "dunkirk evacuation",
+  "little ships",
+  "world war 2",
+  "ww2 history",
+  "1940",
+  "churchill",
+  "british expeditionary force",
+  "halt order",
+  "bertram ramsay",
+  "history documentary",
+  "lightoller"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-10-29T16:00:00+00:00",
+ "pronunciations": {
+  "Rundstedt": "Roont-shtet",
+  "Göring": "Gur-ring",
+  "Göring's": "Gur-rings",
+  "Ardennes": "Ar-den",
+  "Lightoller": "Lie-tol-ler",
+  "Tamzine": "Tam-zeen",
+  "Lille": "Leel"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Dunkirk evacuation",
+   "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+  },
+  {
+   "title": "Britannica: Dunkirk evacuation",
+   "url": "https://www.britannica.com/event/Dunkirk-evacuation"
+  },
+  {
+   "title": "Ramsay's despatch on Operation Dynamo, London Gazette",
+   "url": "https://thegazette.co.uk/London/issue/38017/supplement/3299/data.pdf"
+  },
+  {
+   "title": "HistoryNet: Hitler's halt order",
+   "url": "https://www.historynet.com/decisions-hitlers-halt-order.htm"
+  },
+  {
+   "title": "Wikipedia: Little Ships of Dunkirk",
+   "url": "https://en.wikipedia.org/wiki/Little_Ships_of_Dunkirk"
+  },
+  {
+   "title": "IWM Lives of the First World War: The Lightollers at Dunkirk",
+   "url": "https://livesofthefirstworldwar.iwm.org.uk/story/70869"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Lightoller brought back around 130 men",
+   "reason": "Sources give 127 and 130; script says 'around 130'."
+  },
+  {
+   "claim": "French prisoners at Lille",
+   "reason": "Sources give 35,000 or 40,000; script says 'tens of thousands'."
+  },
+  {
+   "claim": "Soldiers complained they never saw the RAF",
+   "reason": "Widely reported but not checked against two sources here; worth a glance."
+  },
+  {
+   "claim": "Halt lasted around two days",
+   "reason": "Exact lifting time varies by source (26 or 27 May)."
+  },
+  {
+   "claim": "Medway Queen about 7,000 men",
+   "reason": "Single source; script says 'credited with'."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "By 27 May 1940, British and French soldiers were crowding onto the beaches around Dunkirk, in northern France. Behind them, German forces were closing in. In front of them lay the open sea, and there were almost no boats to take them off. German aircraft were already bombing the town and its harbour. On that first full day of the rescue, just 7,669 men got away.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "May 1940: the retreat to the coast",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "beach_evacuation",
+      "label": "27 May 1940, Dunkirk"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Waiting on the sand",
+      "who": {
+       "preset": "british_soldier",
+       "name": "A British soldier"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Britain's leaders hoped to save around 45,000 men before the Germans broke through. Nine days later, more than 338,000 had been brought out. This is the story of how it happened. It involves a German order still argued over, a harbour wall never built for ships, and hundreds of civilian boats.",
+   "shots": [
+    {
+     "file": "File:Dunkirk 26-29 May 1940 NYP68075.jpg",
+     "query": "Dunkirk evacuation troops beach 1940",
+     "caption": "Troops on the beach at Dunkirk, late May 1940"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "338,226",
+      "label": "Allied soldiers brought out",
+      "note": "26 May to 4 June 1940"
+     }
+    },
+    {
+     "file": "File:Troops evacuated from Dunkirk on a destroyer about to berth at Dover, 31 May 1940. H1637.jpg",
+     "query": "troops evacuated Dunkirk destroyer Dover",
+     "caption": "Rescued troops on a destroyer arriving at Dover, 31 May 1940"
+    }
+   ]
+  },
+  {
+   "chapter": "The Trap",
+   "narration": "On 10 May 1940, Germany invaded the Netherlands, Belgium and France. Its armoured divisions pushed through the Ardennes forest, which the Allies had thought too difficult for tanks. On 20 May, they reached the English Channel. The best Allied armies in the north were cut off.",
+   "shots": [
+    {
+     "file": "File:21May-4June1940-Fall Gelb.svg",
+     "query": "Fall Gelb map May June 1940",
+     "caption": "The German advance, 21 May to 4 June 1940"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "10 May 1940: Germany attacks",
+      "who": {
+       "preset": "german_soldier_1914",
+       "hat": "m1_helmet",
+       "name": "German troops"
+      }
+     }
+    },
+    {
+     "file": "File:16May-21May Battle of Belgium.PNG",
+     "query": "Battle of Belgium map May 1940",
+     "caption": "The fighting in Belgium, 16 to 21 May 1940"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Trapped among them was the British Expeditionary Force, commanded by General Lord Gort. On 19 May, Gort began to consider escape by sea. Within days, Dunkirk was the last port still open to the British. Retreating units abandoned their lorries and marched for the coast.",
+   "shots": [
+    {
+     "file": "File:John Gort at Arras WWII IWM O 177.jpg",
+     "query": "Lord Gort 1940",
+     "caption": "General Lord Gort, commander of the British Expeditionary Force"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "19 May 1940: escape by sea?",
+      "who": {
+       "preset": "general",
+       "facial": "moustache",
+       "name": "Lord Gort"
+      }
+     }
+    },
+    {
+     "file": "File:The British Expeditionary Force (BEF) in France 1939-1940 F4629.jpg",
+     "query": "British Expeditionary Force France 1940",
+     "caption": "British troops in France, 1939 to 1940"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Then the German tanks stopped. Late on 23 May, General Gerd von Rundstedt ordered his armour to halt. Hitler visited his headquarters the next day and confirmed the order. The tanks waited for around two days, just a few miles from Dunkirk. Those days gave the Allies time to build a defence line.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "24 May 1940: the halt order",
+      "who": {
+       "preset": "german_officer",
+       "name": "General von Rundstedt"
+      },
+      "other": {
+       "preset": "german_officer",
+       "facial": "moustache",
+       "name": "Hitler"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2 days",
+      "label": "the German tanks waited",
+      "note": "Around 24 to 26 May 1940"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "The Allies dig in",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Why the tanks halted is still debated. Commanders worried about losing tanks needed for the rest of France. Hermann Göring promised that his air force could destroy the trapped armies alone. Some later claimed Hitler wanted to spare Britain. Most historians reject that idea.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Why stop?",
+      "items": [
+       "Fear of losing tanks",
+       "Göring's promise",
+       "Caution about counter-attacks"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A decision still argued over",
+      "who": {
+       "preset": "german_officer",
+       "name": "General von Rundstedt"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "Debated",
+      "label": "why the tanks halted",
+      "note": "Historians disagree"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Operation Dynamo",
+   "narration": "The rescue was run from tunnels beneath Dover Castle by Vice Admiral Bertram Ramsay. The Admiralty ordered it to begin at 6.57 in the evening on Sunday 26 May. It was called Operation Dynamo. The plan aimed to lift up to 45,000 men within two days. After that, Ramsay's staff expected German attacks to end the operation.",
+   "shots": [
+    {
+     "file": "File:Admiral Sir Bertram Ramsay TR2626.jpg",
+     "query": "Bertram Ramsay admiral",
+     "caption": "Admiral Bertram Ramsay, who ran the rescue"
+    },
+    {
+     "stick": {
+      "scene": "ops_room",
+      "label": "Dover Castle, 26 May 1940",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#1d2a44",
+       "colour": "#1d2a44",
+       "name": "Admiral Ramsay"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "45,000",
+      "label": "men the plan hoped to save",
+      "note": "Within two days"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The first days were slow. The beaches sloped so gently that large ships could not get close. Soldiers waded out to small boats, which then ferried them to the ships waiting offshore. The shortest crossing ran within range of German guns on the coast, so many ships took longer routes. In the first two days, only about 25,000 men escaped.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "beach_evacuation",
+      "label": "Too shallow for big ships"
+     }
+    },
+    {
+     "file": "File:Dunkirk 1940 HU1135.jpg",
+     "query": "Dunkirk 1940 troops beach",
+     "caption": "Troops at Dunkirk, 1940"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "25,000",
+      "label": "escaped in the first two days",
+      "note": "Against a target of 45,000"
+     }
+    },
+    {
+     "file": "File:Dunkirk Evacuation shipping routes.png",
+     "query": "Dunkirk evacuation shipping routes map",
+     "caption": "The three sea routes used during the evacuation"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The man in charge on the spot, Captain William Tennant, looked for a faster way. Dunkirk harbour had a long breakwater called the East Mole. It was never meant for ships to tie up against. Tennant decided to try it anyway.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "Captain Tennant, Dunkirk",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#1d2a44",
+       "colour": "#26324d",
+       "glasses": false,
+       "name": "Captain Tennant"
+      },
+      "bubble": "The Mole"
+     }
+    },
+    {
+     "file": "File:East Mole Dunkirk.jpg",
+     "query": "East Mole Dunkirk 1940",
+     "caption": "The East Mole at Dunkirk"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "Ships come alongside the Mole"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "It worked. Ships moored against the narrow walkway, and long lines of soldiers filed along it to board. Almost 200,000 men would leave from the moles, far more than from the beaches. Each night, the queue along the Mole stretched back towards the town.",
+   "shots": [
+    {
+     "file": "File:Fenella at the East Mole, Dunkirk..jpeg",
+     "query": "Fenella East Mole Dunkirk",
+     "caption": "The ship Fenella at the East Mole"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "~200,000",
+      "label": "men left from the moles",
+      "note": "Most of the total"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Filing along the Mole",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Little Ships",
+   "narration": "To fetch men from the beaches, the navy needed boats that could work in shallow water. On 27 May, officials began calling boatyards to collect them. Some owners agreed to hand their boats over. Others found them taken before anyone could ask.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "27 May 1940: boats wanted",
+      "who": {
+       "preset": "official",
+       "name": "Ministry of Shipping"
+      },
+      "other": {
+       "preset": "worker",
+       "name": "Boatyard owner"
+      }
+     }
+    },
+    {
+     "file": "File:Dunkirk 1940 HU2280.jpg",
+     "query": "Dunkirk 1940 small boats",
+     "caption": "Small craft at Dunkirk, 1940"
+    },
+    {
+     "stick": {
+      "scene": "fleet",
+      "label": "Heading for France"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Over 800 vessels took part in the evacuation. They included destroyers, ferries, fishing boats, pleasure steamers and private motor yachts. Many of the smallest were crewed by naval personnel, but some went with their owners. By 31 May, nearly 400 small craft were working off the coast.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "800+",
+      "label": "vessels took part",
+      "note": "Navy and civilian"
+     }
+    },
+    {
+     "file": "File:The Withdrawal from Dunkirk, June 1940 Art.IWMARTLD305.jpg",
+     "query": "Withdrawal from Dunkirk painting",
+     "caption": "The Withdrawal from Dunkirk, painted by Charles Cundall, 1940"
+    },
+    {
+     "stick": {
+      "scene": "lifeboat",
+      "count": 6,
+      "label": "Small boats ferrying men out"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Some became famous. Tamzine, a fishing boat under fifteen feet long, was the smallest known boat in the evacuation. It is now kept at the Imperial War Museum. The paddle steamer Medway Queen made seven round trips. She is credited with rescuing about 7,000 men.",
+   "shots": [
+    {
+     "file": "File:Tamzine Imperial War Museum.jpg",
+     "query": "Tamzine Imperial War Museum",
+     "caption": "Tamzine, the smallest known Dunkirk boat"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "7 trips",
+      "label": "made by the paddle steamer Medway Queen",
+      "note": "About 7,000 men rescued"
+     }
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "Medway Queen"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "One owner was 66 year old Charles Lightoller, the most senior officer to survive the sinking of the Titanic. He had also commanded a destroyer in the First World War. On 1 June, he took his motor yacht Sundowner to Dunkirk with his son Roger and a Sea Scout, Gerald Ashcroft. They brought back around 130 men, packed into every space aboard. Sundowner still survives, and is kept at Ramsgate in Kent.",
+   "shots": [
+    {
+     "file": "File:Charles Lightoller.jpg",
+     "query": "Charles Lightoller",
+     "caption": "Charles Lightoller, Titanic's most senior surviving officer"
+    },
+    {
+     "stick": {
+      "scene": "ship",
+      "label": "1 June 1940: Sundowner",
+      "who": {
+       "preset": "captain",
+       "facial": "moustache",
+       "hair_colour": "#cfcfcf",
+       "name": "Charles Lightoller"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "~130",
+      "label": "men brought back on Sundowner",
+      "note": "1 June 1940"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Under Fire",
+   "narration": "The rescue went on under constant attack. German aircraft bombed the harbour, the beaches and the ships. The weather sometimes helped. On 30 May, low cloud kept most German planes away. On clear days, losses at sea mounted quickly.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "air_raid",
+      "start_at": 0.8,
+      "label": "The Luftwaffe attacks"
+     }
+    },
+    {
+     "file": "File:Dunkirk 1940 HU1137.jpg",
+     "query": "Dunkirk 1940 smoke",
+     "caption": "Dunkirk under attack, 1940"
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "30 May: low cloud",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Six British destroyers were sunk and nineteen damaged. The French lost three destroyers. In the air, the RAF lost 145 aircraft and the Luftwaffe 156. Many soldiers on the beaches complained that they never saw the RAF, because much of the fighting happened inland or above the clouds.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Losses during Operation Dynamo",
+      "labels": [
+       "British destroyers sunk",
+       "French destroyers sunk"
+      ],
+      "values": [
+       6,
+       3
+      ],
+      "source": "Wikipedia: Dunkirk evacuation"
+     }
+    },
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Aircraft lost over Dunkirk",
+      "labels": [
+       "RAF",
+       "Luftwaffe"
+      ],
+      "values": [
+       145,
+       156
+      ],
+      "source": "Wikipedia: Dunkirk evacuation",
+      "highlight": 0
+     }
+    },
+    {
+     "stick": {
+      "scene": "dogfight",
+      "label": "Above the clouds"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "As the system improved, the numbers rose sharply. On 31 May, 68,014 men were brought out, the highest total of any single day. That evening, Lord Gort left for England, as ordered. Command of the British troops still ashore passed to General Harold Alexander.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Men rescued on two days",
+      "labels": [
+       "27 May",
+       "31 May"
+      ],
+      "values": [
+       7669,
+       68014
+      ],
+      "source": "Wikipedia: Dunkirk evacuation",
+      "highlight": 1
+     }
+    },
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "31 May: the busiest day",
+      "who": {
+       "preset": "officer",
+       "cap_colour": "#1d2a44",
+       "colour": "#1d2a44",
+       "name": "Admiral Ramsay"
+      }
+     }
+    },
+    {
+     "file": "File:Wounded British soldiers evacuated from Dunkirk make their way up the gangplank from a destroyer at Dover, 31 May 1940. H1623.jpg",
+     "query": "wounded soldiers Dunkirk Dover gangplank",
+     "caption": "Wounded soldiers come ashore at Dover, 31 May 1940"
+    }
+   ]
+  },
+  {
+   "chapter": "The Rearguard",
+   "narration": "The escape depended on soldiers who stayed behind. Near Lille, the French First Army fought on from 28 to 31 May. It held off seven German divisions that could otherwise have pressed towards Dunkirk. When it surrendered, tens of thousands of French soldiers were taken prisoner.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "trenches",
+      "mode": "hold",
+      "label": "Lille, 28 to 31 May 1940",
+      "who": {
+       "preset": "soldier",
+       "colour": "#3d4a63",
+       "name": "French First Army"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "7",
+      "label": "German divisions held off at Lille",
+      "note": "28 to 31 May 1940"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Into captivity",
+      "who": {
+       "preset": "pow",
+       "name": "French prisoners"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Around Dunkirk itself, French and British troops held the perimeter while the ships came and went. In the final days, the rescue worked mostly at night. More than 100,000 French soldiers were brought out. Many of them were shipped back to France within days to keep fighting. Operation Dynamo ended on 4 June, and the town fell the same day.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "trenches",
+      "mode": "hold",
+      "night": true,
+      "label": "Holding the perimeter",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "beach_evacuation",
+      "label": "The last nights"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "100,000+",
+      "label": "French soldiers evacuated",
+      "note": "Operation Dynamo"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Reckoning",
+   "narration": "In all, 338,226 Allied soldiers were rescued. About 198,000 were British, and about 140,000 were French and Belgian. That was more than seven times the 45,000 the planners had hoped for. It was far beyond anything thought possible a week before.",
+   "shots": [
+    {
+     "chart": {
+      "type": "bar",
+      "title": "Who was rescued (approx.)",
+      "labels": [
+       "British",
+       "French and Belgian"
+      ],
+      "values": [
+       198000,
+       140000
+      ],
+      "source": "Britannica"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "338,226",
+      "label": "rescued, against a hope of 45,000",
+      "note": "26 May to 4 June 1940"
+     }
+    },
+    {
+     "file": "File:The British Army in the United Kingdom- Evacuation From Dunkirk, May-June 1940 H1690.jpg",
+     "query": "British Army evacuation from Dunkirk",
+     "caption": "Evacuated troops back in Britain, 1940"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "But the army had come home almost empty handed. It left behind 2,472 artillery guns and nearly 65,000 other vehicles. It also lost 20,000 motorcycles and almost all of the 445 British tanks sent to France. Rebuilding that equipment would take years. At home, volunteers met the trains carrying returning soldiers with tea and food.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Left behind in France",
+      "items": [
+       "2,472 artillery guns",
+       "Nearly 65,000 vehicles",
+       "20,000 motorcycles",
+       "Almost all 445 tanks"
+      ]
+     }
+    },
+    {
+     "file": "File:The British Evacuation From Dunkirk in 1940 HU2286.jpg",
+     "query": "British evacuation Dunkirk 1940 abandoned",
+     "caption": "Abandoned equipment near Dunkirk, 1940"
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "Starting again",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The human cost was heavy too. During the campaign from 10 May to 22 June, the British Expeditionary Force suffered 68,000 casualties. That figure includes killed, wounded and captured. Many of those captured spent the next five years as prisoners of war.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "68,000",
+      "label": "British casualties in the campaign",
+      "note": "10 May to 22 June 1940"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Five years as prisoners",
+      "who": {
+       "preset": "pow",
+       "name": "British prisoners"
+      }
+     }
+    },
+    {
+     "file": "File:Dunkirk and the Retreat From France 1940 HU104600.jpg",
+     "query": "Dunkirk retreat from France 1940",
+     "caption": "The retreat from France, 1940"
+    }
+   ]
+  },
+  {
+   "chapter": "Miracle or Disaster?",
+   "narration": "On 4 June, Winston Churchill reported to the House of Commons. He had been prime minister for less than four weeks. A week earlier, he had told MPs to prepare for hard and heavy tidings. Now he could report something better. He called the rescue a miracle of deliverance. But he warned against calling it a victory. Wars, he said, are not won by evacuations.",
+   "shots": [
+    {
+     "file": "File:Winston Churchill As Prime Minister 1940-1945 H2646A.jpg",
+     "query": "Winston Churchill 1940",
+     "caption": "Winston Churchill, prime minister from May 1940"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Wars are not won by evacuations.",
+      "by": "Winston Churchill, 4 June 1940"
+     }
+    },
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "4 June 1940, House of Commons",
+      "who": {
+       "preset": "official",
+       "build": "stout",
+       "hair": "bald",
+       "colour": "#2b2b30",
+       "name": "Winston Churchill"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "He called the campaign a colossal military disaster. Yet the same speech ended with a promise to keep fighting. Britain, he said, would fight on the beaches, on the landing grounds, in the fields and in the streets, and would never surrender. That evening, a BBC announcer read parts of the speech on the radio. Churchill did not broadcast it himself. France signed an armistice with Germany on 22 June.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "We shall fight on the beaches.",
+      "by": "Winston Churchill, 4 June 1940"
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Britain fights on"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "22 June",
+      "label": "France signs an armistice",
+      "note": "Britain fights on alone"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Dunkirk mattered because it kept Britain's army alive. The men rescued became the core of the forces that fought on. The phrase Dunkirk spirit entered the language. And Bertram Ramsay went on to plan the naval side of the D-Day landings in 1944, taking the army back across the Channel.",
+   "shots": [
+    {
+     "file": "File:Dover Castle Admiral Ramsay statue 02.JPG",
+     "query": "Admiral Ramsay statue Dover Castle",
+     "caption": "Ramsay's statue at Dover Castle"
+    },
+    {
+     "stick": {
+      "scene": "fleet",
+      "label": "1944: back across the Channel"
+     }
+    },
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "The army that came home",
+      "who": {
+       "preset": "british_soldier",
+       "name": "British soldiers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "It was a defeat that became a rescue, and a rescue that made it possible to fight on. It rested on a pause no one fully understands, a breakwater, a rearguard and hundreds of boats. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "file": "File:Dunkirk Memorial, Dover.jpg",
+     "query": "Dunkirk Memorial Dover",
+     "caption": "The Dunkirk Memorial at Dover"
+    },
+    {
+     "file": "File:Tamzine at iwm london side view.JPG",
+     "query": "Tamzine Imperial War Museum side view",
+     "caption": "Tamzine, at the Imperial War Museum in London"
+    },
+    {
+     "stick": {
+      "scene": "beach_evacuation",
+      "label": "Dunkirk, 1940"
+     }
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "338,000 men trapped against the sea",
+   "caption": "May 1940: the British army is cornered at Dunkirk.",
+   "hashtags": [
+    "dunkirk",
+    "ww2",
+    "history",
+    "1940"
+   ]
+  },
+  {
+   "scenes": [
+    13,
+    14
+   ],
+   "hook": "The Titanic officer at Dunkirk",
+   "caption": "Charles Lightoller survived the Titanic, then sailed his own yacht to Dunkirk.",
+   "hashtags": [
+    "dunkirk",
+    "titanic",
+    "history",
+    "ww2"
+   ]
+  },
+  {
+   "scenes": [
+    23,
+    24
+   ],
+   "hook": "'Wars are not won by evacuations'",
+   "caption": "Churchill's verdict on Dunkirk, 4 June 1940.",
+   "hashtags": [
+    "churchill",
+    "dunkirk",
+    "ww2",
+    "history"
+   ]
+  }
+ ]
+}
