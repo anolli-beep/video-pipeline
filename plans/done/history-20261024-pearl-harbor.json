@@ -6,7 +6,7 @@
   "How Pearl Harbor Happened, and What Japan Missed",
   "Pearl Harbor: The Attack That Brought America Into WWII"
  ],
- "thumbnail_text": "THEY WERE WARNED",
+ "thumbnail_text": "THEY WERE *WARNED*",
  "thumbnail_file": "USS Arizona (BB-39) burning at Pearl Harbor 1941.jpg",
  "description_summary": "At 7.02am on 7 December 1941, a radar station in Hawaii picked up a huge formation of aircraft. Less than an hour later, Japan attacked Pearl Harbor. This is the story of the warnings, the attack, what Japan missed, and how it brought the United States into the Second World War.",
  "tags": [
@@ -911,5 +911,6 @@
     "mythbusting"
    ]
   }
- ]
+ ],
+ "thumbnail_tag": "PEARL HARBOR, 7 DEC 1941"
 }
