@@ -1,0 +1,931 @@
+{
+ "channel": "history",
+ "title": "The Romanovs: The Last Night of Russia's Royal Family",
+ "alt_titles": [
+  "How Russia's Last Royal Family Disappeared",
+  "The Romanovs: A Grave Hidden for 73 Years",
+  "What Really Happened to Anastasia?"
+ ],
+ "thumbnail_text": "THE LAST *TSAR*",
+ "thumbnail_tag": "YEKATERINBURG, JULY 1918",
+ "thumbnail_file": "Russian Imperial Family 1913.jpg",
+ "description_summary": "In July 1918, Russia's last emperor and his family were taken down to a basement in Yekaterinburg. This is how the Romanovs lost their throne, what happened that night, and how DNA finally solved the mystery of their missing grave.",
+ "tags": [
+  "romanovs",
+  "nicholas ii",
+  "anastasia",
+  "russian revolution",
+  "rasputin",
+  "last tsar",
+  "yekaterinburg",
+  "ipatiev house",
+  "anna anderson",
+  "romanov dna",
+  "history documentary",
+  "1918",
+  "russia history"
+ ],
+ "lane": "People & dynasties",
+ "publish_at": "2026-11-04T16:00:00+00:00",
+ "pronunciations": {
+  "Yekaterinburg": "Yeh-kah-teh-rin-burg",
+  "Ipatiev": "Ee-pah-tee-ev",
+  "Yurovsky": "Yoo-rov-skee",
+  "Khodynka": "Ho-din-ka",
+  "Tobolsk": "Toh-bolsk",
+  "Feodorovna": "Fyo-dor-ov-na",
+  "Tsarskoye": "Tsar-sko-yeh",
+  "Avdonin": "Av-doh-nin",
+  "Ryabov": "Rya-bov",
+  "Sverdlov": "Sverd-lov",
+  "Duma": "Doo-ma",
+  "Alix": "Ah-licks",
+  "Grigori": "Gri-gor-ee",
+  "Petrograd": "Pet-ro-grad"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Murder of the Romanov family",
+   "url": "https://en.wikipedia.org/wiki/Murder_of_the_Romanov_family"
+  },
+  {
+   "title": "Wikipedia: Nicholas II",
+   "url": "https://en.wikipedia.org/wiki/Nicholas_II"
+  },
+  {
+   "title": "Britannica: Nicholas II",
+   "url": "https://www.britannica.com/biography/Nicholas-II-tsar-of-Russia"
+  },
+  {
+   "title": "HISTORY.com: Romanov remains identified",
+   "url": "https://www.history.com/this-day-in-history/july-9/romanov-remains-identified"
+  },
+  {
+   "title": "EBSCO Research Starters: Identification of the Romanovs' remains",
+   "url": "https://www.ebsco.com/research-starters/applied-sciences/identification-anastasia-romanovs-remains"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "What the family were told when woken (moved for safety)",
+   "reason": "Standard account from guards' later testimony; worth a glance."
+  },
+  {
+   "claim": "George V's role in withdrawing the asylum offer",
+   "reason": "Widely accepted from later archival research; script says 'partly because'."
+  },
+  {
+   "claim": "Khodynka toll",
+   "reason": "Estimate (around 1,389); script says 'more than a thousand'."
+  },
+  {
+   "claim": "Ipatiev House demolished in 1977; Rasputin killed December 1916; Nicholas took command September 1915",
+   "reason": "Well known, but not checked against two sources here."
+  },
+  {
+   "claim": "Chairs brought for Alexandra and Alexei",
+   "reason": "From witness accounts in standard histories."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "Shortly after midnight on 17 July 1918, in the Russian city of Yekaterinburg, a guard commander woke a family of prisoners. He told them to dress and come downstairs. Fighting was getting closer to the town, he said, and they were being moved for their safety. Eleven people walked down to a basement room. None of them came back up.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "dark_at": 2.0,
+      "label": "Yekaterinburg, 17 July 1918"
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "After midnight",
+      "who": {
+       "preset": "official",
+       "facial": "beard",
+       "colour": "#2a2a2a",
+       "hat": "cap",
+       "name": "Yakov Yurovsky"
+      },
+      "other": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      },
+      "bubble": "Get dressed"
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Down to the basement",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      },
+      "others": [
+       {
+        "preset": "lady",
+        "hair": "bun",
+        "colour": "#6b5a7a",
+        "name": "Alexandra"
+       },
+       {
+        "preset": "child",
+        "colour": "#4f6a8a",
+        "name": "Alexei"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The prisoners were Nicholas II, the last emperor of Russia, his wife Alexandra and their five children. With them were their doctor, a maid, a cook and a footman. This is how a family that ruled Russia for three centuries ended up in that room. It is also why the truth about that night took 73 years to come out.",
+   "shots": [
+    {
+     "file": "File:Russian Imperial Family 1913.jpg",
+     "query": "Russian imperial family 1913",
+     "caption": "The Russian imperial family, 1913"
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "In the house that night",
+      "items": [
+       "Nicholas and Alexandra",
+       "Their five children",
+       "Doctor, maid, cook, footman"
+      ]
+     }
+    },
+    {
+     "file": "File:Ipatiev House in 1918.jpg",
+     "query": "Ipatiev House 1918",
+     "caption": "The Ipatiev House in Yekaterinburg, 1918"
+    }
+   ]
+  },
+  {
+   "chapter": "The Last Tsar",
+   "narration": "Nicholas became emperor on 1 November 1894, at the age of 26, after his father died suddenly. Weeks later he married Princess Alix of Hesse, a granddaughter of Queen Victoria. She took the name Alexandra Feodorovna. He believed his power came from God and should not be shared.",
+   "shots": [
+    {
+     "file": "File:Nikolaus II. (Russland).jpg",
+     "query": "Nicholas II portrait",
+     "caption": "Nicholas II, emperor of Russia from 1894"
+    },
+    {
+     "file": "File:Alexandra Feodorovna, Tsarina of Russia.jpg",
+     "query": "Alexandra Feodorovna portrait",
+     "caption": "Empress Alexandra Feodorovna"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "1894: a new emperor",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "His reign began badly. During the coronation celebrations in May 1896, a crush on Moscow's Khodynka Field killed more than a thousand people. That evening, Nicholas went ahead with a ball at the French embassy. Many Russians took it as a sign that he did not care.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Khodynka Field, May 1896"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1,000+",
+      "label": "killed in the Khodynka crush",
+      "note": "Estimates around 1,389 · May 1896"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "The ball goes ahead",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In January 1905, workers marched peacefully to the Winter Palace in St Petersburg to petition the tsar. Troops fired on them. The official death toll was 92, and many more were wounded. The day became known as Bloody Sunday, and revolution spread across the country.",
+   "shots": [
+    {
+     "file": "File:Ivan Vladimirov bloody-sunday-shooting-workers-near-the-winter-palace-january-9-1905-1.jpg",
+     "query": "Bloody Sunday 1905 painting",
+     "caption": "Bloody Sunday, painted by Ivan Vladimirov"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "92",
+      "label": "dead in the official toll",
+      "note": "Bloody Sunday, January 1905"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Revolution spreads, 1905",
+      "who": {
+       "preset": "worker",
+       "name": "Strikers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "To end the unrest, Nicholas agreed to a parliament, called the Duma, and to new civil rights. But he kept the power to dissolve the Duma, and he used it twice in the next two years. At home, the family had grown: four daughters, Olga, Tatiana, Maria and Anastasia, and in 1904 a son, Alexei.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "1905: the October Manifesto",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    },
+    {
+     "file": "File:OTMA in 1914.jpg",
+     "query": "Grand Duchesses Olga Tatiana Maria Anastasia 1914",
+     "caption": "Olga, Tatiana, Maria and Anastasia, 1914"
+    },
+    {
+     "file": "File:Alexei Nikolaevich, Tsarevich of Russia.jpg",
+     "query": "Tsarevich Alexei portrait",
+     "caption": "Alexei, heir to the throne"
+    }
+   ]
+  },
+  {
+   "chapter": "Rasputin",
+   "narration": "Alexei was the heir, but he had haemophilia, a condition that stops blood from clotting properly. A small bump could leave him in agony for days. His parents kept the illness secret from the Russian public. They searched desperately for anyone who could help him.",
+   "shots": [
+    {
+     "file": "File:Alexandra Feodorovna with her son.jpg",
+     "query": "Alexandra with Alexei",
+     "caption": "Alexandra with her son Alexei"
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "A secret illness",
+      "who": {
+       "preset": "lady",
+       "hair": "bun",
+       "colour": "#6b5a7a",
+       "name": "Alexandra"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "hospital",
+      "label": "Doctors could do little"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Grigori Rasputin, a peasant holy man from Siberia, seemed able to calm the boy during his worst attacks. Alexandra came to trust him completely. Rasputin's influence at court grew, and so did rumours about him, some true and many invented. Politicians and newspapers attacked his place at court, and some accused him of influencing government appointments.",
+   "shots": [
+    {
+     "file": "File:Grigori Rasputin 1916.jpg",
+     "query": "Grigori Rasputin 1916",
+     "caption": "Grigori Rasputin, 1916"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "The empress's adviser",
+      "who": {
+       "preset": "monk",
+       "facial": "beard",
+       "hair": "long",
+       "colour": "#3b3026",
+       "name": "Rasputin"
+      },
+      "other": {
+       "preset": "lady",
+       "hair": "bun",
+       "colour": "#6b5a7a",
+       "name": "Alexandra"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Rumours spread"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Then came the First World War. Russia suffered huge losses, and in September 1915 Nicholas took personal command of the army. He left Alexandra in charge in the capital, now renamed Petrograd. Many blamed her and Rasputin for every failure that followed. In December 1916, a group of aristocrats killed Rasputin.",
+   "shots": [
+    {
+     "file": "File:Ww nicholas 01.jpg",
+     "query": "Nicholas II First World War",
+     "caption": "Nicholas II during the First World War"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "September 1915: the tsar takes command",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "December 1916",
+      "label": "Rasputin killed by aristocrats",
+      "note": "Petrograd"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Revolution",
+   "narration": "It made no difference. In February 1917, bread shortages and strikes in Petrograd turned into revolution, and soldiers joined the crowds. On 15 March, by the modern calendar, Nicholas gave up the throne for himself and for his son. His brother Michael refused it the next day. Three hundred years of Romanov rule were over.",
+   "shots": [
+    {
+     "file": "File:Soldiers demonstration.February 1917.jpg",
+     "query": "February Revolution 1917 soldiers",
+     "caption": "Soldiers join the revolution, Petrograd, 1917"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "15 March 1917: abdication",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "304 years",
+      "label": "of Romanov rule ended",
+      "note": "1613 to 1917"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The new Provisional Government placed the family under house arrest at the Alexander Palace, outside Petrograd. The British government had discussed offering them refuge, but the offer was dropped, partly because King George V feared a backlash at home. He was Nicholas's cousin.",
+   "shots": [
+    {
+     "file": "File:Grand Duchess Tatiana working outside Alexander Palace during internment at Tsarskoe-Selo 1917.jpg",
+     "query": "Tatiana Alexander Palace internment 1917",
+     "caption": "Tatiana working in the palace grounds under arrest, 1917"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Asylum in Britain?",
+      "who": {
+       "preset": "king",
+       "facial": "beard",
+       "name": "King George V"
+      },
+      "other": {
+       "preset": "official",
+       "name": "British ministers"
+      }
+     }
+    },
+    {
+     "file": "File:The last photo of Nicholas II.jpg",
+     "query": "last photo Nicholas II",
+     "caption": "One of the last photographs of Nicholas"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In August 1917, the government moved them far east to Tobolsk in Siberia, to keep them away from the unrest. They lived in the former governor's house under guard. Nicholas sawed wood and the children put on plays. Alexandra and her daughters sewed jewels into their clothes, hoping to keep something for the future. For a few months, life was quiet.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "train",
+      "label": "August 1917: east to Siberia"
+     }
+    },
+    {
+     "file": "File:Nicholas II and family outside the Governor's House during their internment at Tobolsk.jpg",
+     "query": "Romanov family Tobolsk governor's house",
+     "caption": "The family outside the governor's house in Tobolsk"
+    },
+    {
+     "file": "File:The former tsar Nicholas II and his children during their captivity in Tobolsk.jpg",
+     "query": "Nicholas II children Tobolsk captivity",
+     "caption": "Nicholas and his children in captivity at Tobolsk"
+    }
+   ]
+  },
+  {
+   "chapter": "Yekaterinburg",
+   "narration": "In October 1917, the Bolsheviks seized power. The family's position became far more dangerous. In April 1918, Nicholas, Alexandra and their daughter Maria were taken to Yekaterinburg, in the Ural Mountains. The other children followed in May, once Alexei was well enough to travel.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "October 1917: the Bolsheviks take power"
+     }
+    },
+    {
+     "stick": {
+      "scene": "train",
+      "label": "April 1918: to Yekaterinburg"
+     }
+    },
+    {
+     "file": "File:Ipatiev House in 1930.jpg",
+     "query": "Ipatiev House 1930",
+     "caption": "The Ipatiev House, photographed in 1930"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "They were held in the Ipatiev House, a merchant's home seized by the local soviet. The Bolsheviks called it the House of Special Purpose. A high wooden fence hid it from the street. The family were allowed short walks in the garden, and every letter they wrote was read.",
+   "shots": [
+    {
+     "file": "File:1918 Jekateringburg - Ipatieff merchant's house where he was in captivity throughout the Romanov family - Ma Este - Hungarian Magasin 30 july 1925.jpg",
+     "query": "Ipatiev house Yekaterinburg 1918 fence",
+     "caption": "The Ipatiev House with its fence, 1918"
+    },
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "The House of Special Purpose"
+     }
+    },
+    {
+     "file": "File:Ipatiev House - Dining room.jpg",
+     "query": "Ipatiev House dining room",
+     "caption": "Inside the Ipatiev House"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By July 1918, Russia was at war with itself. Anti-Bolshevik forces, including the Czechoslovak Legion, were closing in on Yekaterinburg. The Bolshevik government was fighting enemies on several fronts. The local Bolsheviks feared the family would be rescued and become a rallying symbol. A new commander, Yakov Yurovsky, took charge of the guard.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "July 1918: the front comes closer",
+      "who": {
+       "preset": "soldier",
+       "colour": "#4a5a3a",
+       "name": "Czechoslovak Legion"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A new guard commander",
+      "who": {
+       "preset": "official",
+       "facial": "beard",
+       "colour": "#2a2a2a",
+       "hat": "cap",
+       "name": "Yakov Yurovsky"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "July 1918",
+      "label": "anti-Bolshevik forces near Yekaterinburg",
+      "note": "Russian Civil War"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The order to kill the family came from the Ural Regional Soviet. Whether Lenin approved it in advance is still debated. A Russian investigation in 2011 found no written order from Lenin or from Yakov Sverdlov in Moscow. Both endorsed the killings afterwards, and Trotsky later wrote that Lenin had agreed.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Who gave the order?",
+      "who": {
+       "preset": "official",
+       "name": "Ural Regional Soviet"
+      },
+      "other": {
+       "preset": "official",
+       "facial": "beard",
+       "glasses": true,
+       "name": "Moscow"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "What the evidence shows",
+      "items": [
+       "Order from the Ural Soviet",
+       "No written order from Lenin",
+       "Moscow endorsed it afterwards"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2011",
+      "label": "investigation finds no written order",
+      "note": "Debated by historians"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "That Night",
+   "narration": "After midnight, the family and their four staff were led down to a semi-basement room. Chairs were brought for Alexandra and for Alexei. Then Yurovsky read out a short statement from the Ural Soviet. Within minutes, all eleven had been killed. The guards then tried to hide what they had done.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Into the basement",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      },
+      "others": [
+       {
+        "preset": "lady",
+        "hair": "bun",
+        "colour": "#6b5a7a",
+        "name": "Alexandra"
+       },
+       {
+        "preset": "lady",
+        "colour": "#8a8f9a",
+        "height": 0.92,
+        "name": "The grand duchesses"
+       }
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "The statement",
+      "who": {
+       "preset": "official",
+       "facial": "beard",
+       "colour": "#2a2a2a",
+       "hat": "cap",
+       "name": "Yakov Yurovsky"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "11",
+      "label": "people killed in the basement",
+      "note": "16 to 17 July 1918"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The bodies were taken to a forest outside the city, moved again and buried in secret. Moscow announced only that Nicholas had been shot. A local newspaper claimed his wife and son had been sent to a safe place. Eight days later, on 25 July, the Czechoslovak Legion captured Yekaterinburg.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "dark_at": 1.0,
+      "label": "A secret burial"
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Sent to a safe place.",
+      "by": "Bolshevik claim about Alexandra and Alexei, 1918"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "25 July",
+      "label": "Czechoslovak Legion captures the city",
+      "note": "8 days too late"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Missing Grave",
+   "narration": "With no bodies, rumours of survivors spread. In 1922, a young woman in Berlin was put forward as Grand Duchess Anastasia. Known as Anna Anderson, she fought for recognition in the courts for decades. She died in Charlottesville, Virginia, in 1984, still claiming to be a Romanov.",
+   "shots": [
+    {
+     "file": "File:AnnaAnderson1922.jpg",
+     "query": "Anna Anderson 1922",
+     "caption": "Anna Anderson, who claimed to be Anastasia, 1922"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Was Anastasia alive?",
+      "who": {
+       "preset": "lady",
+       "name": "Anna Anderson"
+      }
+     }
+    },
+    {
+     "file": "File:Grand Duchesses Maria and Anastasia Nikolaevna.jpg",
+     "query": "Grand Duchesses Maria Anastasia",
+     "caption": "The real Maria and Anastasia"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In May 1979, two amateur investigators, Alexander Avdonin and Geli Ryabov, found the Romanovs' grave in a forest near Yekaterinburg. In the Soviet Union, saying so publicly was too dangerous. They examined some of the remains, reburied them and kept the secret for a decade. The Soviet authorities acknowledged the grave in 1989, and it was opened in July 1991.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "dig",
+      "label": "May 1979: the grave is found",
+      "who": {
+       "preset": "worker",
+       "name": "Avdonin and Ryabov"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "12 years",
+      "label": "between the find and the exhumation",
+      "note": "1979 to 1991"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "A secret kept for a decade",
+      "who": {
+       "preset": "worker",
+       "name": "Avdonin and Ryabov"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The grave held nine skeletons. To identify them, British and Russian scientists used DNA. Mitochondrial DNA passes down from mother to child, so living relatives on the female line could confirm who they were. Alexandra and her daughters were matched to Prince Philip, the Duke of Edinburgh, whose grandmother was Alexandra's sister. Nicholas was matched to the remains of his own brother. In July 1993 the scientists announced the result: it was the Romanovs.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "DNA testing, 1993",
+      "who": {
+       "preset": "scientist",
+       "glasses": true,
+       "name": "Forensic scientists"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "9",
+      "label": "skeletons in the 1991 grave",
+      "note": "Family and staff"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "How they were identified",
+      "items": [
+       "Alexandra: Prince Philip's DNA",
+       "Nicholas: his brother's remains",
+       "Announced July 1993"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Two of the Romanov children were missing: Alexei and one of his sisters. That kept the survivor stories alive, above all the claim of Anna Anderson, who had insisted for six decades that she was Anastasia. In 1994, separate British and American teams compared her DNA with the Romanovs'. It did not match. She was not a Romanov, and the most famous Anastasia story was over.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "1994",
+      "label": "DNA shows Anna Anderson was not a Romanov",
+      "note": "British and American tests"
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "The Anastasia claim ends"
+     }
+    },
+    {
+     "file": "File:Anna Anderson 1920.jpg",
+     "query": "Anna Anderson 1920",
+     "caption": "Anna Anderson, photographed in 1920"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In July 1998, the remains were buried in the Peter and Paul Cathedral in St Petersburg, beside earlier tsars. In 2007, amateur searchers found a second, smaller grave nearby. In 2008, Russian scientists identified the bones as Alexei and one of his sisters. Their DNA matched the rest of the family. Every member of the family was now accounted for, ninety years after they disappeared.",
+   "shots": [
+    {
+     "file": "File:Peter and Paul Cathedral and Fortress in St Petersburg.jpg",
+     "query": "Peter and Paul Cathedral St Petersburg",
+     "caption": "The Peter and Paul Cathedral, St Petersburg"
+    },
+    {
+     "file": "File:St. Petersburg - Grave of Tsar Nicholas II.jpg",
+     "query": "grave of Nicholas II Peter and Paul",
+     "caption": "Where Nicholas II is buried"
+    },
+    {
+     "stick": {
+      "scene": "dig",
+      "label": "2007: the second grave",
+      "who": {
+       "preset": "worker",
+       "name": "Searchers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Why It Matters",
+   "narration": "In 2000, the Russian Orthodox Church declared the family saints, as passion-bearers, a title for people who met death with faith. The Ipatiev House itself had been demolished in 1977. A large church now stands on the site, called the Church on the Blood.",
+   "shots": [
+    {
+     "file": "File:Church on the Blood, Yekaterinburg-2.jpg",
+     "query": "Church on the Blood Yekaterinburg",
+     "caption": "The Church on the Blood, built where the house stood"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2000",
+      "label": "family declared saints",
+      "note": "Russian Orthodox Church"
+     }
+    },
+    {
+     "file": "File:The Romanovs, 1913.jpg",
+     "query": "Romanovs 1913",
+     "caption": "The family in 1913"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The end of the Romanovs is often told as a mystery. It was really the story of a ruler who would not share power and a revolution that would not spare him. It was also the story of a state that hid the truth for seventy years. In the end, science gave the family back their names. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A family, not a symbol",
+      "who": {
+       "preset": "officer",
+       "facial": "beard",
+       "colour": "#5b5a3c",
+       "cap_colour": "#5b5a3c",
+       "name": "Nicholas II"
+      }
+     }
+    },
+    {
+     "file": "File:Family Nicholas II of Russia ca. 1914.jpg",
+     "query": "Family Nicholas II 1914",
+     "caption": "Nicholas II and his family, about 1914"
+    },
+    {
+     "file": "File:Russian Imperial family in 1916 Tsarskoe Selo.jpg",
+     "query": "Russian imperial family 1916",
+     "caption": "The family at Tsarskoye Selo, 1916"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "The Romanovs' last night",
+   "caption": "17 July 1918: Russia's last royal family is woken after midnight.",
+   "hashtags": [
+    "romanovs",
+    "history",
+    "russia",
+    "1918"
+   ]
+  },
+  {
+   "scenes": [
+    20,
+    21
+   ],
+   "hook": "How Prince Philip's DNA solved it",
+   "caption": "A hidden grave, kept secret for a decade, and the DNA that named the bones.",
+   "hashtags": [
+    "romanovs",
+    "history",
+    "dna",
+    "princephilip"
+   ]
+  },
+  {
+   "scenes": [
+    22,
+    23
+   ],
+   "hook": "The woman who said she was Anastasia",
+   "caption": "Anna Anderson claimed to be Anastasia for 60 years. DNA gave the answer.",
+   "hashtags": [
+    "anastasia",
+    "romanovs",
+    "history",
+    "mystery"
+   ]
+  }
+ ]
+}
