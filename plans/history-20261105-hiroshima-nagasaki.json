@@ -1,0 +1,958 @@
+{
+ "channel": "history",
+ "title": "Hiroshima and Nagasaki: The Decision That Changed the World",
+ "alt_titles": [
+  "Why Hiroshima? How the Target Was Chosen",
+  "The City Saved by a Cloud: Kokura and Nagasaki",
+  "Were the Atomic Bombs Necessary?"
+ ],
+ "thumbnail_text": "*8.15* AM",
+ "thumbnail_tag": "HIROSHIMA, 6 AUG 1945",
+ "thumbnail_file": "Atomic cloud over Hiroshima.jpg",
+ "description_summary": "On 6 and 9 August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki. This is the story of how the bombs were built, why those cities were chosen, how Japan surrendered, and why historians still argue about the decision.",
+ "tags": [
+  "hiroshima",
+  "nagasaki",
+  "atomic bomb",
+  "manhattan project",
+  "enola gay",
+  "world war 2",
+  "ww2 history",
+  "1945",
+  "oppenheimer",
+  "truman",
+  "trinity test",
+  "japan surrender",
+  "hibakusha",
+  "history documentary"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-11-05T16:00:00+00:00",
+ "pronunciations": {
+  "Hiroshima": "Hee-roh-shee-mah",
+  "Nagasaki": "Nah-gah-sah-kee",
+  "Kokura": "Koh-koo-rah",
+  "Niigata": "Nee-gah-tah",
+  "Hirohito": "Hee-roh-hee-toh",
+  "Tinian": "Tin-ee-an",
+  "Bockscar": "Box-car",
+  "hibakusha": "hee-bah-koo-sha",
+  "Hidankyo": "Hee-dan-kyoh",
+  "Nihon": "Nee-hon",
+  "Hasegawa": "Hah-seh-gah-wah",
+  "Tsuyoshi": "Tsoo-yoh-shee",
+  "Stimson": "Stim-son",
+  "Kyoto": "Kyoh-toh"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Atomic bombings of Hiroshima and Nagasaki",
+   "url": "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+  },
+  {
+   "title": "Britannica: Atomic bombings of Hiroshima and Nagasaki",
+   "url": "https://www.britannica.com/event/atomic-bombings-of-Hiroshima-and-Nagasaki"
+  },
+  {
+   "title": "Nagasaki Atomic Bomb Museum: damage caused by the bombing",
+   "url": "https://nagasakipeace.jp/en/reference/materials/kids/higai.html"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Death tolls",
+   "reason": "All figures are estimates; script gives ranges and attributes them."
+  },
+  {
+   "claim": "Einstein letter, 1938 fission, invasion planned for November 1945, Hidankyo Nobel 2024",
+   "reason": "Well known, but not checked against two sources here."
+  },
+  {
+   "claim": "Truman's statement came about sixteen hours after the attack; the 'rain of ruin' quote",
+   "reason": "Widely quoted; worth a glance against the Truman Library text."
+  },
+  {
+   "claim": "Nagasaki bomb exploded a few kilometres from the aiming point; 'Kokura's luck' saying; discrimination against hibakusha",
+   "reason": "Standard accounts; worth a glance."
+  },
+  {
+   "claim": "Bomb fell for about forty five seconds and exploded nearly 600 metres up",
+   "reason": "Britannica gives 580 m; fall time from standard accounts."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "At 8.15 in the morning on 6 August 1945, an American B-29 bomber named Enola Gay flew over the Japanese city of Hiroshima. It was a clear summer day, and the city had been largely spared the heavy air raids that had burned much of Japan. People were walking to work and school. The crew released a single bomb, and the age of nuclear weapons began.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "atomic",
+      "phase": "plane",
+      "label": "8.15am, 6 August 1945",
+      "who": {
+       "preset": "pilot",
+       "name": "Paul Tibbets"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Hiroshima, a summer morning",
+      "who": {
+       "preset": "worker",
+       "name": "Hiroshima, 1945"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "atomic",
+      "phase": "flash",
+      "label": "Hiroshima"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Three days later, a second bomb fell on Nagasaki. Within weeks, Japan had surrendered and the Second World War was over. This is the story of how those two bombs were built and why those two cities were chosen. It is also the story of a decision that historians still argue about, more than eighty years later.",
+   "shots": [
+    {
+     "file": "File:Atomic cloud over Hiroshima.jpg",
+     "query": "atomic cloud over Hiroshima 1945",
+     "caption": "The cloud over Hiroshima, 6 August 1945"
+    },
+    {
+     "file": "File:Nagasakibomb.jpg",
+     "query": "atomic cloud over Nagasaki 1945",
+     "caption": "The cloud over Nagasaki, 9 August 1945"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2",
+      "label": "atomic bombs ever used in war",
+      "note": "Hiroshima and Nagasaki, August 1945"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Race for the Bomb",
+   "narration": "The story starts with a scientific discovery. In 1938, scientists in Germany split the uranium atom. Within months, laboratories in several countries had repeated the experiment. Physicists soon realised that a chain reaction could release enormous energy. Many feared Nazi Germany would build a bomb first.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "1938: the atom is split",
+      "who": {
+       "preset": "scientist",
+       "name": "Physicists"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "What if Germany builds it first?",
+      "who": {
+       "preset": "scientist",
+       "glasses": true,
+       "name": "Refugee scientists"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The fear in 1939",
+      "items": [
+       "Atoms can be split",
+       "A chain reaction is possible",
+       "Germany might get there first"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In 1939, Albert Einstein signed a letter warning President Franklin Roosevelt of the danger. After the United States entered the war, the effort became a vast secret programme, the Manhattan Project. Its scientific laboratory at Los Alamos, New Mexico, was led by the physicist Robert Oppenheimer.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "1939: a letter to the President",
+      "who": {
+       "preset": "scientist",
+       "hair": "curly",
+       "hair_colour": "#dddddd",
+       "facial": "moustache",
+       "name": "Albert Einstein"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "control_room",
+      "label": "Los Alamos, New Mexico",
+      "who": {
+       "preset": "scientist",
+       "hat": "trilby",
+       "build": "slim",
+       "name": "Robert Oppenheimer"
+      }
+     }
+    },
+    {
+     "file": "File:Trinity Test - Oppenheimer and Groves at Ground Zero 001.jpg",
+     "query": "Oppenheimer Groves Trinity ground zero",
+     "caption": "Oppenheimer and General Groves at the Trinity test site, 1945"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By 1945, the project employed many thousands of people in secret sites across America. President Truman later said it had cost two billion dollars, which he called the greatest scientific gamble in history. Germany surrendered in May 1945, before any bomb was ready. Japan fought on.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "$2 billion",
+      "label": "the cost Truman announced",
+      "note": "The Manhattan Project"
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "The greatest scientific gamble in history.",
+      "by": "President Truman, 6 August 1945"
+     }
+    },
+    {
+     "file": "File:The gadget in the Trinity Test Site tower (1945).jpg",
+     "query": "Trinity gadget tower 1945",
+     "caption": "The first test device in its tower, 1945"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 16 July 1945, the first atomic bomb was tested in the New Mexico desert. It was code named Trinity. The flash lit up the mountains for miles. The weapon worked. Ten days later, the Allies issued a final warning to Japan.",
+   "shots": [
+    {
+     "file": "File:Trinity Test Fireball 16ms.jpg",
+     "query": "Trinity test fireball",
+     "caption": "The Trinity fireball, 16 milliseconds after detonation"
+    },
+    {
+     "file": "File:Trinity Test Mushroom Cloud 12s.jpg",
+     "query": "Trinity test mushroom cloud",
+     "caption": "The Trinity cloud, 12 seconds after detonation"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "16 July 1945: it works"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The work was spread across the country. Huge plants at Oak Ridge in Tennessee produced enriched uranium. Reactors at Hanford in Washington State made plutonium. The bombs themselves were designed at Los Alamos. Most of the people who worked there had no idea what they were building.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Three secret cities",
+      "items": [
+       "Oak Ridge: uranium",
+       "Hanford: plutonium",
+       "Los Alamos: bomb design"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "power_plant",
+      "label": "Oak Ridge and Hanford"
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Most workers never knew",
+      "who": {
+       "preset": "worker",
+       "name": "Project workers"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Decision",
+   "narration": "On 26 July, the Potsdam Declaration called on Japan to surrender unconditionally. The alternative, it said, was prompt and utter destruction. It did not mention the new weapon. Japan's government did not accept the terms.",
+   "shots": [
+    {
+     "file": "File:Joseph Stalin, Winston Churchill and President Truman (Potsdam Conference, July 1945).jpg",
+     "query": "Potsdam Conference Truman Churchill Stalin",
+     "caption": "Stalin, Churchill and Truman at Potsdam, July 1945"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "The alternative for Japan is prompt and utter destruction.",
+      "by": "Potsdam Declaration, 26 July 1945"
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Tokyo, July 1945",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "facial": "moustache",
+       "colour": "#2b2b2b",
+       "name": "Emperor Hirohito"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The man who would decide had only known about the bomb for a few months. Harry Truman became president when Franklin Roosevelt died in April 1945. Only after that was he fully briefed on the Manhattan Project, by Secretary of War Henry Stimson.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "April 1945: a new president",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#2a3248",
+       "name": "President Truman"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "The briefing",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "facial": "moustache",
+       "colour": "#3a3a3a",
+       "name": "Henry Stimson"
+      },
+      "other": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#2a3248",
+       "name": "President Truman"
+      },
+      "bubble": "A new weapon"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "April 1945",
+      "label": "Truman briefed on the bomb",
+      "note": "Weeks after becoming president"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "By then, American planners had already drawn up a list of target cities. It included Kokura, Hiroshima, Niigata and, at first, Kyoto. Secretary of War Henry Stimson had Kyoto removed because of its cultural importance. Nagasaki was added in its place.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Target list, mid 1945",
+      "items": [
+       "Kokura",
+       "Hiroshima",
+       "Niigata",
+       "Kyoto, later removed"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Washington, May 1945",
+      "who": {
+       "preset": "official",
+       "hair": "bald",
+       "facial": "moustache",
+       "colour": "#3a3a3a",
+       "name": "Henry Stimson"
+      },
+      "other": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#2a3248",
+       "name": "President Truman"
+      },
+      "bubble": "Not Kyoto"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "Nagasaki",
+      "label": "added to the list on 25 July",
+      "note": "Replacing Kyoto"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Hiroshima was chosen partly because it held a major army headquarters, and partly because its compact centre would show the bomb's power clearly. Some scientists had proposed a demonstration over an empty area instead. The idea was rejected, partly from doubt that it would make Japan surrender.",
+   "shots": [
+    {
+     "file": "File:Hiroshima castle before bomb.jpg",
+     "query": "Hiroshima castle before 1945",
+     "caption": "Hiroshima Castle, before the bombing"
+    },
+    {
+     "file": "File:Hiroshima model (before the bomb).jpg",
+     "query": "Hiroshima model before the bomb",
+     "caption": "A model of central Hiroshima before 1945"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "A demonstration instead?",
+      "who": {
+       "preset": "scientist",
+       "glasses": true,
+       "name": "Some scientists"
+      },
+      "other": {
+       "preset": "general",
+       "name": "Planners"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Hiroshima",
+   "narration": "Enola Gay took off from the island of Tinian in the Pacific in the early hours of 6 August. Its pilot was Colonel Paul Tibbets. The bomb on board was called Little Boy. It used uranium, and no bomb of its design had ever been tested.",
+   "shots": [
+    {
+     "file": "File:Boeing B-29 Superfortress Enola Gay, 509th Composite Group, Dropped Atom Bomb on Hiroshima, Aug. 6, 1945 (10438069846).jpg",
+     "query": "Enola Gay B-29",
+     "caption": "The B-29 Enola Gay"
+    },
+    {
+     "file": "File:Crew of the Enola Gay.jpg",
+     "query": "Enola Gay crew",
+     "caption": "Members of the Enola Gay's crew"
+    },
+    {
+     "stick": {
+      "scene": "atomic",
+      "phase": "plane",
+      "label": "Tinian, early 6 August",
+      "who": {
+       "preset": "pilot",
+       "name": "Paul Tibbets"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At 8.15, the bomb fell for about forty five seconds. It exploded nearly 600 metres above the city. Its force was equal to about fifteen thousand tons of TNT. Much of the city centre was destroyed in an instant, and fires spread across what remained.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "~15,000 tons",
+      "label": "of TNT: Little Boy's explosive force",
+      "note": "6 August 1945"
+     }
+    },
+    {
+     "file": "File:Atomic cloud over Hiroshima - NARA 542192 - Edit.jpg",
+     "query": "Hiroshima atomic cloud NARA",
+     "caption": "The cloud rising over Hiroshima"
+    },
+    {
+     "file": "File:Aerial view of Hiroshima Bomb Damage.jpg",
+     "query": "aerial view Hiroshima bomb damage",
+     "caption": "Central Hiroshima after the bombing"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Exactly how many people died will never be known. Estimates for Hiroshima by the end of 1945 range from about 90,000 to 166,000. Many died in the first moment. Many more died in the following weeks from burns and radiation sickness. Most of them were civilians.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "90,000 to 166,000",
+      "label": "estimated deaths in Hiroshima by end of 1945",
+      "note": "Estimates vary widely"
+     }
+    },
+    {
+     "file": "File:Hiroshima Genbaku-domu.jpg",
+     "query": "Hiroshima Genbaku Dome",
+     "caption": "The dome that survived near the centre of the blast"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "A city in shock"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Sixteen hours later, President Truman announced the attack to the world. He called the weapon an atomic bomb. He warned that if Japan's leaders did not accept the terms, they could expect a rain of ruin from the air. Japan's leaders were still divided.",
+   "shots": [
+    {
+     "file": "File:Harry S. Truman.jpg",
+     "query": "Harry Truman 1945",
+     "caption": "President Harry Truman"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "They may expect a rain of ruin from the air, the like of which has never been seen on this earth.",
+      "by": "President Truman, 6 August 1945"
+     }
+    },
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "6 August: Truman's statement",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#2a3248",
+       "name": "President Truman"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Nagasaki",
+   "narration": "Then came another blow. Earlier in the year, at Yalta, Stalin had promised his allies that the Soviet Union would join the war against Japan. On 8 August, the Soviet Union declared war on Japan and attacked Japanese forces in Manchuria. Japan had hoped the Soviets might help negotiate an end to the war. That hope was gone.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "8 August: the Soviet Union declares war",
+      "who": {
+       "preset": "soviet_soldier",
+       "name": "Soviet forces"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "8 August",
+      "label": "Soviet Union declares war on Japan",
+      "note": "Attack in Manchuria follows"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Tokyo, 9 August",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "facial": "moustache",
+       "colour": "#2b2b2b",
+       "name": "Emperor Hirohito"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the morning of 9 August, a second B-29, named Bockscar, flew towards its first target, the city of Kokura. Its pilot was Major Charles Sweeney. Clouds and drifting smoke covered Kokura. After three runs over the city, the crew could not see their aiming point. In Japan, escaping a disaster without ever knowing it is still sometimes called Kokura's luck.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "atomic",
+      "phase": "plane",
+      "label": "9 August: over Kokura",
+      "who": {
+       "preset": "pilot",
+       "colour": "#4a5a6a",
+       "name": "Charles Sweeney"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Clouds and smoke below",
+      "who": {
+       "preset": "pilot",
+       "colour": "#4a5a6a",
+       "name": "Charles Sweeney"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "3",
+      "label": "bomb runs over Kokura",
+      "note": "No clear view of the target"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Running low on fuel, Sweeney turned towards the secondary target, Nagasaki. At 11.02, the second bomb, called Fat Man, exploded over the city. It used plutonium and was even more powerful than the first. Nagasaki was also partly covered by cloud, and the bomb exploded over the Urakami valley, a few kilometres from the planned aiming point. The hills around Nagasaki contained some of the damage.",
+   "shots": [
+    {
+     "file": "File:Atomic cloud over Nagasaki from B-29.jpg",
+     "query": "atomic cloud Nagasaki B-29",
+     "caption": "The cloud over Nagasaki, seen from a B-29"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "11.02am",
+      "label": "Fat Man explodes over Nagasaki",
+      "note": "9 August 1945"
+     }
+    },
+    {
+     "stick": {
+      "scene": "atomic",
+      "phase": "flash",
+      "label": "Nagasaki"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "A report by the city in 1950 estimated that about 74,000 people in Nagasaki had died by the end of 1945. Other estimates range from about 60,000 to 80,000. Kokura, saved by the weather, has never forgotten how close it came.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "~74,000",
+      "label": "estimated deaths in Nagasaki by end of 1945",
+      "note": "Nagasaki city estimate; others 60,000 to 80,000"
+     }
+    },
+    {
+     "file": "File:Nuclear mushroom cloud of Fat Man.jpg",
+     "query": "Fat Man mushroom cloud",
+     "caption": "The cloud from the Nagasaki bomb"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Kokura, spared by cloud",
+      "who": {
+       "preset": "worker",
+       "name": "Kokura"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Surrender",
+   "narration": "In Tokyo, Japan's leaders were deadlocked. Some wanted to fight on. Others wanted to accept the Allied terms. Emperor Hirohito broke the deadlock, telling them the war must end. Even then, a group of army officers tried to seize the palace and stop the surrender, and failed. On 10 August, Japan said it would accept the Potsdam terms, asking that the emperor's position be preserved.",
+   "shots": [
+    {
+     "file": "File:Emperor Hirohito 1945.jpg",
+     "query": "Emperor Hirohito 1945",
+     "caption": "Emperor Hirohito, 1945"
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Tokyo: fight on or surrender?",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "facial": "moustache",
+       "colour": "#2b2b2b",
+       "name": "Emperor Hirohito"
+      },
+      "other": {
+       "preset": "general",
+       "name": "War council"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "10 August",
+      "label": "Japan offers to accept the terms",
+      "note": "With a condition on the emperor"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 15 August, the Japanese people heard their emperor's voice on the radio for the first time. In a recorded message, he announced that Japan would accept the Allied terms. He referred to a new and most cruel bomb. The formal surrender was signed aboard the battleship USS Missouri on 2 September.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "broadcast",
+      "label": "15 August: the emperor speaks",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "facial": "moustache",
+       "colour": "#2b2b2b",
+       "name": "Emperor Hirohito"
+      }
+     }
+    },
+    {
+     "file": "File:Surrender of Japan - USS Missouri.jpg",
+     "query": "surrender of Japan USS Missouri",
+     "caption": "Japan's formal surrender aboard USS Missouri, 2 September 1945"
+    },
+    {
+     "file": "File:Mamoru Shigemitsu signs the Instrument of Surrender, officially ending the Second World War.jpg",
+     "query": "Shigemitsu signs instrument of surrender",
+     "caption": "Japan's foreign minister signs the surrender"
+    }
+   ]
+  },
+  {
+   "chapter": "Were the Bombs Necessary?",
+   "narration": "The surrender ended the deadliest war in history. But the decision to use the bombs has been argued over ever since. Supporters say the bombs shortened the war and saved more lives than they took. An invasion of Japan was planned for November 1945, and both sides expected enormous losses. How many would have died is itself disputed: wartime estimates varied enormously.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Supporters argue",
+       "items": [
+        "Shortened the war",
+        "Avoided an invasion",
+        "Fewer deaths overall"
+       ]
+      },
+      "right": {
+       "title": "Critics argue",
+       "items": [
+        "Japan was near defeat",
+        "Civilians were the targets",
+        "Soviet entry mattered more"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Washington, summer 1945",
+      "who": {
+       "preset": "official",
+       "glasses": true,
+       "colour": "#2a3248",
+       "name": "President Truman"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "beach_evacuation",
+      "label": "The invasion that never came"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Critics say Japan was already close to defeat, and that targeting cities full of civilians was morally wrong, some say a war crime. Some historians, including Tsuyoshi Hasegawa, argue that the Soviet declaration of war did more to force Japan's surrender than the bombs did. The debate is still unresolved.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Historians disagree",
+      "who": {
+       "preset": "scientist",
+       "glasses": true,
+       "name": "Historian"
+      },
+      "other": {
+       "preset": "official",
+       "name": "Historian"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "What historians weigh",
+      "items": [
+       "The bombs",
+       "Soviet entry into the war",
+       "The planned invasion"
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "Unresolved",
+      "label": "the debate over the decision",
+      "note": "Eighty years on"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Survivors",
+   "narration": "The survivors are known in Japan as hibakusha, meaning people affected by the bombs. The Japanese government has recognised about 650,000 of them. As of March 2025, about 99,000 were still alive. Many suffered illnesses linked to radiation for decades, and some faced discrimination at work and in marriage. Many spent their lives warning the world about nuclear weapons.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "~650,000",
+      "label": "people recognised as hibakusha",
+      "note": "About 99,000 alive in March 2025"
+     }
+    },
+    {
+     "file": "File:The Children's Peace Monument (6155593055).jpg",
+     "query": "Children's Peace Monument Hiroshima",
+     "caption": "The Children's Peace Monument, Hiroshima"
+    },
+    {
+     "file": "File:Hiroshima Peace Bell.jpg",
+     "query": "Hiroshima Peace Bell",
+     "caption": "The Peace Bell in Hiroshima"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In 2024, Nihon Hidankyo, an organisation of survivors, was awarded the Nobel Peace Prize for that work. The ruined dome near the centre of the Hiroshima blast was kept as it stood. In 1996, it became a UNESCO World Heritage Site.",
+   "shots": [
+    {
+     "file": "File:Hiroshima Peace Memorial (Genbaku Dome)-111456.jpg",
+     "query": "Hiroshima Peace Memorial Genbaku Dome",
+     "caption": "The Hiroshima Peace Memorial today"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2024",
+      "label": "Nobel Peace Prize for Nihon Hidankyo",
+      "note": "A survivors' organisation"
+     }
+    },
+    {
+     "file": "File:20190202 Nagasaki Peace Park Maiden of Peace-1.jpg",
+     "query": "Nagasaki Peace Park statue",
+     "caption": "Nagasaki Peace Park"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the eighty years since, nuclear weapons have been built in their thousands, but never again used in war. Hiroshima and Nagasaki remain the only cities to have suffered an atomic attack. Every August, both cities ring bells and ask the world to keep it that way. Sources and image credits are in the description.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Eighty years later",
+      "who": {
+       "preset": "worker",
+       "name": "Hiroshima today"
+      }
+     }
+    },
+    {
+     "file": "File:Genbaku Dome and Hiroshima Peace Memorial (8062056099).jpg",
+     "query": "Genbaku Dome Hiroshima Peace Memorial park",
+     "caption": "The dome and the Peace Memorial Park"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "0",
+      "label": "nuclear weapons used in war since 1945",
+      "note": "As of 2026"
+     }
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "8.15am, 6 August 1945",
+   "caption": "The morning the nuclear age began over Hiroshima.",
+   "hashtags": [
+    "hiroshima",
+    "history",
+    "ww2",
+    "1945"
+   ]
+  },
+  {
+   "scenes": [
+    17,
+    18
+   ],
+   "hook": "The city saved by a cloud",
+   "caption": "Kokura was the target on 9 August 1945. The weather sent the bomb to Nagasaki.",
+   "hashtags": [
+    "nagasaki",
+    "history",
+    "ww2",
+    "kokura"
+   ]
+  },
+  {
+   "scenes": [
+    22,
+    23
+   ],
+   "hook": "Were the atomic bombs necessary?",
+   "caption": "Eighty years on, historians still disagree.",
+   "hashtags": [
+    "hiroshima",
+    "history",
+    "ww2",
+    "debate"
+   ]
+  }
+ ]
+}
