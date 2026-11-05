@@ -1,0 +1,1085 @@
+{
+ "channel": "history",
+ "title": "The Assassination of Abraham Lincoln: The Shot, the Manhunt and the Trial",
+ "alt_titles": [
+  "10.15pm at Ford's Theatre: The Night Lincoln Was Shot",
+  "The 12 Day Hunt for John Wilkes Booth",
+  "The Plot to Kill Lincoln, Seward and Johnson"
+ ],
+ "thumbnail_text": "*10.15* PM",
+ "thumbnail_tag": "FORD'S THEATRE, 14 APR 1865",
+ "thumbnail_file": "Fords Theatre 1865.jpg",
+ "description_summary": "On 14 April 1865, five days after Lee's surrender, John Wilkes Booth shot President Abraham Lincoln at Ford's Theatre in Washington. This is the story of the plot to kill three leaders in one night, the twelve day manhunt for Booth, the military trial of the conspirators, and the funeral train that carried Lincoln home.",
+ "tags": [
+  "abraham lincoln",
+  "lincoln assassination",
+  "john wilkes booth",
+  "ford's theatre",
+  "american history",
+  "civil war",
+  "us history",
+  "1865",
+  "mary surratt",
+  "manhunt",
+  "us presidents",
+  "history documentary",
+  "reconstruction",
+  "seward"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-11-06T16:00:00+00:00",
+ "pronunciations": {
+  "Atzerodt": "At-zer-rot",
+  "Seward": "Soo-ward",
+  "Surratt": "Suh-rat",
+  "Zekiah": "Zeh-kye-ah",
+  "Appomattox": "Ap-oh-mat-ox",
+  "Rathbone": "Rath-bone",
+  "Petersen": "Pee-ter-sen",
+  "tyrannis": "tih-ran-iss",
+  "Potomac": "Poh-toh-mac",
+  "O'Laughlen": "Oh-lock-len"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Assassination of Abraham Lincoln",
+   "url": "https://en.wikipedia.org/wiki/Assassination_of_Abraham_Lincoln"
+  },
+  {
+   "title": "Britannica: Assassination of Abraham Lincoln",
+   "url": "https://www.britannica.com/event/assassination-of-Abraham-Lincoln"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Booth's shout, how he broke his leg, Stanton's 'ages' or 'angels'",
+   "reason": "Disputed in the sources; the script presents each as disputed."
+  },
+  {
+   "claim": "Guard John Parker left his post",
+   "reason": "Single source; script says 'was later said to'."
+  },
+  {
+   "claim": "'Last speech' quote",
+   "reason": "Reported by a companion (Lewis Powell is usually named); script says 'according to one of his companions'."
+  },
+  {
+   "claim": "Navy Yard Bridge guard and curfew; kidnap plot of 1864; Seward's carriage accident; jump of about twelve feet; trial length of about seven weeks",
+   "reason": "Standard accounts, not checked against two sources here."
+  },
+  {
+   "claim": "Burial at Oak Ridge Cemetery in early May (4 May 1865)",
+   "reason": "Commonly given; script says 'early May'."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "It was about a quarter past ten on the night of 14 April 1865. A famous actor walked quietly towards the President's box at Ford's Theatre in Washington. On stage, a comedy called Our American Cousin was playing to a full house. Abraham Lincoln sat watching, five days after the Confederate army of Robert E. Lee had surrendered.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "Ford's Theatre, 14 April 1865",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "10.15pm: an actor in the corridor",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "The President's box",
+      "who": {
+       "preset": "gentleman",
+       "facial": "beard",
+       "build": "slim",
+       "name": "Abraham Lincoln"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The actor was John Wilkes Booth. He waited for a line he knew would bring a big laugh, and then he fired. By the next morning, Lincoln was dead. He was the first American president to be assassinated. What followed was a twelve day manhunt, a military trial, and a national funeral unlike anything the country had seen.",
+   "shots": [
+    {
+     "file": "File:Fords Theatre 1865.jpg",
+     "query": "Ford's Theatre 1865",
+     "caption": "Ford's Theatre, Washington, in 1865"
+    },
+    {
+     "file": "File:John Wilkes Booth CDV by Black & Case.jpg",
+     "query": "John Wilkes Booth portrait",
+     "caption": "John Wilkes Booth, actor"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "12 days",
+      "label": "the hunt for the assassin",
+      "note": "15 to 26 April 1865"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The End of the War",
+   "narration": "To understand that night, we need to go back a few weeks. By the spring of 1865, the Civil War had lasted four years. Hundreds of thousands of soldiers were dead. The Confederacy was running out of men, food and hope. On 4 March, Lincoln was sworn in for a second term.",
+   "shots": [
+    {
+     "file": "File:Abraham Lincoln giving his second Inaugural Address (4 March 1865).jpg",
+     "query": "Lincoln second inaugural address 1865",
+     "caption": "Lincoln's second inauguration, 4 March 1865"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Four years of war",
+      "who": {
+       "preset": "soldier",
+       "colour": "#1d2b4a",
+       "name": "Union cavalry"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "4 years",
+      "label": "of civil war",
+      "note": "April 1861 to April 1865"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In his inaugural address, Lincoln promised to heal the country with malice toward none and charity for all. In the crowd that day, a few yards from the President, stood John Wilkes Booth. He was one of the most popular actors in America, and he was a passionate supporter of the Confederacy.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "With malice toward none, with charity for all.",
+      "by": "Abraham Lincoln, 4 March 1865"
+     }
+    },
+    {
+     "file": "File:Abraham Lincoln second inaugural address.jpg",
+     "query": "Lincoln second inauguration crowd",
+     "caption": "The crowd at the Capitol, March 1865"
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "A star of the stage",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 9 April 1865, General Lee surrendered his army to General Ulysses S. Grant at Appomattox Court House in Virginia. Other Confederate forces were still in the field, but everyone knew the war was effectively over. Washington celebrated with bands, bonfires and fireworks.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Appomattox, 9 April 1865",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#1d2b4a",
+       "name": "General Grant"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "Washington celebrates",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "April 1865",
+      "items": [
+       "9 April: Lee surrenders",
+       "11 April: Lincoln speaks",
+       "14 April: Ford's Theatre"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 11 April, Lincoln gave a speech from a window of the White House about rebuilding the nation. For the first time, he publicly supported giving the vote to some formerly enslaved men. Booth was in the crowd below. According to one of his companions, he said that this would be the last speech Lincoln ever gave.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "11 April: a speech from the White House",
+      "who": {
+       "preset": "gentleman",
+       "facial": "beard",
+       "build": "slim",
+       "name": "Abraham Lincoln"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Booth in the crowd",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "That is the last speech he will ever give.",
+      "by": "John Wilkes Booth, as reported"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Plot",
+   "narration": "Booth had not always planned murder. In 1864, he gathered a small group of Confederate sympathisers to kidnap Lincoln. They hoped to trade the President for Confederate prisoners of war. The plan collapsed when Lincoln changed his schedule. Then Richmond fell, Lee surrendered, and Booth's thinking turned darker.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "1864: a kidnap plot",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "file": "File:Mary Surratt house - Brady-Handy.jpg",
+     "query": "Surratt boarding house Washington",
+     "caption": "The Surratt boarding house in Washington, where the plotters met"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "1864 plan",
+       "items": [
+        "Kidnap the President",
+        "Trade him for prisoners"
+       ]
+      },
+      "right": {
+       "title": "April 1865 plan",
+       "items": [
+        "Kill three leaders",
+        "On the same night"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Booth's new plan was to strike at the top of the government on a single night. He would kill Lincoln. Lewis Powell would kill Secretary of State William Seward. George Atzerodt would kill Vice President Andrew Johnson. A young man named David Herold would guide Powell and help Booth escape.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Three targets, one night",
+      "items": [
+       "Lincoln: John Wilkes Booth",
+       "Seward: Lewis Powell",
+       "Johnson: George Atzerodt"
+      ]
+     }
+    },
+    {
+     "file": "File:William Seward, Secretary of State, bw photo portrait circa 1860-1865.jpg",
+     "query": "William Seward portrait",
+     "caption": "Secretary of State William Seward"
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "The plan for 14 April",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the morning of 14 April, Booth learned that the President would attend Ford's Theatre that evening. He knew the building well. He had performed there many times, he collected his mail there, and the staff knew him by sight. He could move around backstage without being questioned. General Grant and his wife had been invited to join the Lincolns, but they declined.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Morning, 14 April: the news",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "file": "File:Ford's Theatre Presidential box.jpg",
+     "query": "Ford's Theatre presidential box",
+     "caption": "The presidential box at Ford's Theatre"
+    },
+    {
+     "stick": {
+      "scene": "shrug",
+      "label": "The Grants decline",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#1d2b4a",
+       "name": "General Grant"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Ford's Theatre",
+   "narration": "The Lincolns arrived late, and the audience stood to cheer. The orchestra played Hail to the Chief. With them were a young officer, Major Henry Rathbone, and his fiancée, Clara Harris. The President's guard, a police officer named John Parker, was later said to have left his post.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "The audience rises",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Major Rathbone and Clara Harris",
+      "who": {
+       "preset": "officer",
+       "colour": "#1d2b4a",
+       "name": "Major Rathbone"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "An empty post",
+      "who": {
+       "preset": "police_officer",
+       "name": "John Parker"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At about 10.15pm, Booth slipped into the box behind the President. He waited for a laugh line on stage. As the audience roared, he fired a single shot from a small pistol into the back of Lincoln's head. Rathbone grabbed him, and Booth slashed the major with a knife.",
+   "shots": [
+    {
+     "file": "File:Assassination of President Lincoln, Ford's Theatre, Washington, April 14, 1865 LCCN2003656453.jpg",
+     "query": "Lincoln assassination print Ford's Theatre",
+     "caption": "A print of the assassination, made in 1865"
+    },
+    {
+     "file": "File:John Wilkes Booth's Derringer.jpeg",
+     "query": "John Wilkes Booth derringer pistol",
+     "caption": "Booth's pistol, now at Ford's Theatre"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "10.15pm",
+      "label": "the shot",
+      "note": "Friday 14 April 1865"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Booth then jumped from the box to the stage, about twelve feet below. His spur caught on a flag, and he landed badly. Witnesses said he shouted Sic semper tyrannis, Latin for thus always to tyrants. Others remembered different words. Then he ran out the back door, where a horse was waiting.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "A leap to the stage",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Sic semper tyrannis!",
+      "by": "Booth's words, as most witnesses recalled them"
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Out the back door",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Longest Night",
+   "narration": "The same night, Lewis Powell forced his way into Seward's house. Seward was in bed recovering from a carriage accident. Powell stabbed him repeatedly and wounded several others. Seward survived, but his face was scarred for life. Atzerodt, meanwhile, lost his nerve. He got drunk and never went near the Vice President.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "Seward's house, the same night",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "name": "Lewis Powell"
+      }
+     }
+    },
+    {
+     "file": "File:Seward full face.jpg",
+     "query": "William Seward face portrait",
+     "caption": "William Seward survived the attack"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Seward",
+       "items": [
+        "Attacked at home",
+        "Badly wounded",
+        "Survived"
+       ]
+      },
+      "right": {
+       "title": "Johnson",
+       "items": [
+        "Never attacked",
+        "Atzerodt got drunk",
+        "Unhurt"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Back at the theatre, doctors found the President unconscious. They decided he could not survive a carriage ride to the White House. Soldiers carried him across the street to a boarding house owned by a tailor named William Petersen. He was laid diagonally across a bed that was too short for him.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "hospital",
+      "label": "The doctors' verdict",
+      "who": {
+       "preset": "doctor",
+       "name": "The doctors"
+      }
+     }
+    },
+    {
+     "file": "File:The House Where Lincoln Died (The Peterson House, located across the street from Ford's Theatre) HOUS1852.jpg",
+     "query": "Petersen House Washington",
+     "caption": "The Petersen House, across the street from Ford's Theatre"
+    },
+    {
+     "file": "File:Lincoln death bed.jpg",
+     "query": "Lincoln deathbed Petersen House",
+     "caption": "The room where Lincoln was taken"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Through the night, the small room filled with cabinet members, doctors and officials. Mary Lincoln was overcome with grief. Secretary of War Edwin Stanton took charge of the government from the next room. He began questioning witnesses and ordering the hunt. Lincoln never regained consciousness.",
+   "shots": [
+    {
+     "file": "File:The Last Hours of Abraham Lincoln by Alonzo Chappel, 1868.jpg",
+     "query": "Last hours of Abraham Lincoln painting",
+     "caption": "The Last Hours of Abraham Lincoln, painted in 1868"
+    },
+    {
+     "stick": {
+      "scene": "ops_room",
+      "label": "Stanton takes charge",
+      "who": {
+       "preset": "official",
+       "facial": "beard",
+       "colour": "#2b2b2b",
+       "name": "Edwin Stanton"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "A long night",
+      "who": {
+       "preset": "lady",
+       "colour": "#2b2b2b",
+       "name": "Mary Lincoln"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At 7.22 the next morning, 15 April 1865, Abraham Lincoln died. He was fifty six years old. According to witnesses, Stanton said that he now belonged to the ages, though some heard angels instead of ages. Within hours, Andrew Johnson was sworn in as the seventeenth president.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "7.22am",
+      "label": "Lincoln dies",
+      "note": "Saturday 15 April 1865"
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Now he belongs to the ages.",
+      "by": "Edwin Stanton, as reported"
+     }
+    },
+    {
+     "file": "File:Edwin McMasters Stanton Secretary of War.jpg",
+     "query": "Edwin Stanton portrait",
+     "caption": "Secretary of War Edwin Stanton"
+    }
+   ]
+  },
+  {
+   "chapter": "The Manhunt",
+   "narration": "Booth had a head start. He rode across the Navy Yard Bridge into Maryland that night, and David Herold soon joined him. A guard stopped him at the bridge, but let him pass. A curfew rule had been relaxed now that the war was nearly over.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "cross_river",
+      "label": "Navy Yard Bridge, that night",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "David Herold joins him",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#4a3b2b",
+       "name": "David Herold"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The escape route",
+      "items": [
+       "Navy Yard Bridge",
+       "Dr Mudd's farm, Maryland",
+       "Zekiah Swamp",
+       "Across the Potomac to Virginia"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Booth's left leg was broken. He said in his diary that it happened in the leap to the stage. He told a doctor he fell from his horse. Before dawn, the pair reached the house of Dr Samuel Mudd, who set and splinted the leg. Mudd had met Booth before, which later put him on trial.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "hospital",
+      "label": "Dr Mudd's farm, before dawn",
+      "who": {
+       "preset": "doctor",
+       "colour": "#4a3b2b",
+       "name": "Dr Samuel Mudd"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Booth's diary",
+       "items": [
+        "Broken in the leap",
+        "To the stage"
+       ]
+      },
+      "right": {
+       "title": "Booth to Dr Mudd",
+       "items": [
+        "Broken in a fall",
+        "From his horse"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A broken leg",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Meanwhile, the government launched one of the biggest manhunts in American history. Thousands of soldiers and detectives searched Maryland. The War Department offered fifty thousand dollars for Booth, and twenty five thousand each for Herold and John Surratt. Wanted posters went up across the country.",
+   "shots": [
+    {
+     "file": "File:$100,000 Reward Broadside issued by the U.S. War Department, April 20, 1865.jpg",
+     "query": "Booth reward poster 1865",
+     "caption": "The War Department's reward poster, 20 April 1865"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$50,000",
+      "label": "reward for Booth",
+      "note": "Herold and John Surratt: $25,000 each"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Thousands search Maryland",
+      "who": {
+       "preset": "soldier",
+       "colour": "#1d2b4a",
+       "name": "Union cavalry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Booth and Herold hid for days in pine woods near Zekiah Swamp. Confederate sympathisers brought them food and newspapers. Booth was shocked to read that he was being called a villain, not a hero. In his diary, he complained of being hunted like a dog. After several failed attempts in the dark, they finally crossed the Potomac River into Virginia.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "Hiding in the pine woods",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Villain, not hero",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "cross_river",
+      "label": "Across the Potomac",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "colour": "#2b2b2b",
+       "name": "John Wilkes Booth"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 24 April, they reached the farm of Richard Garrett in Virginia. In the early hours of 26 April, Union cavalry surrounded the tobacco barn where they slept. Herold surrendered. Booth refused. The soldiers set the barn on fire, and Sergeant Boston Corbett shot Booth through a gap in the wall. He died on the farmhouse porch a few hours later.",
+   "shots": [
+    {
+     "file": "File:The Garrett Place where John Wilkes Booth, assassin of Abraham Lincoln, was killed..jpg",
+     "query": "Garrett farm Virginia Booth",
+     "caption": "The Garrett farm in Virginia"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "26 April: the barn is surrounded",
+      "who": {
+       "preset": "soldier",
+       "colour": "#1d2b4a",
+       "name": "Union cavalry"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "26 April",
+      "label": "Booth is cornered",
+      "note": "Garrett's farm, Virginia"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Trial",
+   "narration": "By then, the other conspirators were in custody. Eight people were tried, not by a normal court, but by a military commission. Critics argued that civilians should face a civilian jury. The government argued the crime was an act of war. The trial began in May and lasted about seven weeks.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "A military commission",
+      "who": {
+       "preset": "officer",
+       "colour": "#1d2b4a",
+       "name": "Military commission"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "The government said",
+       "items": [
+        "An act of war",
+        "A military trial"
+       ]
+      },
+      "right": {
+       "title": "The critics said",
+       "items": [
+        "The accused were civilians",
+        "A jury trial"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Eight defendants",
+      "who": {
+       "preset": "pow",
+       "name": "The accused"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Four were sentenced to death: Lewis Powell, David Herold, George Atzerodt, and Mary Surratt, who ran the boarding house where the plotters met. Dr Mudd and two others got life in prison. A stagehand named Edman Spangler got six years.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "The sentences",
+      "items": [
+       "Death: Powell, Herold, Atzerodt, Surratt",
+       "Life: Mudd, Arnold, O'Laughlen",
+       "Six years: Spangler"
+      ]
+     }
+    },
+    {
+     "file": "File:Mary Surratt - NARA - 525346 (cropped).jpg",
+     "query": "Mary Surratt portrait",
+     "caption": "Mary Surratt"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "The verdicts",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On 7 July 1865, the four were hanged together at the Old Arsenal Penitentiary in Washington. Mary Surratt became the first woman executed by the United States government. Her guilt is still debated. Mudd was pardoned by President Johnson in 1869.",
+   "shots": [
+    {
+     "file": "File:Execution of the conspirators. The arrival on the scaffold. July 7, 1865 LCCN2010648748.jpg",
+     "query": "Lincoln conspirators scaffold 1865",
+     "caption": "The Old Arsenal Penitentiary, 7 July 1865"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1st",
+      "label": "woman executed by the US government",
+      "note": "Mary Surratt, 7 July 1865"
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "1869: Mudd is pardoned",
+      "who": {
+       "preset": "doctor",
+       "colour": "#4a3b2b",
+       "name": "Dr Samuel Mudd"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Long Goodbye",
+   "narration": "Lincoln's state funeral was held in Washington on 19 April. Then his body began a final journey home to Springfield, Illinois. The funeral train travelled about 1,700 miles over almost two weeks. It stopped in cities including Philadelphia and New York.",
+   "shots": [
+    {
+     "file": "File:President Abraham Lincoln's funeral train, Lincoln Home National Historic Site, 1865. (6128074fb49b4391b748376b38cb8c3f).jpg",
+     "query": "Lincoln funeral train 1865",
+     "caption": "Lincoln's funeral train, 1865"
+    },
+    {
+     "stick": {
+      "scene": "train",
+      "label": "1,700 miles home",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1,700",
+      "label": "miles of the funeral train",
+      "note": "Washington to Springfield, Illinois"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In Philadelphia, his body lay in state at Independence Hall. In New York, a huge procession followed the hearse. Millions of people lined the tracks and the streets to watch the train pass. In early May, Lincoln was buried at Oak Ridge Cemetery in Springfield.",
+   "shots": [
+    {
+     "file": "File:Lincoln Funeral Procession Roosevelt Mansion Broadway.jpg",
+     "query": "Lincoln funeral procession New York Broadway",
+     "caption": "The funeral procession on Broadway, New York"
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Millions line the route",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "file": "File:Lincoln's Tomb - Oak Ridge Cemetery - Springfield - Illinois - USA.jpg",
+     "query": "Lincoln Tomb Springfield",
+     "caption": "Lincoln's tomb at Oak Ridge Cemetery, Springfield"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Booth had hoped to save the South. Instead, he removed the man most committed to a gentle peace. Andrew Johnson soon clashed bitterly with Congress over how to rebuild the defeated states. Reconstruction became one of the most painful chapters in American history.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "What Booth wanted",
+       "items": [
+        "Revenge for the South",
+        "A hero's welcome"
+       ]
+      },
+      "right": {
+       "title": "What he got",
+       "items": [
+        "A martyred president",
+        "Branded a villain"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "President Andrew Johnson",
+      "who": {
+       "preset": "official",
+       "glasses": false,
+       "colour": "#2b2b2b",
+       "name": "Andrew Johnson"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "A harder peace",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Historians still ask what might have been if Lincoln had lived to lead the peace. Nobody can know. What we do know is that one shot, fired in a crowded theatre, changed the course of a nation. Today, Ford's Theatre is still a working theatre, and the box where Lincoln sat is kept as it was.",
+   "shots": [
+    {
+     "file": "File:Abraham Lincoln O-118 by Gardner, 1865.jpg",
+     "query": "Abraham Lincoln portrait 1865 Gardner",
+     "caption": "Abraham Lincoln, photographed in 1865"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "What if he had lived?",
+      "who": {
+       "preset": "gentleman",
+       "name": "Washington, April 1865"
+      }
+     }
+    },
+    {
+     "file": "File:Fords Theatre.jpg",
+     "query": "Ford's Theatre Washington today",
+     "caption": "Ford's Theatre today"
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "10.15pm, Ford's Theatre",
+   "caption": "The night Abraham Lincoln was shot, 14 April 1865.",
+   "hashtags": [
+    "lincoln",
+    "history",
+    "americanhistory",
+    "civilwar"
+   ]
+  },
+  {
+   "scenes": [
+    8,
+    9
+   ],
+   "hook": "Three targets, one night",
+   "caption": "Booth's plan was to kill Lincoln, Seward and Johnson on the same night.",
+   "hashtags": [
+    "lincoln",
+    "history",
+    "americanhistory",
+    "conspiracy"
+   ]
+  },
+  {
+   "scenes": [
+    20,
+    21
+   ],
+   "hook": "The end of the 12 day manhunt",
+   "caption": "Garrett's farm, Virginia, 26 April 1865.",
+   "hashtags": [
+    "johnwilkesbooth",
+    "history",
+    "americanhistory",
+    "manhunt"
+   ]
+  }
+ ]
+}
