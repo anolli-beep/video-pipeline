@@ -1,0 +1,1136 @@
+{
+ "channel": "history",
+ "title": "Gettysburg: The Three Days That Saved the Union",
+ "alt_titles": [
+  "Pickett's Charge: The Mile That Ended Lee's Gamble",
+  "Little Round Top: The Hill That Saved the Union",
+  "Why Lee Lost at Gettysburg"
+ ],
+ "thumbnail_text": "*3* DAYS",
+ "thumbnail_tag": "GETTYSBURG, JULY 1863",
+ "thumbnail_file": "Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg",
+ "description_summary": "In July 1863, Robert E. Lee invaded the North and met the Union army at a small Pennsylvania town. This is the story of the three days at Gettysburg: the clash on day one, Little Round Top, Pickett's Charge, Lee's retreat, and the two minute speech that followed.",
+ "tags": [
+  "gettysburg",
+  "battle of gettysburg",
+  "civil war",
+  "american civil war",
+  "pickett's charge",
+  "little round top",
+  "robert e lee",
+  "gettysburg address",
+  "abraham lincoln",
+  "american history",
+  "us history",
+  "1863",
+  "history documentary",
+  "meade"
+ ],
+ "lane": "Big events & empires",
+ "publish_at": "2026-11-09T16:00:00+00:00",
+ "pronunciations": {
+  "Gettysburg": "Get-eez-burg",
+  "Meade": "Meed",
+  "Chancellorsville": "Chancellors-ville",
+  "Gouverneur": "Guv-er-neer",
+  "Culp's": "Kulps",
+  "Heth": "Heth",
+  "Potomac": "Poh-toh-mac",
+  "Ewell": "Yoo-ell",
+  "Vicksburg": "Viks-burg"
+ },
+ "sources": [
+  {
+   "title": "Wikipedia: Battle of Gettysburg",
+   "url": "https://en.wikipedia.org/wiki/Battle_of_Gettysburg"
+  },
+  {
+   "title": "Britannica: Battle of Gettysburg",
+   "url": "https://www.britannica.com/event/Battle-of-Gettysburg"
+  }
+ ],
+ "unverified": [
+  {
+   "claim": "Heth looking for shoes",
+   "reason": "Comes from Heth's own memoir; script says 'Heth later wrote'."
+  },
+  {
+   "claim": "Size of Pickett's Charge (10,500 to 15,000 in sources)",
+   "reason": "Script uses 'around twelve thousand'."
+  },
+  {
+   "claim": "Everett spoke about two hours; address about two minutes, about 270 words (272 in the Bliss copy)",
+   "reason": "Standard figures, not checked against two sources here."
+  },
+  {
+   "claim": "Town population about 2,400; ten roads; more than 1,000 monuments; Meade's council of war vote",
+   "reason": "Standard accounts; worth a glance."
+  },
+  {
+   "claim": "Lincoln's unsent letter to Meade",
+   "reason": "Well known; not checked against two sources here."
+  },
+  {
+   "claim": "Lee told survivors the failure was his own",
+   "reason": "Reported by eyewitnesses; the 'alone to blame' quote is from his later letter."
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Introduction",
+   "narration": "It was about three in the afternoon on 3 July 1863. Around twelve thousand Confederate soldiers stepped out of a line of trees in southern Pennsylvania. In front of them lay nearly a mile of open fields. On the ridge beyond, the Union army was waiting. The attack would become known as Pickett's Charge.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "3pm, 3 July 1863",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "Nearly a mile of open ground",
+      "who": {
+       "preset": "general",
+       "hair": "long",
+       "facial": "moustache",
+       "colour": "#7d7d74",
+       "name": "General George Pickett"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Cemetery Ridge",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Within an hour, it was over. The charge failed, and with it the boldest gamble of the Confederacy's greatest general. This is the story of Gettysburg, three days in July that left around fifty thousand men killed, wounded, captured or missing. It is the largest battle ever fought in North America. And it ended with one of the most famous speeches ever given.",
+   "shots": [
+    {
+     "file": "File:Thure de Thulstrup - L. Prang and Co. - Battle of Gettysburg - Restoration by Adam Cuerden.jpg",
+     "query": "Battle of Gettysburg Thulstrup Pickett's Charge",
+     "caption": "Pickett's Charge, painted by Thure de Thulstrup"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "50,000",
+      "label": "casualties in three days",
+      "note": "Killed, wounded, captured or missing, both sides"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "3 days",
+      "label": "1 to 3 July 1863",
+      "note": "Gettysburg, Pennsylvania"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Lee Goes North",
+   "narration": "By the summer of 1863, the Civil War had been raging for more than two years. In the east, the Confederacy seemed to be winning. In May, Lee's Army of Northern Virginia had beaten a much larger Union army at Chancellorsville, in Virginia. Lee decided the time had come to carry the war into the North.",
+   "shots": [
+    {
+     "file": "File:Robert Edward Lee.jpg",
+     "query": "Robert E Lee portrait",
+     "caption": "General Robert E. Lee"
+    },
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "May 1863: Chancellorsville",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The war by mid 1863",
+      "items": [
+       "Two years of fighting",
+       "Lee winning in the east",
+       "Vicksburg under siege in the west"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Lee had several reasons. Virginia's farms had been stripped bare by two years of war, and his hungry army could feed itself in Pennsylvania. A victory on Northern soil might also shake the Union's will to keep fighting. It might even threaten great cities like Philadelphia, Baltimore and Washington.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "Why Lee invaded",
+      "items": [
+       "Feed his army on Northern farms",
+       "Spare war torn Virginia",
+       "Break Northern morale",
+       "Threaten Northern cities"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "June 1863: heading north",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "One great victory",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "hair_colour": "#dddddd",
+       "colour": "#7d7d74",
+       "name": "General Robert E. Lee"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In June, more than seventy thousand Confederate soldiers marched north through Maryland and into Pennsylvania. The Union's Army of the Potomac followed, trying to stay between Lee and Washington. On 28 June, just three days before the battle, President Lincoln gave it a new commander, General George Meade.",
+   "shots": [
+    {
+     "file": "File:George Meade - Brady-Handy.jpg",
+     "query": "General George Meade portrait",
+     "caption": "General George Meade"
+    },
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Union",
+       "items": [
+        "About 94,000 men",
+        "Commander: Meade"
+       ]
+      },
+      "right": {
+       "title": "Confederate",
+       "items": [
+        "About 71,000 to 75,000",
+        "Commander: Lee"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "28 June: a new commander",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "glasses": true,
+       "colour": "#1d2b4a",
+       "name": "General George Meade"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Day One",
+   "narration": "Gettysburg was a small market town of about two thousand four hundred people. But ten roads met there, and armies use roads. On 30 June, Union cavalry under General John Buford rode into town. They spotted Confederate infantry to the west. Buford guessed that the main armies would soon collide here.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Gettysburg, June 1863",
+      "who": {
+       "preset": "gentleman",
+       "name": "Gettysburg, Pennsylvania"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "30 June: Buford's cavalry",
+      "who": {
+       "preset": "officer",
+       "facial": "moustache",
+       "colour": "#1d2b4a",
+       "name": "General John Buford"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "10",
+      "label": "roads met at Gettysburg",
+      "note": "Which is why both armies came"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Early on 1 July, a Confederate division under General Henry Heth marched towards the town. Heth later wrote that he was hoping to find shoes. Buford's men dismounted and held them off for hours, until Union infantry arrived. Their commander, General John Reynolds, was shot and killed almost at once.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Early on 1 July",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "trenches",
+      "label": "Buford's men hold the line",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Shoes.",
+      "by": "What Heth later said he was looking for"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Through the afternoon, more Confederate troops poured in from the west and the north. The Union lines collapsed. Thousands of Union soldiers fled back through the streets of Gettysburg to the high ground south of town. There, on Cemetery Hill, they dug in.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "The Union lines collapse",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Retreat through the town",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "dig",
+      "label": "Digging in on Cemetery Hill",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Lee told General Richard Ewell to take Cemetery Hill if practicable. Ewell decided it was not, and he did not attack. Historians have argued about that decision ever since. Overnight, the rest of Meade's army arrived and spread out along the ridges. Day one went to Lee. But the Union now held the high ground.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "If practicable.",
+      "by": "Lee's order to General Ewell, 1 July"
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Ewell holds back",
+      "who": {
+       "preset": "general",
+       "hair": "bald",
+       "facial": "beard",
+       "colour": "#7d7d74",
+       "name": "General Richard Ewell"
+      }
+     }
+    },
+    {
+     "file": "File:Gettysburg - View from Little Round Top.jpg",
+     "query": "Gettysburg battlefield view",
+     "caption": "The Gettysburg battlefield today"
+    }
+   ]
+  },
+  {
+   "chapter": "Day Two",
+   "narration": "By the morning of 2 July, the Union line was shaped like a giant fishhook. It curled from Culp's Hill, round Cemetery Hill, and down Cemetery Ridge. At its southern end stood two rocky hills, Big Round Top and Little Round Top. Lee ordered General James Longstreet to attack the Union left.",
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "The Union fishhook",
+      "items": [
+       "Culp's Hill",
+       "Cemetery Hill",
+       "Cemetery Ridge",
+       "Little Round Top"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "ops_room",
+      "label": "Lee's plan for 2 July",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "hair_colour": "#dddddd",
+       "colour": "#7d7d74",
+       "name": "General Robert E. Lee"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Longstreet has doubts",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#7d7d74",
+       "name": "General James Longstreet"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Longstreet thought the plan was a mistake. He wanted to swing around the Union army instead. Lee said no. He believed his men could beat the Union army wherever they found it. The long march into position took hours, and the attack did not begin until about four in the afternoon. By then, one Union general had made a dangerous move of his own.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Longstreet wanted",
+       "items": [
+        "Go around the Union army",
+        "Make them attack us"
+       ]
+      },
+      "right": {
+       "title": "Lee ordered",
+       "items": [
+        "Attack the Union left",
+        "Today"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Longstreet argues with Lee",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#7d7d74",
+       "name": "General James Longstreet"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "4pm",
+      "label": "the attack finally begins",
+      "note": "2 July 1863"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "General Daniel Sickles had moved his whole corps forward against orders, to higher ground at a peach orchard. It left his men exposed on three sides. When Longstreet's troops struck, the fighting was savage. Places with quiet names, the Peach Orchard, the Wheatfield and Devil's Den, became killing grounds.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "Sickles moves forward",
+      "who": {
+       "preset": "general",
+       "facial": "moustache",
+       "colour": "#1d2b4a",
+       "name": "General Daniel Sickles"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "2 July: the fighting",
+      "items": [
+       "The Peach Orchard",
+       "The Wheatfield",
+       "Devil's Den",
+       "Little Round Top"
+      ]
+     }
+    },
+    {
+     "stick": {
+      "scene": "trenches",
+      "label": "The Wheatfield",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Little Round Top",
+   "narration": "Meanwhile, Meade's chief engineer, General Gouverneur Warren, climbed Little Round Top. He found it almost undefended. If the Confederates took it, their guns could fire straight down the Union line. Warren rushed troops to the hilltop just in time. Some of them reached the summit only minutes before the Confederates began climbing the other side.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "point",
+      "label": "Warren on Little Round Top",
+      "who": {
+       "preset": "officer",
+       "facial": "moustache",
+       "colour": "#1d2b4a",
+       "name": "General Gouverneur Warren"
+      }
+     }
+    },
+    {
+     "file": "File:Little Round Top 1863.jpg",
+     "query": "Little Round Top 1863",
+     "caption": "Little Round Top, photographed in 1863"
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Up the hill, just in time",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At the far end of the line stood the 20th Maine regiment, led by a former college professor, Colonel Joshua Chamberlain. Attack after attack came up the slope from Alabama regiments. The Maine men were running out of ammunition. Chamberlain knew that if his regiment gave way, the whole Union flank could collapse. So he ordered his men to fix bayonets and charge downhill.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Running out of ammunition",
+      "who": {
+       "preset": "officer",
+       "facial": "moustache",
+       "colour": "#1d2b4a",
+       "name": "Colonel Joshua Chamberlain"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "20th Maine",
+      "label": "the end of the Union line",
+      "note": "Little Round Top, 2 July"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "Fix bayonets!",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The charge stunned the exhausted attackers, who had marched miles that day in the heat. Many surrendered. Little Round Top held. That evening, Confederate attacks on Culp's Hill and Cemetery Hill also failed. By nightfall, Meade's line was battered, but it had not broken. Lee believed it was close to cracking.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "Little Round Top holds",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "file": "File:Gettysburg battlefield view from little round top.jpg",
+     "query": "view from Little Round Top",
+     "caption": "The view from Little Round Top"
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "One more push?",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "hair_colour": "#dddddd",
+       "colour": "#7d7d74",
+       "name": "General Robert E. Lee"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "Pickett's Charge",
+   "narration": "That night, Meade asked his generals whether to stay and fight. They voted to stay. Meade predicted that Lee would now strike the centre of his line. He was right. Lee had decided to aim a massive attack at the middle of Cemetery Ridge.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "ops_room",
+      "label": "Meade's council of war",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "glasses": true,
+       "colour": "#1d2b4a",
+       "name": "General George Meade"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "point",
+      "label": "Lee aims for the centre",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "hair_colour": "#dddddd",
+       "colour": "#7d7d74",
+       "name": "General Robert E. Lee"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Longstreet objects again",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#7d7d74",
+       "name": "General James Longstreet"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At about one in the afternoon on 3 July, more than one hundred and fifty Confederate cannons opened fire. It was one of the biggest bombardments of the war. The noise was heard many miles away. But many shells flew too high and landed behind the Union front line.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "150+",
+      "label": "Confederate guns open fire",
+      "note": "About 1pm, 3 July 1863"
+     }
+    },
+    {
+     "stick": {
+      "scene": "air_raid",
+      "label": "The great bombardment",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "crowd_shocked",
+      "label": "Heard miles away",
+      "who": {
+       "preset": "gentleman",
+       "name": "Gettysburg, Pennsylvania"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "At about three o'clock, the infantry advanced. Around twelve thousand men in long lines, flags flying, crossed almost a mile of open ground. Union cannons tore holes in the lines. Then came the rifles. A few hundred men reached the Union wall at a spot called the Angle. They were thrown back within minutes.",
+   "shots": [
+    {
+     "file": "File:Field of Pickett's Charge 101215.jpg",
+     "query": "field of Pickett's Charge Gettysburg",
+     "caption": "The ground the charge crossed, seen today"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "12,000",
+      "label": "men in the charge",
+      "note": "Across almost a mile of open ground"
+     }
+    },
+    {
+     "stick": {
+      "scene": "march",
+      "label": "The advance",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "The survivors stumbled back across the fields. More than half of the attackers were killed, wounded or captured. Pickett's own division lost about two thirds of its men. Lee rode out to meet them. He told them the failure was his own, and later wrote that he alone was to blame.",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "2 in 3",
+      "label": "of Pickett's division lost",
+      "note": "Killed, wounded or captured"
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Lee meets the survivors",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "hair_colour": "#dddddd",
+       "colour": "#7d7d74",
+       "name": "General Robert E. Lee"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "I am alone to blame.",
+      "by": "Robert E. Lee, writing after the battle"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Retreat",
+   "narration": "On 4 July, Lee waited for a Union counterattack that never came. That night, in pouring rain, his army began its long retreat to Virginia. His wagon trains of wounded stretched for miles. Meade's exhausted army followed slowly.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "march",
+      "label": "4 July: the retreat in the rain",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "hospital",
+      "label": "Miles of wounded",
+      "who": {
+       "preset": "doctor",
+       "name": "Field surgeons"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Meade does not attack",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "glasses": true,
+       "colour": "#1d2b4a",
+       "name": "General George Meade"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Flooding on the Potomac River trapped Lee for about a week. But on the night of 13 July, he escaped across it before Meade attacked. Lincoln was furious. He believed a chance to end the war had slipped away. He wrote Meade a sharp letter, then decided never to send it.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "cross_river",
+      "label": "13 July: across the Potomac",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#7d7d74",
+       "name": "Confederate infantry"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "worried",
+      "label": "Lincoln is furious",
+      "who": {
+       "preset": "gentleman",
+       "facial": "beard",
+       "build": "slim",
+       "name": "Abraham Lincoln"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "After the battle",
+      "items": [
+       "4 July: Lee retreats",
+       "4 July: Vicksburg surrenders",
+       "13 July: Lee crosses the Potomac"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "On the same day the retreat began, 4 July, the Confederate city of Vicksburg surrendered to General Ulysses S. Grant in Mississippi. That gave the Union control of the Mississippi River and split the Confederacy in two. In one week, the South had lost two armies' worth of men.",
+   "shots": [
+    {
+     "stick": {
+      "scene": "celebrate",
+      "label": "4 July: Vicksburg falls",
+      "who": {
+       "preset": "soldier",
+       "hat": "cap",
+       "colour": "#1d2b4a",
+       "name": "Union infantry"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "2",
+      "label": "great Union victories on 4 July 1863",
+      "note": "Gettysburg and Vicksburg"
+     }
+    },
+    {
+     "stick": {
+      "scene": "talk",
+      "label": "Grant at Vicksburg",
+      "who": {
+       "preset": "general",
+       "facial": "beard",
+       "colour": "#1d2b4a",
+       "name": "General Ulysses S. Grant"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "In the town, the cost was everywhere. Around fifty thousand men were casualties, roughly even on both sides. Thousands of wounded filled churches, barns and homes. The town's people nursed strangers for months. Only one civilian is known to have been killed. Jennie Wade, aged twenty, was hit by a stray bullet in her sister's kitchen.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "Union losses",
+       "items": [
+        "About 23,000",
+        "More than 3,100 killed"
+       ]
+      },
+      "right": {
+       "title": "Confederate losses",
+       "items": [
+        "About 23,000 to 28,000",
+        "Around 3,900 killed"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "hospital",
+      "label": "Every church a hospital",
+      "who": {
+       "preset": "gentleman",
+       "name": "Gettysburg, Pennsylvania"
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "house_night",
+      "label": "Jennie Wade's house",
+      "who": {
+       "preset": "lady",
+       "name": "Jennie Wade"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "chapter": "The Address",
+   "narration": "Thousands of soldiers lay in shallow graves around the town. Pennsylvania bought land to create a national cemetery for the Union dead. It was dedicated on 19 November 1863. The main speaker was the famous orator Edward Everett, who spoke for about two hours. Then the President stood up.",
+   "shots": [
+    {
+     "file": "File:Lincolnatgettysburg.jpg",
+     "query": "Lincoln at Gettysburg photograph",
+     "caption": "The crowd at Gettysburg, 19 November 1863. Lincoln is at the centre"
+    },
+    {
+     "stick": {
+      "scene": "read",
+      "label": "Edward Everett: two hours",
+      "who": {
+       "preset": "gentleman",
+       "hat": "none",
+       "hair_colour": "#dddddd",
+       "name": "Edward Everett"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "19 Nov",
+      "label": "the cemetery is dedicated",
+      "note": "1863"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Lincoln spoke for about two minutes. His speech was only around two hundred and seventy words long. Some in the crowd barely noticed it had begun. It began with the words four score and seven years ago. It ended with a promise that government of the people, by the people, for the people, shall not perish from the earth.",
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "text": "Four score and seven years ago...",
+      "by": "Abraham Lincoln, Gettysburg, 19 November 1863"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "272",
+      "label": "words",
+      "note": "About two minutes"
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "Government of the people, by the people, for the people, shall not perish from the earth.",
+      "by": "Abraham Lincoln"
+     }
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Was Gettysburg the turning point of the war? Many historians say yes, because Lee never launched another major invasion of the North. Others argue the war's outcome was decided more by Vicksburg, by Union industry, and by Grant's long campaigns that followed. Either way, the war went on for nearly two more years.",
+   "shots": [
+    {
+     "card": {
+      "style": "compare",
+      "left": {
+       "title": "A turning point",
+       "items": [
+        "Lee never invaded again",
+        "The South lost men it could not replace"
+       ]
+      },
+      "right": {
+       "title": "Not decisive",
+       "items": [
+        "Lee's army survived",
+        "Two more years of war"
+       ]
+      }
+     }
+    },
+    {
+     "stick": {
+      "scene": "think",
+      "label": "Historians still argue",
+      "who": {
+       "preset": "gentleman",
+       "name": "Gettysburg, Pennsylvania"
+      }
+     }
+    },
+    {
+     "file": "File:Robert E Lee in 1863.png",
+     "query": "Robert E Lee 1863",
+     "caption": "Robert E. Lee in 1863"
+    }
+   ]
+  },
+  {
+   "chapter": null,
+   "narration": "Today, the battlefield is a national military park, with more than a thousand monuments. Every year, visitors walk the mile that Pickett's men crossed. And Lincoln's two minutes at the cemetery are still among the most famous words in American history.",
+   "shots": [
+    {
+     "file": "File:Lincoln's Gettysburg Address, Gettysburg.jpg",
+     "query": "Gettysburg Address memorial",
+     "caption": "The Gettysburg Address memorial at the national cemetery"
+    },
+    {
+     "stick": {
+      "scene": "walk",
+      "label": "Walking the mile",
+      "who": {
+       "preset": "gentleman",
+       "name": "Gettysburg, Pennsylvania"
+      }
+     }
+    },
+    {
+     "card": {
+      "style": "quote",
+      "text": "The world will little note, nor long remember what we say here.",
+      "by": "Abraham Lincoln, Gettysburg Address"
+     }
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "scenes": [
+    1,
+    2
+   ],
+   "hook": "3pm, 3 July 1863",
+   "caption": "Pickett's Charge: twelve thousand men, one mile of open ground.",
+   "hashtags": [
+    "gettysburg",
+    "history",
+    "civilwar",
+    "americanhistory"
+   ]
+  },
+  {
+   "scenes": [
+    14,
+    15
+   ],
+   "hook": "The hill that saved the Union",
+   "caption": "Little Round Top and the 20th Maine, 2 July 1863.",
+   "hashtags": [
+    "gettysburg",
+    "history",
+    "civilwar",
+    "littleroundtop"
+   ]
+  },
+  {
+   "scenes": [
+    25,
+    26
+   ],
+   "hook": "The two minute speech",
+   "caption": "Lincoln's Gettysburg Address, 19 November 1863.",
+   "hashtags": [
+    "lincoln",
+    "history",
+    "gettysburgaddress",
+    "americanhistory"
+   ]
+  }
+ ]
+}
